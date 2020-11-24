@@ -17,4 +17,6 @@ MY_VAR="some text"
 
 ##Command output
 This is how you assign a variable
+```console
 DATE=$(date)
+```
