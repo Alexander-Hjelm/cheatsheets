@@ -21,8 +21,12 @@ docker images
 Run an image in a new container.
 
 ```console
-docker run <image name>
+docker run [Options] <image name/image url>
 ```
+
+### Options:
+
+- **--name** <string>
 
 ## exec
 
