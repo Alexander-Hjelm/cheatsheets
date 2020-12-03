@@ -8,6 +8,22 @@ Pull an image from a remote repo.
 docker pull <image-url>
 ```
 
+## images
+
+Lists all available images.
+
+```console
+docker images
+```
+
+## run
+
+Run an image in a new container.
+
+```console
+docker run <image name>
+```
+
 ## exec
 
 Exec will run a program within a container, a few examples:
