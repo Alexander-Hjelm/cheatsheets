@@ -6,7 +6,7 @@
 
 Prints the PowerShell help section.
 
-```
+```console
 help
 ```
 
@@ -14,13 +14,13 @@ help
 
 Searches for a specific command or a substring of a command.
 
-```
+```console
 gcm Copy-Item
 ```
 
 Or
 
-```
+```console
 gcm *Copy-*
 ```
 
@@ -28,13 +28,13 @@ gcm *Copy-*
 
 ## curl
 
-```
+```console
 curl -v www.example.com
 ```
 
 ## Test-Connection
 
-```
+```console
 Test-Connection -TargetName www.example.com
  ```
  
