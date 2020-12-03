@@ -1,3 +1,5 @@
+[[_TOC_]]
+
 ##Shebang
 Shebang is the path to the sh interpreter, sending this file as input
 ```console
