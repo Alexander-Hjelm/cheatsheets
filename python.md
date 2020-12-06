@@ -18,3 +18,12 @@ class Color(Enum):
     GREEN = 2
     BLUE = 3
 ```
+
+# dict
+```console
+newdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+```
