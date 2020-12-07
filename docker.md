@@ -27,6 +27,9 @@ docker run [Options] <image name/image url>
 ### Options:
 
 - **--name** <string>
+- **-i**, interactive
+- **-d**, detached
+
 
 ## exec
 
