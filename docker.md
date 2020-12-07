@@ -88,6 +88,11 @@ docker container port <container name>
 
 # Docker Build
 
+## build from context
+```console
+docker build -t test/restapp .
+```
+
 ## build from specified dockerfile
 
 ### Powershell
@@ -99,3 +104,5 @@ Get-Content C:\Temp\MyDockerFile | docker build -t test/imagename -
 ```console
 docker build -t test/imagename - < Dockerfile
 ```
+
+
