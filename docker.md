@@ -85,3 +85,17 @@ Displays exposed ports of a running container
 ```console
 docker container port <container name> 
 ```
+
+# Docker Build
+
+## build from specified dockerfile
+
+### Powershell
+```console
+Get-Content C:\Temp\MyDockerFile | docker build -t test/imagename -
+```
+
+### Bash
+```console
+docker build -t test/imagename - < Dockerfile
+```
