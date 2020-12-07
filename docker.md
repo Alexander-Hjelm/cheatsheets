@@ -30,7 +30,6 @@ docker run [Options] <image name/image url>
 - **-i**, interactive
 - **-d**, detached
 
-
 ## exec
 
 Exec will run a program within a container, a few examples:
@@ -49,6 +48,10 @@ Lists running containers
 ```console
 docker container ls
 ```
+
+### Options:
+
+- **-a**: Lists historial processes as well
 
 ## attach
 
