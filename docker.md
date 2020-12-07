@@ -29,6 +29,7 @@ docker run [Options] <image name/image url>
 - **--name** <string>
 - **-i**, interactive
 - **-d**, detached
+- **-P**, expose ports
 
 ## exec
 
@@ -53,10 +54,34 @@ docker container ls
 
 - **-a**: Lists historial processes as well
 
+## stop
+
+Stops a running containers
+
+```console
+docker container stop <container name> 
+```
+
+## rm
+
+Removes a historical containers
+
+```console
+docker container rm <container name> 
+```
+
 ## attach
 
 Attaches a shell to a running container, referenced by name
 
 ```console
 docker container attach <container name> 
+```
+
+## port
+
+Displays exposed ports of a running container
+
+```console
+docker container port <container name> 
 ```
