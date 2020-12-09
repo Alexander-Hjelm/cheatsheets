@@ -24,7 +24,7 @@ oc get [OPTIONS]
 - **bc [nameOfBuildConfig] -o yaml**: Print a named build config as yaml
 - **dc**: All deploy configurations in the current project
 - **pods**: All running pods in the current project
-- **repo**: Aöö repository objects
+- **repo**: Repository objects
 
 ## describe
 
