@@ -30,3 +30,13 @@ oc describe [OPTIONS]
 - **bc**: All build configurations in the current project
 - **bc [nameOfBuildConfig]**: A named build config
 
+## start-build
+
+Builds an application image
+
+```console
+oc start-build [build file name]
+```
+
+- **--from-dir=[string]**: specifies the directory for the source file(s).
+- **--follow**: shows the build log in the terminal window.
