@@ -38,5 +38,7 @@ Builds an application image
 oc start-build [build file name]
 ```
 
+### Options
+
 - **--from-dir=[string]**: specifies the directory for the source file(s).
 - **--follow**: shows the build log in the terminal window.
