@@ -38,6 +38,18 @@ oc describe [OPTIONS]
 - **bc**: All build configurations in the current project
 - **bc [nameOfBuildConfig]**: A named build config
 
+## create
+
+Creates a resource
+
+### configmap
+
+Create a config
+
+```console
+oc create configmap [Application name] --from-literal=PARAM_NAME_1=param_value_1 --from-literal=PARAM_NAME_2=param_value_2
+```
+
 ## start-build
 
 Builds an application image
@@ -53,3 +65,6 @@ oc start-build [build file name]
 
 ## logs
 
+```console
+oc logs dc/[DeploymentConfig name] --follow
+```
