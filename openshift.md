@@ -1,5 +1,13 @@
 # Base commands
 
+## project
+
+Change active project
+
+```console
+oc project [project name]
+```
+
 ## get
 
 Get certain configuration items
@@ -42,3 +50,6 @@ oc start-build [build file name]
 
 - **--from-dir=[string]**: specifies the directory for the source file(s).
 - **--follow**: shows the build log in the terminal window.
+
+## logs
+
