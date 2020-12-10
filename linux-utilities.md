@@ -31,3 +31,13 @@ $ tar xvf tarfile.tar
 - **v**: verbose
 - **f**: specify file
 - **z**: specific for .gz-files
+
+## nohup
+
+Run commands in the background, detached from the terminal
+
+```console
+nohup command &>/dev/null &
+```
+
+Notes: the pipe to /dev/null exists to prevent nohup from generating a nohup.out-file.
