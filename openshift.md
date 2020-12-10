@@ -8,6 +8,14 @@ Change active project
 oc project [project name]
 ```
 
+## new-project
+
+Create a new project by name
+
+```console
+oc new-project [project name]
+```
+
 ## get
 
 Get certain configuration items
