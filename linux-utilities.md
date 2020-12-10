@@ -22,7 +22,7 @@ Extract tar files:
 
 
 ```console
-$ tar -xvf tarfile.tar
+$ tar xvf tarfile.tar
 ```
 
 ### Paramters
