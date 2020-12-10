@@ -25,6 +25,10 @@ oc get [OPTIONS]
 - **dc**: All deploy configurations in the current project
 - **pods**: All running pods in the current project
 - **repo**: Repository objects
+- **service**: All service files
+- **route**: All routes
+- **cm**: All configmaps
+- **secret**: All secrets
 
 ## describe
 
