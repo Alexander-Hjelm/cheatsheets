@@ -45,7 +45,11 @@ oc describe [OPTIONS]
 
 ## create
 
-Creates a resource
+Creates a resource. The type will be inferred when creating a resource from a file
+
+```console
+oc create -f secret.yaml
+```
 
 ### configmap
 
