@@ -37,6 +37,7 @@ oc get [OPTIONS]
 - **route**: All routes
 - **cm**: All configmaps
 - **secret**: All secrets
+- **projects**: All projects
 
 ## describe
 
