@@ -42,3 +42,13 @@ Test-Connection -TargetName www.example.com
  
 - **-Traceroute**
 - **-TcpPort <int>**
+
+# Group management
+
+## net group
+
+View group information
+
+```console
+net group [GROUP NAME] /dom
+```
