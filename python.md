@@ -27,3 +27,13 @@ newdict = {
   "year": 1964
 }
 ```
+# string
+
+## Enumerate through alphabet
+```console
+import string
+alphabet = string.ascii_lowercase
+upper_limit = 10
+for c in alphabet[0:upper_limit:1] : 
+    print(c)    
+```
