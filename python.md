@@ -37,3 +37,22 @@ upper_limit = 10
 for c in alphabet[0:upper_limit:1] : 
     print(c)    
 ```
+
+## split, rsplit
+
+Split a string on first, last occurrence(s) of a substring, with max number of splits
+
+### split
+
+```console
+my_string = "hipp-hipp-hooray"
+str.split(my_string, '-', 1)
+```
+
+### rsplit
+
+```console
+my_string = "hipp-hipp-hooray"
+str.rsplit(my_string, '-', 1)
+```
+
