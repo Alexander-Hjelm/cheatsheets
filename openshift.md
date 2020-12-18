@@ -86,3 +86,11 @@ oc start-build [build file name]
 ```console
 oc logs dc/[DeploymentConfig name] --follow
 ```
+
+## rsh
+
+Open a remote shell to a running pod.
+
+```console
+oc rsh [Pod name]
+```
