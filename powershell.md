@@ -10,6 +10,13 @@ Prints the PowerShell help section.
 help
 ```
 
+## version
+
+Prints the PowerShell version.
+```console
+$PSVersionTable
+```
+
 ## gcm
 
 Searches for a specific command or a substring of a command.
