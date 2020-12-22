@@ -50,7 +50,13 @@ Test-Connection -TargetName www.example.com
 - **-Traceroute**
 - **-TcpPort <int>**
 
-# Group management
+# User, group management
+
+## net user
+
+```console
+net user [USER ID] /domain
+```
 
 ## net group
 
@@ -58,12 +64,4 @@ View group information
 
 ```console
 net group [GROUP NAME] /dom
-```
-
-# User, group management
-
-## net user
-
-```console
-net user [User id] /domain
 ```
