@@ -59,3 +59,11 @@ View group information
 ```console
 net group [GROUP NAME] /dom
 ```
+
+# User, group management
+
+## net user
+
+```console
+net user [User id] /domain
+```
