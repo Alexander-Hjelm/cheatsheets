@@ -50,3 +50,10 @@ View disk usage
 ```console
 df -h
 ```
+
+## $PATH
+
+Add a directory to $PATH
+```console
+export PATH=[/path/to/dir]:$PATH
+```
