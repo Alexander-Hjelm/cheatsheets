@@ -41,3 +41,12 @@ nohup command &>/dev/null &
 ```
 
 Notes: the pipe to /dev/null exists to prevent nohup from generating a nohup.out-file.
+
+
+## df
+
+View disk usage
+
+```console
+df -h
+```
