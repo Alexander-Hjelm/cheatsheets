@@ -57,3 +57,10 @@ Add a directory to $PATH
 ```console
 export PATH=[/path/to/dir]:$PATH
 ```
+
+## symlink
+
+Create symlink
+```console
+ln -s /path/to/original /path/to/link
+```
