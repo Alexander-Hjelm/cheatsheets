@@ -60,7 +60,7 @@ export PATH=[/path/to/dir]:$PATH
 
 ## symlink
 
-Create symlink
+Create symlink, path to link, in the current folder with the same name
 ```console
-ln -s /path/to/original /path/to/link
+ln -s /path/to/link
 ```
