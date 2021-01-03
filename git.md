@@ -16,3 +16,8 @@ git remote -v
 ```console
 git remote add origin https://github.com/gittower/example.git
 ```
+
+### Remove a remote
+```console
+git remote rm <remote-name>
+```
