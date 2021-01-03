@@ -40,3 +40,12 @@ echo ${arrIN[1]}
 
 # Output: john@home.com
 ```
+Remember to escape special characters with \.
+
+## copy files and make subdirectories
+```console
+if [ ! -d "$2" ]; then
+    mkdir -p "$2"
+fi
+cp -R "$1" "$2"
+```
