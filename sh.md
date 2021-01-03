@@ -22,7 +22,18 @@ This is how you assign a variable
 ```console
 DATE=$(date)
 ```
-## For each line in file
+
+## dir name, file name from path
+Get the directory name or a file name from a file path.
+```console
+VAR=/path/to/file
+dirname=${VAR%/*}
+filename=${VAR##*/}
+```
+
+## Example scripts
+
+### For each line in file
 ```console
 filename="/path/to/file"
  
@@ -32,7 +43,7 @@ do
 done < $filename
 ```
 
-## Split string
+### Split string
 ```console
 IN="bla@some.com;john@home.com"
 arrIN=(${IN//;/ })
@@ -42,10 +53,10 @@ echo ${arrIN[1]}
 ```
 Remember to escape special characters with \.
 
-## copy files and make subdirectories
+### copy file and make subdirectories
 ```console
-if [ ! -d "$2" ]; then
-    mkdir -p "$2"
-fi
-cp -R "$1" "$2"
+target=/path/to/target
+subdirs=${target%/*}
+mkdir -p $subdirs      
+eval cp $file $target
 ```
