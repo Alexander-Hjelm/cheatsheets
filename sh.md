@@ -26,10 +26,10 @@ DATE=$(date)
 
 ```console
 #!/bin/bash
-dotfiles_file="./dotfiles"
+filename="/path/to/file"
  
 while read line
 do
     echo "$line"
-done < $dotfiles_file
+done < $filename
 ```
