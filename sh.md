@@ -32,10 +32,11 @@ do
 done < $filename
 ```
 
-## SpliIN="bla@some.com;john@home.com"
+## Split string
 ```console
+IN="bla@some.com;john@home.com"
 arrIN=(${IN//;/ })
 echo ${arrIN[1]}
 
-# Output: john@home.comt string
+# Output: john@home.com
 ```
