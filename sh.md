@@ -22,3 +22,14 @@ This is how you assign a variable
 ```console
 DATE=$(date)
 ```
+## For each line in file
+
+```console
+#!/bin/bash
+dotfiles_file="./dotfiles"
+ 
+while read line
+do
+    echo "$line"
+done < $dotfiles_file
+```
