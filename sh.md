@@ -23,13 +23,19 @@ This is how you assign a variable
 DATE=$(date)
 ```
 ## For each line in file
-
 ```console
-#!/bin/bash
 filename="/path/to/file"
  
 while read line
 do
     echo "$line"
 done < $filename
+```
+
+## SpliIN="bla@some.com;john@home.com"
+```console
+arrIN=(${IN//;/ })
+echo ${arrIN[1]}
+
+# Output: john@home.comt string
 ```
