@@ -64,3 +64,55 @@ Create symlink, path to link, in the current folder with the same name
 ```console
 ln -s /path/to/link
 ```
+
+## Mount new disk
+```console
+dmesg  # Check on which volume the drive is, eg /dev/sda1
+sudo mount /dev/sda1 ~/usb-drive
+umount /dev/sda1
+```
+
+## Key debug
+```console
+xev
+```
+
+## Debug cron
+
+```console
+grep CRON /var/log/syslog
+```
+## cp
+
+### copy all files in a dir
+```console
+cp -a source/. dest/
+```
+
+## iterate/loop/for each over multiple files
+```console
+for i in *; do echo "$i"; done
+```
+
+## batch zip from current dir:
+
+for i in */; do zip -r "${i%/}.zip" "$i"; done
+
+## record gif:
+```console
+kazam
+```
+or
+```console
+ffmpeg -i video.avi -r 30 -vf scale=500x500 video.gif
+```
+
+## Read midi data from device
+```console
+amidi -p hw:1,0,0 --dump
+```
+
+## Xrandr
+```console
+xrandr --output HDMI-1-1 --right-of eDP-1-1
+```
