@@ -117,3 +117,10 @@ amidi -p hw:1,0,0 --dump
 ```console
 xrandr --output HDMI-1-1 --right-of eDP-1-1
 ```
+
+## List manually installed packages:
+
+### apt
+```console
+comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u)
+```
