@@ -95,8 +95,9 @@ for i in *; do echo "$i"; done
 ```
 
 ## batch zip from current dir:
-
+```console
 for i in */; do zip -r "${i%/}.zip" "$i"; done
+```
 
 ## record gif:
 ```console
