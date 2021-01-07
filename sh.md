@@ -31,6 +31,18 @@ dirname=${VAR%/*}
 filename=${VAR##*/}
 ```
 
+## Functions
+Parameters can be reached via $1, $2, $3, etc...
+```console
+example_function()
+{
+  echo $1
+  return
+}
+
+example_function "Hello World!"
+```
+
 ## Example scripts
 
 ### For each line in file
