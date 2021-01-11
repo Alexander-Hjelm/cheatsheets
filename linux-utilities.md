@@ -124,3 +124,10 @@ xrandr --output HDMI-1-1 --right-of eDP-1-1
 ```console
 comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u)
 ```
+
+## tr
+Translate/replace character sequences.
+```console
+echo example_string_hello | tr _ -
+# example-string-hello
+```
