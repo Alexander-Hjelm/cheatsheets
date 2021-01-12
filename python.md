@@ -56,3 +56,13 @@ my_string = "hipp-hipp-hooray"
 str.rsplit(my_string, '-', 1)
 ```
 
+```console
+## list files in directory
+
+import os
+for root, dirs, files in os.walk(".", topdown=False):
+   for name in files:
+      print(os.path.join(root, name))
+   for name in dirs:
+      print(os.path.join(root, name))
+```
