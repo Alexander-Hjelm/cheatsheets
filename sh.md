@@ -88,7 +88,7 @@ echo ${machine}
 
 ## if statement
 ```console
-if [<test_Condition>] then
-<set_of_commands_to_be_executed>
+if [$var_name = "value"] then
+    <set_of_commands_to_be_executed>
 fi
 ```
