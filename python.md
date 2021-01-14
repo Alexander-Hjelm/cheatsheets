@@ -1,7 +1,7 @@
 # sys
 
 ## Arguments
-```console
+```python
 #!/usr/bin/python
 
 import sys
@@ -11,7 +11,7 @@ print 'Argument List:', str(sys.argv)
 ```
 
 # enum
-```console
+```python
 from enum import Enum
 class Color(Enum):
     RED = 1
@@ -20,7 +20,7 @@ class Color(Enum):
 ```
 
 # dict
-```console
+```python
 newdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -30,7 +30,7 @@ newdict = {
 # string
 
 ## Enumerate through alphabet
-```console
+```python
 import string
 alphabet = string.ascii_lowercase
 upper_limit = 10
@@ -44,21 +44,21 @@ Split a string on first, last occurrence(s) of a substring, with max number of s
 
 ### split
 
-```console
+```python
 my_string = "hipp-hipp-hooray"
 str.split(my_string, '-', 1)
 ```
 
 ### rsplit
 
-```console
+```python
 my_string = "hipp-hipp-hooray"
 str.rsplit(my_string, '-', 1)
 ```
 
 ## list files in directory
 
-```console
+```python
 import os
 for root, dirs, files in os.walk(".", topdown=False):
    for name in files:
