@@ -64,6 +64,16 @@ array_name+=("$line")
 echo ${files[1]}
 ```
 
+#### Iterate over elements
+```console
+names=(Anna Linda Hanna)
+for name in ${names[@]};
+do
+  echo $name
+# other stuff on $name
+done
+```
+
 #### Print the whole list
 ```console
 echo ${files[*]}
