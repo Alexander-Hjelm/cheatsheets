@@ -87,6 +87,7 @@ echo ${machine}
 ```
 
 ## if statement
+Pay attention to whitespace
 ```console
 if [ $var_name == value ]; then
     <set_of_commands_to_be_executed>
