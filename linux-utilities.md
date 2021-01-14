@@ -2,13 +2,13 @@
 
 Copy files to a remote over ssh:
 
-```console
+```bash
 $ scp myfile.txt myfile2.txt remoteuser@remoteserver:/remote/folder/
 ```
 
 Copy multiple files:
 
-```console
+```bash
 $ scp * remoteuser@remoteserver:/remote/folder/
 ```
 
@@ -21,7 +21,7 @@ $ scp * remoteuser@remoteserver:/remote/folder/
 Extract tar files:
 
 
-```console
+```bash
 $ tar xvf tarfile.tar
 ```
 
@@ -36,7 +36,7 @@ $ tar xvf tarfile.tar
 
 Run commands in the background, detached from the terminal
 
-```console
+```bash
 nohup command &>/dev/null &
 ```
 
@@ -47,87 +47,87 @@ Notes: the pipe to /dev/null exists to prevent nohup from generating a nohup.out
 
 View disk usage
 
-```console
+```bash
 df -h
 ```
 
 ## $PATH
 
 Add a directory to $PATH
-```console
+```bash
 export PATH=[/path/to/dir]:$PATH
 ```
 
 ## symlink
 
 Create symlink, path to link, in the current folder with the same name
-```console
+```bash
 ln -s /path/to/link
 ```
 
 ## Mount new disk
-```console
+```bash
 dmesg  # Check on which volume the drive is, eg /dev/sda1
 sudo mount /dev/sda1 ~/usb-drive
 umount /dev/sda1
 ```
 
 ## Key debug
-```console
+```bash
 xev
 ```
 
 ## Debug cron
 
-```console
+```bash
 grep CRON /var/log/syslog
 ```
 ## cp
 
 ### copy all files in a dir
-```console
+```bash
 cp -a source/. dest/
 ```
 
 ## iterate/loop/for each over multiple files
-```console
+```bash
 for i in *; do echo "$i"; done
 ```
 
 ## batch zip from current dir:
-```console
+```bash
 for i in */; do zip -r "${i%/}.zip" "$i"; done
 ```
 
 ## record gif:
-```console
+```bash
 kazam
 ```
 or
-```console
+```bash
 ffmpeg -i video.avi -r 30 -vf scale=500x500 video.gif
 ```
 
 ## Read midi data from device
-```console
+```bash
 amidi -p hw:1,0,0 --dump
 ```
 
 ## Xrandr
-```console
+```bash
 xrandr --output HDMI-1-1 --right-of eDP-1-1
 ```
 
 ## List manually installed packages:
 
 ### apt
-```console
+```bash
 comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u)
 ```
 
 ## tr
 Translate/replace character sequences.
-```console
+```bash
 echo example_string_hello | tr _ -
 # example-string-hello
 ```
