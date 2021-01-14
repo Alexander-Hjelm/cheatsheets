@@ -6,7 +6,7 @@
 
 Lists the added sources.
 
-```console
+```bash
 choco sources list
 ```
 
@@ -14,7 +14,7 @@ choco sources list
 
 Adds a new packages source.
 
-```console
+```bash
 choco sources add -n=<remote name> -s="https://www.example.se"
 ```
 
@@ -26,7 +26,7 @@ choco sources add -n=<remote name> -s="https://www.example.se"
 
 Enables an already added package source.
 
-```console
+```bash
 choco source enable -n=<source name>
 ```
 
@@ -34,6 +34,6 @@ choco source enable -n=<source name>
 
 Disables a package source, but does not remove it.
 
-```console
+```bash
 choco source disable -n=<source name>
 ```
