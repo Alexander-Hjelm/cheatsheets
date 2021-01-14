@@ -4,7 +4,7 @@
 
 Pull an image from a remote repo.
 
-```console
+```bash
 docker pull <image-url>
 ```
 
@@ -12,7 +12,7 @@ docker pull <image-url>
 
 Lists all available images.
 
-```console
+```bash
 docker images
 ```
 
@@ -20,7 +20,7 @@ docker images
 
 Run an image in a new container.
 
-```console
+```bash
 docker run [Options] <image name/image url>
 ```
 
@@ -35,7 +35,7 @@ docker run [Options] <image name/image url>
 
 Exec will run a program within a container, a few examples:
 
-```console
+```bash
 docker exec -i -t graceful_hopper /bin/bash
 docker exec -i -t python-test python3
 ```
@@ -46,7 +46,7 @@ docker exec -i -t python-test python3
 
 Lists running containers
 
-```console
+```bash
 docker container ls
 ```
 
@@ -58,7 +58,7 @@ docker container ls
 
 Stops a running containers
 
-```console
+```bash
 docker container stop <container name> 
 ```
 
@@ -66,7 +66,7 @@ docker container stop <container name>
 
 Removes a historical containers
 
-```console
+```bash
 docker container rm <container name> 
 ```
 
@@ -74,7 +74,7 @@ docker container rm <container name>
 
 Attaches a shell to a running container, referenced by name
 
-```console
+```bash
 docker container attach <container name> 
 ```
 
@@ -82,26 +82,26 @@ docker container attach <container name>
 
 Displays exposed ports of a running container
 
-```console
+```bash
 docker container port <container name> 
 ```
 
 # Docker Build
 
 ## build from context
-```console
+```bash
 docker build -t test/restapp .
 ```
 
 ## build from specified dockerfile
 
 ### Powershell
-```console
+```bash
 Get-Content C:\Temp\MyDockerFile | docker build -t test/imagename -
 ```
 
 ### Bash
-```console
+```bash
 docker build -t test/imagename - < Dockerfile
 ```
 
