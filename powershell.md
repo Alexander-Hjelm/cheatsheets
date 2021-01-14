@@ -6,14 +6,14 @@
 
 Prints the PowerShell help section.
 
-```console
+```bat
 help
 ```
 
 ## version
 
 Prints the PowerShell version.
-```console
+```bat
 $PSVersionTable
 ```
 
@@ -21,13 +21,13 @@ $PSVersionTable
 
 Searches for a specific command or a substring of a command.
 
-```console
+```bat
 gcm Copy-Item
 ```
 
 Or
 
-```console
+```bat
 gcm *Copy-*
 ```
 
@@ -35,13 +35,13 @@ gcm *Copy-*
 
 ## curl
 
-```console
+```bat
 curl -v www.example.com
 ```
 
 ## Test-Connection
 
-```console
+```bat
 Test-Connection -TargetName www.example.com
  ```
  
@@ -54,7 +54,7 @@ Test-Connection -TargetName www.example.com
 
 ## net user
 
-```console
+```bat
 net user [USER ID] /domain
 ```
 
@@ -62,6 +62,6 @@ net user [USER ID] /domain
 
 View group information
 
-```console
+```bat
 net group [GROUP NAME] /dom
 ```
