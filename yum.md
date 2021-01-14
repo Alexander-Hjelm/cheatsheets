@@ -1,15 +1,15 @@
 ## Install
-```console
+```bash
 yum install [Package name]
 ```
 
 ## Remove
-```console
+```bash
 yum remove [Package name]
 ```
 
 ## List
 List installed packages
-```console
+```bash
 yum list installed
 ```
