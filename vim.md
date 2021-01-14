@@ -1,6 +1,6 @@
 # Vim/Neovim
 
 ## Find and replace all
-```console
+```vim
 :%s/replace_this/replace_with/g
 ```
