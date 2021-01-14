@@ -43,6 +43,37 @@ example_function()
 example_function "Hello World!"
 ```
 
+## Arrays
+
+### Assignment
+```console
+array_name=("f1.txt" "f2.txt" "f3.txt" "f4.txt" "f5.txt")
+```
+
+### Append
+```console
+array_name=()
+array_name+="test"
+array_name+=("$line")
+```
+
+### Access
+
+#### By index
+```console
+echo ${files[1]}
+```
+
+#### Print the whole list
+```console
+echo ${files[*]}
+```
+
+### Read lines of file into an array
+```console
+readarray -t node_versions_to_keep <nvm-versions-to-keep.txt
+```
+
 ## Example scripts
 
 ### For each line in file
@@ -94,10 +125,4 @@ if [ $var_name == value ]; then
 fi
 ```
 
-## Read lines of file into an array
-```console
-arr=()
-while IFS= read -r line; do
-   arr+=("$line")
-done <file
-```
+
