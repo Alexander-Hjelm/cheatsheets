@@ -1,23 +1,23 @@
 # git
 
 ## Init a bare repository
-```console
+```bash
 git init --bare
 ```
 
 ## Remotes
 
 ### View remotes
-```console
+```bash
 git remote -v
 ```
 
 ### Add a remote
-```console
+```bash
 git remote add origin https://github.com/gittower/example.git
 ```
 
 ### Remove a remote
-```console
+```bash
 git remote rm <remote-name>
 ```
