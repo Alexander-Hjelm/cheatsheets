@@ -4,7 +4,7 @@
 
 Change active project
 
-```console
+```bash
 oc project [project name]
 ```
 
@@ -12,7 +12,7 @@ oc project [project name]
 
 Create a new project by name
 
-```console
+```bash
 oc new-project [project name]
 ```
 
@@ -20,7 +20,7 @@ oc new-project [project name]
 
 Get certain configuration items
 
-```console
+```bash
 oc get [OPTIONS]
 ```
 
@@ -43,7 +43,7 @@ oc get [OPTIONS]
 
 Get information on certain configuration items
 
-```console
+```bash
 oc describe [OPTIONS]
 ```
 
@@ -56,7 +56,7 @@ oc describe [OPTIONS]
 
 Creates a resource. The type will be inferred when creating a resource from a file
 
-```console
+```bash
 oc create -f secret.yaml
 ```
 
@@ -64,7 +64,7 @@ oc create -f secret.yaml
 
 Create a config
 
-```console
+```bash
 oc create configmap [Application name] --from-literal=PARAM_NAME_1=param_value_1 --from-literal=PARAM_NAME_2=param_value_2
 ```
 
@@ -72,7 +72,7 @@ oc create configmap [Application name] --from-literal=PARAM_NAME_1=param_value_1
 
 Builds an application image
 
-```console
+```bash
 oc start-build [build file name]
 ```
 
@@ -83,7 +83,7 @@ oc start-build [build file name]
 
 ## logs
 
-```console
+```bash
 oc logs dc/[DeploymentConfig name] --follow
 ```
 
@@ -91,6 +91,6 @@ oc logs dc/[DeploymentConfig name] --follow
 
 Open a remote shell to a running pod.
 
-```console
+```bash
 oc rsh [Pod name]
 ```
