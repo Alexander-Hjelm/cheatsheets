@@ -93,3 +93,11 @@ if [ $var_name == value ]; then
     <set_of_commands_to_be_executed>
 fi
 ```
+
+## Read lines of file into an array
+```console
+arr=()
+while IFS= read -r line; do
+   arr+=("$line")
+done <file
+```
