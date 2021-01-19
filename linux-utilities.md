@@ -133,5 +133,6 @@ echo example_string_hello | tr _ -
 ```
 
 ## See distro
-
+```bash
 lsb_release -a
+```
