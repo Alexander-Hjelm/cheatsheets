@@ -131,3 +131,7 @@ Translate/replace character sequences.
 echo example_string_hello | tr _ -
 # example-string-hello
 ```
+
+## See distro
+
+lsb_release -a
