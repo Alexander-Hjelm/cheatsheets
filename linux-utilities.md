@@ -20,7 +20,6 @@ $ scp * remoteuser@remoteserver:/remote/folder/
 
 Extract tar files:
 
-
 ```bash
 $ tar xvf tarfile.tar
 ```
@@ -143,6 +142,9 @@ Usage:
 ```bash
 sed [-n] [-e] '' [-e] '' [file]
 ```
+
+**Note** that sed operates once per line
+
 Paramters:
 - -n: no printing
 - -e '': edit command, command inside '', multiple -e-commands possible
@@ -162,3 +164,8 @@ Syntax:
 echo "test" | sed s/[search pattern]/[replacement]/
 ```
 
+Example:
+```
+echo "day morning day" | sed s/day/night/
+> night morning day
+```
