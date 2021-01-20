@@ -182,4 +182,4 @@ echo "test" | sed "s/[a-z]*/prefix: & :suffix/"
 
 ### \1 \2 \3...
 
-\1 \2 \3... keeps part of the pattern, must be combined with escaped parenthesises, \( \).
+\1 \2 \3... keeps part of the pattern, must be combined with escaped parenthesises, \\( \\).
