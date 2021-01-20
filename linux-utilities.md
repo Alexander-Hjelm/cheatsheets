@@ -189,3 +189,23 @@ Example:
 echo "test 123" | sed "s/\([a-z]*\)/not-a-\1/"
 > not-a-test 123
 ```
+
+
+### use sed to extract a substring
+
+The following sed command will extract the substring that is between the underscores in the sentence:
+
+```
+echo "huh dam _wtf_ now" | sed 's/[^_]*_\([^_]*\).*/\1/'
+> wtf
+```
+
+**Note** that if the regex pattern is not matched, the full original string will be returned
+
+sed pattern explained:
+
+- \[^_\]*: any character except for _, any number of times
+- _: the character _
+- \\( )\\: the escaped parentheses. Anything inside here will be kept in the replacement pattern
+- \[^_\]*: any character except for _, any number of times
+- .*: any character, any number of times
