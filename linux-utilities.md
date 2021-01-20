@@ -136,3 +136,29 @@ echo example_string_hello | tr _ -
 ```bash
 lsb_release -a
 ```
+
+## sed
+
+Usage:
+```bash
+sed [-n] [-e] '' [-e] '' [file]
+```
+Paramters:
+- -n: no printing
+- -e '': edit command, command inside '', multiple -e-commands possible
+
+Commands (''):
+- d: delete
+- p: print
+
+### pipe
+Example of a sed pipe:
+```bash
+echo "test" | sed [-n] [-e] '' [-e] ''
+```
+### substitution
+Syntax:
+```
+echo "test" | sed s/[search pattern]/[replacement]/
+```
+
