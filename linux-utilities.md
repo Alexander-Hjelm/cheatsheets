@@ -183,3 +183,9 @@ echo "test" | sed "s/[a-z]*/prefix: & :suffix/"
 ### \1 \2 \3...
 
 \1 \2 \3... keeps part of the pattern, must be combined with escaped parenthesises, \\( \\).
+
+Example:
+```
+echo "test 123" | sed "s/\([a-z]*\)/not-a-\1/"
+> not-a-test 123
+```
