@@ -161,11 +161,25 @@ echo "test" | sed [-n] [-e] '' [-e] ''
 ### substitution
 Syntax:
 ```
-echo "test" | sed s/[search pattern]/[replacement]/
+echo "test" | sed "s/[search pattern]/[replacement]/"
 ```
 
 Example:
 ```
-echo "day morning day" | sed s/day/night/
+echo "day morning day" | sed "s/day/night/"
 > night morning day
 ```
+
+### &
+
+& corresponds to the pattern found.
+
+Example:
+```
+echo "test" | sed "s/[a-z]*/prefix: & :suffix/"
+> prefix: test :suffix
+```
+
+### \1 \2 \3...
+
+\1 \2 \3... keeps part of the pattern, must be combined with escaped parenthesises, \( \).
