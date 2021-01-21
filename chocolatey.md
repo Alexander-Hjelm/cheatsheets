@@ -1,5 +1,15 @@
 # Chocolatey
 <!--ts-->
+   * [Chocolatey](chocolatey.md#chocolatey)
+   * [Sources](chocolatey.md#sources)
+      * [List](chocolatey.md#list)
+      * [Add](chocolatey.md#add)
+         * [Parameters:](chocolatey.md#parameters)
+      * [Enable](chocolatey.md#enable)
+      * [Disable](chocolatey.md#disable)
+
+<!-- Added by: runner, at: Thu Jan 21 08:14:08 UTC 2021 -->
+
 <!--te-->
 
 # Sources

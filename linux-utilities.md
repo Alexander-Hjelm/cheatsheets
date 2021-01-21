@@ -1,5 +1,36 @@
 # Linux Utilities
 <!--ts-->
+   * [Linux Utilities](linux-utilities.md#linux-utilities)
+      * [scp](linux-utilities.md#scp)
+         * [Paramters](linux-utilities.md#paramters)
+      * [tar](linux-utilities.md#tar)
+         * [Paramters](linux-utilities.md#paramters-1)
+      * [nohup](linux-utilities.md#nohup)
+      * [df](linux-utilities.md#df)
+      * [$PATH](linux-utilities.md#path)
+      * [symlink](linux-utilities.md#symlink)
+      * [Mount new disk](linux-utilities.md#mount-new-disk)
+      * [Key debug](linux-utilities.md#key-debug)
+      * [Debug cron](linux-utilities.md#debug-cron)
+      * [cp](linux-utilities.md#cp)
+         * [copy all files in a dir](linux-utilities.md#copy-all-files-in-a-dir)
+      * [iterate/loop/for each over multiple files](linux-utilities.md#iterateloopfor-each-over-multiple-files)
+      * [batch zip from current dir:](linux-utilities.md#batch-zip-from-current-dir)
+      * [record gif:](linux-utilities.md#record-gif)
+      * [Read midi data from device](linux-utilities.md#read-midi-data-from-device)
+      * [Xrandr](linux-utilities.md#xrandr)
+      * [List manually installed packages:](linux-utilities.md#list-manually-installed-packages)
+         * [apt](linux-utilities.md#apt)
+      * [tr](linux-utilities.md#tr)
+      * [See distro](linux-utilities.md#see-distro)
+      * [sed](linux-utilities.md#sed)
+         * [pipe](linux-utilities.md#pipe)
+         * [substitution](linux-utilities.md#substitution)
+         * [\1 \2 \3...](linux-utilities.md#1-2-3)
+         * [use sed to extract a substring](linux-utilities.md#use-sed-to-extract-a-substring)
+
+<!-- Added by: runner, at: Thu Jan 21 08:14:09 UTC 2021 -->
+
 <!--te-->
 
 ## scp

@@ -1,5 +1,14 @@
 # git
 <!--ts-->
+   * [git](git.md#git)
+      * [Init a bare repository](git.md#init-a-bare-repository)
+      * [Remotes](git.md#remotes)
+         * [View remotes](git.md#view-remotes)
+         * [Add a remote](git.md#add-a-remote)
+         * [Remove a remote](git.md#remove-a-remote)
+
+<!-- Added by: runner, at: Thu Jan 21 08:14:09 UTC 2021 -->
+
 <!--te-->
 
 ## Init a bare repository

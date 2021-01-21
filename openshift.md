@@ -1,5 +1,22 @@
 # Openshift
 <!--ts-->
+   * [Openshift](openshift.md#openshift)
+   * [Base commands](openshift.md#base-commands)
+      * [project](openshift.md#project)
+      * [new-project](openshift.md#new-project)
+      * [get](openshift.md#get)
+         * [Options](openshift.md#options)
+      * [describe](openshift.md#describe)
+         * [Options](openshift.md#options-1)
+      * [create](openshift.md#create)
+         * [configmap](openshift.md#configmap)
+      * [start-build](openshift.md#start-build)
+         * [Options](openshift.md#options-2)
+      * [logs](openshift.md#logs)
+      * [rsh](openshift.md#rsh)
+
+<!-- Added by: runner, at: Thu Jan 21 08:14:10 UTC 2021 -->
+
 <!--te-->
 
 # Base commands

@@ -1,18 +1,19 @@
 # Python
 
 <!--ts-->
-   * [sys](#sys)
-      * [Arguments](#arguments)
-   * [enum](#enum)
-   * [dict](#dict)
-   * [string](#string)
-      * [Enumerate through alphabet](#enumerate-through-alphabet)
-      * [split, rsplit](#split-rsplit)
-         * [split](#split)
-         * [rsplit](#rsplit)
-      * [list files in directory](#list-files-in-directory)
+   * [Python](python.md#python)
+   * [sys](python.md#sys)
+      * [Arguments](python.md#arguments)
+   * [enum](python.md#enum)
+   * [dict](python.md#dict)
+   * [string](python.md#string)
+      * [Enumerate through alphabet](python.md#enumerate-through-alphabet)
+      * [split, rsplit](python.md#split-rsplit)
+         * [split](python.md#split)
+         * [rsplit](python.md#rsplit)
+      * [list files in directory](python.md#list-files-in-directory)
 
-<!-- Added by: runner, at: Thu Jan 21 07:59:33 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jan 21 08:14:10 UTC 2021 -->
 
 <!--te-->
 

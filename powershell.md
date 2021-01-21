@@ -1,5 +1,20 @@
 # Powershell
 <!--ts-->
+   * [Powershell](powershell.md#powershell)
+   * [Help](powershell.md#help)
+      * [help](powershell.md#help-1)
+      * [version](powershell.md#version)
+      * [gcm](powershell.md#gcm)
+   * [Connectivity](powershell.md#connectivity)
+      * [curl](powershell.md#curl)
+      * [Test-Connection](powershell.md#test-connection)
+         * [Parameters:](powershell.md#parameters)
+   * [User, group management](powershell.md#user-group-management)
+      * [net user](powershell.md#net-user)
+      * [net group](powershell.md#net-group)
+
+<!-- Added by: runner, at: Thu Jan 21 08:14:10 UTC 2021 -->
+
 <!--te-->
 
 # Help

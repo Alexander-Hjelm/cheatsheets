@@ -1,5 +1,12 @@
 # Yum
 <!--ts-->
+   * [Yum](yum.md#yum)
+      * [Install](yum.md#install)
+      * [Remove](yum.md#remove)
+      * [List](yum.md#list)
+
+<!-- Added by: runner, at: Thu Jan 21 08:14:11 UTC 2021 -->
+
 <!--te-->
 
 ## Install

@@ -1,5 +1,11 @@
 # cheatsheets
 <!--ts-->
+   * [cheatsheets](README.md#cheatsheets)
+      * [Updating procedure](README.md#updating-procedure)
+      * [Syntax highlighting](README.md#syntax-highlighting)
+
+<!-- Added by: runner, at: Thu Jan 21 08:14:08 UTC 2021 -->
+
 <!--te-->
 
 A documentation over techniques and tools that I use, where I have collected common tasks and scripts so I don't have to DuckDuckGo (tm) them again.
