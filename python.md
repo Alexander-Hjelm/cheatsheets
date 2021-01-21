@@ -1,4 +1,17 @@
 <!--ts-->
+   * [sys](#sys)
+      * [Arguments](#arguments)
+   * [enum](#enum)
+   * [dict](#dict)
+   * [string](#string)
+      * [Enumerate through alphabet](#enumerate-through-alphabet)
+      * [split, rsplit](#split-rsplit)
+         * [split](#split)
+         * [rsplit](#rsplit)
+      * [list files in directory](#list-files-in-directory)
+
+<!-- Added by: runner, at: Thu Jan 21 07:59:33 UTC 2021 -->
+
 <!--te-->
 
 # sys
