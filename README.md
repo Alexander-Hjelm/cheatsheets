@@ -1,4 +1,6 @@
 # cheatsheets
+<!--ts-->
+<!--te-->
 
 A documentation over techniques and tools that I use, where I have collected common tasks and scripts so I don't have to DuckDuckGo (tm) them again.
 
