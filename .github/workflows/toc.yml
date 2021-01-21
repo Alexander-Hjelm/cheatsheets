@@ -35,11 +35,18 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           
-      - name: Table of content
+      #- name: Table of content
         # You may pin to the exact commit or the version.
         # uses: LeChatErrant/table-of-contents-action@b57a17ccf43ef7af73a50fce26585070180a07ba
-        uses: LeChatErrant/table-of-contents-action@v1
+      #  uses: LeChatErrant/table-of-contents-action@v1
+      #  with:
+      #    # Mardown file to target
+      #    target: python.md # default is README.md
+
+      - run: |
+          curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
+          chmod a+x gh-md-toc
+          ./gh-md-toc --insert --no-backup foo.md
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          # Mardown file to target
-          target: python.md # default is README.md
-          
+          commit_message: Auto update markdown TOC
