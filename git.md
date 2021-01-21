@@ -1,4 +1,6 @@
 # git
+<!--ts-->
+<!--te-->
 
 ## Init a bare repository
 ```bash
