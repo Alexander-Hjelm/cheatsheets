@@ -1,3 +1,7 @@
+# Yum
+<!--ts-->
+<!--te-->
+
 ## Install
 ```bash
 yum install [Package name]
