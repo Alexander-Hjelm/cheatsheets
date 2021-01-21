@@ -1,4 +1,6 @@
 # Vim/Neovim
+<!--ts-->
+<!--te-->
 
 ## Find and replace all
 ```vim
