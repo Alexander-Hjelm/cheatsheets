@@ -1,4 +1,6 @@
-[[_TOC_]]
+# Shellscript
+<!--ts-->
+<!--te-->
 
 ## Shebang
 Shebang is the path to the sh interpreter, sending this file as input
