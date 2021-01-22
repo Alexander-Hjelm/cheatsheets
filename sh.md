@@ -1,29 +1,5 @@
 # Shellscript
 <!--ts-->
-   * [Shellscript](sh.md#shellscript)
-      * [Shebang](sh.md#shebang)
-      * [Printing](sh.md#printing)
-      * [Variables](sh.md#variables)
-      * [Command output](sh.md#command-output)
-      * [dir name, file name from path](sh.md#dir-name-file-name-from-path)
-      * [Functions](sh.md#functions)
-      * [Arrays](sh.md#arrays)
-         * [Assignment](sh.md#assignment)
-         * [Append](sh.md#append)
-         * [Access](sh.md#access)
-            * [By index](sh.md#by-index)
-            * [Iterate over elements](sh.md#iterate-over-elements)
-            * [Print the whole list](sh.md#print-the-whole-list)
-         * [Read lines of file into an array](sh.md#read-lines-of-file-into-an-array)
-      * [Example scripts](sh.md#example-scripts)
-         * [For each line in file](sh.md#for-each-line-in-file)
-         * [Split string](sh.md#split-string)
-         * [copy file and make subdirectories](sh.md#copy-file-and-make-subdirectories)
-      * [Find host machine platform](sh.md#find-host-machine-platform)
-      * [if statement](sh.md#if-statement)
-
-<!-- Added by: runner, at: Thu Jan 21 08:14:11 UTC 2021 -->
-
 <!--te-->
 
 ## Shebang
