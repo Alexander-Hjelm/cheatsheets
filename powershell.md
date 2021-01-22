@@ -13,7 +13,7 @@
       * [net user](powershell.md#net-user)
       * [net group](powershell.md#net-group)
 
-<!-- Added by: runner, at: Thu Jan 21 08:14:10 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jan 22 13:52:50 UTC 2021 -->
 
 <!--te-->
 
