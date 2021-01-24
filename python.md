@@ -125,3 +125,10 @@ print(m.group('w'))
 x
 xdtqxbdwx
 ```
+# booleans
+
+## XOR
+
+```python
+xor = True ^ False
+```
