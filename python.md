@@ -8,6 +8,7 @@
    * [dict](python.md#dict)
    * [string](python.md#string)
       * [Enumerate through alphabet](python.md#enumerate-through-alphabet)
+      * [count occurences of a character in a string](python.md#count-occurences-of-a-character-in-a-string)
       * [split, rsplit](python.md#split-rsplit)
          * [split](python.md#split)
          * [rsplit](python.md#rsplit)
@@ -16,7 +17,7 @@
    * [regex](python.md#regex)
       * [match regex pattern into named groups](python.md#match-regex-pattern-into-named-groups)
 
-<!-- Added by: runner, at: Sun Jan 24 10:51:29 UTC 2021 -->
+<!-- Added by: runner, at: Sun Jan 24 10:56:46 UTC 2021 -->
 
 <!--te-->
 
