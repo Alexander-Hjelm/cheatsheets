@@ -60,6 +60,17 @@ for c in alphabet[0:upper_limit:1] :
     print(c)    
 ```
 
+## count occurences of a character in a string
+
+```python
+test_str = "GeeksforGeeks"
+test_str.count('e') 
+
+>>
+
+4
+```
+
 ## split, rsplit
 
 Split a string on first, last occurrence(s) of a substring, with max number of splits
