@@ -85,3 +85,10 @@ for root, dirs, files in os.walk(".", topdown=False):
    for name in dirs:
       print(os.path.join(root, name))
 ```
+
+## read file lines into list
+
+```python
+with open('filename') as f:
+    lines = [line.rstrip() for line in f]
+```
