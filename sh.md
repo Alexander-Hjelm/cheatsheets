@@ -22,7 +22,7 @@
       * [Find host machine platform](sh.md#find-host-machine-platform)
       * [if statement](sh.md#if-statement)
 
-<!-- Added by: runner, at: Sun Jan 24 10:12:52 UTC 2021 -->
+<!-- Added by: runner, at: Sun Jan 24 10:51:30 UTC 2021 -->
 
 <!--te-->
 

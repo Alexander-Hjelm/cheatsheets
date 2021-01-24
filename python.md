@@ -13,8 +13,10 @@
          * [rsplit](python.md#rsplit)
       * [list files in directory](python.md#list-files-in-directory)
       * [read file lines into list](python.md#read-file-lines-into-list)
+   * [regex](python.md#regex)
+      * [match regex pattern into named groups](python.md#match-regex-pattern-into-named-groups)
 
-<!-- Added by: runner, at: Sun Jan 24 10:12:51 UTC 2021 -->
+<!-- Added by: runner, at: Sun Jan 24 10:51:29 UTC 2021 -->
 
 <!--te-->
 
