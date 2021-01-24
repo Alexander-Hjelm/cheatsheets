@@ -93,3 +93,21 @@ for root, dirs, files in os.walk(".", topdown=False):
 with open('filename') as f:
     lines = [line.rstrip() for line in f]
 ```
+
+# regex
+
+## match regex pattern into named groups
+
+```python
+m = re.match(r'(?P<i1>\d+)-(?P<i2>\d+) (?P<c>\w): (?P<w>\w+)', 6-90 x: xdtqxbdwx)
+print(m.group('i1'))
+print(m.group('i2'))
+print(m.group('c'))
+print(m.group('w'))
+
+>>
+6
+90
+x
+xdtqxbdwx
+```
