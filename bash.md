@@ -1,4 +1,4 @@
-# Shellscript
+# Bash
 <!--ts-->
    * [Shellscript](bash.md#shellscript)
       * [Shebang](bash.md#shebang)
