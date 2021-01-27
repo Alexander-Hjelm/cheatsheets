@@ -2,6 +2,7 @@
 
 - **Pod**: a group of one or more containers
 - **Deployment**: checks on the health of your Pod and restarts the Pod's Container if it terminates.
+- **minikube**: 
 
 # Create a minikube cluster
 
@@ -41,4 +42,12 @@ kubectl expose deployment hello-node --type=LoadBalancer --port=8080
 ## Manage services
 ```bash
 kubectl get services
+kubectl delete service hello-node
+```
+
+## Manage addons
+```bash
+minikube addons list
+minikube addons enable metrics-server
+minikube addons disable metrics-server
 ```
