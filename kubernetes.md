@@ -2,7 +2,7 @@
 
 - **Pod**: a group of one or more containers
 - **Deployment**: checks on the health of your Pod and restarts the Pod's Container if it terminates.
-- **minikube**: 
+- **minikube**: a kubernetes virtual machine
 
 # Create a minikube cluster
 
