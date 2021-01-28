@@ -82,3 +82,17 @@ View group information
 ```bat
 net group [GROUP NAME] /dom
 ```
+
+# Find host platform
+
+```bat
+if ($IsLinux) {
+    Write-Host "Linux"
+}
+elseif ($IsMacOS) {
+    Write-Host "macOS"
+}
+elseif ($IsWindows) {
+    Write-Host "Windows"
+}
+```
