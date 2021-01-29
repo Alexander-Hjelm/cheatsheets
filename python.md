@@ -127,6 +127,12 @@ print(m.group('w'))
 x
 xdtqxbdwx
 ```
+
+## regex findall
+```python
+m = re.findall(r'\w+:', line)
+```
+
 # booleans
 
 ## XOR
