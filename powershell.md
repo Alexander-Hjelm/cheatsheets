@@ -140,6 +140,12 @@ $array = [command]
 $array.count
 ```
 
+### Contains
+
+```bat
+$array.Contains("value")
+```
+
 # ArrayLists
 
 ## Assignment
@@ -178,6 +184,13 @@ for ($i = 0 ; $i -lt 10 ; $i++){
 foreach ($line in $output) {
     // Do something
 }
+```
+
+### foreach line in file
+```bat
+foreach($line in Get-Content .\file.txt) {
+        # Work here
+    }
 ```
 
 # regex
