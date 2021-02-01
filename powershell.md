@@ -20,6 +20,7 @@
       * [Read lines into array](powershell.md#read-lines-into-array)
       * [Properties](powershell.md#properties)
          * [Count](powershell.md#count)
+         * [Contains](powershell.md#contains)
    * [ArrayLists](powershell.md#arraylists)
       * [Assignment](powershell.md#assignment-1)
       * [Add/remove](powershell.md#addremove)
@@ -27,10 +28,11 @@
       * [if/else](powershell.md#ifelse)
       * [for](powershell.md#for)
       * [foreach](powershell.md#foreach)
+         * [foreach line in file](powershell.md#foreach-line-in-file)
    * [regex](powershell.md#regex)
       * [-match](powershell.md#-match)
 
-<!-- Added by: runner, at: Mon Feb  1 09:47:27 UTC 2021 -->
+<!-- Added by: runner, at: Mon Feb  1 10:26:36 UTC 2021 -->
 
 <!--te-->
 
