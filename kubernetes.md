@@ -1,4 +1,16 @@
 <!--ts-->
+   * [Definitions](kubernetes.md#definitions)
+   * [Create a minikube cluster](kubernetes.md#create-a-minikube-cluster)
+   * [Manage deployments](kubernetes.md#manage-deployments)
+   * [Manage pods](kubernetes.md#manage-pods)
+   * [View events](kubernetes.md#view-events)
+   * [Services](kubernetes.md#services)
+      * [Expose](kubernetes.md#expose)
+      * [Manage services](kubernetes.md#manage-services)
+      * [Manage addons](kubernetes.md#manage-addons)
+
+<!-- Added by: runner, at: Mon Feb  1 07:53:17 UTC 2021 -->
+
 <!--te-->
 
 # Definitions

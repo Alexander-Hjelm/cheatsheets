@@ -16,10 +16,11 @@
       * [read file lines into list](python.md#read-file-lines-into-list)
    * [regex](python.md#regex)
       * [match regex pattern into named groups](python.md#match-regex-pattern-into-named-groups)
+      * [regex findall](python.md#regex-findall)
    * [booleans](python.md#booleans)
       * [XOR](python.md#xor)
 
-<!-- Added by: runner, at: Wed Jan 27 07:32:50 UTC 2021 -->
+<!-- Added by: runner, at: Mon Feb  1 07:53:18 UTC 2021 -->
 
 <!--te-->
 

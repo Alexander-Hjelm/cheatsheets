@@ -12,8 +12,19 @@
    * [User, group management](powershell.md#user-group-management)
       * [net user](powershell.md#net-user)
       * [net group](powershell.md#net-group)
+   * [Find host platform](powershell.md#find-host-platform)
+   * [Arrays](powershell.md#arrays)
+      * [Assignment](powershell.md#assignment)
+      * [Access](powershell.md#access)
+         * [By index](powershell.md#by-index)
+      * [Read lines into array](powershell.md#read-lines-into-array)
+   * [control statements](powershell.md#control-statements)
+      * [if/else](powershell.md#ifelse)
+      * [foreach](powershell.md#foreach)
+   * [regex](powershell.md#regex)
+      * [-match](powershell.md#-match)
 
-<!-- Added by: runner, at: Wed Jan 27 07:32:50 UTC 2021 -->
+<!-- Added by: runner, at: Mon Feb  1 07:53:18 UTC 2021 -->
 
 <!--te-->
 

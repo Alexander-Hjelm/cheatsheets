@@ -1,6 +1,6 @@
 # Bash
 <!--ts-->
-   * [Shellscript](bash.md#shellscript)
+   * [Bash](bash.md#bash)
       * [Shebang](bash.md#shebang)
       * [Printing](bash.md#printing)
       * [Variables](bash.md#variables)
@@ -22,7 +22,7 @@
       * [Find host machine platform](bash.md#find-host-machine-platform)
       * [if statement](bash.md#if-statement)
 
-<!-- Added by: runner, at: Wed Jan 27 07:32:49 UTC 2021 -->
+<!-- Added by: runner, at: Mon Feb  1 07:53:17 UTC 2021 -->
 
 <!--te-->
 
