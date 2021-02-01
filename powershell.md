@@ -20,11 +20,12 @@
       * [Read lines into array](powershell.md#read-lines-into-array)
    * [control statements](powershell.md#control-statements)
       * [if/else](powershell.md#ifelse)
+      * [for](powershell.md#for)
       * [foreach](powershell.md#foreach)
    * [regex](powershell.md#regex)
       * [-match](powershell.md#-match)
 
-<!-- Added by: runner, at: Mon Feb  1 09:10:57 UTC 2021 -->
+<!-- Added by: runner, at: Mon Feb  1 09:29:39 UTC 2021 -->
 
 <!--te-->
 
