@@ -112,7 +112,7 @@ elseif ($IsWindows) {
 
 ## Assignment
 ```bat
-$a = @(1,2,3, "go!")
+$array = @(1,2,3, "go!")
 ```
 
 ## Access
@@ -124,7 +124,15 @@ echo $array[1]
 
 ## Read lines into array
 ```bat
-$var = [command]
+$array = [command]
+```
+
+## Properties
+
+### Count
+
+```bat
+$array.count
 ```
 
 # control statements
