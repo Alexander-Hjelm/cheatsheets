@@ -18,6 +18,8 @@
       * [Access](powershell.md#access)
          * [By index](powershell.md#by-index)
       * [Read lines into array](powershell.md#read-lines-into-array)
+      * [Properties](powershell.md#properties)
+         * [Count](powershell.md#count)
    * [control statements](powershell.md#control-statements)
       * [if/else](powershell.md#ifelse)
       * [for](powershell.md#for)
@@ -25,7 +27,7 @@
    * [regex](powershell.md#regex)
       * [-match](powershell.md#-match)
 
-<!-- Added by: runner, at: Mon Feb  1 09:29:39 UTC 2021 -->
+<!-- Added by: runner, at: Mon Feb  1 09:31:42 UTC 2021 -->
 
 <!--te-->
 
