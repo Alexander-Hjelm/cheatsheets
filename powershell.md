@@ -137,6 +137,21 @@ $array = [command]
 $array.count
 ```
 
+# ArrayLists
+
+## Assignment
+
+```bat
+[System.Collections.ArrayList]$arraylist = @()
+```
+
+## Add/remove
+
+```bat
+$arraylist.Add("value")
+$arraylist.Remove("value")
+```
+
 # control statements
 
 ## if/else
