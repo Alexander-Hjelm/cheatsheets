@@ -98,6 +98,11 @@ elseif ($IsWindows) {
 ```
 # Arrays
 
+## Assignment
+```bat
+$a = @(1,2,3, "go!")
+```
+
 ## Access
 
 ### By index
@@ -119,4 +124,30 @@ if(Boolean_expression) {
 }else {
    // Executes when the Boolean expression is false
 }
+```
+
+## foreach
+```bat
+foreach ($line in $output) {
+    // Do something
+}
+```
+
+# regex
+
+## -match
+The -match opperator takes a regular expression and returns $true if the pattern matches.
+
+An automatic variable called **$Matches** contains the results of the match.
+```bat
+PS> '123-45-6789' -match '\d\d\d-\d\d-\d\d\d\d'
+True
+
+$message = 'My SSN is 123-45-6789.'
+$message -match 'My SSN is (\d\d\d-\d\d-\d\d\d\d)\.'
+$Matches[0]
+$Matches[1]
+
+My SSN is 123-45-6789.
+123-45-6789
 ```
