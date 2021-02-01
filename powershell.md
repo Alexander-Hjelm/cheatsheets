@@ -96,3 +96,27 @@ elseif ($IsWindows) {
     Write-Host "Windows"
 }
 ```
+# Arrays
+
+## Access
+
+### By index
+```bat
+echo $array[1]
+```
+
+## Read lines into array
+```bat
+$var = [command]
+```
+
+# control statements
+
+## if/else
+```bat
+if(Boolean_expression) {
+   // Executes when the Boolean expression is true
+}else {
+   // Executes when the Boolean expression is false
+}
+```
