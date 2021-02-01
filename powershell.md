@@ -26,13 +26,14 @@
       * [Add/remove](powershell.md#addremove)
    * [control statements](powershell.md#control-statements)
       * [if/else](powershell.md#ifelse)
+         * [logical operators](powershell.md#logical-operators)
       * [for](powershell.md#for)
       * [foreach](powershell.md#foreach)
          * [foreach line in file](powershell.md#foreach-line-in-file)
    * [regex](powershell.md#regex)
       * [-match](powershell.md#-match)
 
-<!-- Added by: runner, at: Mon Feb  1 10:26:36 UTC 2021 -->
+<!-- Added by: runner, at: Mon Feb  1 10:38:06 UTC 2021 -->
 
 <!--te-->
 
