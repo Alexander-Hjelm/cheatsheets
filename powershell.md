@@ -150,7 +150,7 @@ if(Boolean_expression) {
 
 ## for
 ```bat
-for ($i = 1 ; $i -le 10 ; $i++){
+for ($i = 0 ; $i -lt 10 ; $i++){
     echo $i
 }
 ```
