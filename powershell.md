@@ -174,6 +174,19 @@ if(Boolean_expression) {
 }
 ```
 
+### logical operators
+```bat
+-And
+-Or
+
+-eq
+-ne
+-gt
+-ge
+-lt
+-le
+```
+
 ## for
 ```bat
 for ($i = 0 ; $i -lt 10 ; $i++){
