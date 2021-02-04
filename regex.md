@@ -5,8 +5,9 @@
       * [[0-9], d](regex.md#0-9-d)
       * [How to match big integers](regex.md#how-to-match-big-integers)
       * [* at the end of a query](regex.md#-at-the-end-of-a-query)
+      * [any character except whitespace](regex.md#any-character-except-whitespace)
 
-<!-- Added by: runner, at: Mon Feb  1 10:38:07 UTC 2021 -->
+<!-- Added by: runner, at: Thu Feb  4 21:10:48 UTC 2021 -->
 
 <!--te-->
 
