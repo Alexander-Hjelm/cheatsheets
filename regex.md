@@ -29,3 +29,7 @@ Use [0-9]* for arbitrarily large integers.
 ## * at the end of a query
 
 Repeat the query until it fails. For example `[a-z]*` will match any word in lowercase leters.
+
+## any character except whitespace
+
+[^\s]
