@@ -7,8 +7,12 @@
       * [* at the end of a query](regex.md#-at-the-end-of-a-query)
       * [any character except whitespace](regex.md#any-character-except-whitespace)
    * [Repetition](regex.md#repetition)
+   * [Start, end of string](regex.md#start-end-of-string)
+      * [Start](regex.md#start)
+      * [End](regex.md#end)
+      * [Exact match, full string](regex.md#exact-match-full-string)
 
-<!-- Added by: runner, at: Fri Feb  5 15:50:27 UTC 2021 -->
+<!-- Added by: runner, at: Fri Feb  5 21:30:34 UTC 2021 -->
 
 <!--te-->
 
