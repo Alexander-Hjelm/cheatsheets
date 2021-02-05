@@ -4,6 +4,8 @@
    * [Python](python.md#python)
    * [sys](python.md#sys)
       * [Arguments](python.md#arguments)
+   * [list](python.md#list)
+      * [list from range](python.md#list-from-range)
    * [enum](python.md#enum)
    * [dict](python.md#dict)
    * [string](python.md#string)
@@ -24,7 +26,7 @@
    * [Anonymous functions](python.md#anonymous-functions)
       * [Compound comparisons](python.md#compound-comparisons)
 
-<!-- Added by: runner, at: Fri Feb  5 21:30:34 UTC 2021 -->
+<!-- Added by: runner, at: Fri Feb  5 22:48:48 UTC 2021 -->
 
 <!--te-->
 
