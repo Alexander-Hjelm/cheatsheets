@@ -6,8 +6,9 @@
       * [How to match big integers](regex.md#how-to-match-big-integers)
       * [* at the end of a query](regex.md#-at-the-end-of-a-query)
       * [any character except whitespace](regex.md#any-character-except-whitespace)
+   * [Repetition](regex.md#repetition)
 
-<!-- Added by: runner, at: Fri Feb  5 15:44:53 UTC 2021 -->
+<!-- Added by: runner, at: Fri Feb  5 15:50:27 UTC 2021 -->
 
 <!--te-->
 
