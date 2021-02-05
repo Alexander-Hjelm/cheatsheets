@@ -12,15 +12,19 @@
       * [split, rsplit](python.md#split-rsplit)
          * [split](python.md#split)
          * [rsplit](python.md#rsplit)
+      * [startswith, endswith](python.md#startswith-endswith)
       * [list files in directory](python.md#list-files-in-directory)
       * [read file lines into list](python.md#read-file-lines-into-list)
    * [regex](python.md#regex)
+      * [simple match, return True/False](python.md#simple-match-return-truefalse)
       * [match regex pattern into named groups](python.md#match-regex-pattern-into-named-groups)
       * [regex findall](python.md#regex-findall)
    * [booleans](python.md#booleans)
       * [XOR](python.md#xor)
+   * [Anonymous functions](python.md#anonymous-functions)
+      * [Compound comparisons](python.md#compound-comparisons)
 
-<!-- Added by: runner, at: Fri Feb  5 15:50:26 UTC 2021 -->
+<!-- Added by: runner, at: Fri Feb  5 21:28:59 UTC 2021 -->
 
 <!--te-->
 
