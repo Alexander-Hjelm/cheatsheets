@@ -8,7 +8,7 @@
       * [any character except whitespace](regex.md#any-character-except-whitespace)
    * [Repetition](regex.md#repetition)
 
-<!-- Added by: runner, at: Fri Feb  5 21:28:59 UTC 2021 -->
+<!-- Added by: runner, at: Fri Feb  5 15:50:27 UTC 2021 -->
 
 <!--te-->
 
@@ -42,4 +42,14 @@ Repeat the query until it fails. For example `[a-z]*` will match any word in low
 
 `\d{3, 5}` will match 3 to 5 digits
 
+# Start, end of string
 
+## Start
+'^'
+
+## End
+'$'
+
+## Exact match, full string
+Use both ^ and $ to mark start and end of string
+'^\d{9}$'
