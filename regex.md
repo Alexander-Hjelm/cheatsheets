@@ -7,7 +7,7 @@
       * [* at the end of a query](regex.md#-at-the-end-of-a-query)
       * [any character except whitespace](regex.md#any-character-except-whitespace)
 
-<!-- Added by: runner, at: Thu Feb  4 21:10:48 UTC 2021 -->
+<!-- Added by: runner, at: Fri Feb  5 15:44:53 UTC 2021 -->
 
 <!--te-->
 
