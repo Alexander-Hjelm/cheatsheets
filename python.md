@@ -93,6 +93,11 @@ my_string = "hipp-hipp-hooray"
 str.rsplit(my_string, '-', 1)
 ```
 
+## startswith, endswith
+
+str_val.endswith("cm")
+str_val.startswith("0_")
+
 ## list files in directory
 
 ```python
@@ -112,6 +117,11 @@ with open('filename') as f:
 ```
 
 # regex
+
+## simple match, return True/False
+```python
+re.match("[0-9a-f]{6}", x) is not None
+```
 
 ## match regex pattern into named groups
 
@@ -140,4 +150,15 @@ m = re.findall(r'\w+:', line)
 
 ```python
 xor = True ^ False
+```
+
+# Anonymous functions
+```python
+x = lambda a : a + 10
+print(x(5)) 
+```
+
+## Compound comparisons
+```python
+2002 >= x >= 1920
 ```
