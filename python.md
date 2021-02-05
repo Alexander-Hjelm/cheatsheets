@@ -40,6 +40,14 @@ print 'Number of arguments:', len(sys.argv), 'arguments.'
 print 'Argument List:', str(sys.argv)
 ```
 
+# list
+
+## list from range
+```python
+list(range(0,10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
 # enum
 ```python
 from enum import Enum
