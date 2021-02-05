@@ -34,3 +34,11 @@ Repeat the query until it fails. For example `[a-z]*` will match any word in low
 ## any character except whitespace
 
 [^\s]
+
+# Repetition
+
+`\d{3}` will match 3 digits
+
+`\d{3, 5}` will match 3 to 5 digits
+
+
