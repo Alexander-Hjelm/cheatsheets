@@ -6,6 +6,9 @@
       * [Arguments](python.md#arguments)
    * [list](python.md#list)
       * [list from range](python.md#list-from-range)
+   * [set](python.md#set)
+      * [set from list](python.md#set-from-list)
+      * [set intersection](python.md#set-intersection)
    * [enum](python.md#enum)
    * [dict](python.md#dict)
    * [string](python.md#string)
@@ -26,7 +29,7 @@
    * [Anonymous functions](python.md#anonymous-functions)
       * [Compound comparisons](python.md#compound-comparisons)
 
-<!-- Added by: runner, at: Fri Feb  5 22:48:48 UTC 2021 -->
+<!-- Added by: runner, at: Sat Feb  6 09:21:54 UTC 2021 -->
 
 <!--te-->
 
