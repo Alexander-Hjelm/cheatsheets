@@ -50,6 +50,25 @@ list(range(0,10))
 [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
+# set
+
+## set from list
+```python
+set('aaaabbcdddee')
+set([1, 1, 2, 3, 4, 4, 5])
+
+{'e', 'c', 'b', 'a', 'd'}
+{1, 2, 3, 4, 5}
+```
+
+## set intersection
+```python
+lists = ['aabcd', 'abd', 'abc']
+set.intersection(*[set(x) for x in lists])
+
+{'a', 'b'}
+```
+
 # enum
 ```python
 from enum import Enum
