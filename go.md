@@ -20,3 +20,8 @@ func main() {
 import "fmt"
 fmt.Println("test!")
 ```
+
+## build
+```bash
+go build -o [Executable name]
+```
