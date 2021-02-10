@@ -28,8 +28,11 @@
          * [substitution](linux-utilities.md#substitution)
          * [\1 \2 \3...](linux-utilities.md#1-2-3)
          * [use sed to extract a substring](linux-utilities.md#use-sed-to-extract-a-substring)
+      * [pdftk](linux-utilities.md#pdftk)
+         * [Combine pfds](linux-utilities.md#combine-pfds)
+         * [Combine pfds, certain pages](linux-utilities.md#combine-pfds-certain-pages)
 
-<!-- Added by: runner, at: Tue Feb  9 14:37:42 UTC 2021 -->
+<!-- Added by: runner, at: Wed Feb 10 14:43:56 UTC 2021 -->
 
 <!--te-->
 
