@@ -7,6 +7,7 @@
       * [build](go.md#build)
       * [string](go.md#string)
          * [iterate over runes in string](go.md#iterate-over-runes-in-string)
+      * [split](go.md#split)
       * [file, I/O](go.md#file-io)
          * [Read file contents to string](go.md#read-file-contents-to-string)
          * [read file lines into array of strings](go.md#read-file-lines-into-array-of-strings)
@@ -18,7 +19,7 @@
       * [math](go.md#math)
          * [max, min](go.md#max-min)
 
-<!-- Added by: runner, at: Tue Feb 16 07:35:16 UTC 2021 -->
+<!-- Added by: runner, at: Tue Feb 16 07:39:36 UTC 2021 -->
 
 <!--te-->
 
