@@ -57,6 +57,12 @@ for _, letter := range test_string {
 }
 ```
 
+## split
+```go
+import "strings"
+a := strings.Split(b, ".")
+```
+
 ## file, I/O
 
 ### Read file contents to string
