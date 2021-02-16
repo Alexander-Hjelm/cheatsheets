@@ -1,7 +1,10 @@
-#Haskell
+# Haskell
+
+<!--ts-->
+<!--te-->
 
 ## Hello world
-```bash
+```haskell
 module Main where
 
 main = putStrLn "Hello World"
