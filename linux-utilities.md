@@ -267,3 +267,9 @@ pdftk A=one.pdf B=two.pdf cat A1-7 B1-5 A8 output combined.pdf
 ```bash
 wget http://ipecho.net/plain -O - -q ; echo
 ```
+
+## curl
+
+### curl POST with parameters
+
+curl -X POST --data "this is raw data" https://example.com/endpoints?req_param_1=hello&req_param_2=hi
