@@ -273,5 +273,10 @@ wget http://ipecho.net/plain -O - -q ; echo
 ## curl
 
 ### curl POST with parameters
-
+```bash
 curl -X POST --data "this is raw data" https://example.com/endpoints?req_param_1=hello&req_param_2=hi
+```
+### curl to post json
+```bash
+curl --header "Content-Type: application/json" --request POST --data "{\"name\": \"eddie\"}" https://<your-url-here
+```
