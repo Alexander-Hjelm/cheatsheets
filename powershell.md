@@ -227,3 +227,21 @@ $Matches[1]
 My SSN is 123-45-6789.
 123-45-6789
 ```
+
+# arguments
+
+## simple argument get
+```bat
+$var_name = $args[0]
+```
+
+## parameters or default values
+```bat
+param (
+    [string]$price = 100, 
+    [string]$ComputerName = $env:computername,    
+    [string]$username = $(throw "-username is required."),
+    [string]$password = $( Read-Host -asSecureString "Input password" ),
+    [switch]$SaveData = $false
+)
+```
