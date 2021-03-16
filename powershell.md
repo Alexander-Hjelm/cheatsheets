@@ -32,8 +32,11 @@
          * [foreach line in file](powershell.md#foreach-line-in-file)
    * [regex](powershell.md#regex)
       * [-match](powershell.md#-match)
+   * [arguments](powershell.md#arguments)
+      * [simple argument get](powershell.md#simple-argument-get)
+      * [parameters or default values](powershell.md#parameters-or-default-values)
 
-<!-- Added by: runner, at: Mon Mar  8 07:45:30 UTC 2021 -->
+<!-- Added by: runner, at: Tue Mar 16 15:25:30 UTC 2021 -->
 
 <!--te-->
 
