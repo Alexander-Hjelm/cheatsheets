@@ -29,7 +29,7 @@
    * [Anonymous functions](python.md#anonymous-functions)
       * [Compound comparisons](python.md#compound-comparisons)
 
-<!-- Added by: runner, at: Tue Mar 16 15:25:30 UTC 2021 -->
+<!-- Added by: runner, at: Fri Mar 19 12:59:07 UTC 2021 -->
 
 <!--te-->
 
