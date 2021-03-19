@@ -248,3 +248,15 @@ param (
     [switch]$SaveData = $false
 )
 ```
+
+## Navigation
+
+### Subfiles, subfolders
+Find a subfile or subfolder with an unknown relative path
+```bat
+$aPath = Get-Child-Item -Recurse -Filter a.txt | Resolve-Path
+$bPath = Get-Child-Item -Recurse -Filter b.txt | Resolve-Path
+
+Remove-Item $bPath
+Rename-Item $aPath b.txt
+```
