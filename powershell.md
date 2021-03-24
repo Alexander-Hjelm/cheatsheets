@@ -262,3 +262,12 @@ $bPath = Get-Child-Item -Recurse -Filter b.txt | Resolve-Path
 Remove-Item $bPath
 Rename-Item $aPath b.txt
 ```
+
+# Strings
+
+## Trim
+
+Trim leading and trailling spaces
+```bat
+$a = " abc ".trim()
+```
