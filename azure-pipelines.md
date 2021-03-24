@@ -5,7 +5,7 @@
       * [write to env variable](azure-pipelines.md#write-to-env-variable)
       * [read from env variable](azure-pipelines.md#read-from-env-variable)
 
-<!-- Added by: runner, at: Wed Mar 24 09:50:10 UTC 2021 -->
+<!-- Added by: runner, at: Wed Mar 24 10:21:16 UTC 2021 -->
 
 <!--te-->
 

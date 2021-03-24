@@ -37,8 +37,10 @@
       * [parameters or default values](powershell.md#parameters-or-default-values)
       * [Navigation](powershell.md#navigation)
          * [Subfiles, subfolders](powershell.md#subfiles-subfolders)
+   * [Strings](powershell.md#strings)
+      * [Trim](powershell.md#trim)
 
-<!-- Added by: runner, at: Wed Mar 24 09:50:12 UTC 2021 -->
+<!-- Added by: runner, at: Wed Mar 24 10:21:20 UTC 2021 -->
 
 <!--te-->
 
