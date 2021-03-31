@@ -6,7 +6,7 @@
       * [read from env variable](azure-pipelines.md#read-from-env-variable)
    * [How to use certificates with Azure Key Vault](azure-pipelines.md#how-to-use-certificates-with-azure-key-vault)
 
-<!-- Added by: runner, at: Wed Mar 31 10:56:19 UTC 2021 -->
+<!-- Added by: runner, at: Wed Mar 31 11:21:27 UTC 2021 -->
 
 <!--te-->
 
