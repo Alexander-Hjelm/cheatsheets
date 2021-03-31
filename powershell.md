@@ -42,8 +42,9 @@
    * [Data types](powershell.md#data-types)
       * [Convert](powershell.md#convert)
          * [String to Int](powershell.md#string-to-int)
+   * [Date](powershell.md#date)
 
-<!-- Added by: runner, at: Wed Mar 31 11:21:29 UTC 2021 -->
+<!-- Added by: runner, at: Wed Mar 31 12:32:32 UTC 2021 -->
 
 <!--te-->
 
