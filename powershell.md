@@ -273,3 +273,12 @@ Trim leading and trailling spaces
 ```bat
 $a = " abc ".trim()
 ```
+
+# Data types
+
+## Convert
+
+### String to Int
+```bat
+$integerN = [int]$stringN
+```
