@@ -285,3 +285,8 @@ $a = " abc ".trim()
 ```bat
 $integerN = [int]$stringN
 ```
+
+# Date
+```bat
+Get-Date -Format "dddd MM/dd/yyyy HH:mm K"
+```
