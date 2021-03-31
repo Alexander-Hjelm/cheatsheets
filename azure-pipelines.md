@@ -20,3 +20,6 @@ Write-Host "##vso[task.setvariable variable=varToBeWritten]$varToBeWritten"
 ```bat
 Write-Host $env:varToBeWritten
 ```
+
+# How to use certificates with Azure Key Vault
+[Link](https://www.dotnetcurry.com/devops/1507/azure-key-vault-secrets-pipelines)
