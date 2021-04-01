@@ -24,3 +24,6 @@ Write-Host $env:varToBeWritten
 
 # How to use certificates with Azure Key Vault
 [Link](https://www.dotnetcurry.com/devops/1507/azure-key-vault-secrets-pipelines)
+
+# Run/Build numbers
+[Link](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/run-number?view=azure-devops&tabs=yaml)
