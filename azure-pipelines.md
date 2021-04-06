@@ -14,6 +14,16 @@
 
 <!--te-->
 
+# Demands
+
+## Agent name
+```yaml
+pool:
+  demands:
+  - agent.name -equals morpheus
+  - agent.computername -equals W1000A
+```
+
 # Pass variables between tasks
 ## write to env variable
 ```bat
