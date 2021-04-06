@@ -6,13 +6,15 @@
    * [Pass variables between tasks](azure-pipelines.md#pass-variables-between-tasks)
       * [write to env variable](azure-pipelines.md#write-to-env-variable)
       * [read from env variable](azure-pipelines.md#read-from-env-variable)
-   * [How to use certificates with Azure Key Vault](azure-pipelines.md#how-to-use-certificates-with-azure-key-vault)
+   * [Certificates, code signing](azure-pipelines.md#certificates-code-signing)
+      * [How to use certificates with Azure Key Vault](azure-pipelines.md#how-to-use-certificates-with-azure-key-vault)
+      * [Pipeline code signing example script](azure-pipelines.md#pipeline-code-signing-example-script)
    * [Run/Build numbers](azure-pipelines.md#runbuild-numbers)
    * [Windows Machine File Copy](azure-pipelines.md#windows-machine-file-copy)
       * [Troubleshooting](azure-pipelines.md#troubleshooting)
          * [Same files skipped](azure-pipelines.md#same-files-skipped)
 
-<!-- Added by: runner, at: Tue Apr  6 11:18:38 UTC 2021 -->
+<!-- Added by: runner, at: Tue Apr  6 11:45:52 UTC 2021 -->
 
 <!--te-->
 

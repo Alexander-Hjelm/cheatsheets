@@ -22,7 +22,7 @@
       * [Find host machine platform](bash.md#find-host-machine-platform)
       * [if statement](bash.md#if-statement)
 
-<!-- Added by: runner, at: Tue Apr  6 11:18:38 UTC 2021 -->
+<!-- Added by: runner, at: Tue Apr  6 11:45:52 UTC 2021 -->
 
 <!--te-->
 
