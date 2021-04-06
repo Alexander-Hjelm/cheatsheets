@@ -1,6 +1,8 @@
 # Azure Pipelines
 <!--ts-->
    * [Azure Pipelines](azure-pipelines.md#azure-pipelines)
+   * [Demands](azure-pipelines.md#demands)
+      * [Agent name](azure-pipelines.md#agent-name)
    * [Pass variables between tasks](azure-pipelines.md#pass-variables-between-tasks)
       * [write to env variable](azure-pipelines.md#write-to-env-variable)
       * [read from env variable](azure-pipelines.md#read-from-env-variable)
@@ -10,7 +12,7 @@
       * [Troubleshooting](azure-pipelines.md#troubleshooting)
          * [Same files skipped](azure-pipelines.md#same-files-skipped)
 
-<!-- Added by: runner, at: Tue Apr  6 08:44:40 UTC 2021 -->
+<!-- Added by: runner, at: Tue Apr  6 11:15:03 UTC 2021 -->
 
 <!--te-->
 
