@@ -6,8 +6,11 @@
       * [read from env variable](azure-pipelines.md#read-from-env-variable)
    * [How to use certificates with Azure Key Vault](azure-pipelines.md#how-to-use-certificates-with-azure-key-vault)
    * [Run/Build numbers](azure-pipelines.md#runbuild-numbers)
+   * [Windows Machine File Copy](azure-pipelines.md#windows-machine-file-copy)
+      * [Troubleshooting](azure-pipelines.md#troubleshooting)
+         * [Same files skipped](azure-pipelines.md#same-files-skipped)
 
-<!-- Added by: runner, at: Tue Apr  6 06:23:58 UTC 2021 -->
+<!-- Added by: runner, at: Tue Apr  6 08:44:40 UTC 2021 -->
 
 <!--te-->
 
