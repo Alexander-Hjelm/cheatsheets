@@ -291,3 +291,12 @@ $integerN = [int]$stringN
 ```bat
 Get-Date -Format "dddd MM/dd/yyyy HH:mm K"
 ```
+
+# Windows services
+
+## Start/stop
+```bat
+Start-Service [Service name] -PassThru
+Stop-Service [Service name] -PassThru
+```
+
