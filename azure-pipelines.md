@@ -21,6 +21,7 @@
 ## Agent name
 ```yaml
 pool:
+  name: [agent pool name]
   demands:
   - agent.name -equals morpheus
   - agent.computername -equals W1000A
