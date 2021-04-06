@@ -43,8 +43,10 @@
       * [Convert](powershell.md#convert)
          * [String to Int](powershell.md#string-to-int)
    * [Date](powershell.md#date)
+   * [Windows services](powershell.md#windows-services)
+      * [Start/stop](powershell.md#startstop)
 
-<!-- Added by: runner, at: Thu Apr  1 07:49:20 UTC 2021 -->
+<!-- Added by: runner, at: Tue Apr  6 06:24:05 UTC 2021 -->
 
 <!--te-->
 
