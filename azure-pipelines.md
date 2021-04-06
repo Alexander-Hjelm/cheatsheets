@@ -45,7 +45,7 @@ Write-Host $env:varToBeWritten
 [Link](https://www.dotnetcurry.com/devops/1507/azure-key-vault-secrets-pipelines)
 
 ## Pipeline code signing example script
-```bat
+```yaml
 pool:
   vmImage: windows-2019
 
