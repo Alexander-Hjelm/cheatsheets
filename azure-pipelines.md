@@ -28,3 +28,10 @@ Write-Host $env:varToBeWritten
 
 # Run/Build numbers
 [Link](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/run-number?view=azure-devops&tabs=yaml)
+
+# Windows Machine File Copy
+Uses robocopy, argument list: [Link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy)
+## Troubleshooting
+### Same files skipped
+By default, Robocopy skips copying existing files if the specific metadata (file size, timestamp, file name) of the files match.
+Override this with the `\IS` (Include same) argument.
