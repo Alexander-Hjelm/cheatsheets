@@ -39,8 +39,34 @@ Write-Host "##vso[task.setvariable variable=varToBeWritten]$varToBeWritten"
 Write-Host $env:varToBeWritten
 ```
 
-# How to use certificates with Azure Key Vault
+# Certificates, code signing
+
+## How to use certificates with Azure Key Vault
 [Link](https://www.dotnetcurry.com/devops/1507/azure-key-vault-secrets-pipelines)
+
+## Pipeline code signing example script
+```bat
+pool:
+  vmImage: windows-2019
+
+steps:
+- script: dotnet publish -o $(Build.ArtifactStagingDirectory)
+  displayName: 'dotnet publish'
+- task: AzureKeyVault@1
+  inputs:
+    azureSubscription: 'twelve21-signdotnetcore-connection'
+    keyVaultName: 'twelve21-key-vault'
+- powershell: |
+    $filePath = '$(Build.ArtifactStagingDirectory)\Twelve21.SignDotNetCore.dll';
+    $base64 = '$(twelve21-sample-certificate)';
+    $buffer = [System.Convert]::FromBase64String($base64);
+    $certificate = [System.Security.Cryptography.X509Certificates.X509Certificate2]::new($buffer);
+    Set-AuthenticodeSignature -FilePath $filePath -Certificate $certificate;
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: build
+```
 
 # Run/Build numbers
 [Link](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/run-number?view=azure-devops&tabs=yaml)
@@ -51,3 +77,4 @@ Uses robocopy, argument list: [Link](https://docs.microsoft.com/en-us/windows-se
 ### Same files skipped
 By default, Robocopy skips copying existing files if the specific metadata (file size, timestamp, file name) of the files match.
 Override this with the `\IS` (Include same) argument.
+
