@@ -72,6 +72,10 @@ steps:
 
 # Run/Build numbers
 [Link](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/run-number?view=azure-devops&tabs=yaml)
+## Powershell
+```bat
+$env:BUILD_BUILDNUMBER
+```
 
 # Windows Machine File Copy
 Uses robocopy, argument list: [Link](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy)
