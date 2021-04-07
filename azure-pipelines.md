@@ -14,8 +14,11 @@
    * [Windows Machine File Copy](azure-pipelines.md#windows-machine-file-copy)
       * [Troubleshooting](azure-pipelines.md#troubleshooting)
          * [Same files skipped](azure-pipelines.md#same-files-skipped)
+   * [Visual Studio build](azure-pipelines.md#visual-studio-build)
+      * [Publish artifact as a .zip](azure-pipelines.md#publish-artifact-as-a-zip)
+      * [Publish artifact as files](azure-pipelines.md#publish-artifact-as-files)
 
-<!-- Added by: runner, at: Wed Apr  7 05:40:41 UTC 2021 -->
+<!-- Added by: runner, at: Wed Apr  7 06:57:38 UTC 2021 -->
 
 <!--te-->
 
