@@ -90,10 +90,8 @@ Override this with the `\IS` (Include same) argument.
 
 # Visual Studio build
 
-## Publish artifact as a .zip
-
-/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFiles=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactstagingdirectory\\" /p:AutoParameterizationWebConfigConnectionStrings=false
-
-## Publish artifact as files
-
-/p:DeployOnBuild=true /p:DeployDefaultTarget=WebPublish /p:WebPublishMethod=FileSystem /p:SkipInvalidConfigurations=true /p:PublishUrl="$(build.artifactstagingdirectory)/Sveaskog.ProLog.WebApp" /p:AutoParameterizationWebConfigConnectionStrings=false
+## Publish artifact as a .zip or files
+```bat
+/p:PackageAsSingleFiles=true (zip)
+/p:PackageAsSingleFiles=false (files)
+```
