@@ -10,11 +10,12 @@
       * [How to use certificates with Azure Key Vault](azure-pipelines.md#how-to-use-certificates-with-azure-key-vault)
       * [Pipeline code signing example script](azure-pipelines.md#pipeline-code-signing-example-script)
    * [Run/Build numbers](azure-pipelines.md#runbuild-numbers)
+      * [Powershell](azure-pipelines.md#powershell)
    * [Windows Machine File Copy](azure-pipelines.md#windows-machine-file-copy)
       * [Troubleshooting](azure-pipelines.md#troubleshooting)
          * [Same files skipped](azure-pipelines.md#same-files-skipped)
 
-<!-- Added by: runner, at: Tue Apr  6 11:45:52 UTC 2021 -->
+<!-- Added by: runner, at: Wed Apr  7 05:40:41 UTC 2021 -->
 
 <!--te-->
 
