@@ -302,3 +302,8 @@ Start-Service [Service name] -PassThru
 Stop-Service [Service name] -PassThru
 ```
 
+# Select-String
+Find, grep
+```bat
+[Command] | Select-String [search-string]
+```
