@@ -45,8 +45,9 @@
    * [Date](powershell.md#date)
    * [Windows services](powershell.md#windows-services)
       * [Start/stop](powershell.md#startstop)
+   * [Select-String](powershell.md#select-string)
 
-<!-- Added by: runner, at: Wed Apr  7 07:22:14 UTC 2021 -->
+<!-- Added by: runner, at: Mon Apr 12 07:54:58 UTC 2021 -->
 
 <!--te-->
 
