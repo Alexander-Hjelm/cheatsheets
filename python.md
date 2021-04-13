@@ -29,8 +29,9 @@
    * [Anonymous functions](python.md#anonymous-functions)
       * [Compound comparisons](python.md#compound-comparisons)
    * [csv, excel sheets](python.md#csv-excel-sheets)
+   * [Read json](python.md#read-json)
 
-<!-- Added by: runner, at: Tue Apr 13 08:06:31 UTC 2021 -->
+<!-- Added by: runner, at: Tue Apr 13 08:09:36 UTC 2021 -->
 
 <!--te-->
 
