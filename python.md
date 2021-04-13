@@ -6,6 +6,7 @@
       * [Arguments](python.md#arguments)
    * [list](python.md#list)
       * [list from range](python.md#list-from-range)
+      * [print delimited list](python.md#print-delimited-list)
    * [set](python.md#set)
       * [set from list](python.md#set-from-list)
       * [set intersection](python.md#set-intersection)
@@ -33,7 +34,7 @@
    * [csv, excel sheets](python.md#csv-excel-sheets)
    * [Read json](python.md#read-json)
 
-<!-- Added by: runner, at: Tue Apr 13 09:30:38 UTC 2021 -->
+<!-- Added by: runner, at: Tue Apr 13 09:58:15 UTC 2021 -->
 
 <!--te-->
 
