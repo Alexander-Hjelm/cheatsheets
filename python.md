@@ -20,6 +20,7 @@
       * [startswith, endswith](python.md#startswith-endswith)
       * [list files in directory](python.md#list-files-in-directory)
       * [read file lines into list](python.md#read-file-lines-into-list)
+      * [uppercase, lowercase](python.md#uppercase-lowercase)
    * [regex](python.md#regex)
       * [simple match, return True/False](python.md#simple-match-return-truefalse)
       * [match regex pattern into named groups](python.md#match-regex-pattern-into-named-groups)
@@ -31,7 +32,7 @@
    * [csv, excel sheets](python.md#csv-excel-sheets)
    * [Read json](python.md#read-json)
 
-<!-- Added by: runner, at: Tue Apr 13 08:09:36 UTC 2021 -->
+<!-- Added by: runner, at: Tue Apr 13 09:27:27 UTC 2021 -->
 
 <!--te-->
 
