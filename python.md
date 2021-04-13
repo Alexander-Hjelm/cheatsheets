@@ -92,6 +92,15 @@ newdict = {
   "year": 1964
 }
 ```
+
+## Enumerate over dict
+```python
+example_dict = {1:'a', 2:'b', 3:'c', 4:'d'}
+
+for i, k in enumerate(example_dict):
+    print(i, k)
+```
+
 # string
 
 ## Enumerate through alphabet
