@@ -154,6 +154,12 @@ with open('filename') as f:
     lines = [line.rstrip() for line in f]
 ```
 
+## uppercase, lowercase
+```python
+string.upper()
+string.lower()
+```
+
 # regex
 
 ## simple match, return True/False
