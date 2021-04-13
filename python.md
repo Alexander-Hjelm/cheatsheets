@@ -11,6 +11,7 @@
       * [set intersection](python.md#set-intersection)
    * [enum](python.md#enum)
    * [dict](python.md#dict)
+      * [Enumerate over dict](python.md#enumerate-over-dict)
    * [string](python.md#string)
       * [Enumerate through alphabet](python.md#enumerate-through-alphabet)
       * [count occurences of a character in a string](python.md#count-occurences-of-a-character-in-a-string)
@@ -32,7 +33,7 @@
    * [csv, excel sheets](python.md#csv-excel-sheets)
    * [Read json](python.md#read-json)
 
-<!-- Added by: runner, at: Tue Apr 13 09:27:27 UTC 2021 -->
+<!-- Added by: runner, at: Tue Apr 13 09:30:38 UTC 2021 -->
 
 <!--te-->
 
