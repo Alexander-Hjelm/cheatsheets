@@ -28,8 +28,9 @@
       * [XOR](python.md#xor)
    * [Anonymous functions](python.md#anonymous-functions)
       * [Compound comparisons](python.md#compound-comparisons)
+   * [csv, excel sheets](python.md#csv-excel-sheets)
 
-<!-- Added by: runner, at: Mon Apr 12 07:54:58 UTC 2021 -->
+<!-- Added by: runner, at: Tue Apr 13 08:06:31 UTC 2021 -->
 
 <!--te-->
 
