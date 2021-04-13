@@ -60,6 +60,7 @@ list(range(0,10))
 
 ## print delimited list
 ```python
+a = [1, 2, 3]
 ','.join(map(str,a))
 ```
 
