@@ -198,3 +198,27 @@ print(x(5))
 ```python
 2002 >= x >= 1920
 ```
+
+# csv, excel sheets
+```python
+from openpyxl import load_workbook
+from openpyxl import Workbook
+
+wb = load_workbook(output_filename)
+for sheet_name in wbt.sheetnames:
+    sheet = wb.get_sheet_by_name(sheet_name)
+    b1 = sheet['B1']
+    sheet['B2'] = "test"
+
+# Load active sheet
+    sheet_active = wb.active
+
+wb_new = Workbook()
+wb_new.create_sheet('new sheet')
+
+# Remove sheet
+we_new.remove_sheet(wb.active)
+
+# Save sheet
+wb_new.save("filename")
+```
