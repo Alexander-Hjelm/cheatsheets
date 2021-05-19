@@ -303,6 +303,11 @@ Start-Service [Service name] -PassThru
 Stop-Service [Service name] -PassThru
 ```
 
+# Check status
+```bat
+services.msc
+```
+  
 # Select-String
 Find, grep
 ```bat
