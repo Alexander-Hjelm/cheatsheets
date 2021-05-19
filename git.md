@@ -1,13 +1,13 @@
 # git
 <!--ts-->
-   * [git](git.md#git)
-      * [Init a bare repository](git.md#init-a-bare-repository)
-      * [Remotes](git.md#remotes)
-         * [View remotes](git.md#view-remotes)
-         * [Add a remote](git.md#add-a-remote)
-         * [Remove a remote](git.md#remove-a-remote)
+* [git](git.md#git)
+   * [Init a bare repository](git.md#init-a-bare-repository)
+   * [Remotes](git.md#remotes)
+      * [View remotes](git.md#view-remotes)
+      * [Add a remote](git.md#add-a-remote)
+      * [Remove a remote](git.md#remove-a-remote)
 
-<!-- Added by: runner, at: Tue Apr 13 09:59:18 UTC 2021 -->
+<!-- Added by: runner, at: Wed May 19 08:32:13 UTC 2021 -->
 
 <!--te-->
 

@@ -1,23 +1,23 @@
 # Azure Pipelines
 <!--ts-->
-   * [Azure Pipelines](azure-pipelines.md#azure-pipelines)
-   * [Demands](azure-pipelines.md#demands)
-      * [Agent name](azure-pipelines.md#agent-name)
-   * [Pass variables between tasks](azure-pipelines.md#pass-variables-between-tasks)
-      * [write to env variable](azure-pipelines.md#write-to-env-variable)
-      * [read from env variable](azure-pipelines.md#read-from-env-variable)
-   * [Certificates, code signing](azure-pipelines.md#certificates-code-signing)
-      * [How to use certificates with Azure Key Vault](azure-pipelines.md#how-to-use-certificates-with-azure-key-vault)
-      * [Pipeline code signing example script](azure-pipelines.md#pipeline-code-signing-example-script)
-   * [Run/Build numbers](azure-pipelines.md#runbuild-numbers)
-      * [Powershell](azure-pipelines.md#powershell)
-   * [Windows Machine File Copy](azure-pipelines.md#windows-machine-file-copy)
-      * [Troubleshooting](azure-pipelines.md#troubleshooting)
-         * [Same files skipped](azure-pipelines.md#same-files-skipped)
-   * [Visual Studio build](azure-pipelines.md#visual-studio-build)
-      * [Publish artifact as a .zip or files](azure-pipelines.md#publish-artifact-as-a-zip-or-files)
+* [Azure Pipelines](azure-pipelines.md#azure-pipelines)
+* [Demands](azure-pipelines.md#demands)
+   * [Agent name](azure-pipelines.md#agent-name)
+* [Pass variables between tasks](azure-pipelines.md#pass-variables-between-tasks)
+   * [write to env variable](azure-pipelines.md#write-to-env-variable)
+   * [read from env variable](azure-pipelines.md#read-from-env-variable)
+* [Certificates, code signing](azure-pipelines.md#certificates-code-signing)
+   * [How to use certificates with Azure Key Vault](azure-pipelines.md#how-to-use-certificates-with-azure-key-vault)
+   * [Pipeline code signing example script](azure-pipelines.md#pipeline-code-signing-example-script)
+* [Run/Build numbers](azure-pipelines.md#runbuild-numbers)
+   * [Powershell](azure-pipelines.md#powershell)
+* [Windows Machine File Copy](azure-pipelines.md#windows-machine-file-copy)
+   * [Troubleshooting](azure-pipelines.md#troubleshooting)
+      * [Same files skipped](azure-pipelines.md#same-files-skipped)
+* [Visual Studio build](azure-pipelines.md#visual-studio-build)
+   * [Publish artifact as a .zip or files](azure-pipelines.md#publish-artifact-as-a-zip-or-files)
 
-<!-- Added by: runner, at: Tue Apr 13 09:59:17 UTC 2021 -->
+<!-- Added by: runner, at: Wed May 19 08:32:10 UTC 2021 -->
 
 <!--te-->
 

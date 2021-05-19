@@ -1,26 +1,26 @@
 # Docker
 <!--ts-->
-   * [Docker](docker.md#docker)
-   * [Base commands](docker.md#base-commands)
-      * [pull](docker.md#pull)
-      * [images](docker.md#images)
-      * [run](docker.md#run)
-         * [Options:](docker.md#options)
-      * [exec](docker.md#exec)
-   * [Docker Container](docker.md#docker-container)
-      * [ls](docker.md#ls)
-         * [Options:](docker.md#options-1)
-      * [stop](docker.md#stop)
-      * [rm](docker.md#rm)
-      * [attach](docker.md#attach)
-      * [port](docker.md#port)
-   * [Docker Build](docker.md#docker-build)
-      * [build from context](docker.md#build-from-context)
-      * [build from specified dockerfile](docker.md#build-from-specified-dockerfile)
-         * [Powershell](docker.md#powershell)
-         * [Bash](docker.md#bash)
+* [Docker](docker.md#docker)
+* [Base commands](docker.md#base-commands)
+   * [pull](docker.md#pull)
+   * [images](docker.md#images)
+   * [run](docker.md#run)
+      * [Options:](docker.md#options)
+   * [exec](docker.md#exec)
+* [Docker Container](docker.md#docker-container)
+   * [ls](docker.md#ls)
+      * [Options:](docker.md#options-1)
+   * [stop](docker.md#stop)
+   * [rm](docker.md#rm)
+   * [attach](docker.md#attach)
+   * [port](docker.md#port)
+* [Docker Build](docker.md#docker-build)
+   * [build from context](docker.md#build-from-context)
+   * [build from specified dockerfile](docker.md#build-from-specified-dockerfile)
+      * [Powershell](docker.md#powershell)
+      * [Bash](docker.md#bash)
 
-<!-- Added by: runner, at: Tue Apr 13 09:59:17 UTC 2021 -->
+<!-- Added by: runner, at: Wed May 19 08:32:12 UTC 2021 -->
 
 <!--te-->
 

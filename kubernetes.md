@@ -1,15 +1,15 @@
 <!--ts-->
-   * [Definitions](kubernetes.md#definitions)
-   * [Create a minikube cluster](kubernetes.md#create-a-minikube-cluster)
-   * [Manage deployments](kubernetes.md#manage-deployments)
-   * [Manage pods](kubernetes.md#manage-pods)
-   * [View events](kubernetes.md#view-events)
-   * [Services](kubernetes.md#services)
-      * [Expose](kubernetes.md#expose)
-      * [Manage services](kubernetes.md#manage-services)
-      * [Manage addons](kubernetes.md#manage-addons)
+* [Definitions](kubernetes.md#definitions)
+* [Create a minikube cluster](kubernetes.md#create-a-minikube-cluster)
+* [Manage deployments](kubernetes.md#manage-deployments)
+* [Manage pods](kubernetes.md#manage-pods)
+* [View events](kubernetes.md#view-events)
+* [Services](kubernetes.md#services)
+   * [Expose](kubernetes.md#expose)
+   * [Manage services](kubernetes.md#manage-services)
+   * [Manage addons](kubernetes.md#manage-addons)
 
-<!-- Added by: runner, at: Tue Apr 13 09:59:18 UTC 2021 -->
+<!-- Added by: runner, at: Wed May 19 08:32:15 UTC 2021 -->
 
 <!--te-->
 

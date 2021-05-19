@@ -1,21 +1,21 @@
 # Openshift
 <!--ts-->
-   * [Openshift](openshift.md#openshift)
-   * [Base commands](openshift.md#base-commands)
-      * [project](openshift.md#project)
-      * [new-project](openshift.md#new-project)
-      * [get](openshift.md#get)
-         * [Options](openshift.md#options)
-      * [describe](openshift.md#describe)
-         * [Options](openshift.md#options-1)
-      * [create](openshift.md#create)
-         * [configmap](openshift.md#configmap)
-      * [start-build](openshift.md#start-build)
-         * [Options](openshift.md#options-2)
-      * [logs](openshift.md#logs)
-      * [rsh](openshift.md#rsh)
+* [Openshift](openshift.md#openshift)
+* [Base commands](openshift.md#base-commands)
+   * [project](openshift.md#project)
+   * [new-project](openshift.md#new-project)
+   * [get](openshift.md#get)
+      * [Options](openshift.md#options)
+   * [describe](openshift.md#describe)
+      * [Options](openshift.md#options-1)
+   * [create](openshift.md#create)
+      * [configmap](openshift.md#configmap)
+   * [start-build](openshift.md#start-build)
+      * [Options](openshift.md#options-2)
+   * [logs](openshift.md#logs)
+   * [rsh](openshift.md#rsh)
 
-<!-- Added by: runner, at: Tue Apr 13 09:59:19 UTC 2021 -->
+<!-- Added by: runner, at: Wed May 19 08:32:17 UTC 2021 -->
 
 <!--te-->
 

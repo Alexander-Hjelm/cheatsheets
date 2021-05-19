@@ -1,10 +1,10 @@
 # Haskell
 
 <!--ts-->
-   * [Haskell](hasekll.md#haskell)
-      * [Hello world](hasekll.md#hello-world)
+* [Haskell](hasekll.md#haskell)
+   * [Hello world](hasekll.md#hello-world)
 
-<!-- Added by: runner, at: Tue Apr 13 09:59:18 UTC 2021 -->
+<!-- Added by: runner, at: Wed May 19 08:32:15 UTC 2021 -->
 
 <!--te-->
 

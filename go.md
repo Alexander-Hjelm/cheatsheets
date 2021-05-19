@@ -1,25 +1,25 @@
 # GoLang
 <!--ts-->
-   * [GoLang](go.md#golang)
-      * [main function](go.md#main-function)
-      * [function](go.md#function)
-      * [printing](go.md#printing)
-      * [build](go.md#build)
-      * [string](go.md#string)
-         * [iterate over runes in string](go.md#iterate-over-runes-in-string)
-      * [split](go.md#split)
-      * [file, I/O](go.md#file-io)
-         * [Read file contents to string](go.md#read-file-contents-to-string)
-         * [read file lines into array of strings](go.md#read-file-lines-into-array-of-strings)
-      * [os](go.md#os)
-         * [Command line arguments](go.md#command-line-arguments)
-      * [type conversions](go.md#type-conversions)
-         * [string to int](go.md#string-to-int)
-         * [string to float64](go.md#string-to-float64)
-      * [math](go.md#math)
-         * [max, min](go.md#max-min)
+* [GoLang](go.md#golang)
+   * [main function](go.md#main-function)
+   * [function](go.md#function)
+   * [printing](go.md#printing)
+   * [build](go.md#build)
+   * [string](go.md#string)
+      * [iterate over runes in string](go.md#iterate-over-runes-in-string)
+   * [split](go.md#split)
+   * [file, I/O](go.md#file-io)
+      * [Read file contents to string](go.md#read-file-contents-to-string)
+      * [read file lines into array of strings](go.md#read-file-lines-into-array-of-strings)
+   * [os](go.md#os)
+      * [Command line arguments](go.md#command-line-arguments)
+   * [type conversions](go.md#type-conversions)
+      * [string to int](go.md#string-to-int)
+      * [string to float64](go.md#string-to-float64)
+   * [math](go.md#math)
+      * [max, min](go.md#max-min)
 
-<!-- Added by: runner, at: Tue Apr 13 09:59:18 UTC 2021 -->
+<!-- Added by: runner, at: Wed May 19 08:32:14 UTC 2021 -->
 
 <!--te-->
 
