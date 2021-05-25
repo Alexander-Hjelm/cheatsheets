@@ -1,5 +1,8 @@
 # SQL
 
+<!--ts-->
+<!--te-->
+
 ## Sample query
 
 ```sql
