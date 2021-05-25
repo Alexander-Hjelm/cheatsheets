@@ -68,6 +68,18 @@ a = [1, 2, 3]
 ','.join(map(str,a))
 ```
 
+## sort
+```python
+[1,3,5,2,4].sort()
+#[1,2,3,4,5]
+```
+
+## sort based on property of the elements
+```python
+roll_list1 = [('Jack', 76), ('Beneth', 78), ('Cirus', 77), ('Faiz', 79)]
+roll_list1.sort(key=lambda a: a[1])
+```
+
 # set
 
 ## set from list
