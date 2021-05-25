@@ -1,28 +1,6 @@
 # ReactJS
 
 <!--ts-->
-* [ReactJS](reactjs.md#reactjs)
-   * [Declaration](reactjs.md#declaration)
-      * [Declaration keywords](reactjs.md#declaration-keywords)
-      * [Import](reactjs.md#import)
-      * [Interface](reactjs.md#interface)
-   * [Program logic](reactjs.md#program-logic)
-      * [for loop](reactjs.md#for-loop)
-      * [forEach](reactjs.md#foreach)
-      * [map](reactjs.md#map)
-   * [String](reactjs.md#string)
-      * [Split](reactjs.md#split)
-   * [Asyncronous programing](reactjs.md#asyncronous-programing)
-      * [async function](reactjs.md#async-function)
-      * [await](reactjs.md#await)
-      * [async method](reactjs.md#async-method)
-   * [HTML components](reactjs.md#html-components)
-      * [React.Component](reactjs.md#reactcomponent)
-         * [render method](reactjs.md#render-method)
-         * [componentDidMount()](reactjs.md#componentdidmount)
-
-<!-- Added by: runner, at: Tue May 25 13:22:02 UTC 2021 -->
-
 <!--te-->
 
 ## Declaration
@@ -90,16 +68,22 @@ private async loadTable() {
 }
 ```
 
-### await
-There are 2 ways to exit from an async function
+### await, then
+There are 3 ways to exit from an async function
 
 Either **await** the result:
 ```typescript
-const result: any = await func { param1, param2 });
+const result: any = await func ( param1, param2 );
 ```
 Append the result to an array:
 ```typescript
-array.push(... await func { param1, param2 });
+array.push(... await func ( param1, param2 ));
+```
+Or use **then** to continue asyncronous execution
+```typescript
+func ( param1, param2 ).then(res => {
+  doStuff(res);
+});
 ```
 
 ### async method
