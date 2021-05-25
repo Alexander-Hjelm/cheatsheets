@@ -301,3 +301,9 @@ json_object = json.dumps(dictionary)
 with open("sample.json", "w") as outfile:
     outfile.write(json_object)
 ```
+
+# random
+```python
+import random
+print(random.random())
+```
