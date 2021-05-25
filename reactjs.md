@@ -50,6 +50,11 @@ interface ITest {
 }
 ```
 
+### function
+```typescript
+public testFunction(a: string, b: boolean, c: number): any {
+  doStuff();
+```
 
 ## Program logic
 
@@ -61,6 +66,54 @@ for (let j = 1; j <= 5; j++) {
 }
 ```
 
+### if/else
+
+```typescript
+if(a==b)
+  doStuffA();
+}
+else if (a>b)
+{
+  doStuffB();
+}
+else
+{
+  doStuffC();
+}
+```
+
+### switch
+```typescript
+switch (compValue) {
+
+    case "a":
+        doStuffA();
+        break;
+    case "b":
+        doStuffB();
+        break;
+    case "c":
+        doStuffC();
+        break;
+    default:
+        doStuffD();
+        break;
+}
+```
+
+### use switch to return from a function
+```typescript
+func(item: Type): ReturnType {
+    switch (item) {
+        case "A":
+            return 1;
+        case "B":
+            return 2;
+        case "C":
+            return 3;
+    }
+}
+```
 ### forEach
 
 ```typescript
@@ -133,4 +186,12 @@ public componentDidMount() {
   });
   this.registerInputEvents();
 }
+```
+
+## Math
+
+### min, max
+```typescript
+a = Math.max(a, b);
+b = Math.min(a, b);
 ```
