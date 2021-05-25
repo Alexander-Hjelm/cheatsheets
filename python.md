@@ -7,6 +7,8 @@
 * [list](python.md#list)
    * [list from range](python.md#list-from-range)
    * [print delimited list](python.md#print-delimited-list)
+   * [sort](python.md#sort)
+   * [sort based on property of the elements](python.md#sort-based-on-property-of-the-elements)
 * [set](python.md#set)
    * [set from list](python.md#set-from-list)
    * [set intersection](python.md#set-intersection)
@@ -38,7 +40,7 @@
    * [Read json](python.md#read-json)
    * [Write json](python.md#write-json)
 
-<!-- Added by: runner, at: Tue May 25 16:40:28 UTC 2021 -->
+<!-- Added by: runner, at: Tue May 25 16:53:07 UTC 2021 -->
 
 <!--te-->
 
