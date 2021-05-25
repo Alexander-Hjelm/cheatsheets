@@ -6,8 +6,12 @@
       * [Declaration keywords](reactjs.md#declaration-keywords)
       * [Import](reactjs.md#import)
       * [Interface](reactjs.md#interface)
+      * [function](reactjs.md#function)
    * [Program logic](reactjs.md#program-logic)
       * [for loop](reactjs.md#for-loop)
+      * [if/else](reactjs.md#ifelse)
+      * [switch](reactjs.md#switch)
+      * [use switch to return from a function](reactjs.md#use-switch-to-return-from-a-function)
       * [forEach](reactjs.md#foreach)
       * [map](reactjs.md#map)
    * [String](reactjs.md#string)
@@ -20,8 +24,10 @@
       * [React.Component](reactjs.md#reactcomponent)
          * [render method](reactjs.md#render-method)
          * [componentDidMount()](reactjs.md#componentdidmount)
+   * [Math](reactjs.md#math)
+      * [min, max](reactjs.md#min-max)
 
-<!-- Added by: runner, at: Tue May 25 13:24:06 UTC 2021 -->
+<!-- Added by: runner, at: Tue May 25 13:34:29 UTC 2021 -->
 
 <!--te-->
 
