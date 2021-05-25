@@ -20,9 +20,11 @@
       * [split](python.md#split)
       * [rsplit](python.md#rsplit)
    * [startswith, endswith](python.md#startswith-endswith)
+   * [uppercase, lowercase](python.md#uppercase-lowercase)
+* [file operations](python.md#file-operations)
    * [list files in directory](python.md#list-files-in-directory)
    * [read file lines into list](python.md#read-file-lines-into-list)
-   * [uppercase, lowercase](python.md#uppercase-lowercase)
+   * [write string to file](python.md#write-string-to-file)
 * [regex](python.md#regex)
    * [simple match, return True/False](python.md#simple-match-return-truefalse)
    * [match regex pattern into named groups](python.md#match-regex-pattern-into-named-groups)
@@ -34,7 +36,7 @@
 * [csv, excel sheets](python.md#csv-excel-sheets)
 * [Read json](python.md#read-json)
 
-<!-- Added by: runner, at: Tue May 25 13:34:28 UTC 2021 -->
+<!-- Added by: runner, at: Tue May 25 16:25:41 UTC 2021 -->
 
 <!--te-->
 
