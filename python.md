@@ -259,7 +259,9 @@ we_new.remove_sheet(wb.active)
 wb_new.save("filename")
 ```
 
-# Read json
+# Json
+
+## Read json
 ```python
 import json
 
@@ -274,4 +276,10 @@ obj = json.loads(data)
 print("usd: " + str(obj['usd']))
 print("eur: " + str(obj['eur']))
 print("gbp: " + str(obj['gbp']))
+```
+
+## Write json
+```python
+with open("sample.json", "w") as outfile:
+    outfile.write(json_object)
 ```
