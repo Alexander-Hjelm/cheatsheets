@@ -27,7 +27,7 @@
    * [Math](reactjs.md#math)
       * [min, max](reactjs.md#min-max)
 
-<!-- Added by: runner, at: Tue May 25 16:53:08 UTC 2021 -->
+<!-- Added by: runner, at: Tue May 25 16:54:52 UTC 2021 -->
 
 <!--te-->
 

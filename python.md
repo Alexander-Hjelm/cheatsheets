@@ -39,8 +39,9 @@
 * [Json](python.md#json)
    * [Read json](python.md#read-json)
    * [Write json](python.md#write-json)
+* [random](python.md#random)
 
-<!-- Added by: runner, at: Tue May 25 16:53:07 UTC 2021 -->
+<!-- Added by: runner, at: Tue May 25 16:54:51 UTC 2021 -->
 
 <!--te-->
 
