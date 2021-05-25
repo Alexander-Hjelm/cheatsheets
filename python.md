@@ -282,6 +282,8 @@ print("gbp: " + str(obj['gbp']))
 
 ## Write json
 ```python
+json_object = json.dumps(dictionary)
+
 with open("sample.json", "w") as outfile:
     outfile.write(json_object)
 ```
