@@ -154,6 +154,13 @@ str.rsplit(my_string, '-', 1)
 str_val.endswith("cm")
 str_val.startswith("0_")
 
+## uppercase, lowercase
+```python
+string.upper()
+string.lower()
+```
+# file operations
+
 ## list files in directory
 
 ```python
@@ -172,10 +179,11 @@ with open('filename') as f:
     lines = [line.rstrip() for line in f]
 ```
 
-## uppercase, lowercase
+## write string to file
 ```python
-string.upper()
-string.lower()
+f = open("demofile2.txt", "a")
+f.write("Now the file has more content!")
+f.close()
 ```
 
 # regex
