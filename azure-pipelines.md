@@ -32,6 +32,143 @@ pool:
   - agent.computername -equals W1000A
 ```
 
+# Useful variables
+
+- **System.Debug**: Verbose logging.
+- **System.DefaultWorkingDirectory**: The local path on the agent where your source code files are downloaded. For example: c:\agent_work\1\s
+- **Agent.BuildDirectory**: The local path on the agent where all folders for a given build pipeline are created. This variable has the same value as Pipeline.Workspace. For example: /home/vsts/work/1
+
+More: https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml
+
+# Triggers
+```yaml
+# No trigger
+trigger: none
+
+# Branch filter
+trigger: 
+  branches:
+    include: 
+    - releases/*
+    exclude:
+    - releases/old*
+
+# Tag filter
+    trigger:
+      tags:        # This filter is used for triggering the pipeline run
+      - Production # Tags are AND'ed
+      - Signed
+```
+
+# Parameters
+```yaml
+parameters:
+- name: stageTest
+  displayName: Deploy to Test
+  type: boolean
+  default: true
+```
+
+# Stages/Jobs
+
+## Run multiple jobs in parallel for a stage
+```yaml
+stages:
+- stage: StageA
+  displayName: 'Stage A'
+  condition: succeeded()
+  jobs:
+  - job: 'Job A'
+    pool:
+      name: POOLNAME
+      demands: msbuild
+    steps:
+    - template: /.azure-pipelines/templates/jobA.yml
+  - job: 'Job B'
+    pool:
+      name: POOLNAME
+      demands: msbuild
+    steps:
+    - template: /.azure-pipelines/templates/jobB.yml
+```
+
+## Conditional execution
+```yaml
+- ${{ if eq(parameters.stageTest, true) }}: 
+  - stage: DeployTest
+    displayName: 'Deploy Test'
+    condition: succeeded()
+    jobs:
+    - template: /.azure-pipelines/templates/deploy-test.yml
+```
+
+# Templates
+
+## Invoke Template as Job with parameters
+```yaml
+  - stage: DeployTest
+    displayName: 'Deploy Test'
+    condition: succeeded()
+    jobs:
+    - template: /.azure-pipelines/templates/deploy-test.yml
+      parameters:
+        environment: 'test'
+        variablegroup: 'Test'
+```
+
+## Invoke template as Step
+```yaml
+jobs:
+- job: 'Build'
+  pool:
+    name: PUPLUS
+    demands: msbuild
+  steps:
+  - template: /.azure-pipelines/templates/build.yml
+```
+
+# Each
+
+Each is used to create loops. Can be used for setting up stages, jobs, tasks dynamically
+
+main.yml:
+```yaml
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+extends:
+  template: template.yml
+  parameters:
+      param: ["AA", "BB", "CC"]
+```
+
+template.yml:
+```yaml
+parameters:
+  - name: param
+    type: object
+    default: []
+
+stages:
+  - ${{ each p in parameters.param }}:
+    - stage: '${{ p }}'
+      displayName: 'Stage ${{ p }}'
+      jobs:
+      - job: 'JobA'
+        steps:
+        - script: 'echo AAA'
+```
+# Debug
+Can only be done by setting the system.debug variable in yaml:
+```yaml
+variables:
+- name: System.Debug
+  value: true
+```
+
 # Pass variables between tasks
 ## write to env variable
 ```bat
