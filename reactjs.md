@@ -248,4 +248,7 @@ let dateA = moment(str,"YYYY-MM-DD");
 let momentsSameDay = moment(dateA).isSame(dateB, "Day");
 let momentsBefore = moment(dateA).isBefore(dateB, "Day");
 let momentsAfter = moment(dateA).isAfter(dateB, "Day");
+
+// Add to moment
+var changeddate = moment([2017, 2, 31]).add(5, 'hours');
 ```
