@@ -62,6 +62,36 @@ public testFunction(a: string, b: boolean, c: number): any {
   doStuff();
 ```
 
+## Arrays
+```typescript
+  let array: any[] = ['front',23,true,'back'];
+
+  let len = array.length;
+  let back = array.pop();     // Remove from back
+  let front = array.shift();  // Remove from front
+  
+  // Remove at index
+  let pos = 2;
+  let removedItem = array.splice(pos, 1);
+  
+  array.push(back);          // Add to back
+  array.unshift(front);      // Add to front
+  // 3
+  
+  // Copy array
+  let shallowCopy = array.slice()
+```
+
+
+### 2D arrays
+```typescript
+  let 2dArray: number[][] = [];
+  2DArray.push([1,2,3,4]);
+  2DArray[0][2];
+  // 3
+```
+
+
 ## Program logic
 
 ### for loop
