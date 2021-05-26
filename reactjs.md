@@ -233,3 +233,18 @@ public componentDidMount() {
 a = Math.max(a, b);
 b = Math.min(a, b);
 ```
+
+## Moment
+```typescript
+import { Moment } from 'moment';
+import moment = require('moment');
+
+// From string
+let str = "1995-12-31"
+let dateA = moment(str,"YYYY-MM-DD");
+
+// Compare moments
+let momentsSameDay = moment(dateA).isSame(dateB, "Day");
+let momentsBefore = moment(dateA).isBefore(dateB, "Day");
+let momentsAfter = moment(dateA).isAfter(dateB, "Day");
+```
