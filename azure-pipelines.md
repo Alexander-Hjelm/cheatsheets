@@ -3,6 +3,17 @@
 * [Azure Pipelines](azure-pipelines.md#azure-pipelines)
 * [Demands](azure-pipelines.md#demands)
    * [Agent name](azure-pipelines.md#agent-name)
+* [Useful variables](azure-pipelines.md#useful-variables)
+* [Triggers](azure-pipelines.md#triggers)
+* [Parameters](azure-pipelines.md#parameters)
+* [Stages/Jobs](azure-pipelines.md#stagesjobs)
+   * [Run multiple jobs in parallel for a stage](azure-pipelines.md#run-multiple-jobs-in-parallel-for-a-stage)
+   * [Conditional execution](azure-pipelines.md#conditional-execution)
+* [Templates](azure-pipelines.md#templates)
+   * [Invoke Template as Job with parameters](azure-pipelines.md#invoke-template-as-job-with-parameters)
+   * [Invoke template as Step](azure-pipelines.md#invoke-template-as-step)
+* [Each](azure-pipelines.md#each)
+* [Debug](azure-pipelines.md#debug)
 * [Pass variables between tasks](azure-pipelines.md#pass-variables-between-tasks)
    * [write to env variable](azure-pipelines.md#write-to-env-variable)
    * [read from env variable](azure-pipelines.md#read-from-env-variable)
@@ -17,7 +28,7 @@
 * [Visual Studio build](azure-pipelines.md#visual-studio-build)
    * [Publish artifact as a .zip or files](azure-pipelines.md#publish-artifact-as-a-zip-or-files)
 
-<!-- Added by: runner, at: Wed May 26 08:50:58 UTC 2021 -->
+<!-- Added by: runner, at: Wed May 26 08:52:56 UTC 2021 -->
 
 <!--te-->
 
