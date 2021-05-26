@@ -7,6 +7,8 @@
       * [Import](reactjs.md#import)
       * [Interface](reactjs.md#interface)
       * [function](reactjs.md#function)
+   * [Arrays](reactjs.md#arrays)
+      * [2D arrays](reactjs.md#2d-arrays)
    * [Program logic](reactjs.md#program-logic)
       * [for loop](reactjs.md#for-loop)
       * [if/else](reactjs.md#ifelse)
@@ -27,7 +29,7 @@
    * [Math](reactjs.md#math)
       * [min, max](reactjs.md#min-max)
 
-<!-- Added by: runner, at: Tue May 25 16:54:52 UTC 2021 -->
+<!-- Added by: runner, at: Wed May 26 07:57:11 UTC 2021 -->
 
 <!--te-->
 
