@@ -223,6 +223,46 @@ public render(): JSX.Element {
 }
 ```
 
+### Checkbox
+```typescript
+<Checkbox
+    label="User Story"
+    checked={checkedFunc()}
+    onChange={(_obj, item) => {
+        this.doStuff(item);
+    }}
+/>
+```
+
+### Span
+```typescript
+<span className="frequency-picker-label">Value area filter</span>
+```
+
+### Radio button group
+```typescript
+<div className="radiobuttongroup">
+    <label>
+        <input type="radio" id="r1" name="rb1"
+            checked={this.getChecked()}
+            onChange={(event) => {
+                this.doStuff("r1");
+            }}
+        />
+        Radio Button 1
+    </label>
+    <label>
+        <input type="radio" id="r2" name="rb2"
+            checked={!this.getChecked()}
+            onChange={(event) => {
+                this.doStuff("r2");
+            }}
+        />
+        Radio Button 2
+    </label>
+</div>
+```
+
 #### componentDidMount()
 
 ```typescript
