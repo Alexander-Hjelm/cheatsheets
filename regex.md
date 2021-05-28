@@ -12,7 +12,7 @@
    * [End](regex.md#end)
    * [Exact match, full string](regex.md#exact-match-full-string)
 
-<!-- Added by: runner, at: Fri May 28 12:28:19 UTC 2021 -->
+<!-- Added by: runner, at: Fri May 28 12:33:16 UTC 2021 -->
 
 <!--te-->
 

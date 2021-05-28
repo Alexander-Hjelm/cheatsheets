@@ -26,12 +26,15 @@
    * [HTML components](reactjs.md#html-components)
       * [React.Component](reactjs.md#reactcomponent)
          * [render method](reactjs.md#render-method)
+      * [Checkbox](reactjs.md#checkbox)
+      * [Span](reactjs.md#span)
+      * [Radio button group](reactjs.md#radio-button-group)
          * [componentDidMount()](reactjs.md#componentdidmount)
    * [Math](reactjs.md#math)
       * [min, max](reactjs.md#min-max)
    * [Moment](reactjs.md#moment)
 
-<!-- Added by: runner, at: Fri May 28 12:28:19 UTC 2021 -->
+<!-- Added by: runner, at: Fri May 28 12:33:16 UTC 2021 -->
 
 <!--te-->
 
