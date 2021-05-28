@@ -7,7 +7,7 @@
       * [Add a remote](git.md#add-a-remote)
       * [Remove a remote](git.md#remove-a-remote)
 
-<!-- Added by: runner, at: Fri May 28 12:33:12 UTC 2021 -->
+<!-- Added by: runner, at: Fri May 28 12:36:40 UTC 2021 -->
 
 <!--te-->
 

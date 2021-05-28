@@ -27,11 +27,16 @@
       * [React.Component](reactjs.md#reactcomponent)
          * [render method](reactjs.md#render-method)
          * [componentDidMount()](reactjs.md#componentdidmount)
+      * [Checkbox](reactjs.md#checkbox)
+      * [Span](reactjs.md#span)
+      * [Radio button group](reactjs.md#radio-button-group)
+      * [Text field](reactjs.md#text-field)
+      * [Date Picker](reactjs.md#date-picker)
    * [Math](reactjs.md#math)
       * [min, max](reactjs.md#min-max)
    * [Moment](reactjs.md#moment)
 
-<!-- Added by: runner, at: Fri May 28 12:28:19 UTC 2021 -->
+<!-- Added by: runner, at: Fri May 28 12:36:43 UTC 2021 -->
 
 <!--te-->
 
