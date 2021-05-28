@@ -8,14 +8,15 @@
       * [Interface](reactjs.md#interface)
       * [function](reactjs.md#function)
    * [Arrays](reactjs.md#arrays)
+      * [forEach](reactjs.md#foreach)
+      * [map](reactjs.md#map)
+      * [filter](reactjs.md#filter)
       * [2D arrays](reactjs.md#2d-arrays)
    * [Program logic](reactjs.md#program-logic)
       * [for loop](reactjs.md#for-loop)
       * [if/else](reactjs.md#ifelse)
       * [switch](reactjs.md#switch)
       * [use switch to return from a function](reactjs.md#use-switch-to-return-from-a-function)
-      * [forEach](reactjs.md#foreach)
-      * [map](reactjs.md#map)
    * [String](reactjs.md#string)
       * [Split](reactjs.md#split)
    * [Asyncronous programing](reactjs.md#asyncronous-programing)
@@ -30,7 +31,7 @@
       * [min, max](reactjs.md#min-max)
    * [Moment](reactjs.md#moment)
 
-<!-- Added by: runner, at: Fri May 28 11:15:46 UTC 2021 -->
+<!-- Added by: runner, at: Fri May 28 12:28:19 UTC 2021 -->
 
 <!--te-->
 
