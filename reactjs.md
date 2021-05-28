@@ -85,6 +85,22 @@ public testFunction(a: string, b: boolean, c: number): any {
   let shallowCopy = array.slice()
 ```
 
+### forEach
+
+```typescript
+array.forEach(element => {doStuff(element);});
+```
+
+### map
+```typescript
+array.map(element => {(element);});
+```
+
+### filter
+```typescript
+array.filter(element => {(element.property == someValue);});
+```
+
 
 ### 2D arrays
 ```typescript
@@ -152,16 +168,6 @@ func(item: Type): ReturnType {
             return 3;
     }
 }
-```
-### forEach
-
-```typescript
-array.forEach(element => {doStuff(element);});
-```
-
-### map
-```typescript
-array.map(element => {(element);});
 ```
 
 ## String
