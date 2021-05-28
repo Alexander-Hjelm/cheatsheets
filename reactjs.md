@@ -26,15 +26,12 @@
    * [HTML components](reactjs.md#html-components)
       * [React.Component](reactjs.md#reactcomponent)
          * [render method](reactjs.md#render-method)
-      * [Checkbox](reactjs.md#checkbox)
-      * [Span](reactjs.md#span)
-      * [Radio button group](reactjs.md#radio-button-group)
          * [componentDidMount()](reactjs.md#componentdidmount)
    * [Math](reactjs.md#math)
       * [min, max](reactjs.md#min-max)
    * [Moment](reactjs.md#moment)
 
-<!-- Added by: runner, at: Fri May 28 12:33:16 UTC 2021 -->
+<!-- Added by: runner, at: Fri May 28 12:28:19 UTC 2021 -->
 
 <!--te-->
 
@@ -226,6 +223,17 @@ public render(): JSX.Element {
 }
 ```
 
+#### componentDidMount()
+
+```typescript
+public componentDidMount() {
+  SDK.init().then(() => {
+    this.registerEvents();
+  });
+  this.registerInputEvents();
+}
+```
+
 ### Checkbox
 ```typescript
 <Checkbox
@@ -266,16 +274,29 @@ public render(): JSX.Element {
 </div>
 ```
 
-#### componentDidMount()
-
+### Text field
 ```typescript
-public componentDidMount() {
-  SDK.init().then(() => {
-    this.registerEvents();
-  });
-  this.registerInputEvents();
-}
+<TextField 
+        className="texfield"
+        value={this.getValue()}
+        maxLength={50}
+        onChange={(_obj, item) => {
+            this.doStuff(item);
+        }}
+    />
 ```
+
+### Date Picker
+```typescript
+<input type="date" 
+        className="date-picker"
+        placeholder="Select Date"
+        value={this.getDate()}
+        onChange={(event) => {
+            this.doStuff(event.target.value);
+        }}
+    />
+``` 
 
 ## Math
 
