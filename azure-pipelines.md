@@ -172,6 +172,32 @@ stages:
         steps:
         - script: 'echo AAA'
 ```
+
+## Use each to create a loop with indices
+Store the indices array as a parameter on the template
+
+```yaml
+parameters:
+- name: truthArray
+  type: object
+  default: [true, true, false]
+- name: arrayB
+  type: object
+  default: ['a', 'b', 'c']
+- name: loopIndices
+  type: object
+  default: [0, 1, 2]
+
+# Deploy to each environment, one stage for each
+- ${{ each i in parameters.loopIndices }}:
+  - ${{ if eq(parameters.truthArray[i], true) }}: 
+    - stage: ${{parameters.arrayB[i]}}
+      displayName: 'Stage ${{parameters.arrayB[i]}}'
+      condition: succeeded()
+      jobs:
+      ...
+```
+
 # Debug
 Can only be done by setting the system.debug variable in yaml:
 ```yaml
