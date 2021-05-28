@@ -13,6 +13,7 @@
    * [Invoke Template as Job with parameters](azure-pipelines.md#invoke-template-as-job-with-parameters)
    * [Invoke template as Step](azure-pipelines.md#invoke-template-as-step)
 * [Each](azure-pipelines.md#each)
+   * [Use each to create a loop with indices](azure-pipelines.md#use-each-to-create-a-loop-with-indices)
 * [Debug](azure-pipelines.md#debug)
 * [Pass variables between tasks](azure-pipelines.md#pass-variables-between-tasks)
    * [write to env variable](azure-pipelines.md#write-to-env-variable)
@@ -28,7 +29,7 @@
 * [Visual Studio build](azure-pipelines.md#visual-studio-build)
    * [Publish artifact as a .zip or files](azure-pipelines.md#publish-artifact-as-a-zip-or-files)
 
-<!-- Added by: runner, at: Wed May 26 10:50:31 UTC 2021 -->
+<!-- Added by: runner, at: Fri May 28 11:15:43 UTC 2021 -->
 
 <!--te-->
 
