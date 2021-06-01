@@ -4,7 +4,7 @@
 * [SQL](sql.md#sql)
    * [Sample query](sql.md#sample-query)
 
-<!-- Added by: runner, at: Fri May 28 12:36:44 UTC 2021 -->
+<!-- Added by: runner, at: Tue Jun  1 09:19:38 UTC 2021 -->
 
 <!--te-->
 

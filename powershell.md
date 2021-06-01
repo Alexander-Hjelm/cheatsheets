@@ -5,6 +5,7 @@
    * [help](powershell.md#help-1)
    * [version](powershell.md#version)
    * [gcm](powershell.md#gcm)
+* [Types, datatypes](powershell.md#types-datatypes)
 * [Connectivity](powershell.md#connectivity)
    * [curl](powershell.md#curl)
    * [Test-Connection](powershell.md#test-connection)
@@ -48,7 +49,7 @@
 * [Check status](powershell.md#check-status)
 * [Select-String](powershell.md#select-string)
 
-<!-- Added by: runner, at: Fri May 28 12:36:42 UTC 2021 -->
+<!-- Added by: runner, at: Tue Jun  1 09:19:36 UTC 2021 -->
 
 <!--te-->
 
