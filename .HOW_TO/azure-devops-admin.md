@@ -42,3 +42,10 @@ Use API or Import
 https://nkdagility.github.io/azure-devops-migration-tools/getting-started
 
 Run from a VM in Azure Portal, Windows Server 2019, 32 GB RAM
+
+### Checklist
+- Cerate the target project
+- On the target project, ensure that on the Process, all work item types have the ReflectWorkItemId hidden property.
+- Download the tool and init the configuration file
+- Source and Target: Set projects and AuthenticationMode (Prompt, AccessToken)
+- Set LogLevel=Debug, Enabled=true, FixHtmlAttachmentLinks=true, clear NodeBasePaths 
