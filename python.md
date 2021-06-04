@@ -205,6 +205,13 @@ f.write("Now the file has more content!")
 f.close()
 ```
 
+## write lines to file
+```python
+f = open("demofile3.txt", "a")
+f.writelines(["See you soon!", "Over and out."])
+f.close()
+```
+
 # regex
 
 ## simple match, return True/False
