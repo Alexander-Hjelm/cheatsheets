@@ -27,6 +27,7 @@
    * [list files in directory](python.md#list-files-in-directory)
    * [read file lines into list](python.md#read-file-lines-into-list)
    * [write string to file](python.md#write-string-to-file)
+   * [write lines to file](python.md#write-lines-to-file)
 * [regex](python.md#regex)
    * [simple match, return True/False](python.md#simple-match-return-truefalse)
    * [match regex pattern into named groups](python.md#match-regex-pattern-into-named-groups)
@@ -41,7 +42,7 @@
    * [Write json](python.md#write-json)
 * [random](python.md#random)
 
-<!-- Added by: runner, at: Wed Jun  2 14:19:47 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jun  4 07:11:10 UTC 2021 -->
 
 <!--te-->
 
