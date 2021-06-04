@@ -19,9 +19,12 @@ Use **tfs-apptier** to check the AzDo admin (https, virual IIS path, ports and h
 
 ## Upgrade procedure
 
+Do the upgrade as a service user
+
 - Order a snapshot (maintainance)
-- Back up the databases (in AzDo Server Admin Console, Tfs_DefaultCollection, Tfs_Configuration)
-- In-place upgrade (Download .exe and run)
+  - For an in-place upgrade, it's sufficient to just back up the databases (in AzDo Server Admin Console, Tfs_DefaultCollection, Tfs_Configuration).
+- Take a screenshot of the configuration in the AzDo Admin console
+- Download the .iso from https://docs.microsoft.com/en-us/azure/devops/server/download/azuredevopsserver?view=azure-devops and run)
 - Update all agents, from the agent pools in AzDo
 
 ## Verification steps
