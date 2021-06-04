@@ -46,10 +46,11 @@
 * [Date](powershell.md#date)
 * [Windows services](powershell.md#windows-services)
    * [Start/stop](powershell.md#startstop)
-* [Check status](powershell.md#check-status)
+   * [Check status](powershell.md#check-status)
+   * [Run Powershell command in new console (New window)](powershell.md#run-powershell-command-in-new-console-new-window)
 * [Select-String](powershell.md#select-string)
 
-<!-- Added by: runner, at: Fri Jun  4 07:11:10 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jun  4 13:27:52 UTC 2021 -->
 
 <!--te-->
 
