@@ -324,13 +324,21 @@ Start-Service [Service name] -PassThru
 Stop-Service [Service name] -PassThru
 ```
 
-# Check status
+## Check status
 ```bat
 services.msc
 ```
-  
+
+## Run Powershell command in new console (New window)
+```bat
+Start-Process PowerShell -ArgumentList "Get-Date; Read-Host 'Press Enter'"
+Start-Process PowerShell -ArgumentList "./my-script.ps1; Read-Host 'Press Enter'"
+```
+
 # Select-String
 Find, grep
 ```bat
 [Command] | Select-String [search-string]
 ```
+
+  
