@@ -8,7 +8,7 @@
    * [Enable](chocolatey.md#enable)
    * [Disable](chocolatey.md#disable)
 
-<!-- Added by: runner, at: Mon Jun 14 08:33:06 UTC 2021 -->
+<!-- Added by: runner, at: Tue Jun 15 07:56:14 UTC 2021 -->
 
 <!--te-->
 
