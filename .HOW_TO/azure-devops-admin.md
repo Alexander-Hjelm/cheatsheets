@@ -23,8 +23,12 @@ Do the upgrade as a service user
 
 - Order a snapshot (maintainance)
   - For an in-place upgrade, it's sufficient to just back up the databases (in AzDo Server Admin Console, Tfs_DefaultCollection, Tfs_Configuration).
-- Take a screenshot of the configuration in the AzDo Admin console
-- Download the .iso from https://docs.microsoft.com/en-us/azure/devops/server/download/azuredevopsserver?view=azure-devops and run)
+- Make note of the configuration under Application Tier in the Azure Devops Admin Console, for example by taking a screenshot and saving it.
+- Under Application Tier -> Team Project Collections, disable all active collections. Now users will not be able to access the Azure Devops portal.
+- Download the .iso from https://docs.microsoft.com/en-us/azure/devops/server/download/azuredevopsserver?view=azure-devops and run).
+- When the installation finishes, enable all collections again in the Azure Devops Admin Console.
+- Take a look in the AzDo Admin console and verify that all settings are identical to the screenshot you took earlier.
+- Navigate to http://localhost in the browser and verify that the Azure Devops portal loads correctly.
 - Update all agents, from the agent pools in AzDo
 
 ## Verification steps
