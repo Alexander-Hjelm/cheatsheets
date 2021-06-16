@@ -36,7 +36,7 @@
       * [min, max](reactjs.md#min-max)
    * [Moment](reactjs.md#moment)
 
-<!-- Added by: runner, at: Tue Jun 15 09:49:07 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jun 16 12:26:19 UTC 2021 -->
 
 <!--te-->
 

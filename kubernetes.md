@@ -9,7 +9,7 @@
    * [Manage services](kubernetes.md#manage-services)
    * [Manage addons](kubernetes.md#manage-addons)
 
-<!-- Added by: runner, at: Tue Jun 15 09:49:05 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jun 16 12:26:17 UTC 2021 -->
 
 <!--te-->
 
