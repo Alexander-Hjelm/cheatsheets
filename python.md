@@ -25,6 +25,7 @@
    * [uppercase, lowercase](python.md#uppercase-lowercase)
 * [file operations](python.md#file-operations)
    * [list files in directory](python.md#list-files-in-directory)
+   * [Create directory, subfolders (subdirectories)](python.md#create-directory-subfolders-subdirectories)
    * [read file lines into list](python.md#read-file-lines-into-list)
    * [write string to file](python.md#write-string-to-file)
    * [write lines to file](python.md#write-lines-to-file)
@@ -43,7 +44,7 @@
 * [random](python.md#random)
 * [Execute command](python.md#execute-command)
 
-<!-- Added by: runner, at: Wed Jun 16 12:26:19 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jun 16 12:46:52 UTC 2021 -->
 
 <!--te-->
 
