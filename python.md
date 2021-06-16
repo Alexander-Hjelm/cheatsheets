@@ -183,7 +183,6 @@ string.lower()
 # file operations
 
 ## list files in directory
-
 ```python
 import os
 for root, dirs, files in os.walk(".", topdown=False):
@@ -191,6 +190,21 @@ for root, dirs, files in os.walk(".", topdown=False):
       print(os.path.join(root, name))
    for name in dirs:
       print(os.path.join(root, name))
+```
+
+## Create directory, subfolders (subdirectories)
+```python
+# For a dir
+dir = "./path/to/dir"
+os.makedirs(dir, exist_ok=True)
+
+# For a path
+path = "./path/to/file.txt"
+dir = path.split("/")
+dir.pop()
+dir = "/".join(map(str, dir))
+
+os.makedirs(dir, exist_ok=True)
 ```
 
 ## read file lines into list
@@ -320,6 +334,6 @@ print(random.random())
 
 # Execute command
 ```python
-import os
-markdown = os.system("markdown "+path+" -h")
+import subprocess
+output = subprocess.check_output(["echo hello"], shell=True).decode('utf-8')
 ```
