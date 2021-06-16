@@ -316,3 +316,9 @@ with open("sample.json", "w") as outfile:
 import random
 print(random.random())
 ```
+
+# Execute command
+```python
+import os
+markdown = os.system("markdown "+path+" -h")
+```
