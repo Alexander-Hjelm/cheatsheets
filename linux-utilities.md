@@ -36,7 +36,7 @@
       * [curl POST with parameters](linux-utilities.md#curl-post-with-parameters)
       * [curl to post json](linux-utilities.md#curl-to-post-json)
 
-<!-- Added by: runner, at: Wed Jun 16 12:46:51 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jun 17 16:42:54 UTC 2021 -->
 
 <!--te-->
 
