@@ -49,8 +49,10 @@
    * [Check status](powershell.md#check-status)
    * [Run Powershell command in new console (New window)](powershell.md#run-powershell-command-in-new-console-new-window)
 * [Select-String](powershell.md#select-string)
+* [ssh-keygen](powershell.md#ssh-keygen)
+   * [Verify .md5 hash of a key file](powershell.md#verify-md5-hash-of-a-key-file)
 
-<!-- Added by: runner, at: Thu Jun 17 16:42:55 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jun 18 10:36:45 UTC 2021 -->
 
 <!--te-->
 
