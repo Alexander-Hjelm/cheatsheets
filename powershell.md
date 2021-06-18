@@ -342,4 +342,10 @@ Find, grep
 [Command] | Select-String [search-string]
 ```
 
+# ssh-keygen
+
+## Verify .md5 hash of a key file
+  ```bat
+  C:\Users\alexander\.ssh>ssh-keygen -l -E md5 -f id_rsa
+  ```
   
