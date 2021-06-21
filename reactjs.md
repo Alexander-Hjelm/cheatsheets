@@ -311,6 +311,11 @@ a = Math.max(a, b);
 b = Math.min(a, b);
 ```
 
+### Round
+```typescript
+6.688689).toFixed(1)); // 6.7
+```
+
 ## Moment
 ```typescript
 import { Moment } from 'moment';
