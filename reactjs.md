@@ -34,9 +34,10 @@
       * [Date Picker](reactjs.md#date-picker)
    * [Math](reactjs.md#math)
       * [min, max](reactjs.md#min-max)
+      * [Round](reactjs.md#round)
    * [Moment](reactjs.md#moment)
 
-<!-- Added by: runner, at: Fri Jun 18 10:36:46 UTC 2021 -->
+<!-- Added by: runner, at: Mon Jun 21 13:24:56 UTC 2021 -->
 
 <!--te-->
 
