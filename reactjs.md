@@ -314,7 +314,7 @@ b = Math.min(a, b);
 
 ### Round
 ```typescript
-6.688689).toFixed(1)); // 6.7
+Math.round(3.14159265359 * 100) / 100
 ```
 
 ## Moment
