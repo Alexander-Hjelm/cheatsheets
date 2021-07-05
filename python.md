@@ -60,6 +60,21 @@ print 'Number of arguments:', len(sys.argv), 'arguments.'
 print 'Argument List:', str(sys.argv)
 ```
 
+### getopt
+```python
+import getopt
+import sys
+
+argv = sys.argv[1:]
+opts, args = getopt.getopt(argv, 'w:s:')
+
+for k, v in opts:
+    if k == "-w":
+        dostuff()
+    if k == "-s":
+        dostuff()
+```
+
 # list
 
 ## list from range
