@@ -4,6 +4,7 @@
 * [Python](python.md#python)
 * [sys](python.md#sys)
    * [Arguments](python.md#arguments)
+      * [getopt](python.md#getopt)
 * [list](python.md#list)
    * [list from range](python.md#list-from-range)
    * [print delimited list](python.md#print-delimited-list)
@@ -44,7 +45,7 @@
 * [random](python.md#random)
 * [Execute command](python.md#execute-command)
 
-<!-- Added by: runner, at: Mon Jul  5 09:31:39 UTC 2021 -->
+<!-- Added by: runner, at: Mon Jul  5 13:02:44 UTC 2021 -->
 
 <!--te-->
 
