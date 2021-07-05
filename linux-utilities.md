@@ -37,7 +37,7 @@
       * [curl to post json](linux-utilities.md#curl-to-post-json)
    * [dotnet](linux-utilities.md#dotnet)
 
-<!-- Added by: runner, at: Mon Jul  5 09:08:56 UTC 2021 -->
+<!-- Added by: runner, at: Mon Jul  5 09:31:38 UTC 2021 -->
 
 <!--te-->
 
