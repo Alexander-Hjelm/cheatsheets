@@ -286,5 +286,5 @@ curl --header "Content-Type: application/json" --request POST --data "{\"name\":
 ## dotnet
 ```bash
 dotnet build
-dotnet run
+dotnet run -- -u 3 -s 10 -p 1 -r 75 -e 5
 ```
