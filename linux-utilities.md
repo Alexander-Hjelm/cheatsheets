@@ -281,3 +281,9 @@ curl -X POST --data "this is raw data" https://example.com/endpoints?req_param_1
 ```bash
 curl --header "Content-Type: application/json" --request POST --data "{\"name\": \"eddie\"}" https://<your-url-here
 ```
+
+## dotnet
+```bash
+dotnet build
+dotnet run
+```
