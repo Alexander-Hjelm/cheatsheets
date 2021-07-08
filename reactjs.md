@@ -36,8 +36,10 @@
       * [min, max](reactjs.md#min-max)
       * [Round](reactjs.md#round)
    * [Moment](reactjs.md#moment)
+   * [Files, IO](reactjs.md#files-io)
+      * [os.walk, iterate through files, subfolders](reactjs.md#oswalk-iterate-through-files-subfolders)
 
-<!-- Added by: runner, at: Mon Jul  5 13:02:44 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jul  8 06:31:16 UTC 2021 -->
 
 <!--te-->
 
