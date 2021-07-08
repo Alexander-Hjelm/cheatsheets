@@ -339,6 +339,26 @@ var changeddate = moment([2017, 2, 31]).add(5, 'hours');
 
 ## Files, IO
 
+### Read file
+```typescript
+fs.readFile('input.txt', function (err, data) {
+  if (err) {
+    return console.error(err);
+  }
+    console.log("Asynchronous read: " + data.toString());
+});
+```
+
+### Write file
+```typescript
+fs.writeFile('input.txt', 'Simply Easy Learning!', function(err) {
+  if (err) {
+    return console.error(err);
+  }
+  console.log("Data written successfully!");
+});
+```
+
 ### os.walk, iterate through files, subfolders
 ```typescript
 const fs = require("fs")
