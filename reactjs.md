@@ -334,3 +334,33 @@ let momentsAfter = moment(dateA).isAfter(dateB, "Day");
 // Add to moment
 var changeddate = moment([2017, 2, 31]).add(5, 'hours');
 ```
+
+## Files, IO
+
+### os.walk, iterate through files, subfolders
+```typescript
+const fs = require("fs")
+const path = require("path")
+
+// Config
+src_path = "/home/groove/dev/confluence-to-azdo/505632453"
+
+const getAllFiles = function(dirPath, arrayOfFiles) {
+  files = fs.readdirSync(dirPath)
+
+  arrayOfFiles = arrayOfFiles || []
+
+  files.forEach(function(file) {
+    if (fs.statSync(dirPath + "/" + file).isDirectory()) {
+      arrayOfFiles = getAllFiles(dirPath + "/" + file, arrayOfFiles)
+    } else {
+      arrayOfFiles.push(path.join(__dirname, dirPath, "/", file))
+    }
+  })
+
+  return arrayOfFiles
+}
+
+const arrayOfFiles = getAllFiles(src_path)
+console.log(arrayOfFiles)
+```
