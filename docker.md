@@ -6,6 +6,7 @@
    * [images](docker.md#images)
    * [run](docker.md#run)
       * [Options:](docker.md#options)
+      * [Example:](docker.md#example)
    * [exec](docker.md#exec)
 * [Docker Container](docker.md#docker-container)
    * [ls](docker.md#ls)
@@ -20,7 +21,7 @@
       * [Powershell](docker.md#powershell)
       * [Bash](docker.md#bash)
 
-<!-- Added by: runner, at: Thu Jul  8 06:36:40 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul  9 07:57:14 UTC 2021 -->
 
 <!--te-->
 
