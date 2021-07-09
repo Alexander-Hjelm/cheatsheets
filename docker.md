@@ -56,6 +56,12 @@ docker run [Options] <image name/image url>
 - **-i**, interactive
 - **-d**, detached
 - **-P**, expose ports
+- **-v**, Bind mount a volume
+
+### Example:
+```bash
+docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /your/home:/var/jenkins_home 1282bc63ab17
+```
 
 ## exec
 
