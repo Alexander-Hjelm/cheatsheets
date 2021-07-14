@@ -288,3 +288,11 @@ curl --header "Content-Type: application/json" --request POST --data "{\"name\":
 dotnet build
 dotnet run -- -u 3 -s 10 -p 1 -r 75 -e 5
 ```
+
+## openssl
+
+### convert pem to crt
+```bash
+openssl x509 -outform der -in your-cert.pem -out your-cert.crt
+```
+
