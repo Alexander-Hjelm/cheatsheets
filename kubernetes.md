@@ -9,7 +9,7 @@
    * [Manage services](kubernetes.md#manage-services)
    * [Manage addons](kubernetes.md#manage-addons)
 
-<!-- Added by: runner, at: Wed Jul 14 11:48:58 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jul 14 07:11:07 UTC 2021 -->
 
 <!--te-->
 
@@ -65,4 +65,9 @@ kubectl delete service hello-node
 minikube addons list
 minikube addons enable metrics-server
 minikube addons disable metrics-server
+```
+
+# Debug
+```bash
+kubectl logs pod/ingress-nginx-controller-5d88495688-nb9x7 -n ingress-nginx | grep cert
 ```
