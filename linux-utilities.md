@@ -293,8 +293,21 @@ dotnet run -- -u 3 -s 10 -p 1 -r 75 -e 5
 
 ## openssl
 
+### Create a certificate
+```bash
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -out knote-ingress-tls.crt -keyout knote-ingress-tls.key -subj "/CN=secretscanner.info/O=knote-ingress-tls" -addext "subjectAltName = DNS:secretscanner.info"
+```
+
 ### convert pem to crt
 ```bash
 openssl x509 -outform der -in your-cert.pem -out your-cert.crt
 ```
 
+### Install trusted certificates
+```bash
+sudo cp knote-ingress-tls.crt /usr/share/ca-certificates/extra/knote-ingress-tls.crt
+sudo dpkg-reconfigure ca-certificates
+sudo update-ca-certificates
+```
+
+Note: You may also have to add the certifiactes manually in chrome or firefox
