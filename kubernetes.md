@@ -68,6 +68,13 @@ minikube addons enable metrics-server
 minikube addons disable metrics-server
 ```
 
+# Secrets
+
+## Add certificate as secret
+```bash
+kubectl create secret tls knote-ingress-tls --namespace uat --key knote-ingress-tls.key --cert knote-ingress-tls.crt
+```
+
 # Debug
 Debug certificates.
 ```bash
