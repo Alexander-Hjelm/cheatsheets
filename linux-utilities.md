@@ -41,7 +41,7 @@
       * [convert pem to crt](linux-utilities.md#convert-pem-to-crt)
       * [Install trusted certificates](linux-utilities.md#install-trusted-certificates)
 
-<!-- Added by: runner, at: Wed Jul 14 12:40:11 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jul 14 12:44:26 UTC 2021 -->
 
 <!--te-->
 
