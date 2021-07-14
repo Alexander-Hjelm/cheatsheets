@@ -15,3 +15,11 @@ SELECT Id, CompanyName, City, Country
   FROM Supplier
  WHERE Country IN ('USA', 'UK', 'Japan')
 ```
+
+# SQL Server
+
+## Show all tables
+
+```sql
+SELECT * FROM INFORMATION_SCHEMA.TABLES
+```
