@@ -3,8 +3,10 @@
 <!--ts-->
 * [SQL](sql.md#sql)
    * [Sample query](sql.md#sample-query)
+* [SQL Server](sql.md#sql-server)
+   * [Show all tables](sql.md#show-all-tables)
 
-<!-- Added by: runner, at: Wed Jul 14 13:58:42 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jul 14 14:31:16 UTC 2021 -->
 
 <!--te-->
 
