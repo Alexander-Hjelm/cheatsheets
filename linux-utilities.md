@@ -40,8 +40,9 @@
       * [Create a certificate](linux-utilities.md#create-a-certificate)
       * [convert pem to crt](linux-utilities.md#convert-pem-to-crt)
       * [Install trusted certificates](linux-utilities.md#install-trusted-certificates)
+   * [sqlcmd](linux-utilities.md#sqlcmd)
 
-<!-- Added by: runner, at: Wed Jul 14 12:44:26 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jul 14 13:58:40 UTC 2021 -->
 
 <!--te-->
 
