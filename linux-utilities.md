@@ -37,9 +37,11 @@
       * [curl to post json](linux-utilities.md#curl-to-post-json)
    * [dotnet](linux-utilities.md#dotnet)
    * [openssl](linux-utilities.md#openssl)
+      * [Create a certificate](linux-utilities.md#create-a-certificate)
       * [convert pem to crt](linux-utilities.md#convert-pem-to-crt)
+      * [Install trusted certificates](linux-utilities.md#install-trusted-certificates)
 
-<!-- Added by: runner, at: Wed Jul 14 11:50:06 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jul 14 12:40:11 UTC 2021 -->
 
 <!--te-->
 
