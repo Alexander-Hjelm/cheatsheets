@@ -68,6 +68,7 @@ minikube addons disable metrics-server
 ```
 
 # Debug
+Debug certificates.
 ```bash
 kubectl logs pod/ingress-nginx-controller-5d88495688-nb9x7 -n ingress-nginx | grep cert
 ```
