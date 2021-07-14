@@ -36,8 +36,10 @@
       * [curl POST with parameters](linux-utilities.md#curl-post-with-parameters)
       * [curl to post json](linux-utilities.md#curl-to-post-json)
    * [dotnet](linux-utilities.md#dotnet)
+   * [openssl](linux-utilities.md#openssl)
+      * [convert pem to crt](linux-utilities.md#convert-pem-to-crt)
 
-<!-- Added by: runner, at: Wed Jul 14 07:11:07 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jul 14 11:48:58 UTC 2021 -->
 
 <!--te-->
 
