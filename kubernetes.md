@@ -3,6 +3,7 @@
 * [Create a minikube cluster](kubernetes.md#create-a-minikube-cluster)
 * [Manage deployments](kubernetes.md#manage-deployments)
    * [apply](kubernetes.md#apply)
+   * [Specific deployment settings](kubernetes.md#specific-deployment-settings)
 * [Manage pods](kubernetes.md#manage-pods)
 * [View events](kubernetes.md#view-events)
 * [Services](kubernetes.md#services)
@@ -13,7 +14,7 @@
    * [Add certificate as secret](kubernetes.md#add-certificate-as-secret)
 * [Debug](kubernetes.md#debug)
 
-<!-- Added by: runner, at: Fri Jul 16 10:32:06 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 16 10:35:09 UTC 2021 -->
 
 <!--te-->
 
