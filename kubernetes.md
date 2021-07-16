@@ -86,11 +86,24 @@ kubectl apply -f api-deployment.yaml --namespace uat
 
 ## Specific deployment settings
 - **imagePullPolicy: Never/Always**, should the pod pull a new image from upon restart?
+- **metadata**, contains the name and labels of an object, for example:
+```yaml
+metadata:
+  name: secretscanner-web
+  labels:
+    app: secretscanner-web
+```
 
 # Manage pods
 
+## Get pods
 ```bash
 kubectl get pods
+```
+
+## delete pods
+```bash
+kubectl delete pod <pod name>
 ```
 
 # View events
@@ -125,6 +138,14 @@ minikube addons disable metrics-server
 ## Add certificate as secret
 ```bash
 kubectl create secret tls knote-ingress-tls --namespace uat --key knote-ingress-tls.key --cert knote-ingress-tls.crt
+```
+
+# Labels
+
+We can refer to objects using labels, since the name is regenerated on "restarting" a resource.
+
+```bash
+kubectl delete pods -l app=my-app
 ```
 
 # Debug
