@@ -272,7 +272,14 @@ pdftk file1.pdf file2.pdf file3.pdf cat output newfile.pdf
 pdftk A=one.pdf B=two.pdf cat A1-7 B1-5 A8 output combined.pdf
 ```
 
-## Find host ip address
+## networking
+
+### netcat, nc
+```bash
+nc -v google.com 443
+```
+
+### Find host ip address
 ```bash
 wget http://ipecho.net/plain -O - -q ; echo
 ```
