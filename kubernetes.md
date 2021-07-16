@@ -13,6 +13,8 @@
    * [apply](kubernetes.md#apply)
    * [Specific deployment settings](kubernetes.md#specific-deployment-settings)
 * [Manage pods](kubernetes.md#manage-pods)
+   * [Get pods](kubernetes.md#get-pods)
+   * [delete pods](kubernetes.md#delete-pods)
 * [View events](kubernetes.md#view-events)
 * [Services](kubernetes.md#services)
    * [Expose](kubernetes.md#expose)
@@ -20,9 +22,10 @@
    * [Manage addons](kubernetes.md#manage-addons)
 * [Secrets](kubernetes.md#secrets)
    * [Add certificate as secret](kubernetes.md#add-certificate-as-secret)
+* [Labels](kubernetes.md#labels)
 * [Debug](kubernetes.md#debug)
 
-<!-- Added by: runner, at: Fri Jul 16 11:47:53 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 16 11:54:10 UTC 2021 -->
 
 <!--te-->
 
