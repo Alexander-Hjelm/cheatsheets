@@ -401,7 +401,7 @@ div["class"] = "gh_avatar"
 
 ## Edit inner html text
 ```python
-p.text = p.text.replace("[TOC]", "")
+p.string = p.text.replace("[TOC]", "")
 ```
 
 ## Specific elements
