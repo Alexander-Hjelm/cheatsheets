@@ -141,5 +141,8 @@ docker build -t test/imagename - < Dockerfile
                                              
 ## Build from context with dockerfile
 ```bash
-docker image build .
+docker image build -t secret-scanner/web .
 ```
+
+**-t**: specifies image name and tag
+                                             
