@@ -20,8 +20,9 @@
    * [build from specified dockerfile](docker.md#build-from-specified-dockerfile)
       * [Powershell](docker.md#powershell)
       * [Bash](docker.md#bash)
+   * [Build from context with dockerfile](docker.md#build-from-context-with-dockerfile)
 
-<!-- Added by: runner, at: Fri Jul 16 10:11:42 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 16 10:25:33 UTC 2021 -->
 
 <!--te-->
 
