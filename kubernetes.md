@@ -43,6 +43,9 @@ kubectl delete deployment hello-node
 kubectl apply -f api-deployment.yaml --namespace uat
 ```
 
+## Specific deployment settings
+- **imagePullPolicy: Never/Always**, should the pod pull a new image upon restart?
+
 # Manage pods
 
 ```bash
