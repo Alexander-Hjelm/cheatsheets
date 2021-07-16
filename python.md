@@ -44,8 +44,19 @@
    * [Write json](python.md#write-json)
 * [random](python.md#random)
 * [Execute command](python.md#execute-command)
+* [BeautfulSoup, bs4](python.md#beautfulsoup-bs4)
+   * [Create soup from html string](python.md#create-soup-from-html-string)
+   * [Write to file](python.md#write-to-file)
+   * [Create and append elements](python.md#create-and-append-elements)
+   * [Find elements](python.md#find-elements)
+   * [Set attributes](python.md#set-attributes)
+   * [Edit inner html text](python.md#edit-inner-html-text)
+   * [Specific elements](python.md#specific-elements)
+      * [input](python.md#input)
+      * [a](python.md#a)
+      * [img](python.md#img)
 
-<!-- Added by: runner, at: Wed Jul 14 14:31:15 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 16 08:09:21 UTC 2021 -->
 
 <!--te-->
 
