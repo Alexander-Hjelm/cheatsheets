@@ -411,6 +411,15 @@ p.string = p.text.replace("[TOC]", "")
 input = BeautifulSoup('<input type="text" oninput="search(this.value);"></input>', 'html.parser')
 ```
 
+Javscript:
+```js
+function search(value)
+{
+    alert("lol")
+}
+```
+
+
 ### a
 ```python
 a = BeautifulSoup("<a></a>", 'html.parser').a
