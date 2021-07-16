@@ -137,5 +137,8 @@ Get-Content C:\Temp\MyDockerFile | docker build -t test/imagename -
 ```bash
 docker build -t test/imagename - < Dockerfile
 ```
-
-
+                                             
+## Build from context with dockerfile
+```bash
+docker image build .
+```
