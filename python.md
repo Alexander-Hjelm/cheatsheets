@@ -354,3 +354,60 @@ print(random.random())
 import subprocess
 output = subprocess.check_output(["echo hello"], shell=True).decode('utf-8')
 ```
+
+# BeautfulSoup, bs4
+
+## Create soup from html string
+```python
+html = <html><head><title>Title</title></head><body></body></html>
+soup = BeautifulSoup(html, "html.parser")
+```
+
+## Write to file
+```python
+with open(target_path, 'w') as f:
+    f.write(soup.prettify())
+```
+
+## Create and append elements
+```python
+    div = BeautifulSoup("<div></div>", 'html.parser').div
+    ul = BeautifulSoup("<ul></ul>", 'html.parser')
+    div.append(ul)
+```
+
+## Find elements
+```python
+div = soup.find("div", {"id": "main_content"})
+paragraphs = div.findAll('p')
+```
+
+## Set attributes
+```python
+div['id']="index"
+div["class"] = "gh_avatar"
+```
+
+## Edit inner html text
+```python
+p.text = p.text.replace("[TOC]", "")
+```
+
+## Specific elements
+
+### input
+```python
+input = BeautifulSoup('<input type="text" oninput="search(this.value);"></input>', 'html.parser')
+```
+
+### a
+```python
+a = BeautifulSoup("<a></a>", 'html.parser').a
+a["href"] = "https://github.com/"
+```
+
+### img
+```python
+img = BeautifulSoup("<img></img>", 'html.parser').img
+img["src"] = "https://example.com/image"
+```
