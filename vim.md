@@ -3,7 +3,7 @@
 * [Vim/Neovim](vim.md#vimneovim)
    * [Find and replace all](vim.md#find-and-replace-all)
 
-<!-- Added by: runner, at: Fri Jul 16 10:55:32 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 16 10:59:59 UTC 2021 -->
 
 <!--te-->
 
