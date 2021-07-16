@@ -56,6 +56,18 @@ minikube image ls
 minikube image build -t secret-scanner/web .
 ```
 
+# Manage namespace
+
+## Get namespaces
+```bash
+kubectl get namespace
+```
+
+## Set context / set namespace
+```bash
+kubectl config set-context --current --namespace=<NAME>
+```
+
 # Manage deployments
 
 ```bash
