@@ -13,7 +13,7 @@
    * [Add certificate as secret](kubernetes.md#add-certificate-as-secret)
 * [Debug](kubernetes.md#debug)
 
-<!-- Added by: runner, at: Fri Jul 16 10:25:34 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 16 10:32:06 UTC 2021 -->
 
 <!--te-->
 

@@ -22,7 +22,7 @@
       * [Bash](docker.md#bash)
    * [Build from context with dockerfile](docker.md#build-from-context-with-dockerfile)
 
-<!-- Added by: runner, at: Fri Jul 16 10:25:33 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 16 10:32:05 UTC 2021 -->
 
 <!--te-->
 
