@@ -318,7 +318,7 @@ Note: You may also have to add the certifiactes manually in chrome or firefox
 
 ## sqlcmd
 ```bash
-sqlcmd --S localhost -U sa -P Dev_12345 -d secret-scanner-dev
+sqlcmd -S localhost -U sa -P Dev_12345 -d secret-scanner-dev
 SELECT * from collection
 GO
 ```
