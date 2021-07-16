@@ -43,7 +43,7 @@ minikube dashboard
 ### push docker image to minikube repository
 After building an image locally, you need to push it to the minikube repository before the pods can find it.
 ```bash
-minikube cache add secret-scanner/web:latest
+minikube image load secret-scanner/web:latest
 ```
 
 ### List images in the minikube repositiry
