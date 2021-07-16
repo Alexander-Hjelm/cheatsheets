@@ -14,7 +14,7 @@
    * [Add certificate as secret](kubernetes.md#add-certificate-as-secret)
 * [Debug](kubernetes.md#debug)
 
-<!-- Added by: runner, at: Fri Jul 16 10:44:30 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 16 10:35:09 UTC 2021 -->
 
 <!--te-->
 
@@ -24,11 +24,19 @@
 - **Deployment**: checks on the health of your Pod and restarts the Pod's Container if it terminates.
 - **minikube**: a kubernetes virtual machine
 
+# minikube
+
 # Create a minikube cluster
 
 ```bash
 minikube start
 minikube dashboard
+```
+
+# push docker image to minikube repository
+After building an image locally, you need to push it to the minikube repository before the pods can find it.
+```bash
+minikube cache add secret-scanner/web:latest
 ```
 
 # Manage deployments
