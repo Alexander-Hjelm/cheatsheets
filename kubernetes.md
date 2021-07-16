@@ -37,6 +37,11 @@ kubectl get deployments
 kubectl delete deployment hello-node
 ```
 
+## apply
+```bash
+kubectl apply -f api-deployment.yaml --namespace uat
+```
+
 # Manage pods
 
 ```bash
