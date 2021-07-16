@@ -1,8 +1,9 @@
 <!--ts-->
 * [Definitions](kubernetes.md#definitions)
 * [minikube](kubernetes.md#minikube)
-* [Create a minikube cluster](kubernetes.md#create-a-minikube-cluster)
-* [push docker image to minikube repository](kubernetes.md#push-docker-image-to-minikube-repository)
+   * [Create a minikube cluster](kubernetes.md#create-a-minikube-cluster)
+   * [push docker image to minikube repository](kubernetes.md#push-docker-image-to-minikube-repository)
+   * [Build an image directly to the minikube repository](kubernetes.md#build-an-image-directly-to-the-minikube-repository)
 * [Manage deployments](kubernetes.md#manage-deployments)
    * [apply](kubernetes.md#apply)
    * [Specific deployment settings](kubernetes.md#specific-deployment-settings)
@@ -16,7 +17,7 @@
    * [Add certificate as secret](kubernetes.md#add-certificate-as-secret)
 * [Debug](kubernetes.md#debug)
 
-<!-- Added by: runner, at: Fri Jul 16 10:45:47 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 16 10:53:30 UTC 2021 -->
 
 <!--te-->
 
