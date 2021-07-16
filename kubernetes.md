@@ -6,6 +6,9 @@
       * [push docker image to minikube repository](kubernetes.md#push-docker-image-to-minikube-repository)
       * [List images in the minikube repositiry](kubernetes.md#list-images-in-the-minikube-repositiry)
       * [Build an image directly to the minikube repository](kubernetes.md#build-an-image-directly-to-the-minikube-repository)
+* [Manage namespace](kubernetes.md#manage-namespace)
+   * [Get namespaces](kubernetes.md#get-namespaces)
+   * [Set context / set namespace](kubernetes.md#set-context--set-namespace)
 * [Manage deployments](kubernetes.md#manage-deployments)
    * [apply](kubernetes.md#apply)
    * [Specific deployment settings](kubernetes.md#specific-deployment-settings)
@@ -19,7 +22,7 @@
    * [Add certificate as secret](kubernetes.md#add-certificate-as-secret)
 * [Debug](kubernetes.md#debug)
 
-<!-- Added by: runner, at: Fri Jul 16 10:59:56 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 16 11:47:53 UTC 2021 -->
 
 <!--te-->
 
