@@ -15,7 +15,7 @@
    * [logs](openshift.md#logs)
    * [rsh](openshift.md#rsh)
 
-<!-- Added by: runner, at: Mon Jul 19 11:03:47 UTC 2021 -->
+<!-- Added by: runner, at: Mon Jul 19 11:05:11 UTC 2021 -->
 
 <!--te-->
 
