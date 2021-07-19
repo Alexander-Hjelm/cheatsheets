@@ -44,5 +44,5 @@ module.exports.endpoint = url
 
 **Import**:
 ```bash
-var logger = require('./logger.js')
+const logger = require('./logger.js')
 ```
