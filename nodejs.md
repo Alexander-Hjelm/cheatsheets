@@ -7,13 +7,16 @@
       * [Execute/run a program](nodejs.md#executerun-a-program)
    * [modules](nodejs.md#modules)
       * [export/import](nodejs.md#exportimport)
+      * [export/import a single definiton](nodejs.md#exportimport-a-single-definiton)
    * [Files, IO](nodejs.md#files-io)
       * [Read file](nodejs.md#read-file)
       * [Write file](nodejs.md#write-file)
       * [os.walk, iterate through files, subfolders](nodejs.md#oswalk-iterate-through-files-subfolders)
    * [Events](nodejs.md#events)
+   * [Classes](nodejs.md#classes)
+   * [Server application with Express](nodejs.md#server-application-with-express)
 
-<!-- Added by: runner, at: Mon Jul 19 12:06:08 UTC 2021 -->
+<!-- Added by: runner, at: Mon Jul 19 12:25:32 UTC 2021 -->
 
 <!--te-->
 
