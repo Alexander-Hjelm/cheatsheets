@@ -26,3 +26,21 @@ sayHello("Hello world")
 ```bash
 node app.js
 ```
+
+## modules
+
+### export/import
+
+**Export**:
+```bash
+const url = "http:/mylogger.io"
+function log(s) {console.log(s)}
+
+module.exports.log = log
+module.exports.endpoint = url
+```
+
+**Import**:
+```bash
+require('./logger.js')
+```
