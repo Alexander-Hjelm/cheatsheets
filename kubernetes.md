@@ -152,7 +152,20 @@ kubectl delete pods -l app=my-app
 ```
 
 # Debug
-Debug certificates.
+
+## Debug certificates.
 ```bash
 kubectl logs pod/ingress-nginx-controller-5d88495688-nb9x7 -n ingress-nginx | grep cert
+```
+
+## tcpdump sidecar container
+
+To debug network traffic for a pod, add this container to the pod deployment:
+
+```bash
+- name: tcpdump
+  image: corfr/tcpdump
+  command:
+    - /bin/sleep
+    - infinity
 ```
