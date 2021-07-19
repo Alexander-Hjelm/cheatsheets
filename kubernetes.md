@@ -111,6 +111,11 @@ kubectl get pods
 kubectl delete pod <pod name>
 ```
 
+## exec, run a command in a pod/container
+```bash
+kubectl exec <pod name> --container <container name> -- echo "hello world"
+```
+
 # View events
 
 ```bash
@@ -170,4 +175,10 @@ To debug network traffic for a pod, add this container to the pod deployment:
   command:
     - /bin/sleep
     - infinity
+```
+
+Then run:
+
+```bash
+kubectl exec secretscanner-authprovider-79959c8478-x2lpb --container tcpdump -- tcpdump -v
 ```
