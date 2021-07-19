@@ -24,8 +24,10 @@
    * [Add certificate as secret](kubernetes.md#add-certificate-as-secret)
 * [Labels](kubernetes.md#labels)
 * [Debug](kubernetes.md#debug)
+   * [Debug certificates.](kubernetes.md#debug-certificates)
+   * [tcpdump sidecar container](kubernetes.md#tcpdump-sidecar-container)
 
-<!-- Added by: runner, at: Fri Jul 16 12:10:45 UTC 2021 -->
+<!-- Added by: runner, at: Mon Jul 19 06:59:41 UTC 2021 -->
 
 <!--te-->
 
