@@ -15,8 +15,9 @@
    * [Events](nodejs.md#events)
    * [Classes](nodejs.md#classes)
    * [Server application with Express](nodejs.md#server-application-with-express)
+   * [Sample package.json](nodejs.md#sample-packagejson)
 
-<!-- Added by: runner, at: Mon Jul 19 12:25:32 UTC 2021 -->
+<!-- Added by: runner, at: Mon Jul 19 12:26:57 UTC 2021 -->
 
 <!--te-->
 
