@@ -110,10 +110,10 @@ const EventEmitter = require('events')
 const emitter = new EventEmitter();
 
 // Register a listener
-emitter.on("messageLogged", finction(){
-  console.log("Listener called");
+emitter.on("messageLogged", (arg) => {
+  console.log("Listener called: " + arg.arg1 + ", " + arg.arg2);
 });
 
 // Raise an event
-emitter.emit("messageLogged");
+emitter.emit("messageLogged", {arg1: "lol", arg2: "haha"});
 ```
