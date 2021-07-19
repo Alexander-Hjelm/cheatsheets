@@ -11,8 +11,9 @@
       * [Read file](nodejs.md#read-file)
       * [Write file](nodejs.md#write-file)
       * [os.walk, iterate through files, subfolders](nodejs.md#oswalk-iterate-through-files-subfolders)
+   * [Events](nodejs.md#events)
 
-<!-- Added by: runner, at: Mon Jul 19 11:52:30 UTC 2021 -->
+<!-- Added by: runner, at: Mon Jul 19 12:02:50 UTC 2021 -->
 
 <!--te-->
 
