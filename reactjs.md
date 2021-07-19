@@ -19,6 +19,7 @@
       * [use switch to return from a function](reactjs.md#use-switch-to-return-from-a-function)
    * [String](reactjs.md#string)
       * [Split](reactjs.md#split)
+      * [Template string, format](reactjs.md#template-string-format)
    * [Asyncronous programing](reactjs.md#asyncronous-programing)
       * [async function](reactjs.md#async-function)
       * [await, then](reactjs.md#await-then)
@@ -41,7 +42,7 @@
       * [Write file](reactjs.md#write-file)
       * [os.walk, iterate through files, subfolders](reactjs.md#oswalk-iterate-through-files-subfolders)
 
-<!-- Added by: runner, at: Mon Jul 19 11:05:13 UTC 2021 -->
+<!-- Added by: runner, at: Mon Jul 19 11:49:49 UTC 2021 -->
 
 <!--te-->
 
