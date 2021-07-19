@@ -102,3 +102,17 @@ const getAllFiles = function(dirPath, arrayOfFiles) {
 const arrayOfFiles = getAllFiles(src_path)
 console.log(arrayOfFiles)
 ```
+
+## Events
+```typescript
+const EventEmitter = require('events')
+const emitter = new EventEmitter();
+
+// Register a listener
+emitter.on("messageLogged", finction(){
+  console.log("Listener called");
+});
+
+// Raise an event
+emitter.emit("messageLogged");
+```
