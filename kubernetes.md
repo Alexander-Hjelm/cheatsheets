@@ -15,6 +15,7 @@
 * [Manage pods](kubernetes.md#manage-pods)
    * [Get pods](kubernetes.md#get-pods)
    * [delete pods](kubernetes.md#delete-pods)
+   * [exec, run a command in a pod/container](kubernetes.md#exec-run-a-command-in-a-podcontainer)
 * [View events](kubernetes.md#view-events)
 * [Services](kubernetes.md#services)
    * [Expose](kubernetes.md#expose)
@@ -27,7 +28,7 @@
    * [Debug certificates.](kubernetes.md#debug-certificates)
    * [tcpdump sidecar container](kubernetes.md#tcpdump-sidecar-container)
 
-<!-- Added by: runner, at: Mon Jul 19 06:59:41 UTC 2021 -->
+<!-- Added by: runner, at: Mon Jul 19 07:09:01 UTC 2021 -->
 
 <!--te-->
 
