@@ -7,8 +7,12 @@
       * [Execute/run a program](nodejs.md#executerun-a-program)
    * [modules](nodejs.md#modules)
       * [export/import](nodejs.md#exportimport)
+   * [Files, IO](nodejs.md#files-io)
+      * [Read file](nodejs.md#read-file)
+      * [Write file](nodejs.md#write-file)
+      * [os.walk, iterate through files, subfolders](nodejs.md#oswalk-iterate-through-files-subfolders)
 
-<!-- Added by: runner, at: Mon Jul 19 11:49:47 UTC 2021 -->
+<!-- Added by: runner, at: Mon Jul 19 11:52:30 UTC 2021 -->
 
 <!--te-->
 
