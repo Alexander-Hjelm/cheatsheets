@@ -49,7 +49,7 @@ docker images
 Run an image in a new container.
 
 ```bash
-docker run [Options] <image name/image url>
+docker run [Options] <image name/image url> <command to run>
 ```
 
 ### Options:
