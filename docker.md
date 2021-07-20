@@ -57,6 +57,7 @@ docker run [Options] <image name/image url> <command to run>
 - **--name** <string>
 - **-i**, interactive
 - **-d**, detached
+- **-t**, pseudo terminal
 - **-P**, expose ports
 - **-v**, Bind mount a volume
 
@@ -65,6 +66,12 @@ docker run [Options] <image name/image url> <command to run>
 docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /your/home:/var/jenkins_home 1282bc63ab17
 ```
 
+  
+To keep the container alive: 
+```bash
+docker run -d -t alpine
+```
+  
 ## exec
 
 Exec will run a program within a container, a few examples:
