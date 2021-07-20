@@ -21,9 +21,8 @@
       * [Powershell](docker.md#powershell)
       * [Bash](docker.md#bash)
    * [Build from context with dockerfile](docker.md#build-from-context-with-dockerfile)
-* [Sample Dockerfile](docker.md#sample-dockerfile)
 
-<!-- Added by: runner, at: Tue Jul 20 10:05:59 UTC 2021 -->
+<!-- Added by: runner, at: Tue Jul 20 09:19:10 UTC 2021 -->
 
 <!--te-->
 
@@ -156,6 +155,7 @@ docker image build -t secret-scanner/web .
 **-t**: specifies image name and tag
                                              
 # Sample Dockerfile
+Sample Dockerfile for a flask application
 ```dockerfile
 # our base image
 FROM alpine:3.5
