@@ -124,7 +124,8 @@ docker container attach <container name>
 Displays exposed ports of a running container
 
 ```bash
-docker container port <container name> 
+docker container port <container name>
+docker port <container name> 
 ```
 
 # Docker Build
