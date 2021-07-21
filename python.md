@@ -55,8 +55,15 @@
       * [input](python.md#input)
       * [a](python.md#a)
       * [img](python.md#img)
+* [Http](python.md#http)
+   * [Http client](python.md#http-client)
+      * [Sample get request](python.md#sample-get-request)
+      * [Sample post request](python.md#sample-post-request)
+   * [Flask server](python.md#flask-server)
+      * [app.py](python.md#apppy)
+      * [templates/index.html](python.md#templatesindexhtml)
 
-<!-- Added by: runner, at: Tue Jul 20 10:06:36 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jul 21 10:47:18 UTC 2021 -->
 
 <!--te-->
 
