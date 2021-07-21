@@ -431,3 +431,58 @@ a["href"] = "https://github.com/"
 img = BeautifulSoup("<img></img>", 'html.parser').img
 img["src"] = "https://example.com/image"
 ```
+
+# Http
+
+## Http client
+
+### Sample get request
+```python
+headers = {"Authorization": "Bearer: abcd1234"), "ContentType": "application/json"}
+uri_api = "https://example.com/endpoint?param1=lol&param2=haha"
+response = requests.post(url = uri_api, headers=headers)
+return response.json()
+```
+
+### Sample post request
+```python
+headers = {"Authorization": "Bearer: abcd1234"), "ContentType": "application/json"}
+body = {"name":team_name, "id":team_id, "description":team_description}
+uri_api = "https://example.com/endpoint?param1=lol&param2=haha"
+response = requests.post(url = uri_api, headers=headers, body=body)
+return response.json()
+```
+
+## Flask server
+
+### app.py
+```python
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+# list of cat images
+image = "https://example.com/image.png
+
+@app.route('/')
+def index():
+    url = random.choice(images)
+    return render_template('index.html', url=url)
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0")
+```
+
+### templates/index.html
+```html
+<html>
+  <head>
+  </head>
+  <body>
+    <div class="container">
+      <h4>Cat Gif of the day</h4>
+      <img src="{{url}}" />
+    </div>
+  </body>
+</html>
+```
