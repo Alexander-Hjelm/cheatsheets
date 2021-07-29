@@ -43,14 +43,15 @@
       * [Misc](linux-utilities.md#misc)
          * [List SKDs](linux-utilities.md#list-skds)
       * [Troubleshooting](linux-utilities.md#troubleshooting)
-         * [The reference assemblies for .NETFramework,Version=v3.1.411 were not found...](linux-utilities.md#the-reference-assemblies-for-netframeworkversionv31411-were-not-found)
+         * [The reference assemblies for .NETFramework,Version=v3.1.411 were not found... (on docker build)](linux-utilities.md#the-reference-assemblies-for-netframeworkversionv31411-were-not-found-on-docker-build)
+         * [It was not possible to find any installed .NET Core SDKs (on docker run)](linux-utilities.md#it-was-not-possible-to-find-any-installed-net-core-sdks-on-docker-run)
    * [openssl](linux-utilities.md#openssl)
       * [Create a certificate](linux-utilities.md#create-a-certificate)
       * [convert pem to crt](linux-utilities.md#convert-pem-to-crt)
       * [Install trusted certificates](linux-utilities.md#install-trusted-certificates)
    * [sqlcmd](linux-utilities.md#sqlcmd)
 
-<!-- Added by: runner, at: Thu Jul 29 10:04:54 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jul 29 10:11:30 UTC 2021 -->
 
 <!--te-->
 

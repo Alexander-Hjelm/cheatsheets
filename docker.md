@@ -23,7 +23,7 @@
    * [Build from context with dockerfile](docker.md#build-from-context-with-dockerfile)
 * [Sample Dockerfile](docker.md#sample-dockerfile)
 
-<!-- Added by: runner, at: Thu Jul 29 10:04:52 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jul 29 10:11:28 UTC 2021 -->
 
 <!--te-->
 
