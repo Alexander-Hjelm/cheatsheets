@@ -64,6 +64,14 @@ resource "azurerm_container_group" "tfcg_test" {
 }
 ```
 
+### Varialbes
+```hcl
+variable "imagebuild" {
+  type = string
+  default = ""
+  description = "Latest image build"
+}
+```
 ## Terraform commands
 
 ### init
