@@ -329,13 +329,16 @@ dotnet --list-sdks
 ```
 
 ### Troubleshooting
-#### The reference assemblies for .NETFramework,Version=v3.1.411 were not found...
+#### The reference assemblies for .NETFramework,Version=v3.1.411 were not found... (on docker build)
 Add the following to you .csproj:
 ```xml
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 ```
+
+#### It was not possible to find any installed .NET Core SDKs (on docker run)
+Make sure the ENTRYPOINT in your Dockerfile is pointing to the correct dll.
 
 ## openssl
 
