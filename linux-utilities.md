@@ -38,13 +38,19 @@
       * [curl POST with parameters](linux-utilities.md#curl-post-with-parameters)
       * [curl to post json](linux-utilities.md#curl-to-post-json)
    * [dotnet](linux-utilities.md#dotnet)
+      * [new project](linux-utilities.md#new-project)
+      * [build/run project](linux-utilities.md#buildrun-project)
+      * [Misc](linux-utilities.md#misc)
+         * [List SKDs](linux-utilities.md#list-skds)
+      * [Troubleshooting](linux-utilities.md#troubleshooting)
+         * [The reference assemblies for .NETFramework,Version=v3.1.411 were not found...](linux-utilities.md#the-reference-assemblies-for-netframeworkversionv31411-were-not-found)
    * [openssl](linux-utilities.md#openssl)
       * [Create a certificate](linux-utilities.md#create-a-certificate)
       * [convert pem to crt](linux-utilities.md#convert-pem-to-crt)
       * [Install trusted certificates](linux-utilities.md#install-trusted-certificates)
    * [sqlcmd](linux-utilities.md#sqlcmd)
 
-<!-- Added by: runner, at: Wed Jul 21 10:47:16 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jul 29 10:04:54 UTC 2021 -->
 
 <!--te-->
 
