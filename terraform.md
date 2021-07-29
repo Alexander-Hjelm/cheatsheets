@@ -73,6 +73,12 @@ variable "imagebuild" {
   description = "Latest image build"
 }
 ```
+
+Reference as:
+```hcl
+${var.imagebuild}
+```
+
 ## Terraform commands
 
 ### init
