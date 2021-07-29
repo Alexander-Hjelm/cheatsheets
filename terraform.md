@@ -85,3 +85,31 @@ terraform apply
 ```bash
 terraform destroy
 ```
+
+### Azure pipelines provision stage
+```yaml
+- stage: Provision
+displayName: 'Terraforming on Azure...'
+dependsOn: Build
+jobs:
+- job: Provision
+  displayName: 'Provisioning Container Instance'
+  pool:
+    vmImage: 'ubuntu-latest'
+  variables: 
+  - group: TerraformEnvVars
+  steps:
+  - script: |
+      set -e
+      terraform init -input=false
+      terraform apply -input=false -auto-approve
+    name: 'RunTerraform'
+    displayName: 'Run Terraform'
+    env:
+      ARM_CLIENT_ID: $(ARM_CLIENT_ID)
+      ARM_CLIENT_SECRET: $(ARM_CLIENT_SECRET)
+      ARM_TENANT_ID: $(ARM_TENANT_ID)
+      ARM_SUBSCRIPTION_ID: $(ARM_SUBSCRIPTION_ID)
+      TF_VAR_imagebuild: $(tag)
+  
+```
