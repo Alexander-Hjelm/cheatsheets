@@ -23,7 +23,7 @@
    * [Build from context with dockerfile](docker.md#build-from-context-with-dockerfile)
 * [Sample Dockerfile](docker.md#sample-dockerfile)
 
-<!-- Added by: runner, at: Thu Jul 29 10:13:43 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jul 29 10:11:28 UTC 2021 -->
 
 <!--te-->
 
@@ -178,3 +178,17 @@ EXPOSE 5000
 # run the application
 CMD ["python", "/usr/src/app/app.py"]
 ```
+
+                                             
+# Troubleshooting
+## The reference assemblies for .NETFramework,Version=v3.1.411 were not found... (on docker build)
+Add the following to you .csproj:
+```xml
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+```
+
+## It was not possible to find any installed .NET Core SDKs (on docker run)
+Make sure the ENTRYPOINT in your Dockerfile is pointing to the correct dll.
+                                             
