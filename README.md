@@ -4,7 +4,7 @@
    * [Updating procedure](README.md#updating-procedure)
    * [Syntax highlighting](README.md#syntax-highlighting)
 
-<!-- Added by: runner, at: Thu Jul 29 13:09:57 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jul 29 13:12:19 UTC 2021 -->
 
 <!--te-->
 
