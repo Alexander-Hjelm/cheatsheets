@@ -3,15 +3,16 @@
 <!--ts-->
 * [Terraform](terraform.md#terraform)
    * [Terraform file](terraform.md#terraform-file)
-   * [provider block](terraform.md#provider-block)
-   * [resource block](terraform.md#resource-block)
+      * [provider block](terraform.md#provider-block)
+      * [resource group](terraform.md#resource-group)
+      * [Container instance](terraform.md#container-instance)
    * [Terraform commands](terraform.md#terraform-commands)
       * [init](terraform.md#init)
       * [plan](terraform.md#plan)
       * [apply](terraform.md#apply)
       * [destroy](terraform.md#destroy)
 
-<!-- Added by: runner, at: Thu Jul 29 11:16:50 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jul 29 11:28:56 UTC 2021 -->
 
 <!--te-->
 
