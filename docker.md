@@ -56,6 +56,15 @@ Run an image in a new container.
 docker run [Options] <image name/image url> <command to run>
 ```
 
+## push
+
+Push an after it has been bult
+
+```bash
+docker login
+docker push <publisher name>/<image name>
+```
+
 ### Options:
 
 - **--name** <string>
