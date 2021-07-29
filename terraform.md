@@ -6,6 +6,7 @@
       * [provider block](terraform.md#provider-block)
       * [resource group](terraform.md#resource-group)
       * [Container instance](terraform.md#container-instance)
+      * [Varialbes](terraform.md#varialbes)
    * [Terraform commands](terraform.md#terraform-commands)
       * [init](terraform.md#init)
       * [plan](terraform.md#plan)
@@ -13,7 +14,7 @@
       * [destroy](terraform.md#destroy)
       * [Azure pipelines provision stage](terraform.md#azure-pipelines-provision-stage)
 
-<!-- Added by: runner, at: Thu Jul 29 12:57:07 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jul 29 13:10:02 UTC 2021 -->
 
 <!--te-->
 
