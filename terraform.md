@@ -42,12 +42,22 @@ resource "azurerm_resource_group" "tf_test" {
 ## Terraform commands
 
 ### init
-```hcl
+```bash
 terraform init
 ```
 
 ### plan
+```bash
+terraform plan
+```
   
 ### apply
+```bash
+  az login
+terraform apply
+```
 
 ### destroy
+```bash
+terraform destroy
+```
