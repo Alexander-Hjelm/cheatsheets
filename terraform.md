@@ -41,7 +41,12 @@ resource "azurerm_resource_group" "tf_test" {
 ## Terraform commands
 
 ### init
+```hcl
+terraform init
+```
 
 ### plan
   
 ### apply
+
+### destroy
