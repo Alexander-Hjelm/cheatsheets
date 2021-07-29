@@ -298,9 +298,37 @@ curl --header "Content-Type: application/json" --request POST --data "{\"name\":
 ```
 
 ## dotnet
+
+### new project
+List available templates
+```bash
+dotnet new
+```
+
+Create new projects
+```bash
+dotnet new webapi -n mywebapi
+```
+
+### build/run project
 ```bash
 dotnet build
 dotnet run -- -u 3 -s 10 -p 1 -r 75 -e 5
+```
+
+### Misc
+#### List SKDs
+```bash
+dotnet --list-sdks
+```
+
+### Troubleshooting
+#### The reference assemblies for .NETFramework,Version=v3.1.411 were not found...
+Add the following to you .csproj:
+```xml
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
 ```
 
 ## openssl
