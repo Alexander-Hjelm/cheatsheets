@@ -9,8 +9,9 @@
       * [init](terraform.md#init)
       * [plan](terraform.md#plan)
       * [apply](terraform.md#apply)
+      * [destroy](terraform.md#destroy)
 
-<!-- Added by: runner, at: Thu Jul 29 11:09:37 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jul 29 11:10:24 UTC 2021 -->
 
 <!--te-->
 
