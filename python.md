@@ -98,6 +98,8 @@ pip freeze
 
 Try updating python and pip. Check the repo for requirements.
 
+When using python inside docker, make sure to use the official python image.
+
 # sys
 test
 ## Arguments
