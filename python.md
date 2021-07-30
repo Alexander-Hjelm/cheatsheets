@@ -464,7 +464,7 @@ return response.json()
 
 ### app.py
 ```python
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
@@ -474,6 +474,7 @@ image = "https://example.com/image.png
 @app.route('/')
 def index():
     url = random.choice(images)
+    param_example = request.args.get('param')
     return render_template('index.html', url=url)
 
 if __name__ == "__main__":
