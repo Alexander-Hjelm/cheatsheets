@@ -27,6 +27,7 @@
 * [file operations](python.md#file-operations)
    * [list files in directory](python.md#list-files-in-directory)
    * [Create directory, subfolders (subdirectories)](python.md#create-directory-subfolders-subdirectories)
+   * [read file into string](python.md#read-file-into-string)
    * [read file lines into list](python.md#read-file-lines-into-list)
    * [write string to file](python.md#write-string-to-file)
    * [write lines to file](python.md#write-lines-to-file)
@@ -63,7 +64,7 @@
       * [app.py](python.md#apppy)
       * [templates/index.html](python.md#templatesindexhtml)
 
-<!-- Added by: runner, at: Fri Jul 30 07:26:34 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 30 07:35:57 UTC 2021 -->
 
 <!--te-->
 
