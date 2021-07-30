@@ -70,6 +70,24 @@
 
 <!--te-->
 
+# pip
+
+## Sample requirements.txt
+```bash
+beautifulsoup4==4.9.3
+Flask==2.0.1
+```
+
+Install dependencies with:
+```bash
+pip install -r requirements.txt
+```
+
+List dependencies with:
+```bash
+pip freezw
+```
+
 # sys
 test
 ## Arguments
