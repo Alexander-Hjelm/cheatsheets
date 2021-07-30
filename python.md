@@ -4,6 +4,8 @@
 * [Python](python.md#python)
 * [pip](python.md#pip)
    * [Sample requirements.txt](python.md#sample-requirementstxt)
+   * [Troubleshooting](python.md#troubleshooting)
+      * [Requested MarkupSafe&gt;=2.0 from ... but installing version None](python.md#requested-markupsafe20-from--but-installing-version-none)
 * [sys](python.md#sys)
    * [Arguments](python.md#arguments)
       * [getopt](python.md#getopt)
@@ -68,7 +70,7 @@
       * [app.py](python.md#apppy)
       * [templates/index.html](python.md#templatesindexhtml)
 
-<!-- Added by: runner, at: Fri Jul 30 08:37:58 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 30 09:06:20 UTC 2021 -->
 
 <!--te-->
 
