@@ -298,6 +298,14 @@ xdtqxbdwx
 m = re.findall(r'\w+:', line)
 ```
 
+# Math
+
+## max, min
+```python
+a = min(1, 4, 10)
+b = max(1, 4, 10)
+```
+
 # booleans
 
 ## XOR
