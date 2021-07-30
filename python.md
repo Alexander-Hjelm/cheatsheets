@@ -242,6 +242,12 @@ dir = "/".join(map(str, dir))
 os.makedirs(dir, exist_ok=True)
 ```
 
+## read file into string
+```python
+with open('data.txt', 'r') as file:
+    data = file.read().replace('\n', '')
+```
+
 ## read file lines into list
 
 ```python
