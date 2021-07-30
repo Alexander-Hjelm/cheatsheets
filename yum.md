@@ -5,7 +5,7 @@
    * [Remove](yum.md#remove)
    * [List](yum.md#list)
 
-<!-- Added by: runner, at: Fri Jul 30 09:06:22 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 30 09:09:41 UTC 2021 -->
 
 <!--te-->
 
