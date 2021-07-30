@@ -35,6 +35,8 @@
    * [simple match, return True/False](python.md#simple-match-return-truefalse)
    * [match regex pattern into named groups](python.md#match-regex-pattern-into-named-groups)
    * [regex findall](python.md#regex-findall)
+* [Math](python.md#math)
+   * [max, min](python.md#max-min)
 * [booleans](python.md#booleans)
    * [XOR](python.md#xor)
 * [Anonymous functions](python.md#anonymous-functions)
@@ -64,7 +66,7 @@
       * [app.py](python.md#apppy)
       * [templates/index.html](python.md#templatesindexhtml)
 
-<!-- Added by: runner, at: Fri Jul 30 07:35:57 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 30 08:30:10 UTC 2021 -->
 
 <!--te-->
 
