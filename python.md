@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 List dependencies with:
 ```bash
-pip freezw
+pip freeze
 ```
 
 # sys
