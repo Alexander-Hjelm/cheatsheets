@@ -90,6 +90,12 @@ List dependencies with:
 pip freeze
 ```
 
+## Troubleshooting
+
+### Requested MarkupSafe>=2.0 from ... but installing version None
+
+Try updating python and pip. Check the repo for requirements.
+
 # sys
 test
 ## Arguments
