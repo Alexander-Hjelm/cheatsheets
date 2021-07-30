@@ -2,6 +2,8 @@
 
 <!--ts-->
 * [Python](python.md#python)
+* [pip](python.md#pip)
+   * [Sample requirements.txt](python.md#sample-requirementstxt)
 * [sys](python.md#sys)
    * [Arguments](python.md#arguments)
       * [getopt](python.md#getopt)
@@ -66,7 +68,7 @@
       * [app.py](python.md#apppy)
       * [templates/index.html](python.md#templatesindexhtml)
 
-<!-- Added by: runner, at: Fri Jul 30 08:30:10 UTC 2021 -->
+<!-- Added by: runner, at: Fri Jul 30 08:37:58 UTC 2021 -->
 
 <!--te-->
 
