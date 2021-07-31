@@ -28,6 +28,7 @@
       * [rsplit](python.md#rsplit)
    * [startswith, endswith](python.md#startswith-endswith)
    * [uppercase, lowercase](python.md#uppercase-lowercase)
+   * [format](python.md#format)
 * [file operations](python.md#file-operations)
    * [list files in directory](python.md#list-files-in-directory)
    * [Create directory, subfolders (subdirectories)](python.md#create-directory-subfolders-subdirectories)
@@ -70,7 +71,7 @@
       * [app.py](python.md#apppy)
       * [templates/index.html](python.md#templatesindexhtml)
 
-<!-- Added by: runner, at: Fri Jul 30 10:15:56 UTC 2021 -->
+<!-- Added by: runner, at: Sat Jul 31 10:06:31 UTC 2021 -->
 
 <!--te-->
 
