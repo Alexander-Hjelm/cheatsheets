@@ -32,3 +32,12 @@ git remote add origin https://github.com/gittower/example.git
 ```bash
 git remote rm <remote-name>
 ```
+
+## Files
+
+### Remove a checked in file (.gitignore accepts a file even though it shouldn't)
+```bash
+git rm --cached <file name>
+git commit
+```
+Then save the file again for good measure.
