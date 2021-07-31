@@ -6,8 +6,10 @@
       * [View remotes](git.md#view-remotes)
       * [Add a remote](git.md#add-a-remote)
       * [Remove a remote](git.md#remove-a-remote)
+   * [Files](git.md#files)
+      * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
 
-<!-- Added by: runner, at: Sat Jul 31 10:06:29 UTC 2021 -->
+<!-- Added by: runner, at: Sat Jul 31 10:22:41 UTC 2021 -->
 
 <!--te-->
 
