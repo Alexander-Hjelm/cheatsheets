@@ -9,7 +9,7 @@
    * [Files](git.md#files)
       * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
 
-<!-- Added by: runner, at: Sat Jul 31 10:22:41 UTC 2021 -->
+<!-- Added by: runner, at: Sun Aug  1 12:25:17 UTC 2021 -->
 
 <!--te-->
 

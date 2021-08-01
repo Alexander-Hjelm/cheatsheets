@@ -5,6 +5,7 @@
    * [Agent name](azure-pipelines.md#agent-name)
 * [Useful variables](azure-pipelines.md#useful-variables)
 * [Triggers](azure-pipelines.md#triggers)
+   * [Trigger on push to another repo](azure-pipelines.md#trigger-on-push-to-another-repo)
 * [Parameters](azure-pipelines.md#parameters)
 * [Stages/Jobs](azure-pipelines.md#stagesjobs)
    * [Run multiple jobs in parallel for a stage](azure-pipelines.md#run-multiple-jobs-in-parallel-for-a-stage)
@@ -29,7 +30,7 @@
 * [Visual Studio build](azure-pipelines.md#visual-studio-build)
    * [Publish artifact as a .zip or files](azure-pipelines.md#publish-artifact-as-a-zip-or-files)
 
-<!-- Added by: runner, at: Sat Jul 31 10:22:40 UTC 2021 -->
+<!-- Added by: runner, at: Sun Aug  1 12:25:16 UTC 2021 -->
 
 <!--te-->
 
