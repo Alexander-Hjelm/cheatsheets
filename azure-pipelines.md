@@ -72,6 +72,19 @@ trigger:
       - Signed
 ```
 
+## Trigger on push to another repo
+```yaml
+resources:
+  repositories:
+    - repository: sample-wiki
+      type: git
+      name: confluence-migration-poc
+      trigger:
+        branches:
+          include:
+          - master
+```
+
 # Parameters
 ```yaml
 parameters:
