@@ -74,16 +74,15 @@ trigger:
 ```
 
 ## Trigger on push to another repo
+Create a new CI pipeline for the other repo, then use this trigger in the first pipeline:
 ```yaml
 resources:
-  repositories:
-    - repository: sample-wiki
-      type: git
-      name: confluence-migration-poc
-      trigger:
-        branches:
-          include:
-          - master
+  pipelines:
+  - pipeline: wiki-ci   # Name of the pipeline resource
+    source: confluence-migration-poc # Name of the pipeline referenced by the pipeline resource
+    trigger: 
+      branches:
+      - master
 ```
 
 # Parameters
