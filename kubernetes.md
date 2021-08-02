@@ -117,6 +117,30 @@ kubectl delete pod <pod name>
 kubectl exec <pod name> --container <container name> -- echo "hello world"
 ```
 
+## Pod deployment: liveness, readiness probes.
+Kubernetes will first use a readiness probe to check that a pod is ready to accept requests. Once the readiness probe suceeds, it will switch to a continous liveness probe.
+
+In the probe deployment:
+```yaml
+containers:
+- name: tomcat
+  image: tomcat:9.0
+  ports:
+  - containerPort: 8080
+  livenessProbe:
+    httpGet:
+      path: /
+      port: 8080
+    initialDelaySeconds: 30
+    periodSeconds: 30
+  readinessProbe:
+    httpGet:
+      path: /
+      port: 8080
+    initialDelaySeconds: 15
+    periodSeconds: 3
+```
+
 # View events
 
 ```bash
