@@ -16,7 +16,6 @@
    * [Get pods](kubernetes.md#get-pods)
    * [delete pods](kubernetes.md#delete-pods)
    * [exec, run a command in a pod/container](kubernetes.md#exec-run-a-command-in-a-podcontainer)
-   * [Pod deployment: liveness, readiness probes.](kubernetes.md#pod-deployment-liveness-readiness-probes)
 * [View events](kubernetes.md#view-events)
 * [Services](kubernetes.md#services)
    * [Expose](kubernetes.md#expose)
@@ -29,7 +28,7 @@
    * [Debug certificates.](kubernetes.md#debug-certificates)
    * [tcpdump sidecar container](kubernetes.md#tcpdump-sidecar-container)
 
-<!-- Added by: runner, at: Mon Aug  2 15:06:10 UTC 2021 -->
+<!-- Added by: runner, at: Sun Aug  1 12:37:44 UTC 2021 -->
 
 <!--te-->
 
@@ -182,6 +181,23 @@ We can refer to objects using labels, since the name is regenerated on "restarti
 
 ```bash
 kubectl delete pods -l app=my-app
+```
+
+## Set label
+To set the value of the "storageType" label to "ssd"
+```bash
+kubectl label node <node name> storageType=ssd
+```
+
+## nodeSelector on the deployment
+When a deployment is applied, Kubernetes will look for a node with the specified label
+```yaml
+containers:
+- name: tomcat
+  image: tomcat:9.0
+  ports: containerPort: 8080
+nodeSelector:
+  storageType: ssd
 ```
 
 # Debug
