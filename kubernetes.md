@@ -160,6 +160,18 @@ kubectl scale --replicas=4 deployment/tomcat-deployment
 
 A LodaBalancer service will be needed to fully use the new replicas.
 
+## Rolling updates
+
+Check the status of a deployment:
+```bash
+kubectl rollout status deployment <deployment name>
+```
+
+Check the history of a deployment:
+```bash
+kubectl rollout history deployment/<deployment name>
+kubectl rollout history deployment/<deployment name> --revision=4
+```
 
 # View events
 
