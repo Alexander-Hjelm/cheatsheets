@@ -57,6 +57,10 @@ Run an image in a new container.
 docker run [Options] <image name/image url> <command to run>
 ```
 
+### Options:
+
+- **-e "ENV_VAR=value"**, pass an environment variable 
+
 ## push
 
 Push an after it has been bult
