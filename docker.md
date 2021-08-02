@@ -5,13 +5,14 @@
    * [pull](docker.md#pull)
    * [images](docker.md#images)
    * [run](docker.md#run)
-   * [push](docker.md#push)
       * [Options:](docker.md#options)
+   * [push](docker.md#push)
+      * [Options:](docker.md#options-1)
       * [Example:](docker.md#example)
    * [exec](docker.md#exec)
 * [Docker Container](docker.md#docker-container)
    * [ls](docker.md#ls)
-      * [Options:](docker.md#options-1)
+      * [Options:](docker.md#options-2)
    * [stop](docker.md#stop)
    * [rm](docker.md#rm)
    * [attach](docker.md#attach)
@@ -27,7 +28,7 @@
    * [The reference assemblies for .NETFramework,Version=v3.1.411 were not found... (on docker build)](docker.md#the-reference-assemblies-for-netframeworkversionv31411-were-not-found-on-docker-build)
    * [It was not possible to find any installed .NET Core SDKs (on docker run)](docker.md#it-was-not-possible-to-find-any-installed-net-core-sdks-on-docker-run)
 
-<!-- Added by: runner, at: Mon Aug  2 16:00:23 UTC 2021 -->
+<!-- Added by: runner, at: Mon Aug  2 16:58:13 UTC 2021 -->
 
 <!--te-->
 
