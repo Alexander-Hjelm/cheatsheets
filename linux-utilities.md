@@ -42,13 +42,15 @@
       * [build/run project](linux-utilities.md#buildrun-project)
       * [Misc](linux-utilities.md#misc)
          * [List SKDs](linux-utilities.md#list-skds)
+      * [Troubleshooting](linux-utilities.md#troubleshooting)
+         * [The framework 'Microsoft.AspNetCore.App', version '2.2.0' was not found.](linux-utilities.md#the-framework-microsoftaspnetcoreapp-version-220-was-not-found)
    * [openssl](linux-utilities.md#openssl)
       * [Create a certificate](linux-utilities.md#create-a-certificate)
       * [convert pem to crt](linux-utilities.md#convert-pem-to-crt)
       * [Install trusted certificates](linux-utilities.md#install-trusted-certificates)
    * [sqlcmd](linux-utilities.md#sqlcmd)
 
-<!-- Added by: runner, at: Mon Aug  2 15:37:23 UTC 2021 -->
+<!-- Added by: runner, at: Mon Aug  2 16:00:25 UTC 2021 -->
 
 <!--te-->
 
