@@ -144,6 +144,22 @@ containers:
     periodSeconds: 3
 ```
 
+## Pod scaling
+
+In the deployment:
+```yaml
+spec:
+  replicas: 3
+```
+
+Scale an existing deployment:
+```bash
+kubectl scale --replicas=4 deployment/tomcat-deployment
+```
+
+A LodaBalancer service will be needed to fully use the new replicas.
+
+
 # View events
 
 ```bash
@@ -153,9 +169,9 @@ kubectl get events
 # Services
 
 ## Expose
-Expose the pod to the public internet. The --type=LoadBalancer flag indicates that you want to expose your Service outside of the cluster.
+Create a Service object that exposes the pod to the public internet. The --type=LoadBalancer flag indicates that you want to expose your Service outside of the cluster.
 ```bash
-kubectl expose deployment hello-node --type=LoadBalancer --port=8080
+kubectl expose deployment hello-node --type=LoadBalancer --port=8080 --target-port=8080 --name=tomcat-load-balancer
 ```
 
 ## Manage services
