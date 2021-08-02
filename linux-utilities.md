@@ -326,6 +326,15 @@ dotnet run -- -u 3 -s 10 -p 1 -r 75 -e 5
 dotnet --list-sdks
 ```
 
+### Troubleshooting
+
+#### The framework 'Microsoft.AspNetCore.App', version '2.2.0' was not found.
+Get the correct version of the dotnet core SDK with:
+```bash
+sudo snap refresh dotnet-sdk --classic --channel=2.2
+```
+Remember to roll back to the previous version you were using afterwards.
+
 ## openssl
 
 ### Create a certificate
