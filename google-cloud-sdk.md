@@ -1,5 +1,12 @@
 # Google Cloud SDK, gcloud
 <!--ts-->
+* [Google Cloud SDK, gcloud](google-cloud-sdk.md#google-cloud-sdk-gcloud)
+   * [Compute instances](google-cloud-sdk.md#compute-instances)
+      * [List compute instances](google-cloud-sdk.md#list-compute-instances)
+      * [Create a compute instance from a template](google-cloud-sdk.md#create-a-compute-instance-from-a-template)
+
+<!-- Added by: runner, at: Tue Aug  3 12:34:27 UTC 2021 -->
+
 <!--te-->
 
 ## Compute instances

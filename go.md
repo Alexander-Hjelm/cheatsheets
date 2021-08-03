@@ -19,7 +19,7 @@
    * [math](go.md#math)
       * [max, min](go.md#max-min)
 
-<!-- Added by: runner, at: Tue Aug  3 12:23:50 UTC 2021 -->
+<!-- Added by: runner, at: Tue Aug  3 12:34:27 UTC 2021 -->
 
 <!--te-->
 
