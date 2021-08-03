@@ -54,6 +54,15 @@
 
 <!--te-->
 
+## sudo, su
+
+### Switch user
+```bash
+$ sudo su
+$ su - <other user name>
+```
+
+
 ## scp
 
 Copy files to a remote over ssh:
