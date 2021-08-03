@@ -1,6 +1,8 @@
 # Linux Utilities
 <!--ts-->
 * [Linux Utilities](linux-utilities.md#linux-utilities)
+   * [sudo, su](linux-utilities.md#sudo-su)
+      * [Switch user](linux-utilities.md#switch-user)
    * [scp](linux-utilities.md#scp)
       * [Paramters](linux-utilities.md#paramters)
    * [tar](linux-utilities.md#tar)
@@ -50,7 +52,7 @@
       * [Install trusted certificates](linux-utilities.md#install-trusted-certificates)
    * [sqlcmd](linux-utilities.md#sqlcmd)
 
-<!-- Added by: runner, at: Mon Aug  2 16:58:15 UTC 2021 -->
+<!-- Added by: runner, at: Tue Aug  3 12:23:51 UTC 2021 -->
 
 <!--te-->
 
