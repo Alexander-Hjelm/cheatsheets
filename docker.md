@@ -24,11 +24,17 @@
       * [Bash](docker.md#bash)
    * [Build from context with dockerfile](docker.md#build-from-context-with-dockerfile)
 * [Sample Dockerfile](docker.md#sample-dockerfile)
+* [Docker Compose](docker.md#docker-compose)
+   * [Sample Docker Compose file](docker.md#sample-docker-compose-file)
+   * [Docker Compose commands](docker.md#docker-compose-commands)
+      * [Run a docker compose file as a service](docker.md#run-a-docker-compose-file-as-a-service)
+      * [Run a docker compose file in the foreground](docker.md#run-a-docker-compose-file-in-the-foreground)
+      * [List images used by a docker compose file](docker.md#list-images-used-by-a-docker-compose-file)
 * [Troubleshooting](docker.md#troubleshooting)
    * [The reference assemblies for .NETFramework,Version=v3.1.411 were not found... (on docker build)](docker.md#the-reference-assemblies-for-netframeworkversionv31411-were-not-found-on-docker-build)
    * [It was not possible to find any installed .NET Core SDKs (on docker run)](docker.md#it-was-not-possible-to-find-any-installed-net-core-sdks-on-docker-run)
 
-<!-- Added by: runner, at: Tue Aug  3 12:34:27 UTC 2021 -->
+<!-- Added by: runner, at: Wed Aug  4 11:50:39 UTC 2021 -->
 
 <!--te-->
 
