@@ -197,7 +197,46 @@ EXPOSE 5000
 CMD ["python", "/usr/src/app/app.py"]
 ```
 
-                                             
+# Docker Compose
+
+## Sample Docker Compose file
+```yaml
+version: '3'
+services:
+  ms-sql-server:
+    image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Pa55w0rd2019"
+      MSSQL_PID: Express
+    ports:
+      - "1433:1433"
+  color-api:
+    build: .
+    environment:
+      DBServer: "ms-sql-server"
+    ports:
+        - "8080:80"
+```
+
+## Docker Compose commands
+
+### Run a docker compose file as a service
+```bash
+docker-compose start
+docker-compose stop
+```
+
+### Run a docker compose file in the foreground
+```bash
+docker-compose up
+```
+
+### List images used by a docker compose file
+```bash
+docker-compose images
+```
+
 # Troubleshooting
 ## The reference assemblies for .NETFramework,Version=v3.1.411 were not found... (on docker build)
 Add the following to you .csproj:
