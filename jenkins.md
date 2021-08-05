@@ -18,4 +18,9 @@ docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /var/jenkins_home 1282b
 
 The initial admin password can be found in: `/var/jenkins_home/secrets/initialAdminPassword`
 
-
+## Change jenkins home directory
+On the host machine, add the following line to the bash profile.
+```bash
+export JENKINS_HOME=/var/jenkins_home
+```
+Restart Jenkins
