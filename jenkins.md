@@ -6,8 +6,9 @@
    * [Change jenkins home directory](jenkins.md#change-jenkins-home-directory)
    * [CLI](jenkins.md#cli)
       * [Download cli](jenkins.md#download-cli)
+      * [Build a job](jenkins.md#build-a-job)
 
-<!-- Added by: runner, at: Thu Aug  5 09:17:10 UTC 2021 -->
+<!-- Added by: runner, at: Thu Aug  5 09:19:48 UTC 2021 -->
 
 <!--te-->
 
