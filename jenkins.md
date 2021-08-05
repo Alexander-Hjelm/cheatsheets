@@ -54,6 +54,10 @@ build <job name>
 
 ## Jenkins pipeline
 
+### Snippet generator
+
+Check the "Pipeline Syntax" link in the pipeline creator.
+
 ### Quickstart examples
 
 #### Hello World
