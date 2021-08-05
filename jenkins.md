@@ -33,3 +33,4 @@ Restart Jenkins
 ### Download cli
 
 Go to `http://localhost:8080/cli/`
+Run the CLi with `java jar jenkins-cli.jar -s http://localhost:8080 /help -username <userName> -password <password>`
