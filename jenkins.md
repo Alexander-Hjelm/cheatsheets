@@ -4,7 +4,7 @@
    * [Install with docker](jenkins.md#install-with-docker)
    * [Password recovery](jenkins.md#password-recovery)
 
-<!-- Added by: runner, at: Thu Aug  5 08:26:23 UTC 2021 -->
+<!-- Added by: runner, at: Thu Aug  5 08:27:18 UTC 2021 -->
 
 <!--te-->
 
