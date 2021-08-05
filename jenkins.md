@@ -62,7 +62,7 @@ Check the "Pipeline Syntax" link in the pipeline creator.
 ### Quickstart examples
 
 #### Hello World
-```jenkinsfile
+```groovy
 pipeline {
     agent any
     stages {
@@ -76,7 +76,7 @@ pipeline {
 ```
 
 #### Python
-```jenkinsfile
+```groovy
 pipeline {
     agent { docker { image 'python:3.5.1' } }
     stages {
@@ -90,7 +90,7 @@ pipeline {
 ```
 
 #### NodeJS
-```jenkinsfile
+```groovy
 pipeline {
     agent { docker { image 'node:14-alpine' } }
     stages {
