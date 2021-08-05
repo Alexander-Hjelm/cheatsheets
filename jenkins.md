@@ -102,3 +102,10 @@ pipeline {
     }
 }
 ```
+
+#### Pull a second git repo
+```groovy
+steps {
+  git branch: 'master', credentials: '98j9efr4-3245-4734-2345-j9fe8pjh90843', url: 'https://github.com/Alexander-Hjelm/cheatsheets'
+}
+```
