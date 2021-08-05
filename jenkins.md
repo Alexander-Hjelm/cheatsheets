@@ -25,3 +25,9 @@ On the host machine, add the following line to the bash profile.
 export JENKINS_HOME=/var/jenkins_home
 ```
 Restart Jenkins
+
+## CLI
+
+### Download cli
+
+Go to `http://localhost:8080/cli/`
