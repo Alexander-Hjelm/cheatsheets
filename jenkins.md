@@ -4,8 +4,10 @@
    * [Install with docker](jenkins.md#install-with-docker)
    * [Password recovery](jenkins.md#password-recovery)
    * [Change jenkins home directory](jenkins.md#change-jenkins-home-directory)
+   * [CLI](jenkins.md#cli)
+      * [Download cli](jenkins.md#download-cli)
 
-<!-- Added by: runner, at: Thu Aug  5 08:48:33 UTC 2021 -->
+<!-- Added by: runner, at: Thu Aug  5 09:12:21 UTC 2021 -->
 
 <!--te-->
 
