@@ -6,9 +6,8 @@
    * [Change jenkins home directory](jenkins.md#change-jenkins-home-directory)
    * [CLI](jenkins.md#cli)
       * [Download cli](jenkins.md#download-cli)
-      * [Build a job](jenkins.md#build-a-job)
 
-<!-- Added by: runner, at: Thu Aug  5 09:19:48 UTC 2021 -->
+<!-- Added by: runner, at: Thu Aug  5 09:17:10 UTC 2021 -->
 
 <!--te-->
 
@@ -35,6 +34,11 @@ Restart Jenkins
 
 Go to `http://localhost:8080/cli/`
 Run the CLi with `java jar jenkins-cli.jar -s http://localhost:8080 <Command to run> -username <userName> -password <password>
+
+### Help
+```bash
+help
+```
 
 ### Build a job
 ```bash
