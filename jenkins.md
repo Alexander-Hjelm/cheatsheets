@@ -46,3 +46,49 @@ help
 ```bash
 build <job name>
 ```
+
+## Jenkinds pipeline
+
+### Quickstart examples
+
+#### Hello World
+```jenkinsfile
+pipeline {
+    agent any
+    stages {
+        stage('hello') {
+            steps {
+                echo "Hello World!"
+            }
+        }
+    }
+}
+```
+
+#### Python
+```jenkinsfile
+pipeline {
+    agent { docker { image 'python:3.5.1' } }
+    stages {
+        stage('build') {
+            steps {
+                sh 'python --version'
+            }
+        }
+    }
+}
+```
+
+#### NodeJS
+```jenkinsfile
+pipeline {
+    agent { docker { image 'node:14-alpine' } }
+    stages {
+        stage('build') {
+            steps {
+                sh 'npm --version'
+            }
+        }
+    }
+}
+```
