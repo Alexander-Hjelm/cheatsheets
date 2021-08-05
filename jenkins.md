@@ -1,5 +1,11 @@
 # Jenkins
 <!--ts-->
+* [Jenkins](jenkins.md#jenkins)
+   * [Install with docker](jenkins.md#install-with-docker)
+   * [Password recovery](jenkins.md#password-recovery)
+
+<!-- Added by: runner, at: Thu Aug  5 08:19:45 UTC 2021 -->
+
 <!--te-->
 
 ## Install with docker
