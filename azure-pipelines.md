@@ -30,7 +30,7 @@
 * [Visual Studio build](azure-pipelines.md#visual-studio-build)
    * [Publish artifact as a .zip or files](azure-pipelines.md#publish-artifact-as-a-zip-or-files)
 
-<!-- Added by: runner, at: Thu Aug  5 09:56:28 UTC 2021 -->
+<!-- Added by: runner, at: Thu Aug  5 09:56:54 UTC 2021 -->
 
 <!--te-->
 

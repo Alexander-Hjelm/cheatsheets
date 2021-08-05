@@ -8,8 +8,13 @@
       * [Download cli](jenkins.md#download-cli)
       * [Help](jenkins.md#help)
       * [Build a job](jenkins.md#build-a-job)
+   * [Jenkins pipeline](jenkins.md#jenkins-pipeline)
+      * [Quickstart examples](jenkins.md#quickstart-examples)
+         * [Hello World](jenkins.md#hello-world)
+         * [Python](jenkins.md#python)
+         * [NodeJS](jenkins.md#nodejs)
 
-<!-- Added by: runner, at: Thu Aug  5 09:20:14 UTC 2021 -->
+<!-- Added by: runner, at: Thu Aug  5 09:56:56 UTC 2021 -->
 
 <!--te-->
 
