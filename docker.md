@@ -67,18 +67,6 @@ docker run [Options] <image name/image url> <command to run>
 ### Options:
 
 - **-e "ENV_VAR=value"**, pass an environment variable 
-
-## push
-
-Push an after it has been bult
-
-```bash
-docker login
-docker push <publisher name>/<image name>
-```
-
-### Options:
-
 - **--name** <string>
 - **-i**, interactive
 - **-d**, detached
@@ -91,6 +79,14 @@ docker push <publisher name>/<image name>
 docker run --name jenkins -p 8080:8080 -p 50000:50000 -v /your/home:/var/jenkins_home 1282bc63ab17
 ```
 
+## push
+
+Push an after it has been bult
+
+```bash
+docker login
+docker push <publisher name>/<image name>
+```
   
 To keep the container alive: 
 ```bash
