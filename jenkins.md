@@ -12,6 +12,8 @@
       * [Snippet generator](jenkins.md#snippet-generator)
       * [Environment variables](jenkins.md#environment-variables)
          * [Provided environvment variables](jenkins.md#provided-environvment-variables)
+      * [tools, build tools](jenkins.md#tools-build-tools)
+      * [Build parameters](jenkins.md#build-parameters)
       * [Quickstart examples](jenkins.md#quickstart-examples)
          * [Hello World](jenkins.md#hello-world)
          * [Python](jenkins.md#python)
@@ -20,7 +22,7 @@
       * [post, run commands after execution](jenkins.md#post-run-commands-after-execution)
       * [when coditions (if, else, conditionals)](jenkins.md#when-coditions-if-else-conditionals)
 
-<!-- Added by: runner, at: Fri Aug  6 11:41:22 UTC 2021 -->
+<!-- Added by: runner, at: Fri Aug  6 11:58:35 UTC 2021 -->
 
 <!--te-->
 
