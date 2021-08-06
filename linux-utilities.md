@@ -303,6 +303,17 @@ nc -v google.com 443
 wget http://ipecho.net/plain -O - -q ; echo
 ```
 
+### stress
+
+stress is a load tester utility for network applications.
+
+Install and run with 8 cpu cores:
+```bash
+sudo yum install stress -y
+stress -c 8
+```
+
+
 ## curl
 
 ### curl POST with parameters
