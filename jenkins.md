@@ -10,13 +10,16 @@
       * [Build a job](jenkins.md#build-a-job)
    * [Jenkins pipeline](jenkins.md#jenkins-pipeline)
       * [Snippet generator](jenkins.md#snippet-generator)
+      * [Environment variables](jenkins.md#environment-variables)
       * [Quickstart examples](jenkins.md#quickstart-examples)
          * [Hello World](jenkins.md#hello-world)
          * [Python](jenkins.md#python)
          * [NodeJS](jenkins.md#nodejs)
-         * [Pull a second git repo](jenkins.md#pull-a-second-git-repo)
+      * [Pull a second git repo](jenkins.md#pull-a-second-git-repo)
+      * [post, run commands after execution](jenkins.md#post-run-commands-after-execution)
+      * [when coditions (if, else, conditionals)](jenkins.md#when-coditions-if-else-conditionals)
 
-<!-- Added by: runner, at: Fri Aug  6 09:44:43 UTC 2021 -->
+<!-- Added by: runner, at: Fri Aug  6 11:38:27 UTC 2021 -->
 
 <!--te-->
 
