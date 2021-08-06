@@ -12,17 +12,15 @@
       * [Snippet generator](jenkins.md#snippet-generator)
       * [Environment variables](jenkins.md#environment-variables)
          * [Provided environvment variables](jenkins.md#provided-environvment-variables)
-      * [tools, build tools](jenkins.md#tools-build-tools)
-         * [Hello World](jenkins.md#hello-world)
       * [Quickstart examples](jenkins.md#quickstart-examples)
-         * [Hello World](jenkins.md#hello-world-1)
+         * [Hello World](jenkins.md#hello-world)
          * [Python](jenkins.md#python)
          * [NodeJS](jenkins.md#nodejs)
       * [Pull a second git repo](jenkins.md#pull-a-second-git-repo)
       * [post, run commands after execution](jenkins.md#post-run-commands-after-execution)
       * [when coditions (if, else, conditionals)](jenkins.md#when-coditions-if-else-conditionals)
 
-<!-- Added by: runner, at: Fri Aug  6 11:53:13 UTC 2021 -->
+<!-- Added by: runner, at: Fri Aug  6 11:41:22 UTC 2021 -->
 
 <!--te-->
 
@@ -74,7 +72,6 @@ Check the "Pipeline Syntax" link in the pipeline creator.
 Full list: Go to `http://localhost:8080/env-vars.html`
 
 ### tools, build tools
-#### Hello World
 Configure build tools under **Manage Jenkings -> Global Tool Configuration**
 ```groovy
 pipeline {
@@ -87,7 +84,25 @@ pipeline {
     stages {
         stage('hello') {
             steps {
-                echo "Hello World!"
+                gradle run ....
+            }
+        }
+    }
+}
+```
+
+### Build parameters
+```groovy
+pipeline {
+    agent any
+    parameters {
+      string(name: "VERSION_PROD", defaultValue: "", description: "Version to deploy on prod")
+      choice(name: "VERSION_TEST", choices: ["1.1.0", "1.2.0", "1.3.0"], description: "Version to deploy on test")
+      booleanParam(name: "SKIP_PREP_STAGE", defaultValue: false, description: "Skip Prep stage")
+    stages {
+        stage('hello') {
+            steps {
+                echo "$(params.VERSION_PROD)"
             }
         }
     }
