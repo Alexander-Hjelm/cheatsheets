@@ -36,6 +36,7 @@
    * [networking](linux-utilities.md#networking)
       * [netcat, nc](linux-utilities.md#netcat-nc)
       * [Find host ip address](linux-utilities.md#find-host-ip-address)
+      * [stress](linux-utilities.md#stress)
    * [curl](linux-utilities.md#curl)
       * [curl POST with parameters](linux-utilities.md#curl-post-with-parameters)
       * [curl to post json](linux-utilities.md#curl-to-post-json)
@@ -52,7 +53,7 @@
       * [Install trusted certificates](linux-utilities.md#install-trusted-certificates)
    * [sqlcmd](linux-utilities.md#sqlcmd)
 
-<!-- Added by: runner, at: Thu Aug  5 10:11:41 UTC 2021 -->
+<!-- Added by: runner, at: Fri Aug  6 09:44:44 UTC 2021 -->
 
 <!--te-->
 
