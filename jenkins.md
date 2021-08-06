@@ -64,8 +64,11 @@ build <job name>
 Check the "Pipeline Syntax" link in the pipeline creator.
 
 ### Environment variables
+
+#### Provided environvment variables
 - **env.BRANCH_NAME** (string)
-- **env.CODE_CHANGES** (bool)
+
+Full list: Go to `http://localhost:8080/env-vars.html`
 
 ### Quickstart examples
 
