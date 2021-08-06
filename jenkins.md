@@ -12,8 +12,6 @@
       * [Snippet generator](jenkins.md#snippet-generator)
       * [Environment variables](jenkins.md#environment-variables)
          * [Provided environvment variables](jenkins.md#provided-environvment-variables)
-      * [tools, build tools](jenkins.md#tools-build-tools)
-      * [Build parameters](jenkins.md#build-parameters)
       * [Quickstart examples](jenkins.md#quickstart-examples)
          * [Hello World](jenkins.md#hello-world)
          * [Python](jenkins.md#python)
@@ -22,7 +20,7 @@
       * [post, run commands after execution](jenkins.md#post-run-commands-after-execution)
       * [when coditions (if, else, conditionals)](jenkins.md#when-coditions-if-else-conditionals)
 
-<!-- Added by: runner, at: Fri Aug  6 11:58:35 UTC 2021 -->
+<!-- Added by: runner, at: Fri Aug  6 11:41:22 UTC 2021 -->
 
 <!--te-->
 
@@ -73,38 +71,52 @@ Check the "Pipeline Syntax" link in the pipeline creator.
 
 Full list: Go to `http://localhost:8080/env-vars.html`
 
-### tools, build tools
-Configure build tools under **Manage Jenkings -> Global Tool Configuration**
+#### Custome environment variables
 ```groovy
 pipeline {
     agent any
-    tools {
-      // Label, name of the tool configration
-      gradle "Gradle"
-      maven "Maven"
-      jdk "JDK"
+    environment {
+      NEW_VERSION = "1.3.0"
+    }
     stages {
-        stage('hello') {
+          stage('hello') {
+              steps {
+                  echo "building version $(NEW_VERSION)!"
+              }
+          }
+    }
+}
+```
+
+#### Carry variables over between stages
+```groovy
+def exampleVar
+
+pipeline {
+    agent any
+    stages {
+        stage('test') {
             steps {
-                gradle run ....
+                exampleVar = "Hello"
+            }
+        }
+        stage('build') {
+            steps {
+                echo "$(exampleVar)"
             }
         }
     }
 }
 ```
 
-### Build parameters
+### External groovy scripts
 ```groovy
-pipeline {
-    agent any
-    parameters {
-      string(name: "VERSION_PROD", defaultValue: "", description: "Version to deploy on prod")
-      choice(name: "VERSION_TEST", choices: ["1.1.0", "1.2.0", "1.3.0"], description: "Version to deploy on test")
-      booleanParam(name: "SKIP_PREP_STAGE", defaultValue: false, description: "Skip Prep stage")
-    stages {
-        stage('hello') {
-            steps {
-                echo "$(params.VERSION_PROD)"
+stages {
+    stage('hello') {
+        steps {
+            script {
+                gv = load "script.groovy"
+                gv.sampleFunction()
             }
         }
     }
