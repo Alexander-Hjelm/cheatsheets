@@ -71,6 +71,27 @@ Check the "Pipeline Syntax" link in the pipeline creator.
 
 Full list: Go to `http://localhost:8080/env-vars.html`
 
+### tools, build tools
+#### Hello World
+Configure build tools under **Manage Jenkings -> Global Tool Configuration**
+```groovy
+pipeline {
+    agent any
+    tools {
+      // Label, name of the tool configration
+      gradle "Gradle"
+      maven "Maven"
+      jdk "JDK"
+    stages {
+        stage('hello') {
+            steps {
+                echo "Hello World!"
+            }
+        }
+    }
+}
+```
+
 ### Quickstart examples
 
 #### Hello World
