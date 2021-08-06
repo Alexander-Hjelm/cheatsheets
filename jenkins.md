@@ -60,6 +60,9 @@ build <job name>
 
 Check the "Pipeline Syntax" link in the pipeline creator.
 
+### Environment variables
+- env.BRANCH_NAME
+
 ### Quickstart examples
 
 #### Hello World
@@ -104,9 +107,41 @@ pipeline {
 }
 ```
 
-#### Pull a second git repo
+### Pull a second git repo
 ```groovy
 steps {
   git branch: 'master', credentials: '98j9efr4-3245-4734-2345-j9fe8pjh90843', url: 'https://github.com/Alexander-Hjelm/cheatsheets'
+}
+```
+
+### post, run commands after execution
+```groovy
+stages {
+  // Stages logic
+}
+post {
+  always {
+    // Do stuff
+  }
+  success {
+    // Do stuff
+  }
+  failure {
+    // Do stuff
+  }
+}
+```
+
+### when coditions (if, else, conditionals)
+```groovy
+stage("test") {
+  when {
+    expression {
+      env.BRANCH_NAME == "dev"
+    }
+  }
+  steps {
+    echo "Hello from dev branch!"
+  }
 }
 ```
