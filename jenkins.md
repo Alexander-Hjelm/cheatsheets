@@ -64,7 +64,8 @@ build <job name>
 Check the "Pipeline Syntax" link in the pipeline creator.
 
 ### Environment variables
-- env.BRANCH_NAME
+- **env.BRANCH_NAME** (string)
+- **env.CODE_CHANGES** (bool)
 
 ### Quickstart examples
 
@@ -140,11 +141,11 @@ post {
 stage("test") {
   when {
     expression {
-      env.BRANCH_NAME == "dev"
+      env.BRANCH_NAME == "dev" || env.BRANCH_NAME == "master"
     }
   }
   steps {
-    echo "Hello from dev branch!"
+    echo "Hello from dev or master branch!"
   }
 }
 ```
