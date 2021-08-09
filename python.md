@@ -548,3 +548,11 @@ if __name__ == "__main__":
   </body>
 </html>
 ```
+
+### Run a flask app over https
+
+Reqiures the **cryptography** library.
+
+```python
+  app.run(host="0.0.0.0", port=443, ssl_context='adhoc')
+```
