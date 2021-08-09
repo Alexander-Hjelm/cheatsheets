@@ -35,3 +35,14 @@ Sample staticwebapp.config.json:
   }
 }
 ```
+
+### Troubleshooting
+
+#### CSP header
+
+Error message:
+```
+VM290:1 Refused to connect to 'http://fulltextsearch.norwayeast.azurecontainer.io/?search_str=a&eferer_url=https://zealous-river-0de318e03.azurestaticapps.net' because it violates the following Content Security Policy directive: "default-src https: 'unsafe-eval' 'unsafe-inline'". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback.
+```
+
+**Solution**: Add the origin to the *globalHeaders.content-security-policy* field in staticwebapp.config.json
