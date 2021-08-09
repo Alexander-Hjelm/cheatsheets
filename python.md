@@ -70,8 +70,9 @@
    * [Flask server](python.md#flask-server)
       * [app.py](python.md#apppy)
       * [templates/index.html](python.md#templatesindexhtml)
+      * [Run a flask app over https](python.md#run-a-flask-app-over-https)
 
-<!-- Added by: runner, at: Mon Aug  9 13:04:57 UTC 2021 -->
+<!-- Added by: runner, at: Mon Aug  9 13:29:25 UTC 2021 -->
 
 <!--te-->
 
