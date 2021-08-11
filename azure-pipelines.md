@@ -282,3 +282,9 @@ Override this with the `\IS` (Include same) argument.
 /p:PackageAsSingleFiles=true (zip)
 /p:PackageAsSingleFiles=false (files)
 ```
+
+# Troubleshooting
+
+## SYSTEM_ACCESSTOKEN env var not set
+
+Under the release, go to Agent job and check **Allow scripts to access the OAuth toke** to true.
