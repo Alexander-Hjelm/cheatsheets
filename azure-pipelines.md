@@ -52,6 +52,7 @@ pool:
 - **System.Debug**: Verbose logging.
 - **System.DefaultWorkingDirectory**: The local path on the agent where your source code files are downloaded. For example: c:\agent_work\1\s
 - **Agent.BuildDirectory**: The local path on the agent where all folders for a given build pipeline are created. This variable has the same value as Pipeline.Workspace. For example: /home/vsts/work/1
+- **Build.ArtifactStagingDirectory**: The local path on the agent where any artifacts are copied to before being pushed to their destination. 
 
 More: https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml
 
