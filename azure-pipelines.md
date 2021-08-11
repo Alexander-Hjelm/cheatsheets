@@ -3,7 +3,7 @@
 * [Azure Pipelines](azure-pipelines.md#azure-pipelines)
 * [Demands](azure-pipelines.md#demands)
    * [Agent name](azure-pipelines.md#agent-name)
-* [Useful variables](azure-pipelines.md#useful-variables)
+* [Useful environment variables](azure-pipelines.md#useful-environment-variables)
 * [Triggers](azure-pipelines.md#triggers)
    * [Trigger on push to another repo](azure-pipelines.md#trigger-on-push-to-another-repo)
 * [Parameters](azure-pipelines.md#parameters)
@@ -32,7 +32,7 @@
 * [Troubleshooting](azure-pipelines.md#troubleshooting-1)
    * [SYSTEM_ACCESSTOKEN env var not set](azure-pipelines.md#system_accesstoken-env-var-not-set)
 
-<!-- Added by: runner, at: Wed Aug 11 09:29:32 UTC 2021 -->
+<!-- Added by: runner, at: Wed Aug 11 09:39:17 UTC 2021 -->
 
 <!--te-->
 
