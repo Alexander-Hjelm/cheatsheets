@@ -29,8 +29,10 @@
       * [Same files skipped](azure-pipelines.md#same-files-skipped)
 * [Visual Studio build](azure-pipelines.md#visual-studio-build)
    * [Publish artifact as a .zip or files](azure-pipelines.md#publish-artifact-as-a-zip-or-files)
+* [Troubleshooting](azure-pipelines.md#troubleshooting-1)
+   * [SYSTEM_ACCESSTOKEN env var not set](azure-pipelines.md#system_accesstoken-env-var-not-set)
 
-<!-- Added by: runner, at: Mon Aug  9 13:29:19 UTC 2021 -->
+<!-- Added by: runner, at: Wed Aug 11 09:29:32 UTC 2021 -->
 
 <!--te-->
 
