@@ -47,7 +47,7 @@ pool:
   - agent.computername -equals W1000A
 ```
 
-# Useful variables
+# Useful environment variables
 
 - **System.Debug**: Verbose logging.
 - **System.DefaultWorkingDirectory**: The local path on the agent where your source code files are downloaded. For example: c:\agent_work\1\s
