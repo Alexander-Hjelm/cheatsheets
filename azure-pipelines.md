@@ -31,8 +31,9 @@
    * [Publish artifact as a .zip or files](azure-pipelines.md#publish-artifact-as-a-zip-or-files)
 * [Troubleshooting](azure-pipelines.md#troubleshooting-1)
    * [SYSTEM_ACCESSTOKEN env var not set](azure-pipelines.md#system_accesstoken-env-var-not-set)
+   * [The reference assemblies for .NETFramework,Version=v4.8 were not found](azure-pipelines.md#the-reference-assemblies-for-netframeworkversionv48-were-not-found)
 
-<!-- Added by: runner, at: Wed Aug 11 09:51:46 UTC 2021 -->
+<!-- Added by: runner, at: Thu Aug 12 12:42:29 UTC 2021 -->
 
 <!--te-->
 
