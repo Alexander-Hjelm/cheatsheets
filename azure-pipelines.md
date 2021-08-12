@@ -291,3 +291,7 @@ Override this with the `\IS` (Include same) argument.
 ## SYSTEM_ACCESSTOKEN env var not set
 
 Under the release, go to Agent job and check **Allow scripts to access the OAuth toke** to true.
+
+## The reference assemblies for .NETFramework,Version=v4.8 were not found
+
+Install the specified dotnet core + targeting pack on the build machine.
