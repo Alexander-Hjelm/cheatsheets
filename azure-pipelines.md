@@ -296,3 +296,7 @@ Under the release, go to Agent job and check **Allow scripts to access the OAuth
 ## The reference assemblies for .NETFramework,Version=v4.8 were not found
 
 Install the specified dotnet core + targeting pack on the build machine.
+
+## You do not have the appropriate permissions to manage test suites under this area path.
+
+Under Project Settings -> Boards -> Porject Configuration -> Areas. Select **Security** for the top-level area and ensure that the Build Service user has the **Manage Test Plans** and **Manage Test Suites** permissions.
