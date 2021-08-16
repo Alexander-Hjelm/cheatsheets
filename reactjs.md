@@ -342,3 +342,15 @@ let momentsAfter = moment(dateA).isAfter(dateB, "Day");
 // Add to moment
 var changeddate = moment([2017, 2, 31]).add(5, 'hours');
 ```
+
+## Window
+
+### get url for current page
+```typescript
+let url = window.location.href;
+```
+
+### Open a page in a new tab
+```typescript
+window.open("https://wikipedia.org);
+```
