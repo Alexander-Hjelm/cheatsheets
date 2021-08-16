@@ -37,8 +37,11 @@
       * [min, max](reactjs.md#min-max)
       * [Round](reactjs.md#round)
    * [Moment](reactjs.md#moment)
+   * [Window](reactjs.md#window)
+      * [get url for current page](reactjs.md#get-url-for-current-page)
+      * [Open a page in a new tab](reactjs.md#open-a-page-in-a-new-tab)
 
-<!-- Added by: runner, at: Fri Aug 13 07:33:22 UTC 2021 -->
+<!-- Added by: runner, at: Mon Aug 16 08:51:27 UTC 2021 -->
 
 <!--te-->
 
