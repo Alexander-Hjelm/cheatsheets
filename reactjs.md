@@ -20,6 +20,7 @@
    * [String](reactjs.md#string)
       * [Split](reactjs.md#split)
       * [Template string, format](reactjs.md#template-string-format)
+      * [Regex](reactjs.md#regex)
    * [Asyncronous programing](reactjs.md#asyncronous-programing)
       * [async function](reactjs.md#async-function)
       * [await, then](reactjs.md#await-then)
@@ -41,7 +42,7 @@
       * [get url for current page](reactjs.md#get-url-for-current-page)
       * [Open a page in a new tab](reactjs.md#open-a-page-in-a-new-tab)
 
-<!-- Added by: runner, at: Mon Aug 16 08:51:27 UTC 2021 -->
+<!-- Added by: runner, at: Mon Aug 16 11:16:29 UTC 2021 -->
 
 <!--te-->
 
