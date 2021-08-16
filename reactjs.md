@@ -20,7 +20,6 @@
    * [String](reactjs.md#string)
       * [Split](reactjs.md#split)
       * [Template string, format](reactjs.md#template-string-format)
-      * [Regex](reactjs.md#regex)
    * [Asyncronous programing](reactjs.md#asyncronous-programing)
       * [async function](reactjs.md#async-function)
       * [await, then](reactjs.md#await-then)
@@ -42,7 +41,7 @@
       * [get url for current page](reactjs.md#get-url-for-current-page)
       * [Open a page in a new tab](reactjs.md#open-a-page-in-a-new-tab)
 
-<!-- Added by: runner, at: Mon Aug 16 11:16:29 UTC 2021 -->
+<!-- Added by: runner, at: Mon Aug 16 08:51:27 UTC 2021 -->
 
 <!--te-->
 
@@ -122,6 +121,11 @@ array.filter(element => {(element.property == someValue);});
   // 3
 ```
 
+### Slice
+Picks out a number of elements from an array into a new array
+```typescript
+my_array_sliced = my_array.slice(0,5)
+```
 
 ## Program logic
 
@@ -184,11 +188,23 @@ func(item: Type): ReturnType {
 
 ## String
 
-### Split
+### String operations
+
+#### Split
 ```typescript
 let str = "1,2,3,4"
 let splitted = str.split(",");
 // [1,2,3,4]
+```
+
+#### Join
+```typescript
+my_str = my_array.join("/");
+```
+
+#### Substring
+```typescript
+str_sliced = my_str.substring(0, 10);
 ```
 
 ### Template string, format
