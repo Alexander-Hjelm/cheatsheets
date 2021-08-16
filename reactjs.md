@@ -196,6 +196,12 @@ let sample = 100;
 let formatted = `Total: ${sample}`
 ```
 
+### Regex
+```typescript
+const regex = /[0-9]*\)$/g;
+let matches = my_string.match(regex)[0];
+// Returns an array of matches
+```
 
 ## Asyncronous programing
 
