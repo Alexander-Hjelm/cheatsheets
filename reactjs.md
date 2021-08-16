@@ -352,5 +352,5 @@ let url = window.location.href;
 
 ### Open a page in a new tab
 ```typescript
-window.open("https://wikipedia.org);
+window.open("https://wikipedia.org");
 ```
