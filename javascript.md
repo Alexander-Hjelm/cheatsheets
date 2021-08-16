@@ -1,4 +1,4 @@
-# ReactJS
+# Javascript
 
 <!--ts-->
 * [ReactJS](reactjs.md#reactjs)
