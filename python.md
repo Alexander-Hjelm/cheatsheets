@@ -63,6 +63,7 @@
       * [input](python.md#input)
       * [a](python.md#a)
       * [img](python.md#img)
+      * [Button with hyperlink](python.md#button-with-hyperlink)
 * [Http](python.md#http)
    * [Http client](python.md#http-client)
       * [Sample get request](python.md#sample-get-request)
@@ -72,7 +73,7 @@
       * [templates/index.html](python.md#templatesindexhtml)
       * [Run a flask app over https](python.md#run-a-flask-app-over-https)
 
-<!-- Added by: runner, at: Mon Aug 16 11:21:18 UTC 2021 -->
+<!-- Added by: runner, at: Tue Aug 17 10:47:29 UTC 2021 -->
 
 <!--te-->
 
