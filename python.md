@@ -481,7 +481,6 @@ function search(value)
 }
 ```
 
-
 ### a
 ```python
 a = BeautifulSoup("<a></a>", 'html.parser').a
@@ -492,6 +491,14 @@ a["href"] = "https://github.com/"
 ```python
 img = BeautifulSoup("<img></img>", 'html.parser').img
 img["src"] = "https://example.com/image"
+```
+
+### Button with hyperlink
+```python
+a = BeautifulSoup("<a></a>", 'html.parser').a
+a['href']=webroot+"logout"
+button = BeautifulSoup("<button>Log out</button>", 'html.parser').button
+a.append(button)
 ```
 
 # Http
