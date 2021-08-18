@@ -72,8 +72,10 @@
       * [app.py](python.md#apppy)
       * [templates/index.html](python.md#templatesindexhtml)
       * [Run a flask app over https](python.md#run-a-flask-app-over-https)
+      * [Run a flask app with CORS enabled](python.md#run-a-flask-app-with-cors-enabled)
+      * [Limit on origin, remote address](python.md#limit-on-origin-remote-address)
 
-<!-- Added by: runner, at: Wed Aug 18 08:20:40 UTC 2021 -->
+<!-- Added by: runner, at: Wed Aug 18 08:23:53 UTC 2021 -->
 
 <!--te-->
 
