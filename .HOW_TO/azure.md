@@ -13,7 +13,7 @@ Sample staticwebapp.config.json:
     },
     {
       "route": "/test",
-      "allowedRoles": ["authenticated"]
+      "allowedRoles": ["anonymous"]
     },
     {
       "route": "/login",
@@ -26,6 +26,12 @@ Sample staticwebapp.config.json:
   ],
   "navigationFallback": {
     "rewrite": "index.html"
+  },
+    "responseOverrides": {
+    "401": {
+      "redirect": "/login.html",
+      "statusCode": 302
+    }
   },
   "globalHeaders": {
     "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
