@@ -561,7 +561,25 @@ if __name__ == "__main__":
 ### Run a flask app over https
 
 Reqiures the **cryptography** library.
-
 ```python
   app.run(host="0.0.0.0", port=443, ssl_context='adhoc')
+```
+
+### Run a flask app with CORS enabled
+```python
+from flask import Flask
+from flask_cors import CORS, cross_origin
+
+app = Flask(__name__)
+
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
+```
+
+### Limit on origin, remote address
+```python
+@app.before_request
+def limit_remote_addr():
+    if not request.origin.startswith('https://zealous-river-0de318e03.azurestaticapps.net'):
+        abort(403)  # Forbidden
 ```
