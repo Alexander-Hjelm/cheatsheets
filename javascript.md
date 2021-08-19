@@ -13,6 +13,8 @@
       * [filter](javascript.md#filter)
       * [2D arrays](javascript.md#2d-arrays)
       * [Slice](javascript.md#slice)
+   * [Dictionaries](javascript.md#dictionaries)
+      * [Iterating key/value pairs](javascript.md#iterating-keyvalue-pairs)
    * [Program logic](javascript.md#program-logic)
       * [for loop](javascript.md#for-loop)
       * [if/else](javascript.md#ifelse)
@@ -46,7 +48,7 @@
       * [get url for current page](javascript.md#get-url-for-current-page)
       * [Open a page in a new tab](javascript.md#open-a-page-in-a-new-tab)
 
-<!-- Added by: runner, at: Wed Aug 18 08:23:50 UTC 2021 -->
+<!-- Added by: runner, at: Thu Aug 19 07:34:28 UTC 2021 -->
 
 <!--te-->
 
