@@ -145,7 +145,7 @@ array1.includes(2)
 
 ## Dictionaries
 ```typescript
-var dict = {};
+var dict = Object();
 
 var dict = {
   FirstName: "Chris",
