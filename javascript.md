@@ -134,6 +134,14 @@ Picks out a number of elements from an array into a new array
 my_array_sliced = my_array.slice(0,5)
 ```
 
+### Includes (contains)
+```typescript
+const array1 = [1, 2, 3];
+
+array1.includes(2)
+// expected output: true
+```
+
 ## Dictionaries
 ```typescript
 var dict = {};
