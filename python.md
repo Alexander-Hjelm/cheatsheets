@@ -585,3 +585,9 @@ def limit_remote_addr():
     if not request.origin.startswith('https://zealous-river-0de318e03.azurestaticapps.net'):
         abort(403)  # Forbidden
 ```
+
+## Parse url
+```python
+import urllib.parse
+s_enc = urllib.parse.quote(s)
+```
