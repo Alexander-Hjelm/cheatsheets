@@ -132,6 +132,28 @@ Picks out a number of elements from an array into a new array
 my_array_sliced = my_array.slice(0,5)
 ```
 
+## Dictionaries
+```typescript
+var dict = {};
+
+var dict = {
+  FirstName: "Chris",
+  "one": 1,
+  1: "some value"
+};
+
+dict["one"] = 1;
+```
+
+### Iterating key/value pairs
+```typescript
+for(var key in dict) {
+  var value = dict[key];
+
+  // do something with "key" and "value" variables
+}
+```
+
 ## Program logic
 
 ### for loop
