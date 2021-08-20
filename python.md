@@ -587,8 +587,9 @@ def limit_remote_addr():
         abort(403)  # Forbidden
 ```
 
-## Parse url
+## Parse url, unparse url
 ```python
 import urllib.parse
 s_enc = urllib.parse.quote(s)
+s_dec = urllib.parse.unquote(s)
 ```
