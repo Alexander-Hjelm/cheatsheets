@@ -420,6 +420,11 @@ with open("sample.json", "w") as outfile:
     outfile.write(json_object)
 ```
 
+## Pretty, prettify, pretty print
+```python
+json_string = json.dumps(json_obj, indent=4)
+```
+
 # random
 ```python
 import random
