@@ -50,6 +50,7 @@
 * [Json](python.md#json)
    * [Read json](python.md#read-json)
    * [Write json](python.md#write-json)
+   * [Pretty, prettify, pretty print](python.md#pretty-prettify-pretty-print)
 * [random](python.md#random)
 * [Execute command](python.md#execute-command)
 * [BeautfulSoup, bs4](python.md#beautfulsoup-bs4)
@@ -76,7 +77,7 @@
       * [Limit on origin, remote address](python.md#limit-on-origin-remote-address)
    * [Parse url, unparse url](python.md#parse-url-unparse-url)
 
-<!-- Added by: runner, at: Fri Aug 20 08:27:06 UTC 2021 -->
+<!-- Added by: runner, at: Wed Aug 25 10:24:30 UTC 2021 -->
 
 <!--te-->
 
