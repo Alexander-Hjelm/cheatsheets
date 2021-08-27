@@ -33,7 +33,7 @@
    * [Debug certificates.](kubernetes.md#debug-certificates)
    * [tcpdump sidecar container](kubernetes.md#tcpdump-sidecar-container)
 
-<!-- Added by: runner, at: Fri Aug 27 15:57:15 UTC 2021 -->
+<!-- Added by: runner, at: Fri Aug 27 16:02:39 UTC 2021 -->
 
 <!--te-->
 

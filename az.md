@@ -4,8 +4,9 @@
 * [Azure DevOps](az.md#azure-devops)
    * [Login, log in](az.md#login-log-in)
    * [Run pipeline](az.md#run-pipeline)
+   * [Create release from release definition](az.md#create-release-from-release-definition)
 
-<!-- Added by: runner, at: Fri Aug 27 15:57:12 UTC 2021 -->
+<!-- Added by: runner, at: Fri Aug 27 16:02:36 UTC 2021 -->
 
 <!--te-->
 
