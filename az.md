@@ -25,3 +25,8 @@ or
 ```bash
 az pipelines run --id <pipeline id>
 ```
+
+## Create release from release definition
+```bash
+az pipelines release create --definition-name="ImportTestResults Gherkin"
+```
