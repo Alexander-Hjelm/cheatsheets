@@ -1,5 +1,12 @@
 # Azure CLI
 <!--ts-->
+* [Azure CLI](az.md#azure-cli)
+* [Azure DevOps](az.md#azure-devops)
+   * [Login, log in](az.md#login-log-in)
+   * [Run pipeline](az.md#run-pipeline)
+
+<!-- Added by: runner, at: Fri Aug 27 15:54:32 UTC 2021 -->
+
 <!--te-->
 
 # Azure DevOps
