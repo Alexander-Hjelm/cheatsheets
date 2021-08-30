@@ -11,13 +11,14 @@
    * [Files, IO](nodejs.md#files-io)
       * [Read file](nodejs.md#read-file)
       * [Write file](nodejs.md#write-file)
+      * [Read json file](nodejs.md#read-json-file)
       * [os.walk, iterate through files, subfolders](nodejs.md#oswalk-iterate-through-files-subfolders)
    * [Events](nodejs.md#events)
    * [Classes](nodejs.md#classes)
    * [Server application with Express](nodejs.md#server-application-with-express)
    * [Sample package.json](nodejs.md#sample-packagejson)
 
-<!-- Added by: runner, at: Fri Aug 27 16:02:40 UTC 2021 -->
+<!-- Added by: runner, at: Mon Aug 30 13:48:19 UTC 2021 -->
 
 <!--te-->
 
