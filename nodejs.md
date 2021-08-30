@@ -96,7 +96,7 @@ fs.writeFile('input.txt', 'Simply Easy Learning!', function(err) {
 
 ### Read json file
 ```typescript
-const jsonOut = require(./sample.json);
+const jsonOut = require("./sample.json");
 ```
 
 ### os.walk, iterate through files, subfolders
