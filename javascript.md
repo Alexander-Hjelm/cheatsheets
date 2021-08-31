@@ -49,7 +49,7 @@
       * [get url for current page](javascript.md#get-url-for-current-page)
       * [Open a page in a new tab](javascript.md#open-a-page-in-a-new-tab)
 
-<!-- Added by: runner, at: Tue Aug 31 12:51:20 UTC 2021 -->
+<!-- Added by: runner, at: Tue Aug 31 13:06:19 UTC 2021 -->
 
 <!--te-->
 
