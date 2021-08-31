@@ -4,7 +4,12 @@
 
 ### Running an application as a service
 
-First Build the service application from VS.
+First Build the service application from VS. Check in the bin/Debug folder of the solution for the service .exe.
+
+```powershell
+sc.exe delete "MyServiceName"
+New-Service -Name "MyServiceName" -BinaryPathName C:\Temp\Full\Path\To\MyService.exe
+```
 
 #### The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security
 
