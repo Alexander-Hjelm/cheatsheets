@@ -418,3 +418,11 @@ let url = window.location.href;
 ```typescript
 window.open("https://wikipedia.org");
 ```
+
+# Url
+
+## Encode/decode url
+```typescript
+encodeURI('coño funcionó!')
+decodeURI('Hey%20Arnold')
+```
