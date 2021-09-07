@@ -5,7 +5,7 @@
    * [Build an extension](azure-extensions.md#build-an-extension)
    * [Publish an extension](azure-extensions.md#publish-an-extension)
 
-<!-- Added by: runner, at: Tue Aug 31 13:06:16 UTC 2021 -->
+<!-- Added by: runner, at: Tue Sep  7 13:38:12 UTC 2021 -->
 
 <!--te-->
 

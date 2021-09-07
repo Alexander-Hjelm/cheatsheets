@@ -48,8 +48,10 @@
    * [Window](javascript.md#window)
       * [get url for current page](javascript.md#get-url-for-current-page)
       * [Open a page in a new tab](javascript.md#open-a-page-in-a-new-tab)
+* [Url](javascript.md#url)
+   * [Encode/decode url](javascript.md#encodedecode-url)
 
-<!-- Added by: runner, at: Tue Aug 31 13:06:19 UTC 2021 -->
+<!-- Added by: runner, at: Tue Sep  7 13:38:15 UTC 2021 -->
 
 <!--te-->
 
