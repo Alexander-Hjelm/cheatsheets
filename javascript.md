@@ -16,6 +16,7 @@
       * [Includes (contains)](javascript.md#includes-contains)
    * [Dictionaries](javascript.md#dictionaries)
       * [Iterating key/value pairs](javascript.md#iterating-keyvalue-pairs)
+   * [Does key exist in dictionary?](javascript.md#does-key-exist-in-dictionary)
    * [Program logic](javascript.md#program-logic)
       * [for loop](javascript.md#for-loop)
       * [if/else](javascript.md#ifelse)
@@ -51,7 +52,7 @@
 * [Url](javascript.md#url)
    * [Encode/decode url](javascript.md#encodedecode-url)
 
-<!-- Added by: runner, at: Wed Sep  8 10:35:11 UTC 2021 -->
+<!-- Added by: runner, at: Wed Sep  8 13:16:28 UTC 2021 -->
 
 <!--te-->
 
