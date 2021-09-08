@@ -6,17 +6,10 @@
       * [View remotes](git.md#view-remotes)
       * [Add a remote](git.md#add-a-remote)
       * [Remove a remote](git.md#remove-a-remote)
-   * [push / pull](git.md#push--pull)
-      * [Push to another branch in the remote](git.md#push-to-another-branch-in-the-remote)
    * [Files](git.md#files)
       * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
-   * [Solve a merge conflict](git.md#solve-a-merge-conflict)
-      * [Solve manually](git.md#solve-manually)
-      * [ours/theirs](git.md#ourstheirs)
-   * [git rebase](git.md#git-rebase)
-      * [Interactive](git.md#interactive)
 
-<!-- Added by: runner, at: Wed Sep  8 10:29:45 UTC 2021 -->
+<!-- Added by: runner, at: Tue Sep  7 13:38:14 UTC 2021 -->
 
 <!--te-->
 
@@ -109,7 +102,7 @@ Finally run `git add <file name>`
 
 ## git rebase
 
-Git rebase can be used to change the commit history after a branch has been commited or pushed.
+Git rebase can be used to change the commit history after a branch has been commited or pushed. It can be used to e.g. rename, reorder, squash or remove specific commits.
 
 ### Interactive
 
