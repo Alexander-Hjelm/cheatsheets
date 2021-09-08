@@ -6,17 +6,10 @@
       * [View remotes](git.md#view-remotes)
       * [Add a remote](git.md#add-a-remote)
       * [Remove a remote](git.md#remove-a-remote)
-   * [push / pull](git.md#push--pull)
-      * [Push to another branch in the remote](git.md#push-to-another-branch-in-the-remote)
    * [Files](git.md#files)
       * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
-   * [Solve a merge conflict](git.md#solve-a-merge-conflict)
-      * [Solve manually](git.md#solve-manually)
-      * [ours/theirs](git.md#ourstheirs)
-   * [git rebase](git.md#git-rebase)
-      * [Interactive](git.md#interactive)
 
-<!-- Added by: runner, at: Wed Sep  8 10:29:14 UTC 2021 -->
+<!-- Added by: runner, at: Tue Sep  7 13:38:14 UTC 2021 -->
 
 <!--te-->
 
@@ -117,13 +110,13 @@ To edit all commits up until a specific commit (exclusive, the last comit is not
 
 ```bash
 git rebase --i <commit id>
-```bash
+```
 
 Alternatively, to edit the last 3 commits, you can do:
 
 ```bash
 git rebase --i HEAD~3
-```bash
+```
 
 The interactive screen will look something like this:
 
@@ -137,7 +130,7 @@ pick 0b9d0bb fixup greeting.txt
 # Commands:
 # p, pick <commit> = use commit
 # f, fixup <commit> = like "squash", but discard this commit's log message
-```bash
+```
 
 For each commit you can change the **pick** statement to do something else. Here is a list of the useful commands:
 
