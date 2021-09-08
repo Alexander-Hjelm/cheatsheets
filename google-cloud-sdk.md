@@ -5,7 +5,7 @@
       * [List compute instances](google-cloud-sdk.md#list-compute-instances)
       * [Create a compute instance from a template](google-cloud-sdk.md#create-a-compute-instance-from-a-template)
 
-<!-- Added by: runner, at: Tue Sep  7 13:38:14 UTC 2021 -->
+<!-- Added by: runner, at: Wed Sep  8 10:17:12 UTC 2021 -->
 
 <!--te-->
 

@@ -8,8 +8,11 @@
       * [Remove a remote](git.md#remove-a-remote)
    * [Files](git.md#files)
       * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
+   * [Solve a merge conflict](git.md#solve-a-merge-conflict)
+      * [Solve manually](git.md#solve-manually)
+      * [ours/theirs](git.md#ourstheirs)
 
-<!-- Added by: runner, at: Tue Sep  7 13:38:14 UTC 2021 -->
+<!-- Added by: runner, at: Wed Sep  8 10:17:12 UTC 2021 -->
 
 <!--te-->
 
