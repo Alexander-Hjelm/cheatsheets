@@ -167,6 +167,12 @@ for(var key in dict) {
 }
 ```
 
+## Does key exist in dictionary?
+```typescript
+if ("key1" in obj)
+    console.log("has key1 in obj");
+```
+
 ## Program logic
 
 ### for loop
