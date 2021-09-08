@@ -8,11 +8,8 @@
       * [Remove a remote](git.md#remove-a-remote)
    * [Files](git.md#files)
       * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
-   * [Solve a merge conflict](git.md#solve-a-merge-conflict)
-      * [Solve manually](git.md#solve-manually)
-      * [ours/theirs](git.md#ourstheirs)
 
-<!-- Added by: runner, at: Wed Sep  8 10:17:12 UTC 2021 -->
+<!-- Added by: runner, at: Tue Sep  7 13:38:14 UTC 2021 -->
 
 <!--te-->
 
@@ -36,6 +33,15 @@ git remote add origin https://github.com/gittower/example.git
 ### Remove a remote
 ```bash
 git remote rm <remote-name>
+```
+
+## push / pull
+
+### Push to another branch in the remote
+
+To push the changes to a remote branch with a different name: 
+```bash
+git push origin localBranchName:remoteBranchName
 ```
 
 ## Files
@@ -93,3 +99,55 @@ For simpler merge conflicts where you know which version of the file to use, run
 - `git checkout --theirs <file name>` to use the new_branch_to_merge_later version
 
 Finally run `git add <file name>`
+
+## git rebase
+
+Git rebase can be used to change the commit history after a branch has been commited or pushed.
+
+### Interactive
+
+To edit all commits up until a specific commit (exclusive, the last comit is not included):
+
+```bash
+git rebase --i <commit id>
+```bash
+
+Alternatively, to edit the last 3 commits, you can do:
+
+```bash
+git rebase --i HEAD~3
+```bash
+
+The interactive screen will look something like this:
+
+```bash
+pick 8d3fc77 Add greeting.txt
+pick 2a73a77 Add farewell.txt
+pick 0b9d0bb fixup greeting.txt
+
+# Rebase f5f19fb..0b9d0bb onto f5f19fb (3 commands)
+#
+# Commands:
+# p, pick <commit> = use commit
+# f, fixup <commit> = like "squash", but discard this commit's log message
+```bash
+
+For each commit you can change the **pick** statement to do something else. Here is a list of the useful commands:
+
+- **p, pick**: use commit, leave the commit unchanged.
+- **r, reword**: edit the commit message
+- **e, edit**: use commit, but stop for amending
+- **s, squash**: Squash the commit into the previous commit
+- **f, fixup**: like squash but keep only the previous commit's message
+- **x, exec**: run command (the rest of the line) using shell
+- **b, break*: stop here (continue rebase later with 'git rebase --continue')
+- **d, drop**: remove commit
+
+**Fun fact**: You can also change the order of the commits by reordering the lines.
+
+Finally, save the file and exit to start the rebase. You may encounter merge conflicts, which can be solved manually or simply by the "ours" strategy to get the latest changes.
+
+To push the changes to a remote branch and overwrite the remote contents: 
+```bash
+git push origin localBranchName:remoteBranchName --force
+```
