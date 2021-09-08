@@ -43,3 +43,50 @@ git rm --cached <file name>
 git commit
 ```
 Then save the file again for good measure.
+
+## Solve a merge conflict
+
+### Solve manually
+
+Let's take the following example:
+
+```bash
+<<<<<<< HEAD
+this is some content to mess with
+content to append
+=======
+totally different content to merge later
+>>>>>>> new_branch_to_merge_later
+```
+
+Here you would remove either the **HEAD** block (content in the master branch):
+```bash
+<<<<<<< HEAD
+this is some content to mess with
+content to append
+=======
+```
+
+Or the **new_branch_to_merge_later** the HEAD block (content in the branch that we are merging from):
+```bash
+=======
+totally different content to merge later
+>>>>>>> new_branch_to_merge_later
+```
+
+Make sure to remove all the "fluff", including the lines:
+- <<<<<<< HEAD
+- =======
+- \>\>\>\>\>\>\> new_branch_to_merge_later
+
+Finally save your file and run `git add <file name>`
+
+Reference: https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
+
+### ours/theirs
+
+For simpler merge conflicts where you know which version of the file to use, run:
+- `git checkout --ours <file name>` to use the master (HEAD) version
+- `git checkout --theirs <file name>` to use the new_branch_to_merge_later version
+
+Finally run `git add <file name>`
