@@ -60,6 +60,13 @@ git commit
 ```
 Then save the file again for good measure.
 
+## Submodules
+
+When pulling a repository with submodules, do the following to initalize and update the submodules (with the --recursive option)
+```bash
+git submodule update --init --recursive
+```
+
 ## Solve a merge conflict
 
 ### Solve manually
