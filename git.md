@@ -10,13 +10,14 @@
       * [Push to another branch in the remote](git.md#push-to-another-branch-in-the-remote)
    * [Files](git.md#files)
       * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
+   * [Submodules](git.md#submodules)
    * [Solve a merge conflict](git.md#solve-a-merge-conflict)
       * [Solve manually](git.md#solve-manually)
       * [ours/theirs](git.md#ourstheirs)
    * [git rebase](git.md#git-rebase)
       * [Interactive](git.md#interactive)
 
-<!-- Added by: runner, at: Wed Sep  8 10:30:49 UTC 2021 -->
+<!-- Added by: runner, at: Wed Sep  8 10:35:09 UTC 2021 -->
 
 <!--te-->
 
