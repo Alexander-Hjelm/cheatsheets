@@ -7,6 +7,7 @@
       * [Import](javascript.md#import)
       * [Interface](javascript.md#interface)
       * [function](javascript.md#function)
+         * [multiple return values](javascript.md#multiple-return-values)
    * [Arrays](javascript.md#arrays)
       * [forEach](javascript.md#foreach)
       * [map](javascript.md#map)
@@ -52,7 +53,7 @@
 * [Url](javascript.md#url)
    * [Encode/decode url](javascript.md#encodedecode-url)
 
-<!-- Added by: runner, at: Wed Sep 15 12:55:20 UTC 2021 -->
+<!-- Added by: runner, at: Wed Sep 15 14:48:20 UTC 2021 -->
 
 <!--te-->
 
