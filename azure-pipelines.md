@@ -294,6 +294,12 @@ Override this with the `\IS` (Include same) argument.
 
 Under the release, go to Agent job and check **Allow scripts to access the OAuth toke** to true.
 
+For yaml builds, set the AccessToken variable like this:
+```yaml
+variables:
+  system_accesstoken: $(System.AccessToken)
+```
+
 ## The reference assemblies for .NETFramework,Version=v4.8 were not found
 
 Install the specified dotnet core + targeting pack on the build machine.
