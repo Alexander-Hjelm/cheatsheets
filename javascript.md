@@ -87,6 +87,17 @@ public testFunction(a: string, b: boolean, c: number): any {
   doStuff();
 ```
 
+#### multiple return values
+
+var [myStr, myBool] = myfunc();
+
+...
+
+function myfunc(): [string, boolean] {
+  return ["Hello", true];
+}
+
+
 ## Arrays
 ```typescript
   let array: any[] = ['front',23,true,'back'];
