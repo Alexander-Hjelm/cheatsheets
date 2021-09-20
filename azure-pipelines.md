@@ -3,7 +3,9 @@
 * [Azure Pipelines](azure-pipelines.md#azure-pipelines)
 * [Demands](azure-pipelines.md#demands)
    * [Agent name](azure-pipelines.md#agent-name)
-* [Useful environment variables](azure-pipelines.md#useful-environment-variables)
+* [Variables](azure-pipelines.md#variables)
+   * [Using variable groups](azure-pipelines.md#using-variable-groups)
+   * [Useful environment variables](azure-pipelines.md#useful-environment-variables)
 * [Triggers](azure-pipelines.md#triggers)
    * [Trigger on push to another repo](azure-pipelines.md#trigger-on-push-to-another-repo)
 * [Parameters](azure-pipelines.md#parameters)
@@ -34,7 +36,7 @@
    * [The reference assemblies for .NETFramework,Version=v4.8 were not found](azure-pipelines.md#the-reference-assemblies-for-netframeworkversionv48-were-not-found)
    * [You do not have the appropriate permissions to manage test suites under this area path.](azure-pipelines.md#you-do-not-have-the-appropriate-permissions-to-manage-test-suites-under-this-area-path)
 
-<!-- Added by: runner, at: Wed Sep 15 14:48:17 UTC 2021 -->
+<!-- Added by: runner, at: Mon Sep 20 14:17:09 UTC 2021 -->
 
 <!--te-->
 
