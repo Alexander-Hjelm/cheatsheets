@@ -49,7 +49,17 @@ pool:
   - agent.computername -equals W1000A
 ```
 
-# Useful environment variables
+# Variables
+
+## Using variable groups
+```yaml
+variables:
+- group: 8080222017_DAT_Test_Automation
+- name: NugetVersion
+  value: 5.9.1
+```
+
+## Useful environment variables
 
 - **System.Debug**: Verbose logging.
 - **System.DefaultWorkingDirectory**: The local path on the agent where your source code files are downloaded. For example: c:\agent_work\1\s
