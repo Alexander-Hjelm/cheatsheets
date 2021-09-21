@@ -54,6 +54,12 @@ git push origin localBranchName:remoteBranchName
 
 ## Files
 
+### Check out an individual file from another branch
+```bash
+git checkout <branch name> <file name>
+```
+
+
 ### Remove a checked in file (.gitignore accepts a file even though it shouldn't)
 ```bash
 git rm --cached <file name>
