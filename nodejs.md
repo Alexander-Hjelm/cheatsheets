@@ -84,6 +84,12 @@ fs.readFile('input.txt', function (err, data) {
 });
 ```
 
+#### Read file, synchronously
+```typescript
+var contents = fs.readFileSync(filename, 'utf8');
+console.log(contents);
+```
+
 ### Write file
 ```typescript
 const fs = require("fs")
