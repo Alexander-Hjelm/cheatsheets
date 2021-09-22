@@ -30,6 +30,7 @@
          * [Substring](javascript.md#substring)
       * [Template string, format](javascript.md#template-string-format)
       * [Regex](javascript.md#regex)
+      * [ReplaceAll / Replace all occurrences](javascript.md#replaceall--replace-all-occurrences)
    * [Asyncronous programing](javascript.md#asyncronous-programing)
       * [async function](javascript.md#async-function)
       * [await, then](javascript.md#await-then)
@@ -53,7 +54,7 @@
 * [Url](javascript.md#url)
    * [Encode/decode url](javascript.md#encodedecode-url)
 
-<!-- Added by: runner, at: Mon Sep 20 14:17:12 UTC 2021 -->
+<!-- Added by: runner, at: Wed Sep 22 06:43:06 UTC 2021 -->
 
 <!--te-->
 

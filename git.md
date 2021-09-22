@@ -9,6 +9,7 @@
    * [push / pull](git.md#push--pull)
       * [Push to another branch in the remote](git.md#push-to-another-branch-in-the-remote)
    * [Files](git.md#files)
+      * [Check out an individual file from another branch](git.md#check-out-an-individual-file-from-another-branch)
       * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
    * [Submodules](git.md#submodules)
    * [Solve a merge conflict](git.md#solve-a-merge-conflict)
@@ -17,7 +18,7 @@
    * [git rebase](git.md#git-rebase)
       * [Interactive](git.md#interactive)
 
-<!-- Added by: runner, at: Mon Sep 20 14:17:10 UTC 2021 -->
+<!-- Added by: runner, at: Wed Sep 22 06:43:05 UTC 2021 -->
 
 <!--te-->
 
