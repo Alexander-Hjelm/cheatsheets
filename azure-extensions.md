@@ -20,3 +20,46 @@ tfx extension create --manifest-globs vss-extension.json --rev-version
 ```bash
 tfx extension publish --share-with AlexanderHjelmSolidify --rev-version --token <PAT>
 ```
+
+# Tasks
+
+## inputs, task.json
+```json
+    "inputs": [
+        {
+            "name": "sourcePath",
+            "type": "filePath",
+            "label": "Testresults filepath",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "Full path to testresults directory, ie:$(build.artifactstagingdirectory)"
+        },
+        {
+            "name": "testPlan",
+            "type": "string",
+            "label": "Name of TestPlan",
+            "defaultValue": "",
+            "required": true,
+            "helpMarkDown": "Name of TestPlan to look for Testcases in"
+        },
+        {
+            "name": "createTC",
+            "type": "boolean",
+            "label": "Create Test Cases",
+            "defaultValue": false,
+            "required": false,
+            "helpMarkDown": "Check this if you want to automatically create Test Cases in the selected Test Plan in Azure DevOps"
+        },
+        {
+            "name": "fileType",
+            "type": "radio",
+            "label": "File type",
+            "required": true,
+            "defaultValue": "Gherkin",
+            "helpMarkDown": "Which type of file to parse.",
+            "options": {
+                "Gherkin": "Gherkin",
+                "TestNG": "TestNG"
+            }
+        }
+    ],
