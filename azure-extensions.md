@@ -4,8 +4,10 @@
 * [tfx](azure-extensions.md#tfx)
    * [Build an extension](azure-extensions.md#build-an-extension)
    * [Publish an extension](azure-extensions.md#publish-an-extension)
+* [Tasks](azure-extensions.md#tasks)
+   * [inputs, task.json](azure-extensions.md#inputs-taskjson)
 
-<!-- Added by: runner, at: Wed Sep 22 11:25:54 UTC 2021 -->
+<!-- Added by: runner, at: Wed Sep 22 11:42:57 UTC 2021 -->
 
 <!--te-->
 
