@@ -279,6 +279,17 @@ let matches = my_string.match(regex)[0];
 // Returns an array of matches
 ```
 
+### ReplaceAll / Replace all occurrences
+
+Use this helper function:
+```typescript
+function replaceAll(string, search, replace) {
+  return string.split(search).join(replace);
+}
+
+my_str_replaced = replaceAll(my_str, "a", "b");
+```
+
 ## Asyncronous programing
 
 ### async function
