@@ -10,6 +10,7 @@
       * [export/import a single definiton](nodejs.md#exportimport-a-single-definiton)
    * [Files, IO](nodejs.md#files-io)
       * [Read file](nodejs.md#read-file)
+         * [Read file, synchronously](nodejs.md#read-file-synchronously)
       * [Write file](nodejs.md#write-file)
       * [Read json file](nodejs.md#read-json-file)
       * [os.walk, iterate through files, subfolders](nodejs.md#oswalk-iterate-through-files-subfolders)
@@ -18,7 +19,7 @@
    * [Server application with Express](nodejs.md#server-application-with-express)
    * [Sample package.json](nodejs.md#sample-packagejson)
 
-<!-- Added by: runner, at: Wed Sep 22 06:43:08 UTC 2021 -->
+<!-- Added by: runner, at: Wed Sep 22 11:25:58 UTC 2021 -->
 
 <!--te-->
 
