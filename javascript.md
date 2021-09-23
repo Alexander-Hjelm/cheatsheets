@@ -8,6 +8,7 @@
       * [Interface](javascript.md#interface)
       * [function](javascript.md#function)
          * [multiple return values](javascript.md#multiple-return-values)
+   * [Classes](javascript.md#classes)
    * [Arrays](javascript.md#arrays)
       * [forEach](javascript.md#foreach)
       * [map](javascript.md#map)
@@ -54,7 +55,7 @@
 * [Url](javascript.md#url)
    * [Encode/decode url](javascript.md#encodedecode-url)
 
-<!-- Added by: runner, at: Wed Sep 22 11:43:01 UTC 2021 -->
+<!-- Added by: runner, at: Thu Sep 23 05:29:21 UTC 2021 -->
 
 <!--te-->
 
