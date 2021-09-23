@@ -99,6 +99,18 @@ function myfunc(): [string, boolean] {
   return ["Hello", true];
 }
 
+## Classes
+```typescript
+class class_name {
+  constructor(a, b) {
+    this.a = a;
+    this.b= b;
+  }
+  
+  id: number;
+  name: string;
+}
+```
 
 ## Arrays
 ```typescript
