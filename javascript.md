@@ -194,6 +194,11 @@ for(var key in dict) {
 }
 ```
 
+### Dictionary length (length of dictionary)
+```typescript
+Object.keys(dictionary).length
+```
+
 ## Does key exist in dictionary?
 ```typescript
 if ("key1" in obj)
