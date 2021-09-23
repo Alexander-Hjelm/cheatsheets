@@ -107,6 +107,17 @@ fs.writeFile('input.txt', 'Simply Easy Learning!', function(err) {
 const jsonOut = require("./sample.json");
 ```
 
+### Parse xml file
+```typescript
+var contents = fs.readFileSync(fileName, 'utf8');
+var convert = require('xml-js');
+var xml = convert.xml2js(contents, {compact: true});
+
+const accessElement = featuresXml["element"];
+const accessArray = featuresXml["element"][0];
+const accessAttribute = featuresXml["element"]["_attributes"]["name"];
+```
+
 ### os.walk, iterate through files, subfolders
 ```typescript
 const fs = require("fs")
