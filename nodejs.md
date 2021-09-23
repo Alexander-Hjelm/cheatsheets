@@ -13,13 +13,14 @@
          * [Read file, synchronously](nodejs.md#read-file-synchronously)
       * [Write file](nodejs.md#write-file)
       * [Read json file](nodejs.md#read-json-file)
+      * [Parse xml file](nodejs.md#parse-xml-file)
       * [os.walk, iterate through files, subfolders](nodejs.md#oswalk-iterate-through-files-subfolders)
    * [Events](nodejs.md#events)
    * [Classes](nodejs.md#classes)
    * [Server application with Express](nodejs.md#server-application-with-express)
    * [Sample package.json](nodejs.md#sample-packagejson)
 
-<!-- Added by: runner, at: Thu Sep 23 05:29:22 UTC 2021 -->
+<!-- Added by: runner, at: Thu Sep 23 07:37:33 UTC 2021 -->
 
 <!--te-->
 
