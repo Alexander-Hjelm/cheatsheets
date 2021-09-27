@@ -257,3 +257,6 @@ Add the following to you .csproj:
 ## It was not possible to find any installed .NET Core SDKs (on docker run)
 Make sure the ENTRYPOINT in your Dockerfile is pointing to the correct dll.
                                              
+## The local machine's clock may be out of sync with the server time by more than five minutes
+
+Set the correct timezone and sync the clock in the settings of the host machine (the machine that is running the docker engine).
