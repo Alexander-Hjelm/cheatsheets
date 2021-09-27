@@ -261,3 +261,7 @@ Make sure the ENTRYPOINT in your Dockerfile is pointing to the correct dll.
 ## The local machine's clock may be out of sync with the server time by more than five minutes
 
 Set the correct timezone and sync the clock in the settings of the host machine (the machine that is running the docker engine).
+
+## Windows server image: The system cannot find the file specified
+  
+Make sure to mount the C:\vol01 volume
