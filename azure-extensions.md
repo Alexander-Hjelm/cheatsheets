@@ -7,7 +7,7 @@
 * [Tasks](azure-extensions.md#tasks)
    * [inputs, task.json](azure-extensions.md#inputs-taskjson)
 
-<!-- Added by: runner, at: Mon Sep 27 10:28:33 UTC 2021 -->
+<!-- Added by: runner, at: Mon Sep 27 12:58:19 UTC 2021 -->
 
 <!--te-->
 
