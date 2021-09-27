@@ -351,3 +351,15 @@ Find, grep
   C:\Users\alexander\.ssh>ssh-keygen -l -E md5 -f id_rsa
   ```
   
+# Alert, send notification
+```bat
+Add-Type -AssemblyName System.Windows.Forms 
+$global:balloon = New-Object System.Windows.Forms.NotifyIcon
+$path = (Get-Process -id $pid).Path
+$balloon.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($path) 
+$balloon.BalloonTipIcon = [System.Windows.Forms.ToolTipIcon]::Info 
+$balloon.BalloonTipText = 'notify-send ImportTestResults-Gherkin finished!'
+$balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
+$balloon.Visible = $true 
+$balloon.ShowBalloonTip(5000)
+```
