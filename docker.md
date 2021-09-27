@@ -34,8 +34,9 @@
    * [The reference assemblies for .NETFramework,Version=v3.1.411 were not found... (on docker build)](docker.md#the-reference-assemblies-for-netframeworkversionv31411-were-not-found-on-docker-build)
    * [It was not possible to find any installed .NET Core SDKs (on docker run)](docker.md#it-was-not-possible-to-find-any-installed-net-core-sdks-on-docker-run)
    * [The local machine's clock may be out of sync with the server time by more than five minutes](docker.md#the-local-machines-clock-may-be-out-of-sync-with-the-server-time-by-more-than-five-minutes)
+   * [Windows server image: The system cannot find the file specified](docker.md#windows-server-image-the-system-cannot-find-the-file-specified)
 
-<!-- Added by: runner, at: Mon Sep 27 08:08:15 UTC 2021 -->
+<!-- Added by: runner, at: Mon Sep 27 08:10:23 UTC 2021 -->
 
 <!--te-->
 
