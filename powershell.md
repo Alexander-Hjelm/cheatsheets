@@ -7,6 +7,8 @@
    * [gcm](powershell.md#gcm)
 * [Modules](powershell.md#modules)
    * [Import modules from another file](powershell.md#import-modules-from-another-file)
+* [File](powershell.md#file)
+   * [Replace string in file](powershell.md#replace-string-in-file)
 * [Types, datatypes](powershell.md#types-datatypes)
 * [Connectivity](powershell.md#connectivity)
    * [curl](powershell.md#curl)
@@ -58,7 +60,7 @@
    * [Temporarily](powershell.md#temporarily)
    * [Permanently](powershell.md#permanently)
 
-<!-- Added by: runner, at: Tue Sep 28 09:11:43 UTC 2021 -->
+<!-- Added by: runner, at: Tue Sep 28 09:12:47 UTC 2021 -->
 
 <!--te-->
 
