@@ -104,6 +104,13 @@ $script_path = $script_path.DirectoryName
 Import-Module $script_path\Modules\my-module.psm1
 ```
 
+# File
+
+## Replace string in file
+```bat
+(Get-Content -path /my/path/file.txt -Raw) -replace 'STR_TO_REPLACE', 'TARGET_STRING' | Set-Content -Path /my/path/file.txt
+```
+
 # Types, datatypes
 
 - [string]    Fixed-length string of Unicode characters
