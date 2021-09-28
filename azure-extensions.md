@@ -23,6 +23,24 @@ tfx extension create --manifest-globs vss-extension.json --rev-version
 tfx extension publish --share-with AlexanderHjelmSolidify --rev-version --token <PAT>
 ```
 
+## Sample build script
+```bash
+# Install az cli: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
+#npm install -g tfx-cli
+#npm install -g typescript
+
+python3 bumpversion.py
+tsc -p C:\dev\ImportTestresults-gherkin\importTestresultsTask\tsconfig.json
+tfx extension create --manifest-globs vss-extension.json --rev-version
+
+tfx extension publish --publisher alexanderhjelmsolidifytest --share-with AlexanderHjelmSolidify --env mode=development --no-wait-validation --token cpb4mo3kndlvawrw7ggmhvf5nxbxfi3plf3zsyntaobsbldhk6pq
+
+cat pat.txt | az devops login --organization https://dev.azure.com/alexanderhjelmsolidify
+
+az pipelines run --name testproject-CI
+#az pipelines release create --definition-name="ImportTestResults Gherkin"
+```
+
 # Tasks
 
 ## inputs, task.json
