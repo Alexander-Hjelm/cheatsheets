@@ -5,6 +5,8 @@
    * [help](powershell.md#help-1)
    * [version](powershell.md#version)
    * [gcm](powershell.md#gcm)
+* [Modules](powershell.md#modules)
+   * [Import modules from another file](powershell.md#import-modules-from-another-file)
 * [Types, datatypes](powershell.md#types-datatypes)
 * [Connectivity](powershell.md#connectivity)
    * [curl](powershell.md#curl)
@@ -52,8 +54,11 @@
 * [ssh-keygen](powershell.md#ssh-keygen)
    * [Verify .md5 hash of a key file](powershell.md#verify-md5-hash-of-a-key-file)
 * [Alert, send notification](powershell.md#alert-send-notification)
+* [Add to Path, environment path](powershell.md#add-to-path-environment-path)
+   * [Temporarily](powershell.md#temporarily)
+   * [Permanently](powershell.md#permanently)
 
-<!-- Added by: runner, at: Tue Sep 28 09:04:08 UTC 2021 -->
+<!-- Added by: runner, at: Tue Sep 28 09:11:43 UTC 2021 -->
 
 <!--te-->
 
