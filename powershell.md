@@ -88,6 +88,17 @@ Or
 gcm *Copy-*
 ```
 
+# Modules
+
+## Import modules from another file
+
+```bat
+$script_path = dir "$($myInvocation.MyCommand.Definition)"
+$script_path = $script_path.DirectoryName
+
+Import-Module $script_path\Modules\my-module.psm1
+```
+
 # Types, datatypes
 
 - [string]    Fixed-length string of Unicode characters
@@ -363,4 +374,18 @@ $balloon.BalloonTipText = 'notify-send ImportTestResults-Gherkin finished!'
 $balloon.BalloonTipTitle = "Attention $Env:USERNAME" 
 $balloon.Visible = $true 
 $balloon.ShowBalloonTip(5000)
+```
+
+# Add to Path, environment path
+  
+## Temporarily
+```bat
+$env:Path += ";my_path"
+```
+
+## Permanently
+```bat
+$env:Path += ";my_path"
+[Environment]::SetEnvironmentVariable
+     ("Path", $env:Path, [System.EnvironmentVariableTarget]::Machine)
 ```
