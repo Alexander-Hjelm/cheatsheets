@@ -75,6 +75,10 @@ When pulling a repository with submodules, do the following to initalize and upd
 git submodule update --init --recursive
 ```
 
+### push to a submodule
+
+If a submodule is initialized under your repo, that submodule will have its own .git-folder. You can cd into the submodule and push to/pull from it as usual.
+
 ## Solve a merge conflict
 
 ### Solve manually
@@ -173,3 +177,15 @@ To push the changes to a remote branch and overwrite the remote contents:
 ```bash
 git push origin localBranchName:remoteBranchName --force
 ```
+
+## Branches
+
+### I accidentally pushed to the wrong branch
+```bash
+git reset HEAD~1
+git checkout -b newbranch
+git add .
+git commit -m "My commit message"
+```
+
+git commit -m "Committed on new branch"
