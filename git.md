@@ -12,16 +12,13 @@
       * [Check out an individual file from another branch](git.md#check-out-an-individual-file-from-another-branch)
       * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
    * [Submodules](git.md#submodules)
-      * [push to a submodule](git.md#push-to-a-submodule)
    * [Solve a merge conflict](git.md#solve-a-merge-conflict)
       * [Solve manually](git.md#solve-manually)
       * [ours/theirs](git.md#ourstheirs)
    * [git rebase](git.md#git-rebase)
       * [Interactive](git.md#interactive)
-   * [Branches](git.md#branches)
-      * [I accidentally pushed to the wrong branch](git.md#i-accidentally-pushed-to-the-wrong-branch)
 
-<!-- Added by: runner, at: Wed Sep 29 07:05:05 UTC 2021 -->
+<!-- Added by: runner, at: Tue Sep 28 09:12:43 UTC 2021 -->
 
 <!--te-->
 
@@ -54,6 +51,20 @@ git remote rm <remote-name>
 To push the changes to a remote branch with a different name: 
 ```bash
 git push origin localBranchName:remoteBranchName
+```
+
+## git reset
+Reset to a previous commit, deleting the new commit.
+
+```bash
+git reset --mixed HEAD~1
+```
+
+Can be used with the following strategies:
+```bash
+--soft: uncommit changes, changes are left staged (index).
+--mixed (default): uncommit + unstage changes, changes are left in working tree.
+--hard: uncommit + unstage + delete changes, nothing left.
 ```
 
 ## Files
@@ -184,11 +195,14 @@ git push origin localBranchName:remoteBranchName --force
 ## Branches
 
 ### I accidentally pushed to the wrong branch
+
+We must reset our changes (using the --mixed strategy to keep our local changes after the reset), then check out the correct branch and commit there.
+
 ```bash
-git reset HEAD~1
+git reset --mixed HEAD~1
 git checkout -b newbranch
 git add .
 git commit -m "My commit message"
+git commit -m "Committed on new branch"
 ```
 
-git commit -m "Committed on new branch"
