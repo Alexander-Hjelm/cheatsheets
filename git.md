@@ -88,9 +88,23 @@ Then save the file again for good measure.
 
 ## Submodules
 
+### Initialize
+
 When pulling a repository with submodules, do the following to initalize and update the submodules (with the --recursive option)
 ```bash
 git submodule update --init --recursive
+```
+
+### Update a submodule
+Starting from the higher level repo, do:
+```bash
+cd submodule
+git pull
+git checkout <tag/commit id>
+cd ..
+git add .
+git commit -m "Update submodule XXX to v. YYY"
+git push
 ```
 
 ### push to a submodule
