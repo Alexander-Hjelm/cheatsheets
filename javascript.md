@@ -310,6 +310,13 @@ function replaceAll(string, search, replace) {
 my_str_replaced = replaceAll(my_str, "a", "b");
 ```
 
+### String contains substring
+
+```typescript
+let str = "MondoMonsoMongoDb";
+let contains = (str.indexOf('MongoDB') !== -1);
+```
+
 ## Asyncronous programing
 
 ### async function
