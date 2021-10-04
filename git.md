@@ -13,6 +13,8 @@
       * [Check out an individual file from another branch](git.md#check-out-an-individual-file-from-another-branch)
       * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
    * [Submodules](git.md#submodules)
+      * [Initialize](git.md#initialize)
+      * [Update a submodule](git.md#update-a-submodule)
       * [push to a submodule](git.md#push-to-a-submodule)
    * [Solve a merge conflict](git.md#solve-a-merge-conflict)
       * [Solve manually](git.md#solve-manually)
@@ -22,7 +24,7 @@
    * [Branches](git.md#branches)
       * [I accidentally pushed to the wrong branch](git.md#i-accidentally-pushed-to-the-wrong-branch)
 
-<!-- Added by: runner, at: Mon Oct  4 10:33:19 UTC 2021 -->
+<!-- Added by: runner, at: Mon Oct  4 13:21:33 UTC 2021 -->
 
 <!--te-->
 
