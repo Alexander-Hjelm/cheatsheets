@@ -31,13 +31,14 @@
       * [Run a docker compose file as a service](docker.md#run-a-docker-compose-file-as-a-service)
       * [Run a docker compose file in the foreground](docker.md#run-a-docker-compose-file-in-the-foreground)
       * [List images used by a docker compose file](docker.md#list-images-used-by-a-docker-compose-file)
+* [Docker Registry](docker.md#docker-registry)
 * [Troubleshooting](docker.md#troubleshooting)
    * [The reference assemblies for .NETFramework,Version=v3.1.411 were not found... (on docker build)](docker.md#the-reference-assemblies-for-netframeworkversionv31411-were-not-found-on-docker-build)
    * [It was not possible to find any installed .NET Core SDKs (on docker run)](docker.md#it-was-not-possible-to-find-any-installed-net-core-sdks-on-docker-run)
    * [The local machine's clock may be out of sync with the server time by more than five minutes](docker.md#the-local-machines-clock-may-be-out-of-sync-with-the-server-time-by-more-than-five-minutes)
    * [Windows server image: The system cannot find the file specified](docker.md#windows-server-image-the-system-cannot-find-the-file-specified)
 
-<!-- Added by: runner, at: Wed Sep 29 07:12:50 UTC 2021 -->
+<!-- Added by: runner, at: Mon Oct  4 10:33:18 UTC 2021 -->
 
 <!--te-->
 
