@@ -226,3 +226,17 @@ git commit -m "My commit message"
 git commit -m "Committed on new branch"
 ```
 
+## Troubleshooting
+
+### Filename too long, '$GIT_DIR' too big
+
+Enable longpaths via: 
+```bash
+git config --system core.longpaths true
+```
+
+If that doesn't work, open regedit and set the registry key `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled` to 1.
+
+### Error in submodule when checking out a branch.
+
+When checking out another branch, and a submodule has conflicts. Sometimes it can help to set ’recursive = false’ in .gitconfig, and the do the checkout. Remember to set it back afterwards.
