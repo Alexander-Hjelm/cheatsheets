@@ -252,6 +252,17 @@ git branch -d <local-branch>      # Normal
 git branch -D <local-branch>      # Force
 ```
 
+#### Delete all branches except one
+In bash:
+```bash
+git branch | grep -v "branch-to-keep" | xargs git branch -D 
+```
+
+### Rename a branch
+```bash
+git branch -m old-name new-name
+```
+
 ### I accidentally pushed to the wrong branch
 
 We must reset our changes (using the --mixed strategy to keep our local changes after the reset), then check out the correct branch and commit there.
