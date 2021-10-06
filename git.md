@@ -23,8 +23,11 @@
       * [Interactive](git.md#interactive)
    * [Branches](git.md#branches)
       * [I accidentally pushed to the wrong branch](git.md#i-accidentally-pushed-to-the-wrong-branch)
+   * [Troubleshooting](git.md#troubleshooting)
+      * [Filename too long, '$GIT_DIR' too big](git.md#filename-too-long-git_dir-too-big)
+      * [Error in submodule when checking out a branch.](git.md#error-in-submodule-when-checking-out-a-branch)
 
-<!-- Added by: runner, at: Mon Oct  4 17:42:04 UTC 2021 -->
+<!-- Added by: runner, at: Wed Oct  6 08:27:35 UTC 2021 -->
 
 <!--te-->
 
