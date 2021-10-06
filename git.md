@@ -88,7 +88,7 @@ git stash apply
 ### Stash untracked files
 ```bash
 git stash save -u
-...
+```
 
 ### Wkrk with specific stashes
 
