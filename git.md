@@ -23,11 +23,8 @@
       * [Interactive](git.md#interactive)
    * [Branches](git.md#branches)
       * [I accidentally pushed to the wrong branch](git.md#i-accidentally-pushed-to-the-wrong-branch)
-   * [Troubleshooting](git.md#troubleshooting)
-      * [Filename too long, '$GIT_DIR' too big](git.md#filename-too-long-git_dir-too-big)
-      * [Error in submodule when checking out a branch.](git.md#error-in-submodule-when-checking-out-a-branch)
 
-<!-- Added by: runner, at: Wed Oct  6 08:27:35 UTC 2021 -->
+<!-- Added by: runner, at: Mon Oct  4 17:42:04 UTC 2021 -->
 
 <!--te-->
 
@@ -75,6 +72,31 @@ Can be used with the following strategies:
 --mixed (default): uncommit + unstage changes, changes are left in working tree.
 --hard: uncommit + unstage + delete changes, nothing left.
 ```
+
+## git stash
+
+```bash
+git stash save
+git checkout otherbranch
+git stash apply
+...
+
+### Stash untracked files
+```bash
+git stash save -u
+...
+
+### Wkrk with specific stashes
+
+```bash
+git stash list
+git stash show stash@{1}     # Show a summary of a specific stash
+git stash apply stash@{1}    # Apply a specific stash
+git stash drop stash@{1}     # Drop a specific stash
+git stash pop stash@{1}      # Apply and drop a specific stash
+```
+
+If no stash is speciifed, the latest stash will be pointed to.
 
 ## Files
 
