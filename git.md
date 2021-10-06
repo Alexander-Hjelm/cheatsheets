@@ -10,6 +10,7 @@
    * [git reset](git.md#git-reset)
    * [git stash](git.md#git-stash)
       * [Stash untracked files](git.md#stash-untracked-files)
+      * [Wkrk with specific stashes](git.md#wkrk-with-specific-stashes)
    * [Files](git.md#files)
       * [Check out an individual file from another branch](git.md#check-out-an-individual-file-from-another-branch)
       * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
@@ -28,7 +29,7 @@
       * [Filename too long, '$GIT_DIR' too big](git.md#filename-too-long-git_dir-too-big)
       * [Error in submodule when checking out a branch.](git.md#error-in-submodule-when-checking-out-a-branch)
 
-<!-- Added by: runner, at: Wed Oct  6 08:35:48 UTC 2021 -->
+<!-- Added by: runner, at: Wed Oct  6 08:36:42 UTC 2021 -->
 
 <!--te-->
 
