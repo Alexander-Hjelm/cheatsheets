@@ -26,12 +26,14 @@
       * [Interactive](git.md#interactive)
    * [Branches](git.md#branches)
       * [Delete a local branch](git.md#delete-a-local-branch)
+         * [Delete all branches except one](git.md#delete-all-branches-except-one)
+      * [Rename a branch](git.md#rename-a-branch)
       * [I accidentally pushed to the wrong branch](git.md#i-accidentally-pushed-to-the-wrong-branch)
    * [Troubleshooting](git.md#troubleshooting)
       * [Filename too long, '$GIT_DIR' too big](git.md#filename-too-long-git_dir-too-big)
       * [Error in submodule when checking out a branch.](git.md#error-in-submodule-when-checking-out-a-branch)
 
-<!-- Added by: runner, at: Wed Oct  6 09:37:19 UTC 2021 -->
+<!-- Added by: runner, at: Wed Oct  6 09:44:40 UTC 2021 -->
 
 <!--te-->
 
