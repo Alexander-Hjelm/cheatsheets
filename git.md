@@ -9,6 +9,7 @@
    * [push / pull](git.md#push--pull)
       * [Push to another branch in the remote](git.md#push-to-another-branch-in-the-remote)
    * [git reset](git.md#git-reset)
+   * [git stash](git.md#git-stash)
    * [Files](git.md#files)
       * [Check out an individual file from another branch](git.md#check-out-an-individual-file-from-another-branch)
       * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
@@ -23,8 +24,11 @@
       * [Interactive](git.md#interactive)
    * [Branches](git.md#branches)
       * [I accidentally pushed to the wrong branch](git.md#i-accidentally-pushed-to-the-wrong-branch)
+   * [Troubleshooting](git.md#troubleshooting)
+      * [Filename too long, '$GIT_DIR' too big](git.md#filename-too-long-git_dir-too-big)
+      * [Error in submodule when checking out a branch.](git.md#error-in-submodule-when-checking-out-a-branch)
 
-<!-- Added by: runner, at: Mon Oct  4 17:42:04 UTC 2021 -->
+<!-- Added by: runner, at: Wed Oct  6 08:34:08 UTC 2021 -->
 
 <!--te-->
 
