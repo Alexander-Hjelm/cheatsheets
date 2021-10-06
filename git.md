@@ -1,5 +1,6 @@
  # git
 <!--ts-->
+* [git](git.md#git)
    * [Init a bare repository](git.md#init-a-bare-repository)
    * [Remotes](git.md#remotes)
       * [View remotes](git.md#view-remotes)
@@ -24,12 +25,13 @@
    * [git rebase](git.md#git-rebase)
       * [Interactive](git.md#interactive)
    * [Branches](git.md#branches)
+      * [Delete a local branch](git.md#delete-a-local-branch)
       * [I accidentally pushed to the wrong branch](git.md#i-accidentally-pushed-to-the-wrong-branch)
    * [Troubleshooting](git.md#troubleshooting)
       * [Filename too long, '$GIT_DIR' too big](git.md#filename-too-long-git_dir-too-big)
       * [Error in submodule when checking out a branch.](git.md#error-in-submodule-when-checking-out-a-branch)
 
-<!-- Added by: runner, at: Wed Oct  6 08:36:42 UTC 2021 -->
+<!-- Added by: runner, at: Wed Oct  6 09:37:19 UTC 2021 -->
 
 <!--te-->
 
