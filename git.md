@@ -1,4 +1,4 @@
- s# git
+ # git
 <!--ts-->
    * [Init a bare repository](git.md#init-a-bare-repository)
    * [Remotes](git.md#remotes)
@@ -243,6 +243,12 @@ git push origin localBranchName:remoteBranchName --force
 ```
 
 ## Branches
+
+### Delete a local branch
+```bash
+git branch -d <local-branch>      # Normal
+git branch -D <local-branch>      # Force
+```
 
 ### I accidentally pushed to the wrong branch
 
