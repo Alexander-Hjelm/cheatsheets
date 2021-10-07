@@ -6,7 +6,7 @@
    * [Run pipeline](az.md#run-pipeline)
    * [Create release from release definition](az.md#create-release-from-release-definition)
 
-<!-- Added by: runner, at: Thu Oct  7 10:03:53 UTC 2021 -->
+<!-- Added by: runner, at: Thu Oct  7 13:01:04 UTC 2021 -->
 
 <!--te-->
 

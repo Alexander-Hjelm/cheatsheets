@@ -1,5 +1,14 @@
 # Visual Studio
 <!--ts-->
+* [Visual Studio](visual-studio.md#visual-studio)
+   * [Troubleshooting](visual-studio.md#troubleshooting)
+      * [DLL missing](visual-studio.md#dll-missing)
+      * [Running an application as a service](visual-studio.md#running-an-application-as-a-service)
+         * [The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security](visual-studio.md#the-source-was-not-found-but-some-or-all-event-logs-could-not-be-searched-inaccessible-logs-security)
+         * [Cannot start service from the command line or a debugger. A Windows Service must first be installed (using installutil.exe) and then started with the ServerExplorer, Windows Services Administrative tool or the NET START command.](visual-studio.md#cannot-start-service-from-the-command-line-or-a-debugger-a-windows-service-must-first-be-installed-using-installutilexe-and-then-started-with-the-serverexplorer-windows-services-administrative-tool-or-the-net-start-command)
+
+<!-- Added by: runner, at: Thu Oct  7 13:01:14 UTC 2021 -->
+
 <!--te-->
 
 ## Troubleshooting

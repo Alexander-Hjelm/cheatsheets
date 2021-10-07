@@ -9,7 +9,7 @@
    * [inputs, task.json](azure-extensions.md#inputs-taskjson)
 * [Make an extension public](azure-extensions.md#make-an-extension-public)
 
-<!-- Added by: runner, at: Thu Oct  7 10:03:53 UTC 2021 -->
+<!-- Added by: runner, at: Thu Oct  7 13:01:04 UTC 2021 -->
 
 <!--te-->
 
