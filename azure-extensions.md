@@ -84,6 +84,7 @@ az pipelines run --name testproject-CI
             }
         }
     ],
+```
 
 # Make an extension public
 
