@@ -205,6 +205,11 @@ for i, k in enumerate(example_dict):
     print(i, k)
 ```
 
+## dict has key
+```python
+Dictionary1.has_key('A')
+```
+
 # string
 
 ## Enumerate through alphabet
