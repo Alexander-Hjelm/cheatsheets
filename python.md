@@ -382,7 +382,7 @@ from openpyxl import load_workbook
 from openpyxl import Workbook
 
 wb = load_workbook(output_filename)
-for sheet_name in wbt.sheetnames:
+for sheet_name in wb.sheetnames:
     sheet = wb.get_sheet_by_name(sheet_name)
     b1 = sheet['B1']
     sheet['B2'] = "test"
