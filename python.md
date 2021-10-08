@@ -20,6 +20,7 @@
 * [enum](python.md#enum)
 * [dict](python.md#dict)
    * [Enumerate over dict](python.md#enumerate-over-dict)
+   * [dict has key](python.md#dict-has-key)
 * [string](python.md#string)
    * [Enumerate through alphabet](python.md#enumerate-through-alphabet)
    * [count occurences of a character in a string](python.md#count-occurences-of-a-character-in-a-string)
@@ -77,7 +78,7 @@
       * [Limit on origin, remote address](python.md#limit-on-origin-remote-address)
    * [Parse url, unparse url](python.md#parse-url-unparse-url)
 
-<!-- Added by: runner, at: Thu Oct  7 13:01:13 UTC 2021 -->
+<!-- Added by: runner, at: Fri Oct  8 11:14:03 UTC 2021 -->
 
 <!--te-->
 
