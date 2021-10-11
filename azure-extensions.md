@@ -8,8 +8,11 @@
 * [Tasks](azure-extensions.md#tasks)
    * [inputs, task.json](azure-extensions.md#inputs-taskjson)
 * [Make an extension public](azure-extensions.md#make-an-extension-public)
+* [Work Item API](azure-extensions.md#work-item-api)
+   * [Index of all work item fields](azure-extensions.md#index-of-all-work-item-fields)
+   * [Custom work item fields](azure-extensions.md#custom-work-item-fields)
 
-<!-- Added by: runner, at: Fri Oct  8 12:06:19 UTC 2021 -->
+<!-- Added by: runner, at: Mon Oct 11 07:19:07 UTC 2021 -->
 
 <!--te-->
 
