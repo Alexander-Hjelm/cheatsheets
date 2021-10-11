@@ -94,3 +94,13 @@ Set the following in the extension manifest:
 ```json
     "public": false,
 ```
+
+# Work Item API
+
+## Index of all work item fields
+
+https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/work-item-field?view=azure-devops
+
+## Custom work item fields
+
+Format: `/fields/Custom.Fields.<field name>`
