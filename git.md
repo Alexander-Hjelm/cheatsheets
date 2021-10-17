@@ -277,6 +277,13 @@ git commit -m "My commit message"
 git commit -m "Committed on new branch"
 ```
 
+## git grep
+
+### search for keyword in commit history
+```bash
+git grep search_string $(git rev-list --all)
+```
+
 ## Troubleshooting
 
 ### Filename too long, '$GIT_DIR' too big
