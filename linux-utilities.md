@@ -53,7 +53,7 @@
       * [Install trusted certificates](linux-utilities.md#install-trusted-certificates)
    * [sqlcmd](linux-utilities.md#sqlcmd)
 
-<!-- Added by: runner, at: Mon Oct 11 07:19:12 UTC 2021 -->
+<!-- Added by: runner, at: Sun Oct 17 16:15:03 UTC 2021 -->
 
 <!--te-->
 

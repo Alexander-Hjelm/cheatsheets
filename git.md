@@ -29,11 +29,13 @@
          * [Delete all branches except one](git.md#delete-all-branches-except-one)
       * [Rename a branch](git.md#rename-a-branch)
       * [I accidentally pushed to the wrong branch](git.md#i-accidentally-pushed-to-the-wrong-branch)
+   * [git grep](git.md#git-grep)
+      * [search for keyword in commit history](git.md#search-for-keyword-in-commit-history)
    * [Troubleshooting](git.md#troubleshooting)
       * [Filename too long, '$GIT_DIR' too big](git.md#filename-too-long-git_dir-too-big)
       * [Error in submodule when checking out a branch.](git.md#error-in-submodule-when-checking-out-a-branch)
 
-<!-- Added by: runner, at: Mon Oct 11 07:19:09 UTC 2021 -->
+<!-- Added by: runner, at: Sun Oct 17 16:14:58 UTC 2021 -->
 
 <!--te-->
 
