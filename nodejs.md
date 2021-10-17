@@ -238,3 +238,9 @@ var server = app.listen(8081, function () {
   }
 }
 ```
+
+## Troubleshooting
+
+### BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+
+ADD `target: 'node',` to module.exports in your webpack.config.js.
