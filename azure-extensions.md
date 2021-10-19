@@ -121,3 +121,20 @@ import { getClient } from "azure-devops-extension-api";
     let wiql: Wiql = {query: "SELECT [System.Id], FROM WorkItems WHERE [Work Item Type] = 'Bug'"};
     let result = await client.queryByWiql(wiql);
 ```
+
+# Troubleshooting
+
+## The extension '' doesn't contain the requested asset type 'XXX.xxx'
+
+Add the specified file in the "files" field of the extension manifest:
+
+```json
+    "files": [
+        {
+            "path": "wsjfSettings.html",
+            "addressable": true
+        }
+    ]
+```
+
+
