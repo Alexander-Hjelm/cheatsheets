@@ -137,4 +137,14 @@ Add the specified file in the "files" field of the extension manifest:
     ]
 ```
 
+## Refused to apply style because its MIME type ('application/json') is not a supported
+Add the specified css in the "files" field of the extension manifest:
 
+```json
+    "files": [
+        {
+            "path": "css",
+            "addressable": true
+        }
+    ]
+```
