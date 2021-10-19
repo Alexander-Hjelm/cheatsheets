@@ -107,3 +107,17 @@ https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/work-it
 ## Custom work item fields
 
 Format: `/fields/Custom.Fields.<field name>`
+
+## Acess Rest API from react
+
+```
+import {
+  WorkItemTrackingRestClient,
+  Wiql
+} from "azure-devops-extension-api/WorkItemTracking";
+import { getClient } from "azure-devops-extension-api";
+    let client = getClient(WorkItemTrackingRestClient);
+
+    let wiql: Wiql = {query: "SELECT [System.Id], FROM WorkItems WHERE [Work Item Type] = 'Bug'"};
+    let result = await client.queryByWiql(wiql);
+```
