@@ -78,6 +78,10 @@ catch {
 }
 ```
 
+## Transfer files to a linux VM
+
+Enable Guest Services in VM Settings -> Integration Services
+
 ## Troubleshooting
 
 ### Linux machine does not start
