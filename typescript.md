@@ -10,3 +10,21 @@ Add the following line before the script reference in your index.html:
 ```typescript
 <script> var exports = {}; </script>
 ```
+## cannot find module [module] or its corresponding type declarations
+
+1. Install the package by adding it as a dependency to node.js and running `npm install`.
+1. Add its corresponding type to your tsconfig.json:
+
+```json
+{
+    "compilerOptions": {
+    ...
+        "types": [
+            "vss-web-extension-sdk"
+        ]
+    },   
+    "include": [
+        "src/**/*.tsx"
+    ]    
+}
+```
