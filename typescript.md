@@ -28,3 +28,12 @@ Add the following line before the script reference in your index.html:
     ]    
 }
 ```
+
+## IPromise\<any\> is not assignable to type Promise\<any\>
+
+Wrap the IPromise in a Promise
+
+```
+return deferred.promise;
+->
+return Promise.resolve(deferred.promise);
