@@ -148,3 +148,17 @@ Add the specified css in the "files" field of the extension manifest:
         }
     ]
 ```
+
+
+## Uncaught ReferenceError: VSS is not defined
+Add the missing reference in the "files" field of the extension manifest:
+
+```json
+    "files": [
+        {
+            "path": "node_modules/vss-web-extension-sdk/lib",
+            "addressable": true,
+            "packagePath": "lib"
+        }
+    ]
+```
