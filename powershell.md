@@ -228,6 +228,15 @@ $arraylist.Add("value")
 $arraylist.Remove("value")
 ```
 
+# PSCustomObject
+
+## Access like a dictionary
+  ```bat
+$myPsCustomObject
+$props = $myPsCustomObject.fields.psobject.properties
+$val = $props["my key"].Value
+```
+  
 # control statements
 
 ## if/else
