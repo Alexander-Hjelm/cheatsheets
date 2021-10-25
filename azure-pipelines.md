@@ -111,6 +111,10 @@ parameters:
   default: true
 ```
 
+Remember to reference parameters with double curly braces:
+
+`'${{parameters.stageTest}}'`
+
 # Stages/Jobs
 
 ## Run multiple jobs in parallel for a stage
