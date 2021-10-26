@@ -65,7 +65,6 @@ $ sudo su
 $ su - <other user name>
 ```
 
-
 ## scp
 
 Copy files to a remote over ssh:
@@ -314,6 +313,12 @@ sudo yum install stress -y
 stress -c 8
 ```
 
+## apt, apt-get
+
+### Download a package locally, do not install
+```bash
+sudo apt-get install --download-only git
+```
 
 ## curl
 
