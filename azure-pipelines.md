@@ -323,3 +323,7 @@ Install the specified dotnet core + targeting pack on the build machine.
 ## You do not have the appropriate permissions to manage test suites under this area path.
 
 Under Project Settings -> Boards -> Porject Configuration -> Areas. Select **Security** for the top-level area and ensure that the Build Service user has the **Manage Test Plans** and **Manage Test Suites** permissions.
+
+## The Git repository with name or identifier XXX does not exist or you do not have permissions for the operation you are attempting.
+
+Check the Collection/Project Settings: Pipelines -> Settings. Try and disable the "Limit job authorization scope" flags.
