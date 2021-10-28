@@ -321,6 +321,11 @@ f.writelines(["See you soon!", "Over and out."])
 f.close()
 ```
 
+## delete file
+```python
+os.remove("demofile.txt")
+```
+
 # regex
 
 ## simple match, return True/False
