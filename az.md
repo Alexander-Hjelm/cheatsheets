@@ -10,6 +10,14 @@
 
 <!--te-->
 
+# Azure
+
+## Login, Log in
+```bash
+az login    # Instactive
+az login -u <username> -p <password>
+```
+
 # Azure DevOps
 
 ## Login, log in
