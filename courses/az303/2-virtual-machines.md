@@ -1,6 +1,6 @@
 # Azure Virtual Machines
 
-## (Object) Azure VNet
+## (Object) Azure VM
 
 ### Has
 - Disks
