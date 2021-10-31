@@ -25,6 +25,16 @@ az login -u <username> -p <password>
 az group create --name az-303-cli --location norwayeast --tags "course=az303"
 ```
 
+### List resource groups
+```bash
+az group list
+```
+
+### Get information on a resource group
+```bash
+az group show --name <rg-name>
+```
+
 # Azure DevOps
 
 ## Login, log in
