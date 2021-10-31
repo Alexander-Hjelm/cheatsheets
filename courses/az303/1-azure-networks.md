@@ -46,3 +46,4 @@ VNETs can be linked together.
 
 1. `az group create --name az303-cli --tags="course=az303" --location=norwayeast`
 1. `az network vnet create --name VNET-linux --resource-group az303-cli --location norwayeast --address-prefix 10.0.0.0/16`
+1. `az network vnet subnet create --address-prefixes 10.0.0.0/17 --name SNET-Linux-1 --resource-group az303-cli --vnet-name VNET-linux`

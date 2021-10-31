@@ -18,6 +18,11 @@ az login    # Interactive
 az login -u <username> -p <password>
 ```
 
+## Working with enumerated resources
+```bash
+az vm open-port --ids $(az vm list -g MyResourceGroup --query "[].id" -o tsv) --port '*'
+```
+
 ## Manage resource groups
 
 ### Create resource groups
@@ -43,6 +48,56 @@ az group show --name <rg-name>
 ## Manage VNets
 ```bash
 az network vnet create --name myVNet --resource-group CreateVNetQS-rg --subnet-name default --location norwauest --address-prefix 10.0.0.0/16
+az network vnet list --resource-group az303-cli
+az network vnet show --name VNET-linux --resource-group az303-cli
+```
+
+## Manage VMs
+```bash
+az vm create \
+    --resource-group az303-cli \
+    --name Linux-VM \
+    --image UbuntuLTS \
+    --public-ip-sku Standard \
+    --public-ip-address linux-vm-pip \
+    --admin-username azureuser \
+    --admin-password password1A1A \
+    --location norwayeast \
+    --vnet-name VNET-linux \
+    --size Standard_B1s
+```
+
+### Open port
+```bash
+az vm open-port --resource-group az303-cli --name Linux-VM --port 22
+```
+
+## Manage Subnets
+```bash
+az network vnet subnet create --address-prefixes 10.0.0.0/17 --name SNET-Linux-1 --resource-group az303-cli --vnet-name VNET-linux
+az network vnet subnet show --name SNET-Linux-1 --resource-group az303-cli --vnet-name VNET-Linux
+```
+
+## Manage Network Security Rules
+
+### Create Network Security Rule
+```bash
+az network nsg rule create --name SSH \
+  --protocol Tcp \
+  --nsg-name Linux-VMNSG \
+  --priority 1000 \
+  --direction Inbound \
+  --resource-group az303-cli \
+  --source-address-prefixes '*' \
+  --source-port-range 0-65535 \
+  --destination-address-prefixes '*' \
+  --destination-port-range 0-65535 \
+  --access Allow
+```
+
+### List Network Security Rules
+```bash
+az network nsg rule list --resource-group az303-cli --nsg-name Linux-VMNSG
 ```
 
 # Azure DevOps
