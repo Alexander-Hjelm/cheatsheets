@@ -35,6 +35,11 @@ az group list
 az group show --name <rg-name>
 ```
 
+### Delete resource group
+```bash
+ az group delete --name az-303-cli
+```
+
 # Azure DevOps
 
 ## Login, log in
