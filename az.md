@@ -18,6 +18,13 @@ az login    # Interactive
 az login -u <username> -p <password>
 ```
 
+## Manage resource groups
+
+### Create resource groups
+```bash
+az group create --name az-303-cli --location norwayeast --tags "course=az303"
+```
+
 # Azure DevOps
 
 ## Login, log in
