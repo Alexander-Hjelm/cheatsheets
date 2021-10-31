@@ -40,6 +40,11 @@ az group show --name <rg-name>
  az group delete --name az-303-cli
 ```
 
+## Manage VNets
+```bash
+az network vnet create --name myVNet --resource-group CreateVNetQS-rg --subnet-name default --location norwauest --address-prefix 10.0.0.0/16
+```
+
 # Azure DevOps
 
 ## Login, log in
