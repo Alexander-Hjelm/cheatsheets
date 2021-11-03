@@ -320,6 +320,8 @@ stress -c 8
 sudo apt-get install --download-only git
 ```
 
+The .deb packages will be downloaded to `/var/cache/apt/archives`.
+
 ## curl
 
 ### curl POST with parameters
