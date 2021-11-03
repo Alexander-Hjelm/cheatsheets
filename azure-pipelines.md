@@ -304,6 +304,28 @@ Override this with the `\IS` (Include same) argument.
 /p:PackageAsSingleFiles=false (files)
 ```
 
+# git
+
+## Expose access token to a git command in powershell
+```powershell
+Function Git-Command {
+    Param(
+        [string]$Command
+    )
+    $Token = $env:SYSTEM_ACCESSTOKEN
+    if (!($Token)) {
+        Invoke-Expression -Command "git $Command"
+    }
+    else {
+        Invoke-Expression -Command "git -c http.extraheader=""Authorization: bearer $Token"" $Command"
+    }
+}
+
+Git-Command "checkout $defaultBranch"
+Git-Command "push $upstreamName '*:*'"
+Git-Command "push --tags $upstreamName"
+```
+
 # Troubleshooting
 
 ## SYSTEM_ACCESSTOKEN env var not set
