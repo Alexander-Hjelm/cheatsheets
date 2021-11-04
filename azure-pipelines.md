@@ -354,3 +354,7 @@ Check the Collection/Project Settings: Pipelines -> Settings. Try and disable th
 
 - Run the `env.sh`-script on the agent.
 - stop/start the service as your current user (`sudo ./svc.sh myuser`)
+
+## Connection string is replace by $(ReplacableToken...)" in web.config
+
+Add `/p:AutoParameterizationWebConfigConnectionStrings=false` in the MSBuild arguments
