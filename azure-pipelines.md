@@ -349,3 +349,8 @@ Under Project Settings -> Boards -> Porject Configuration -> Areas. Select **Sec
 ## The Git repository with name or identifier XXX does not exist or you do not have permissions for the operation you are attempting.
 
 Check the Collection/Project Settings: Pipelines -> Settings. Try and disable the "Limit job authorization scope" flags.
+
+## command not found
+
+- Run the `env.sh`-script on the agent.
+- stop/start the service as your current user (`sudo ./svc.sh myuser`)
