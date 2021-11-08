@@ -36,3 +36,7 @@ Run the service as an administrator the first time to create the correct registr
 ```powershell
 New-Service -Name "YourServiceName" -BinaryPathName <yourproject>.exe
 ```
+
+### Files are not being delivered/copied
+
+Check your .cs-proj-file. Verify that the there is a Content-claues covering the file that you want to deliver.
