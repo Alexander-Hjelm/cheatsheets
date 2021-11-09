@@ -164,7 +164,7 @@ tfs_build.dostuff()
 
 
 ### Folder structure:
-
+```
 .
 ├── setup.py
 ├── *tfsapi*
@@ -172,6 +172,7 @@ tfs_build.dostuff()
 │   ├── tfs_build.py
 │   ├── tfs_git.py
 │   └── tfs_teams.py
+```
 
 ### Minimal setup.py
 
