@@ -139,19 +139,19 @@ The package structure is as follows:
 cd <package root path>
 touch setup.py
 mkdir tfsapi
-touch __init__.py
+touch tfsapi/__init__.py
 
 pip install setuptools
 ```
 
-- __init__.py can be empty
+- `__init__.py` can be empty
 - Verify installation with: `pip install .`
 - Uninstall again with: `pip uninstall pyexample`
 
 ### Create a wheel distribution:
 ```bash
 pip install wheel
-python3 setup.py bdist_wheel --universal
+python3 setup.py bdist_wheel
 ```
 
 The wheel package will be located in ./dist
