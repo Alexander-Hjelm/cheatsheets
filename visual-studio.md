@@ -24,9 +24,13 @@ If successful, this means that Visual Studio is not configured to copy the dll f
 First Build the service application from VS. Check in the bin/Debug folder of the solution for the service .exe.
 
 ```powershell
-sc.exe delete "MyServiceName"
-New-Service -Name "MyServiceName" -BinaryPathName C:\Temp\Full\Path\To\MyService.exe
+sc.exe delete "TopDeskIntegration"
+New-Service -Name "TopDeskIntegration" -BinaryPathName C:\Temp\TopDeskIntegration\azuredevops\integration.service\bin\Debug\NilexIntegrationService.exe
+sc.exe start "TopDeskIntegration"
 ```
+
+#### troubleshoot the service:
+Event Viewer -> Applications and Service Logs
 
 #### The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security
 
