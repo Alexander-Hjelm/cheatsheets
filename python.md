@@ -84,6 +84,17 @@
 
 # pip
 
+## See available versions of a pckage
+```bash
+pip install mpi4py==
+```
+
+## Show installed version
+
+```bash
+pip search mpi4py
+```
+
 ## Sample requirements.txt
 ```bash
 beautifulsoup4==4.9.3
