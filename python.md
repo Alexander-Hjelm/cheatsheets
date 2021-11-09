@@ -135,9 +135,9 @@ touch setup.py
 pip install setuptools
 ```
 
-Verify installation with: `pip install .`
-
-Uninstall with: `pip uninstall pyexample`
+- __init__.py can be empty
+- Verify installation with: `pip install .`
+- Uninstall again with: `pip uninstall pyexample`
 
 ### Create a wheel distribution:
 ```bash
@@ -147,27 +147,37 @@ python3 setup.py bdist_wheel --universal
 
 The wheel package will be located in ./dist
 
+### Folder structure:
+
+.
+├── setup.py
+├── *tfsapi*
+│   ├── __init__.py
+│   ├── tfs_build.py
+│   ├── tfs_git.py
+│   └── tfs_teams.py
+
 ### Minimal setup.py
 
 ```python
 from setuptools import setup
 
 setup(
-    name='tfs-restapi',
+    name='tfsrestapi',
     version='0.1.0',    
     description='TFS Rest API',
     url='https://dev.azure.com/solidify/Internal/_git/DevOps.As.A.Service.Scripts?path=/TFS/rest-api',
     author='Solidify',
     author_email='hello@solidify.se',
     license='BSD 2-clause',
-    packages=[],
+    packages=['tfsapi'],
     install_requires=['requests'],
 
     classifiers=[
         'Development Status :: 1 - Planning',
         'Intended Audience :: Science/Research',
-        'License :: OSI Approved :: BSD License',
-        'Operating System :: POSIX :: Linux',
+        'License :: OSI Approved :: BSD License',  
+        'Operating System :: POSIX :: Linux',        
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
