@@ -647,6 +647,47 @@ response = requests.post(url = uri_api, headers=headers, body=body)
 return response.json()
 ```
 
+## Asyncronous http calls
+```python
+# This file show how to construct an asynchronous concurrent calls in python using aiohttp and asyncio. The call is mainly used when 
+# you need to do high number of request against the api  request  > 200-500. Usages are for example: delete a large number of items, 
+# update many items an so on.
+import aiohttp
+import asyncio
+import time
+import base64
+
+# Example is made with Http_get, call. Possible to use any Http_call on how to us request body please check offical docs 
+async def execute_async_call(session, url):
+    async with session.get(url) as resp: 
+        call_response = await resp.json()
+        return call_response
+
+
+async def main():
+    async with aiohttp.ClientSession(headers=headers) as session:
+        items = [] # Replace with your info can be a get call or, json doc etc..
+        tasks = []
+        for item in items:
+            url = item["url"]
+            tasks.append(asyncio.create_task(execute_async_call(session, url)))
+        https_responses = await asyncio.gather(*tasks)
+
+        # Here you process the responses
+        for response in https_responses:
+            print(response)
+
+
+pat = ''  # acesstoken           
+authorization = str(base64.b64encode(bytes(':' + pat, 'ascii')), 'ascii')
+headers = {
+    'Accept': 'application/json',
+    'Authorization': 'Basic ' + authorization
+}
+
+asyncio.run(main())
+```
+
 ## Flask server
 
 ### app.py
