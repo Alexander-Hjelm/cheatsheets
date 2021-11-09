@@ -129,9 +129,18 @@ pip install --no-index --find-links /path/to/download/dir/ -r requirements.txt
 
 ## Create an installable package
 
+The following guide shows how to create a publishable package in python3.
+The package structure is as follows:
+- The wheel name is **tfsrestapi**
+- The wheel contains a pckage called **tfsapi**
+- **tfsapi** contains a number of .py modules that contain the functions.
+
 ```bash
-touch __init__.py
+cd <package root path>
 touch setup.py
+mkdir tfsapi
+touch __init__.py
+
 pip install setuptools
 ```
 
@@ -146,6 +155,13 @@ python3 setup.py bdist_wheel --universal
 ```
 
 The wheel package will be located in ./dist
+
+Test the new package with:
+```python
+from tfsapi import tfs_build
+tfs_build.dostuff()
+```
+
 
 ### Folder structure:
 
