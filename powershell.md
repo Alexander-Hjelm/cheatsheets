@@ -412,3 +412,11 @@ $env:Path += ";my_path"
 [Environment]::SetEnvironmentVariable
      ("Path", $env:Path, [System.EnvironmentVariableTarget]::Machine)
 ```
+
+# WSL
+```bat
+wsl --list --all                    # List installed distros
+wsl --list --online                 # List available distros
+wsl --install -d Ubuntu             # Install a distro
+wsl --export Ubuntu ./ubuntu.tar    # Export a distro to a .tar file
+```
