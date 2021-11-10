@@ -326,6 +326,15 @@ Git-Command "push $upstreamName '*:*'"
 Git-Command "push --tags $upstreamName"
 ```
 
+# Agent setup
+
+## Must not run as sudo
+
+do:
+```bash
+export AGENT_ALLOW_RUNASROOT="1"
+```
+
 # Troubleshooting
 
 ## SYSTEM_ACCESSTOKEN env var not set
