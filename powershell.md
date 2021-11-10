@@ -421,3 +421,9 @@ wsl --install -d Ubuntu             # Install a distro
 wsl --export Ubuntu .\ubuntu.tar    # Export a distro to a .tar file
 wsl --import Ubuntu C:\wslDistroStorage .\ubuntu.tar
 ```
+  
+## Mount drive in WSL
+```bat
+mkdir /mnt/t
+root@CO-VDB23964S:~# sudo mount -t drvfs T: /mnt/t
+```
