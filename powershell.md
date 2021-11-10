@@ -418,5 +418,6 @@ $env:Path += ";my_path"
 wsl --list --all                    # List installed distros
 wsl --list --online                 # List available distros
 wsl --install -d Ubuntu             # Install a distro
-wsl --export Ubuntu ./ubuntu.tar    # Export a distro to a .tar file
+wsl --export Ubuntu .\ubuntu.tar    # Export a distro to a .tar file
+wsl --import Ubuntu C:\wslDistroStorage .\ubuntu.tar
 ```
