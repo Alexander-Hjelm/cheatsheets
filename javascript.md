@@ -345,7 +345,20 @@ func ( param1, param2 ).then(res => {
 });
 ```
 
-### async method
+### wait for several threads to finish
+
+```typescript
+const data = [1,2,3,4];
+await Promise.all(data.map(this.doStuffWithData)).then(_ => {this.finish()});
+
+private async doStuffWithData(d: number) {
+  ...
+}
+
+private finishProcessUpdates() {
+  ...
+}
+```
 
 ## HTML components
 
