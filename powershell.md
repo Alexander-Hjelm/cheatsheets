@@ -213,6 +213,11 @@ $array.count
 $array.Contains("value")
 ```
 
+### Join Array/ArrayList with separator
+```bat
+$myArray -join ", "
+```
+
 # ArrayLists
 
 ## Assignment
@@ -347,6 +352,19 @@ $a = " abc ".trim()
 ### String to Int
 ```bat
 $integerN = [int]$stringN
+```
+  
+## Convert to HTML, example
+```bat
+$submodulesHtml = New-Object System.Collections.ArrayList
+$tags = [System.Collections.ArrayList]@(1,2,3)
+$submodulesHtml.Add([ordered]@{'Remote URL' = 'abc'; 'Commit SHA' = 123; 'Tags' = $tags -join ", "})
+$submodulesHtml.Add([ordered]@{'Remote URL' = 'def'; 'Commit SHA' = 456; 'Tags' = @(4,5,6)})
+
+$submodulesHtmlConv = [pscustomobject]$submodulesHtml | ConvertTo-Json -Depth 8
+$submodulesHtmlConv1 = $submodulesHtmlConv | ConvertFrom-Json
+$submodulesHtmlConv2 = $submodulesHtmlConv1 | ConvertTo-Html -Fragment -As Table
+$submodulesHtmlConv2
 ```
 
 # Date
