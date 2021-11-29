@@ -32,6 +32,12 @@ New-Service -Name "TopDeskIntegration" -BinaryPathName C:\Temp\TopDeskIntegratio
 sc.exe start "TopDeskIntegration"
 ```
 
+#### Specify user
+
+You may need to specify a user to run the service as (e.g. an AD service account with correct permissions).
+
+in Services: Right click on your service -> Properties -> Log On -> This Account -> Apecify an account with access to TFS
+
 #### troubleshoot the service:
 Event Viewer -> Applications and Service Logs
 
