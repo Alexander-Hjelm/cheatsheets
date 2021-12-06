@@ -11,6 +11,19 @@
 
 <!--te-->
 
+## Nuget
+
+### Initial nuget restore from nuget.org
+
+When downloading a solution for the first time, it may be missing packages.
+
+- Right click the solution in the right hand menu
+- Click "Manage NGet packages for solution"
+- IN the top right, verify that you have nuget.org as the package source
+  - Otherwise add "nuget.org": "https://api.nuget.org/v3/index.json"
+- Update packages
+- Done!
+
 ## Troubleshooting
 
 ### DLL missing
