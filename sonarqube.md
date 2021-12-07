@@ -1,5 +1,8 @@
 # SonarQube
 
+<!--ts-->
+<!--te-->
+
 ## Troubleshooting
 
 ### SonarQube, buildwrapper. SonarQube scan does not produce any scan results when running locally.
