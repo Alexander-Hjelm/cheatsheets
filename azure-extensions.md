@@ -104,6 +104,10 @@ Set the following in the extension manifest:
 
 https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/work-item-field?view=azure-devops
 
+## Index of work item links
+
+https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops
+
 ## Custom work item fields
 
 Format: `/fields/Custom.Fields.<field name>`
