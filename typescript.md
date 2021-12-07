@@ -1,5 +1,8 @@
 # Typescript
 
+<!--ts-->
+<!--te-->
+
 ## Troubleshooting
 
 ### Uncaught ReferenceError: exports is not defined
