@@ -19,8 +19,10 @@
    * [Classes](nodejs.md#classes)
    * [Server application with Express](nodejs.md#server-application-with-express)
    * [Sample package.json](nodejs.md#sample-packagejson)
+   * [Troubleshooting](nodejs.md#troubleshooting)
+      * [BREAKING CHANGE: webpack &lt; 5 used to include polyfills for node.js core modules by default.](nodejs.md#breaking-change-webpack--5-used-to-include-polyfills-for-nodejs-core-modules-by-default)
 
-<!-- Added by: runner, at: Sun Oct 17 16:15:03 UTC 2021 -->
+<!-- Added by: runner, at: Tue Dec  7 11:19:37 UTC 2021 -->
 
 <!--te-->
 

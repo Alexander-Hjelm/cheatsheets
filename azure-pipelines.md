@@ -31,12 +31,19 @@
       * [Same files skipped](azure-pipelines.md#same-files-skipped)
 * [Visual Studio build](azure-pipelines.md#visual-studio-build)
    * [Publish artifact as a .zip or files](azure-pipelines.md#publish-artifact-as-a-zip-or-files)
+* [git](azure-pipelines.md#git)
+   * [Expose access token to a git command in powershell](azure-pipelines.md#expose-access-token-to-a-git-command-in-powershell)
+* [Agent setup](azure-pipelines.md#agent-setup)
+   * [Must not run as sudo](azure-pipelines.md#must-not-run-as-sudo)
 * [Troubleshooting](azure-pipelines.md#troubleshooting-1)
    * [SYSTEM_ACCESSTOKEN env var not set](azure-pipelines.md#system_accesstoken-env-var-not-set)
    * [The reference assemblies for .NETFramework,Version=v4.8 were not found](azure-pipelines.md#the-reference-assemblies-for-netframeworkversionv48-were-not-found)
    * [You do not have the appropriate permissions to manage test suites under this area path.](azure-pipelines.md#you-do-not-have-the-appropriate-permissions-to-manage-test-suites-under-this-area-path)
+   * [The Git repository with name or identifier XXX does not exist or you do not have permissions for the operation you are attempting.](azure-pipelines.md#the-git-repository-with-name-or-identifier-xxx-does-not-exist-or-you-do-not-have-permissions-for-the-operation-you-are-attempting)
+   * [command not found](azure-pipelines.md#command-not-found)
+   * [Connection string is replace by $(ReplacableToken...)" in web.config](azure-pipelines.md#connection-string-is-replace-by-replacabletoken-in-webconfig)
 
-<!-- Added by: runner, at: Sun Oct 17 16:14:56 UTC 2021 -->
+<!-- Added by: runner, at: Tue Dec  7 11:19:31 UTC 2021 -->
 
 <!--te-->
 

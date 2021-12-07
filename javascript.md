@@ -37,7 +37,7 @@
    * [Asyncronous programing](javascript.md#asyncronous-programing)
       * [async function](javascript.md#async-function)
       * [await, then](javascript.md#await-then)
-      * [async method](javascript.md#async-method)
+      * [wait for several threads to finish](javascript.md#wait-for-several-threads-to-finish)
    * [HTML components](javascript.md#html-components)
       * [React.Component](javascript.md#reactcomponent)
          * [render method](javascript.md#render-method)
@@ -57,7 +57,7 @@
 * [Url](javascript.md#url)
    * [Encode/decode url](javascript.md#encodedecode-url)
 
-<!-- Added by: runner, at: Sun Oct 17 16:15:01 UTC 2021 -->
+<!-- Added by: runner, at: Tue Dec  7 11:19:35 UTC 2021 -->
 
 <!--te-->
 

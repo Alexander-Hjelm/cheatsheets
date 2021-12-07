@@ -37,6 +37,8 @@
       * [netcat, nc](linux-utilities.md#netcat-nc)
       * [Find host ip address](linux-utilities.md#find-host-ip-address)
       * [stress](linux-utilities.md#stress)
+   * [apt, apt-get](linux-utilities.md#apt-apt-get)
+      * [Download a package locally, do not install](linux-utilities.md#download-a-package-locally-do-not-install)
    * [curl](linux-utilities.md#curl)
       * [curl POST with parameters](linux-utilities.md#curl-post-with-parameters)
       * [curl to post json](linux-utilities.md#curl-to-post-json)
@@ -53,7 +55,7 @@
       * [Install trusted certificates](linux-utilities.md#install-trusted-certificates)
    * [sqlcmd](linux-utilities.md#sqlcmd)
 
-<!-- Added by: runner, at: Sun Oct 17 16:15:03 UTC 2021 -->
+<!-- Added by: runner, at: Tue Dec  7 11:19:37 UTC 2021 -->
 
 <!--te-->
 

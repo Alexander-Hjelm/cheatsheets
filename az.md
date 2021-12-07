@@ -1,12 +1,28 @@
 # Azure CLI
 <!--ts-->
 * [Azure CLI](az.md#azure-cli)
+* [Azure](az.md#azure)
+   * [Login, Log in](az.md#login-log-in)
+   * [Working with enumerated resources](az.md#working-with-enumerated-resources)
+   * [Manage resource groups](az.md#manage-resource-groups)
+      * [Create resource groups](az.md#create-resource-groups)
+      * [List resource groups](az.md#list-resource-groups)
+      * [Get information on a resource group](az.md#get-information-on-a-resource-group)
+      * [Delete resource group](az.md#delete-resource-group)
+   * [Manage VNets](az.md#manage-vnets)
+   * [Manage VMs](az.md#manage-vms)
+      * [Open port](az.md#open-port)
+   * [Manage Subnets](az.md#manage-subnets)
+   * [Manage Network Security Rules](az.md#manage-network-security-rules)
+      * [Create Network Security Rule](az.md#create-network-security-rule)
+      * [List Network Security Rules](az.md#list-network-security-rules)
 * [Azure DevOps](az.md#azure-devops)
-   * [Login, log in](az.md#login-log-in)
+   * [Login, log in](az.md#login-log-in-1)
    * [Run pipeline](az.md#run-pipeline)
    * [Create release from release definition](az.md#create-release-from-release-definition)
+* [Locations](az.md#locations)
 
-<!-- Added by: runner, at: Sun Oct 17 16:14:55 UTC 2021 -->
+<!-- Added by: runner, at: Tue Dec  7 11:19:30 UTC 2021 -->
 
 <!--te-->
 

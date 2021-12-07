@@ -1,13 +1,18 @@
 # Visual Studio
 <!--ts-->
 * [Visual Studio](visual-studio.md#visual-studio)
+   * [Nuget](visual-studio.md#nuget)
+      * [Initial nuget restore from nuget.org](visual-studio.md#initial-nuget-restore-from-nugetorg)
    * [Troubleshooting](visual-studio.md#troubleshooting)
       * [DLL missing](visual-studio.md#dll-missing)
       * [Running an application as a service](visual-studio.md#running-an-application-as-a-service)
+         * [Specify user](visual-studio.md#specify-user)
+         * [troubleshoot the service:](visual-studio.md#troubleshoot-the-service)
          * [The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security](visual-studio.md#the-source-was-not-found-but-some-or-all-event-logs-could-not-be-searched-inaccessible-logs-security)
          * [Cannot start service from the command line or a debugger. A Windows Service must first be installed (using installutil.exe) and then started with the ServerExplorer, Windows Services Administrative tool or the NET START command.](visual-studio.md#cannot-start-service-from-the-command-line-or-a-debugger-a-windows-service-must-first-be-installed-using-installutilexe-and-then-started-with-the-serverexplorer-windows-services-administrative-tool-or-the-net-start-command)
+      * [Files are not being delivered/copied](visual-studio.md#files-are-not-being-deliveredcopied)
 
-<!-- Added by: runner, at: Sun Oct 17 16:15:08 UTC 2021 -->
+<!-- Added by: runner, at: Tue Dec  7 11:19:40 UTC 2021 -->
 
 <!--te-->
 

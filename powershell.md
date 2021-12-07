@@ -26,9 +26,12 @@
    * [Properties](powershell.md#properties)
       * [Count](powershell.md#count)
       * [Contains](powershell.md#contains)
+      * [Join Array/ArrayList with separator](powershell.md#join-arrayarraylist-with-separator)
 * [ArrayLists](powershell.md#arraylists)
    * [Assignment](powershell.md#assignment-1)
    * [Add/remove](powershell.md#addremove)
+* [PSCustomObject](powershell.md#pscustomobject)
+   * [Access like a dictionary](powershell.md#access-like-a-dictionary)
 * [control statements](powershell.md#control-statements)
    * [if/else](powershell.md#ifelse)
       * [logical operators](powershell.md#logical-operators)
@@ -47,6 +50,7 @@
 * [Data types](powershell.md#data-types)
    * [Convert](powershell.md#convert)
       * [String to Int](powershell.md#string-to-int)
+   * [Convert to HTML, example](powershell.md#convert-to-html-example)
 * [Date](powershell.md#date)
 * [Windows services](powershell.md#windows-services)
    * [Start/stop](powershell.md#startstop)
@@ -59,8 +63,10 @@
 * [Add to Path, environment path](powershell.md#add-to-path-environment-path)
    * [Temporarily](powershell.md#temporarily)
    * [Permanently](powershell.md#permanently)
+* [WSL](powershell.md#wsl)
+   * [Mount drive in WSL](powershell.md#mount-drive-in-wsl)
 
-<!-- Added by: runner, at: Sun Oct 17 16:15:05 UTC 2021 -->
+<!-- Added by: runner, at: Tue Dec  7 11:19:39 UTC 2021 -->
 
 <!--te-->
 

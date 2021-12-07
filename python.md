@@ -3,7 +3,16 @@
 <!--ts-->
 * [Python](python.md#python)
 * [pip](python.md#pip)
+   * [See available versions of a pckage](python.md#see-available-versions-of-a-pckage)
+   * [Show installed version](python.md#show-installed-version)
    * [Sample requirements.txt](python.md#sample-requirementstxt)
+   * [Offline install](python.md#offline-install)
+      * [On the system with internet access:](python.md#on-the-system-with-internet-access)
+      * [On the system without internet access:](python.md#on-the-system-without-internet-access)
+   * [Create an installable package](python.md#create-an-installable-package)
+      * [Create a wheel distribution:](python.md#create-a-wheel-distribution)
+      * [Folder structure:](python.md#folder-structure)
+      * [Minimal setup.py](python.md#minimal-setuppy)
    * [Troubleshooting](python.md#troubleshooting)
       * [Requested MarkupSafe&gt;=2.0 from ... but installing version None](python.md#requested-markupsafe20-from--but-installing-version-none)
 * [sys](python.md#sys)
@@ -37,6 +46,7 @@
    * [read file lines into list](python.md#read-file-lines-into-list)
    * [write string to file](python.md#write-string-to-file)
    * [write lines to file](python.md#write-lines-to-file)
+   * [delete file](python.md#delete-file)
 * [regex](python.md#regex)
    * [simple match, return True/False](python.md#simple-match-return-truefalse)
    * [match regex pattern into named groups](python.md#match-regex-pattern-into-named-groups)
@@ -70,6 +80,7 @@
    * [Http client](python.md#http-client)
       * [Sample get request](python.md#sample-get-request)
       * [Sample post request](python.md#sample-post-request)
+   * [Asyncronous http calls](python.md#asyncronous-http-calls)
    * [Flask server](python.md#flask-server)
       * [app.py](python.md#apppy)
       * [templates/index.html](python.md#templatesindexhtml)
@@ -78,7 +89,7 @@
       * [Limit on origin, remote address](python.md#limit-on-origin-remote-address)
    * [Parse url, unparse url](python.md#parse-url-unparse-url)
 
-<!-- Added by: runner, at: Sun Oct 17 16:15:06 UTC 2021 -->
+<!-- Added by: runner, at: Tue Dec  7 11:19:40 UTC 2021 -->
 
 <!--te-->
 

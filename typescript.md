@@ -1,6 +1,14 @@
 # Typescript
 
 <!--ts-->
+* [Typescript](typescript.md#typescript)
+   * [Troubleshooting](typescript.md#troubleshooting)
+      * [Uncaught ReferenceError: exports is not defined](typescript.md#uncaught-referenceerror-exports-is-not-defined)
+   * [cannot find module [module] or its corresponding type declarations](typescript.md#cannot-find-module-module-or-its-corresponding-type-declarations)
+   * [IPromise&lt;any&gt; is not assignable to type Promise&lt;any&gt;](typescript.md#ipromiseany-is-not-assignable-to-type-promiseany)
+
+<!-- Added by: runner, at: Tue Dec  7 11:19:40 UTC 2021 -->
+
 <!--te-->
 
 ## Troubleshooting
