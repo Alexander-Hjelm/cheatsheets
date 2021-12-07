@@ -6,7 +6,7 @@
 * [SQL Server](sql.md#sql-server)
    * [Show all tables](sql.md#show-all-tables)
 
-<!-- Added by: runner, at: Tue Dec  7 11:19:40 UTC 2021 -->
+<!-- Added by: runner, at: Tue Dec  7 11:20:40 UTC 2021 -->
 
 <!--te-->
 

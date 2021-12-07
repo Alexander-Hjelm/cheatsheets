@@ -1,12 +1,13 @@
 # Hyper V
 
 <!--ts-->
+* [Hyper V](hyper-v.md#hyper-v)
    * [Create VM Script](hyper-v.md#create-vm-script)
    * [Transfer files to a linux VM](hyper-v.md#transfer-files-to-a-linux-vm)
    * [Troubleshooting](hyper-v.md#troubleshooting)
       * [Linux machine does not start](hyper-v.md#linux-machine-does-not-start)
 
-<!-- Added by: runner, at: Tue Dec  7 11:19:34 UTC 2021 -->
+<!-- Added by: runner, at: Tue Dec  7 11:20:27 UTC 2021 -->
 
 <!--te-->
 
