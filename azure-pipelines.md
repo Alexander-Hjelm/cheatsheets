@@ -374,3 +374,9 @@ Check the Collection/Project Settings: Pipelines -> Settings. Try and disable th
 ## Connection string is replace by $(ReplacableToken...)" in web.config
 
 Add `/p:AutoParameterizationWebConfigConnectionStrings=false` in the MSBuild arguments
+
+## "ERR:unable to get local issuer certificate" for NuGet tools installer
+
+Try to set the NODE.EXTRA.CA.CERTS variable to the path of the certificate (e.g. C:\opt\node-extra-ca-certs\dll-certs.cer)
+
+If that does not work, install the nuget CLI on the build machine and use that.
