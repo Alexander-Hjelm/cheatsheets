@@ -32,6 +32,7 @@
    * [Add/remove](powershell.md#addremove)
 * [PSCustomObject](powershell.md#pscustomobject)
    * [Access like a dictionary](powershell.md#access-like-a-dictionary)
+* [Hashtable](powershell.md#hashtable)
 * [control statements](powershell.md#control-statements)
    * [if/else](powershell.md#ifelse)
       * [logical operators](powershell.md#logical-operators)
@@ -66,7 +67,7 @@
 * [WSL](powershell.md#wsl)
    * [Mount drive in WSL](powershell.md#mount-drive-in-wsl)
 
-<!-- Added by: runner, at: Thu Dec  9 10:44:39 UTC 2021 -->
+<!-- Added by: runner, at: Fri Dec 10 14:41:56 UTC 2021 -->
 
 <!--te-->
 

@@ -14,7 +14,7 @@
       * [destroy](terraform.md#destroy)
       * [Azure pipelines provision stage](terraform.md#azure-pipelines-provision-stage)
 
-<!-- Added by: runner, at: Thu Dec  9 10:44:41 UTC 2021 -->
+<!-- Added by: runner, at: Fri Dec 10 14:41:58 UTC 2021 -->
 
 <!--te-->
 
