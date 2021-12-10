@@ -247,7 +247,35 @@ $myPsCustomObject
 $props = $myPsCustomObject.fields.psobject.properties
 $val = $props["my key"].Value
 ```
-  
+
+# Hashtable
+
+Example:
+```bat
+  name                                          value
+----                                          -----
+System.CurrentProcessTemplateId               89c3b34e-8b01-47c0-825a-8693ea85dbb7
+System.OriginalProcessTemplateId              89c3b34e-8b01-47c0-825a-8693ea85dbb7
+System.ProcessTemplateType                    6b724908-ef14-45cf-84f8-768b5384da45
+System.MSPROJ                                 <?xml version="1.0" encoding="utf-8"?>...
+System.Process Template                       Scrum
+System.Microsoft.TeamFoundation.Team.Count    4
+System.Microsoft.TeamFoundation.Team.Default  35eea91b-6561-4a88-8d13-acf205a6df04
+System.SourceControlCapabilityFlags           2
+System.SourceControlGitEnabled                True
+System.SourceControlGitPermissionsInitialized True
+```bat
+
+## Access
+  ```bat
+$myHashTable.name[0]
+$myHashTable.value[0]
+$myHashTable.name[1]
+$myHashTable.value[1]
+$myHashTable.name[2]
+$myHashTable.value[2]
+```
+
 # control statements
 
 ## if/else
