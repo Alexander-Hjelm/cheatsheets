@@ -15,6 +15,7 @@
 * [Templates](azure-pipelines.md#templates)
    * [Invoke Template as Job with parameters](azure-pipelines.md#invoke-template-as-job-with-parameters)
    * [Invoke template as Step](azure-pipelines.md#invoke-template-as-step)
+   * [Invoke template from another project](azure-pipelines.md#invoke-template-from-another-project)
 * [Each](azure-pipelines.md#each)
    * [Use each to create a loop with indices](azure-pipelines.md#use-each-to-create-a-loop-with-indices)
 * [Debug](azure-pipelines.md#debug)
@@ -44,7 +45,7 @@
    * [Connection string is replace by $(ReplacableToken...)" in web.config](azure-pipelines.md#connection-string-is-replace-by-replacabletoken-in-webconfig)
    * ["ERR:unable to get local issuer certificate" for NuGet tools installer](azure-pipelines.md#errunable-to-get-local-issuer-certificate-for-nuget-tools-installer)
 
-<!-- Added by: runner, at: Fri Dec 10 14:41:49 UTC 2021 -->
+<!-- Added by: runner, at: Sun Dec 12 09:43:19 UTC 2021 -->
 
 <!--te-->
 
