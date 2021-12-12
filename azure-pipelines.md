@@ -181,6 +181,29 @@ jobs:
   - template: /.azure-pipelines/templates/build.yml
 ```
 
+## Invoke template from another project
+
+Child yaml file (the pipeline):
+```yaml
+resources: 
+  repositories: 
+  - repository: Common 
+    name: Common 
+    type: git 
+    ref: main
+
+extends:
+  template: parent.yml@Common
+```
+
+Parent template (parent.yml in project Common):
+```yaml
+steps:
+- task: PowerShell@2
+  displayName: 'Install tfx'
+  ...
+```
+
 # Each
 
 Each is used to create loops. Can be used for setting up stages, jobs, tasks dynamically
