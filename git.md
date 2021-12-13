@@ -124,6 +124,15 @@ git commit
 ```
 Then save the file again for good measure.
 
+## git filter-repo
+
+### Split a git repo and preserve history
+```bash
+pip install git-filter-repo
+cd git-repo-root
+git filter-repo --subdirectory-filter subdir/ --force
+```
+
 ## Submodules
 
 ### Initialize
