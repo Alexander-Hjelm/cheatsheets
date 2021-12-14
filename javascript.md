@@ -345,7 +345,7 @@ func ( param1, param2 ).then(res => {
 });
 ```
 
-### wait for several threads to finish
+### Promise.all: wait for several threads to finish
 
 ```typescript
 const data = [1,2,3,4];
@@ -358,6 +358,26 @@ private async doStuffWithData(d: number) {
 private finishProcessUpdates() {
   ...
 }
+```
+
+#### Use Promise.All to aggregate data from multiple promises
+
+```typescript
+let workItems: any[] = [];
+let promises = [];
+for (let i = 0; i < Math.ceil(queryResult.workItems.length/200); i++) {
+  let wi_ids: number[] = queryResult.workItems.slice(i*200, (i+1)*200).map((wi => wi.id));
+  const p = doStuffToGetPromise();
+  promises.push(p);
+}
+let pAll = Promise.all(promises).then(function(values: WorkItemReference[]){ workItems.push(...values);});
+await pAll;
+let workItemsOut = []
+for (let i = 0; i < workItems.length; i++) {
+    const wis = workItems[i];
+    workItemsOut.push(...wis);
+}
+return workItemsOut;
 ```
 
 ## HTML components
