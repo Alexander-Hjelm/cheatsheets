@@ -37,7 +37,8 @@
    * [Asyncronous programing](javascript.md#asyncronous-programing)
       * [async function](javascript.md#async-function)
       * [await, then](javascript.md#await-then)
-      * [wait for several threads to finish](javascript.md#wait-for-several-threads-to-finish)
+      * [Promise.all: wait for several threads to finish](javascript.md#promiseall-wait-for-several-threads-to-finish)
+         * [Use Promise.All to aggregate data from multiple promises](javascript.md#use-promiseall-to-aggregate-data-from-multiple-promises)
    * [HTML components](javascript.md#html-components)
       * [React.Component](javascript.md#reactcomponent)
          * [render method](javascript.md#render-method)
@@ -57,7 +58,7 @@
 * [Url](javascript.md#url)
    * [Encode/decode url](javascript.md#encodedecode-url)
 
-<!-- Added by: runner, at: Mon Dec 13 17:26:05 UTC 2021 -->
+<!-- Added by: runner, at: Tue Dec 14 13:46:42 UTC 2021 -->
 
 <!--te-->
 
