@@ -259,6 +259,21 @@ To push the changes to a remote branch and overwrite the remote contents:
 git push origin localBranchName:remoteBranchName --force
 ```
 
+### Use rebase to rewrite a branch on top of another
+```
+git checkout -b feature/test_new_components_backup           # Branch backup
+git checkout feature/test_new_components                     # Checkout the branch again
+git fetch origin                                             # Get latest changes
+git rebase C10                                               # Start rebase
+
+# For every merge conflict, add the files and continue:
+
+git add .\source\application\app_gps.c 
+git rebase –continue
+
+git push --force
+```
+
 ## Branches
 
 ### Delete a local branch
