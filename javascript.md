@@ -58,7 +58,7 @@
 * [Url](javascript.md#url)
    * [Encode/decode url](javascript.md#encodedecode-url)
 
-<!-- Added by: runner, at: Tue Dec 14 13:46:42 UTC 2021 -->
+<!-- Added by: runner, at: Fri Dec 17 10:41:16 UTC 2021 -->
 
 <!--te-->
 

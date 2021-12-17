@@ -26,6 +26,7 @@
       * [ours/theirs](git.md#ourstheirs)
    * [git rebase](git.md#git-rebase)
       * [Interactive](git.md#interactive)
+      * [Use rebase to rewrite a branch on top of another](git.md#use-rebase-to-rewrite-a-branch-on-top-of-another)
    * [Branches](git.md#branches)
       * [Delete a local branch](git.md#delete-a-local-branch)
          * [Delete all branches except one](git.md#delete-all-branches-except-one)
@@ -37,7 +38,7 @@
       * [Filename too long, '$GIT_DIR' too big](git.md#filename-too-long-git_dir-too-big)
       * [Error in submodule when checking out a branch.](git.md#error-in-submodule-when-checking-out-a-branch)
 
-<!-- Added by: runner, at: Tue Dec 14 13:46:41 UTC 2021 -->
+<!-- Added by: runner, at: Fri Dec 17 10:41:14 UTC 2021 -->
 
 <!--te-->
 

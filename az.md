@@ -22,7 +22,7 @@
    * [Create release from release definition](az.md#create-release-from-release-definition)
 * [Locations](az.md#locations)
 
-<!-- Added by: runner, at: Tue Dec 14 13:46:37 UTC 2021 -->
+<!-- Added by: runner, at: Fri Dec 17 10:41:11 UTC 2021 -->
 
 <!--te-->
 
