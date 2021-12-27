@@ -132,6 +132,14 @@ import { getClient } from "azure-devops-extension-api";
     let result = await client.queryByWiql(wiql);
 ```
 
+# Create hubs
+Follow this guide:
+https://docs.microsoft.com/en-us/azure/devops/extend/get-started/node?view=azure-devops
+
+You can use different targets to put the hub in different places, e.g.:
+**"ms.vss-code-web.code-hub-group"** for Repos, and
+**"ms.vss-web.collection-admin-hub-group"** for collection settings
+
 # Troubleshooting
 
 ## The extension '' doesn't contain the requested asset type 'XXX.xxx'
