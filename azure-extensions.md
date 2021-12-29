@@ -13,12 +13,13 @@
    * [Index of work item links](azure-extensions.md#index-of-work-item-links)
    * [Custom work item fields](azure-extensions.md#custom-work-item-fields)
    * [Acess Rest API from react](azure-extensions.md#acess-rest-api-from-react)
+* [Create hubs](azure-extensions.md#create-hubs)
 * [Troubleshooting](azure-extensions.md#troubleshooting)
    * [The extension '' doesn't contain the requested asset type 'XXX.xxx'](azure-extensions.md#the-extension--doesnt-contain-the-requested-asset-type-xxxxxx)
    * [Refused to apply style because its MIME type ('application/json') is not a supported](azure-extensions.md#refused-to-apply-style-because-its-mime-type-applicationjson-is-not-a-supported)
    * [Uncaught ReferenceError: VSS is not defined](azure-extensions.md#uncaught-referenceerror-vss-is-not-defined)
 
-<!-- Added by: runner, at: Fri Dec 17 10:41:11 UTC 2021 -->
+<!-- Added by: runner, at: Wed Dec 29 11:07:10 UTC 2021 -->
 
 <!--te-->
 

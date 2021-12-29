@@ -8,6 +8,8 @@
    * [Useful environment variables](azure-pipelines.md#useful-environment-variables)
 * [Triggers](azure-pipelines.md#triggers)
    * [Trigger on push to another repo](azure-pipelines.md#trigger-on-push-to-another-repo)
+* [Resources](azure-pipelines.md#resources)
+   * [Clone a repo from the public github](azure-pipelines.md#clone-a-repo-from-the-public-github)
 * [Parameters](azure-pipelines.md#parameters)
 * [Stages/Jobs](azure-pipelines.md#stagesjobs)
    * [Run multiple jobs in parallel for a stage](azure-pipelines.md#run-multiple-jobs-in-parallel-for-a-stage)
@@ -45,7 +47,7 @@
    * [Connection string is replace by $(ReplacableToken...)" in web.config](azure-pipelines.md#connection-string-is-replace-by-replacabletoken-in-webconfig)
    * ["ERR:unable to get local issuer certificate" for NuGet tools installer](azure-pipelines.md#errunable-to-get-local-issuer-certificate-for-nuget-tools-installer)
 
-<!-- Added by: runner, at: Fri Dec 17 10:41:12 UTC 2021 -->
+<!-- Added by: runner, at: Wed Dec 29 11:07:11 UTC 2021 -->
 
 <!--te-->
 
