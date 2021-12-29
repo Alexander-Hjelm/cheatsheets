@@ -47,7 +47,7 @@
    * [Connection string is replace by $(ReplacableToken...)" in web.config](azure-pipelines.md#connection-string-is-replace-by-replacabletoken-in-webconfig)
    * ["ERR:unable to get local issuer certificate" for NuGet tools installer](azure-pipelines.md#errunable-to-get-local-issuer-certificate-for-nuget-tools-installer)
 
-<!-- Added by: runner, at: Wed Dec 29 11:26:37 UTC 2021 -->
+<!-- Added by: runner, at: Wed Dec 29 11:29:06 UTC 2021 -->
 
 <!--te-->
 

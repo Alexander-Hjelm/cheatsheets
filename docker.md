@@ -24,9 +24,11 @@
       * [Bash](docker.md#bash)
    * [Build from context with dockerfile](docker.md#build-from-context-with-dockerfile)
    * [Multistage docker builds](docker.md#multistage-docker-builds)
-* [Windows-specific](docker.md#windows-specific)
+* [Dockerfile](docker.md#dockerfile)
+   * [COPY vs ADD](docker.md#copy-vs-add)
+   * [Windows-specific](docker.md#windows-specific)
    * [COPY](docker.md#copy)
-* [Sample Dockerfile](docker.md#sample-dockerfile)
+   * [Sample Dockerfile](docker.md#sample-dockerfile)
 * [Docker Compose](docker.md#docker-compose)
    * [Sample Docker Compose file](docker.md#sample-docker-compose-file)
    * [Docker Compose commands](docker.md#docker-compose-commands)
@@ -40,7 +42,7 @@
    * [The local machine's clock may be out of sync with the server time by more than five minutes](docker.md#the-local-machines-clock-may-be-out-of-sync-with-the-server-time-by-more-than-five-minutes)
    * [Windows server image: The system cannot find the file specified](docker.md#windows-server-image-the-system-cannot-find-the-file-specified)
 
-<!-- Added by: runner, at: Wed Dec 29 11:26:38 UTC 2021 -->
+<!-- Added by: runner, at: Wed Dec 29 11:29:07 UTC 2021 -->
 
 <!--te-->
 
