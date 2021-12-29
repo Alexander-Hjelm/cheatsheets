@@ -111,6 +111,18 @@ resources:
       - master
 ```
 
+# Resources
+
+## Clone a repo from the public github
+```yaml
+resources:
+  repositories:
+    - repository: azure-devops-migration-tools # The name used to reference this repository in the checkout step
+      type: github
+      endpoint: Peter-Brymer
+      name: nkdAgility/azure-devops-migration-tools
+```
+
 # Parameters
 ```yaml
 parameters:
