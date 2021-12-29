@@ -203,7 +203,17 @@ COPY source2.cpp source.cpp
 RUN g++ -o /binary source.cpp
 ```
 
-# Windows-specific
+# Dockerfile
+
+## COPY vs ADD
+Use Copy for files and ADD for folders:
+```dockerfile
+COPY test1.txt /temp/
+ADD azure-devops-migration-tools/src/MigrationTools.ConsoleFull/bin/Release c:/migrator
+```
+
+
+## Windows-specific
 
 ## COPY
 ```dockerfile
@@ -211,7 +221,7 @@ COPY test1.txt /temp/
 COPY test1.txt c:/temp/
 ```
                                              
-# Sample Dockerfile
+## Sample Dockerfile
 Sample Dockerfile for a flask application
 ```dockerfile
 # our base image
