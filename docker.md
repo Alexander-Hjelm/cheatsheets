@@ -201,6 +201,14 @@ COPY source2.cpp source.cpp
 RUN g++ -o /binary source.cpp
 ```
 
+# Windows-specific
+
+## COPY
+```dockerfile
+COPY test1.txt /temp/
+COPY test1.txt c:/temp/
+```
+                                             
 # Sample Dockerfile
 Sample Dockerfile for a flask application
 ```dockerfile
