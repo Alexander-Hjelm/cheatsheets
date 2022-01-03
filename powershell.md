@@ -5,6 +5,8 @@
    * [help](powershell.md#help-1)
    * [version](powershell.md#version)
    * [gcm](powershell.md#gcm)
+* [IO, I/O](powershell.md#io-io)
+   * [Write to console and pipe to log file at the same time](powershell.md#write-to-console-and-pipe-to-log-file-at-the-same-time)
 * [Modules](powershell.md#modules)
    * [Import modules from another file](powershell.md#import-modules-from-another-file)
 * [File](powershell.md#file)
@@ -67,7 +69,7 @@
 * [WSL](powershell.md#wsl)
    * [Mount drive in WSL](powershell.md#mount-drive-in-wsl)
 
-<!-- Added by: runner, at: Wed Dec 29 11:29:12 UTC 2021 -->
+<!-- Added by: runner, at: Mon Jan  3 09:51:14 UTC 2022 -->
 
 <!--te-->
 
