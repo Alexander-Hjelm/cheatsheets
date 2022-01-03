@@ -102,6 +102,13 @@ Or
 gcm *Copy-*
 ```
 
+# IO, I/O
+
+## Write to console and pipe to log file at the same time
+```bat
+"hello" 2>&1 | tee log.txt
+```
+
 # Modules
 
 ## Import modules from another file
