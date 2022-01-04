@@ -83,6 +83,19 @@ variables:
 
 More: https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?view=azure-devops&tabs=yaml
 
+## Check if a variable is set (not null)
+```yaml
+  - task: PowerShell@2
+    displayName: "Check for access tokens"
+    inputs:
+      targetType: 'inline'
+      script: |
+        Write-Error "Source access token is not defined. Please define the secret runtime variable PATsource"
+    condition: eq(variables['PATsource'], '')
+```
+
+Does not work for secret variables!
+
 # Triggers
 ```yaml
 # No trigger
