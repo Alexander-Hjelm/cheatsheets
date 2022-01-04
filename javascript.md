@@ -208,6 +208,16 @@ if ("key1" in obj)
     console.log("has key1 in obj");
 ```
 
+## Dates, moments
+
+### Date mathematics
+
+#### Different between two Dates in days
+```typescript
+var diff = licenseEndDate.getTime() - today.getTime();   
+var daydiff = diff / (1000 * 60 * 60 * 24);
+```
+
 ## Program logic
 
 ### for loop
