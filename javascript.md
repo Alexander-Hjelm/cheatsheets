@@ -20,6 +20,9 @@
       * [Iterating key/value pairs](javascript.md#iterating-keyvalue-pairs)
       * [Dictionary length (length of dictionary)](javascript.md#dictionary-length-length-of-dictionary)
    * [Does key exist in dictionary?](javascript.md#does-key-exist-in-dictionary)
+   * [Dates, moments](javascript.md#dates-moments)
+      * [Date mathematics](javascript.md#date-mathematics)
+         * [Different between two Dates in days](javascript.md#different-between-two-dates-in-days)
    * [Program logic](javascript.md#program-logic)
       * [for loop](javascript.md#for-loop)
       * [if/else](javascript.md#ifelse)
@@ -58,7 +61,7 @@
 * [Url](javascript.md#url)
    * [Encode/decode url](javascript.md#encodedecode-url)
 
-<!-- Added by: runner, at: Tue Jan  4 06:28:05 UTC 2022 -->
+<!-- Added by: runner, at: Tue Jan  4 08:33:15 UTC 2022 -->
 
 <!--te-->
 
