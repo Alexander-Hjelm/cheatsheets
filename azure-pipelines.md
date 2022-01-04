@@ -32,6 +32,8 @@
 * [Windows Machine File Copy](azure-pipelines.md#windows-machine-file-copy)
    * [Troubleshooting](azure-pipelines.md#troubleshooting)
       * [Same files skipped](azure-pipelines.md#same-files-skipped)
+* [Replace tokens, tokenize](azure-pipelines.md#replace-tokens-tokenize)
+   * [Replace tokens using parameters](azure-pipelines.md#replace-tokens-using-parameters)
 * [Visual Studio build](azure-pipelines.md#visual-studio-build)
    * [Publish artifact as a .zip or files](azure-pipelines.md#publish-artifact-as-a-zip-or-files)
 * [git](azure-pipelines.md#git)
@@ -47,7 +49,7 @@
    * [Connection string is replace by $(ReplacableToken...)" in web.config](azure-pipelines.md#connection-string-is-replace-by-replacabletoken-in-webconfig)
    * ["ERR:unable to get local issuer certificate" for NuGet tools installer](azure-pipelines.md#errunable-to-get-local-issuer-certificate-for-nuget-tools-installer)
 
-<!-- Added by: runner, at: Mon Jan  3 09:51:08 UTC 2022 -->
+<!-- Added by: runner, at: Tue Jan  4 06:28:01 UTC 2022 -->
 
 <!--te-->
 
