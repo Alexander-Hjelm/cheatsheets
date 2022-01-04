@@ -342,6 +342,31 @@ Uses robocopy, argument list: [Link](https://docs.microsoft.com/en-us/windows-se
 By default, Robocopy skips copying existing files if the specific metadata (file size, timestamp, file name) of the files match.
 Override this with the `\IS` (Include same) argument.
 
+# Replace tokens, tokenize
+
+## Replace tokens using parameters
+```yaml
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      Write-Host "##vso[task.setvariable variable=accessTokenSource]${{parameters.accessTokenSource}}"
+      Write-Host "##vso[task.setvariable variable=accessTokenTarget]${{parameters.accessTokenTarget}}"
+- task: replacetokens@4
+  inputs:
+    rootDirectory: './DevOps-as-a-Service-Migration-configs/'
+    targetFiles: '${{parameters.configfilepath}}'
+    encoding: 'auto'
+    tokenPattern: 'default'
+    writeBOM: true
+    actionOnMissing: 'warn'
+    keepToken: false
+    actionOnNoFiles: 'continue'
+    enableTransforms: false
+    useLegacyPattern: false
+    enableTelemetry: true
+```
+
 # Visual Studio build
 
 ## Publish artifact as a .zip or files
