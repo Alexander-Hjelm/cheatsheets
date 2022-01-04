@@ -6,6 +6,7 @@
 * [Variables](azure-pipelines.md#variables)
    * [Using variable groups](azure-pipelines.md#using-variable-groups)
    * [Useful environment variables](azure-pipelines.md#useful-environment-variables)
+   * [Check if a variable is set (not null)](azure-pipelines.md#check-if-a-variable-is-set-not-null)
 * [Triggers](azure-pipelines.md#triggers)
    * [Trigger on push to another repo](azure-pipelines.md#trigger-on-push-to-another-repo)
 * [Resources](azure-pipelines.md#resources)
@@ -49,7 +50,7 @@
    * [Connection string is replace by $(ReplacableToken...)" in web.config](azure-pipelines.md#connection-string-is-replace-by-replacabletoken-in-webconfig)
    * ["ERR:unable to get local issuer certificate" for NuGet tools installer](azure-pipelines.md#errunable-to-get-local-issuer-certificate-for-nuget-tools-installer)
 
-<!-- Added by: runner, at: Tue Jan  4 08:33:12 UTC 2022 -->
+<!-- Added by: runner, at: Tue Jan  4 09:03:19 UTC 2022 -->
 
 <!--te-->
 
