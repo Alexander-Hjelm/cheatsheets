@@ -3,8 +3,9 @@
 <!--ts-->
 * [C#](c-sharp.md#c)
    * [HTTP Client](c-sharp.md#http-client)
+      * [Print response](c-sharp.md#print-response)
 
-<!-- Added by: runner, at: Tue Jan  4 09:03:19 UTC 2022 -->
+<!-- Added by: runner, at: Tue Jan 11 12:08:32 UTC 2022 -->
 
 <!--te-->
 
