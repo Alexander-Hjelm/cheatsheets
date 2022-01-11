@@ -133,3 +133,9 @@ namespace HttpUtils
     }
 }
 ```
+
+### Print response
+```csharp
+var response = await client.PostAsync(createQueryRequest, content);
+await _logger.LogInformationAsync(response.Content.ReadAsStringAsync().Result);
+```
