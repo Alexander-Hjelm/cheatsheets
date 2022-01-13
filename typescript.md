@@ -21,7 +21,7 @@ Add the following line before the script reference in your index.html:
 ```typescript
 <script> var exports = {}; </script>
 ```
-## cannot find module [module] or its corresponding type declarations
+### cannot find module [module] or its corresponding type declarations
 
 1. Install the package by adding it as a dependency to node.js and running `npm install`.
 1. Add its corresponding type to your tsconfig.json:
@@ -40,7 +40,7 @@ Add the following line before the script reference in your index.html:
 }
 ```
 
-## IPromise\<any\> is not assignable to type Promise\<any\>
+### IPromise\<any\> is not assignable to type Promise\<any\>
 
 Wrap the IPromise in a Promise
 
@@ -48,3 +48,10 @@ Wrap the IPromise in a Promise
 return deferred.promise;
 ->
 return Promise.resolve(deferred.promise);
+```
+
+### Issue with require, define, XXX is not defined etc
+
+1. Check the typescript version
+2. Check other dependencies
+3. Check tsconfig
