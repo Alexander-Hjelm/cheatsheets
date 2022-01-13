@@ -140,3 +140,10 @@ namespace HttpUtils
 var response = await client.PostAsync(createQueryRequest, content);
 await _logger.LogInformationAsync(response.Content.ReadAsStringAsync().Result);
 ```
+
+## Regex
+```csharp
+using System.Text.RegularExpressions;
+var matches = Regex.Matches("MyStr12", @"\d+");
+Regex.Matches("MyStr12", @"\d+").Count > 0
+```csharp
