@@ -56,3 +56,9 @@ return Promise.resolve(deferred.promise);
 1. Check the typescript version
 2. Check other dependencies
 3. Check tsconfig
+
+### define is not defined
+```
+npm install amd-loader
+```
+Then add `require("amd-loader")` to the top of the .ts file.
