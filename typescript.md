@@ -57,6 +57,7 @@ return Promise.resolve(deferred.promise);
 1. Check the typescript version
 2. Check other dependencies
 3. Check tsconfig
+4. Add logging in the js file to determine which import is causing the issue.
 
 ### define is not defined
 ```
