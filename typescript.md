@@ -7,8 +7,9 @@
       * [cannot find module [module] or its corresponding type declarations](typescript.md#cannot-find-module-module-or-its-corresponding-type-declarations)
       * [IPromise&lt;any&gt; is not assignable to type Promise&lt;any&gt;](typescript.md#ipromiseany-is-not-assignable-to-type-promiseany)
       * [Issue with require, define, XXX is not defined etc](typescript.md#issue-with-require-define-xxx-is-not-defined-etc)
+      * [define is not defined](typescript.md#define-is-not-defined)
 
-<!-- Added by: runner, at: Thu Jan 13 20:46:55 UTC 2022 -->
+<!-- Added by: runner, at: Fri Jan 14 10:26:15 UTC 2022 -->
 
 <!--te-->
 
