@@ -9,7 +9,7 @@
       * [Issue with require, define, XXX is not defined etc](typescript.md#issue-with-require-define-xxx-is-not-defined-etc)
       * [define is not defined](typescript.md#define-is-not-defined)
 
-<!-- Added by: runner, at: Fri Jan 14 10:26:15 UTC 2022 -->
+<!-- Added by: runner, at: Fri Jan 14 15:08:23 UTC 2022 -->
 
 <!--te-->
 
