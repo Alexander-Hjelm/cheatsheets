@@ -42,6 +42,7 @@
 * [Agent setup](azure-pipelines.md#agent-setup)
    * [Must not run as sudo](azure-pipelines.md#must-not-run-as-sudo)
 * [Set up a nuget feed and push packages](azure-pipelines.md#set-up-a-nuget-feed-and-push-packages)
+* [Replace tokens manually, without the Replace Tokens task](azure-pipelines.md#replace-tokens-manually-without-the-replace-tokens-task)
 * [Troubleshooting](azure-pipelines.md#troubleshooting-1)
    * [SYSTEM_ACCESSTOKEN env var not set](azure-pipelines.md#system_accesstoken-env-var-not-set)
    * [The reference assemblies for .NETFramework,Version=v4.8 were not found](azure-pipelines.md#the-reference-assemblies-for-netframeworkversionv48-were-not-found)
@@ -52,7 +53,7 @@
    * ["ERR:unable to get local issuer certificate" for NuGet tools installer](azure-pipelines.md#errunable-to-get-local-issuer-certificate-for-nuget-tools-installer)
    * [Error MSB3249: Application Configuration file "App.config" is invalid. ".", hexadecimal value 0x00, is an invalid character. Line 2, position 1.](azure-pipelines.md#error-msb3249-application-configuration-file-appconfig-is-invalid--hexadecimal-value-0x00-is-an-invalid-character-line-2-position-1)
 
-<!-- Added by: runner, at: Fri Jan 21 13:04:13 UTC 2022 -->
+<!-- Added by: runner, at: Fri Jan 21 14:41:02 UTC 2022 -->
 
 <!--te-->
 
