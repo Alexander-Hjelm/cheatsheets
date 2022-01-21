@@ -50,8 +50,9 @@
    * [command not found](azure-pipelines.md#command-not-found)
    * [Connection string is replace by $(ReplacableToken...)" in web.config](azure-pipelines.md#connection-string-is-replace-by-replacabletoken-in-webconfig)
    * ["ERR:unable to get local issuer certificate" for NuGet tools installer](azure-pipelines.md#errunable-to-get-local-issuer-certificate-for-nuget-tools-installer)
+   * [Error MSB3249: Application Configuration file "App.config" is invalid. ".", hexadecimal value 0x00, is an invalid character. Line 2, position 1.](azure-pipelines.md#error-msb3249-application-configuration-file-appconfig-is-invalid--hexadecimal-value-0x00-is-an-invalid-character-line-2-position-1)
 
-<!-- Added by: runner, at: Fri Jan 21 10:35:24 UTC 2022 -->
+<!-- Added by: runner, at: Fri Jan 21 13:04:13 UTC 2022 -->
 
 <!--te-->
 
