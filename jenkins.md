@@ -23,7 +23,7 @@
       * [post, run commands after execution](jenkins.md#post-run-commands-after-execution)
       * [when coditions (if, else, conditionals)](jenkins.md#when-coditions-if-else-conditionals)
 
-<!-- Added by: runner, at: Fri Jan 14 15:08:18 UTC 2022 -->
+<!-- Added by: runner, at: Fri Jan 21 10:35:28 UTC 2022 -->
 
 <!--te-->
 
