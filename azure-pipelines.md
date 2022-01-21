@@ -422,6 +422,39 @@ do:
 export AGENT_ALLOW_RUNASROOT="1"
 ```
 
+# Set up a nuget feed and push packages
+
+To be used if the customer needs to build a package, but the TFS server does not have access to the public NuGet registry.
+
+Create a new NuGet feed
+
+Add it to the NuGet.config (in the same folder as the .sln):
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources>
+    <clear />
+    <add key="LocalPackages" value="packages" />
+    <add key="TopDeskIntegration" value="https://tfs.dd.dll.se/DefaultCollection/Microsoft_BI/_packaging/TopDeskIntegration/nuget/v3/index.json" />
+  </packageSources>
+</configuration>
+```
+
+Then do the following to push:
+
+```pwsh
+dotnet nuget push --source "TopDeskIntegration" --api-key az .\packages\Newtonsoft.Json.10.0.3\Newtonsoft.Json.10.0.3.nupkg
+```
+
+To push all packages in one folder:
+
+```pwsh
+dotnet nuget push --source "TopDeskIntegration_Packages" --api-key az .\packages\**\*.nupkg
+```
+
+In the build pipeline:
+
 # Troubleshooting
 
 ## SYSTEM_ACCESSTOKEN env var not set
