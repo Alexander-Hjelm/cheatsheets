@@ -494,3 +494,12 @@ Add `/p:AutoParameterizationWebConfigConnectionStrings=false` in the MSBuild arg
 Try to set the NODE.EXTRA.CA.CERTS variable to the path of the certificate (e.g. C:\opt\node-extra-ca-certs\dll-certs.cer)
 
 If that does not work, install the nuget CLI on the build machine and use that.
+
+## Error MSB3249: Application Configuration file "App.config" is invalid. ".", hexadecimal value 0x00, is an invalid character. Line 2, position 1.
+
+File is in UTF16 encoding when it should be in UTF16.
+
+Powershell:
+```pwsh
+XXX | Out-File -FilePath $InputFile -Encoding UTF8
+```
