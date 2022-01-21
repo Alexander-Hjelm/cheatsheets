@@ -456,6 +456,37 @@ dotnet nuget push --source "TopDeskIntegration_Packages" --api-key az .\packages
 ```
 
 In the build pipeline:
+```yaml
+- task: NuGetInstaller@0
+  diaplayName: 'NuGet restore azuredevop/projectname"
+  inputs:
+    solution: 'solution.sln'
+    nugetConfigPath: 'nuget.config'
+    restoreMode: 'restore'
+    nugetVersion: '4.0.0.2283'
+
+- task: VSBuild@1
+  inputs:
+    solution: 'solution.sln'
+    vsVersion: '15.0'
+    configuration: 'Release'
+    msbuildArchitecture: 'x64'
+```
+
+# Replace tokens manually, without the Replace Tokens task
+
+Put this file in .azure-pipelines: https://gist.github.com/niclaslindstedt/8425dbc5db81b779f3f46659f7232f91
+
+the pipeline:
+```yaml
+- task: PowerShell@2
+  displayName: "Replace tokens in app.config"
+  inputs:
+    targetType: 'inline*
+    script: |
+      . .\.azure-pipelines\replace-tokens.ps1
+      Replace-Tokens -InputFile app.Release.config -OutputFile app.config -Tokens @(tokenA="$(tokenA)"; tokenB="$(tokenB)";} -StartTokenPattern "{{" -EndTokenPattern "}}"
+```
 
 # Troubleshooting
 
