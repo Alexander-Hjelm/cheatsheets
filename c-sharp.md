@@ -148,3 +148,19 @@ using System.Text.RegularExpressions;
 var matches = Regex.Matches("MyStr12", @"\d+");
 Regex.Matches("MyStr12", @"\d+").Count > 0
 ```
+
+## Newtonsoft.json
+
+### Get string value from a JToken
+```csharp
+string name = jToken["name"];
+```
+
+### Replace a json token
+```csharp
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+
+JToken idToken = definitionJObject.SelectToken("variableGroupProjectReferences[0].projectReference.id");
+idToken.Replace(project.Id);
+```
