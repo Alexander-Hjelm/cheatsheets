@@ -5,8 +5,11 @@
    * [HTTP Client](c-sharp.md#http-client)
       * [Print response](c-sharp.md#print-response)
    * [Regex](c-sharp.md#regex)
+   * [Newtonsoft.json](c-sharp.md#newtonsoftjson)
+      * [Get string value from a JToken](c-sharp.md#get-string-value-from-a-jtoken)
+      * [Replace a json token](c-sharp.md#replace-a-json-token)
 
-<!-- Added by: runner, at: Fri Jan 21 14:41:02 UTC 2022 -->
+<!-- Added by: runner, at: Sat Jan 29 08:02:39 UTC 2022 -->
 
 <!--te-->
 
