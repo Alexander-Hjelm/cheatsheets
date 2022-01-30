@@ -167,3 +167,10 @@ using Newtonsoft.Json.Linq;
 JToken idToken = definitionJObject.SelectToken("variableGroupProjectReferences[0].projectReference.id");
 idToken.Replace(project.Id);
 ```
+
+## async
+
+### async WhenAll, await multiple async calls
+```csharp
+await Task.WhenAll(items.Select(item => ProcessItem(wi)));
+```
