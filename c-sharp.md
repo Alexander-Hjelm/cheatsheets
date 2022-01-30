@@ -8,8 +8,10 @@
    * [Newtonsoft.json](c-sharp.md#newtonsoftjson)
       * [Get string value from a JToken](c-sharp.md#get-string-value-from-a-jtoken)
       * [Replace a json token](c-sharp.md#replace-a-json-token)
+   * [async](c-sharp.md#async)
+      * [async WhenAll, await multiple async calls](c-sharp.md#async-whenall-await-multiple-async-calls)
 
-<!-- Added by: runner, at: Sat Jan 29 08:02:39 UTC 2022 -->
+<!-- Added by: runner, at: Sun Jan 30 09:40:11 UTC 2022 -->
 
 <!--te-->
 
