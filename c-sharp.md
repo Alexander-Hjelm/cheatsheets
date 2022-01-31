@@ -176,3 +176,90 @@ idToken.Replace(project.Id);
 ```csharp
 await Task.WhenAll(items.Select(item => ProcessItem(wi)));
 ```
+
+## LibGit2Sharp
+
+### Create credentials
+```csharp
+private CredentialsHandler CreateCredentialsHandler(CredentialsDto credentials)
+    => (url, usernameFromUrl, types) =>
+        new UsernamePasswordCredentials()
+        {
+            Username = credentials.Username,
+            Password = credentials.Password
+        };
+```
+
+### Pull a repository
+```csharp
+public void PullRepository(string path, CredentialsDto credentials)
+{
+    try
+    {
+        var credentialsHandler =
+            CreateCredentialsHandler(credentials);
+
+        var options = new PullOptions
+        {
+            FetchOptions = new FetchOptions { CredentialsProvider = credentialsHandler, TagFetchMode = TagFetchMode.All }
+        };
+        using (var repo = new Repository(path))
+        {
+            var signature = new Signature(
+                new Identity(name: credentials.Username, email: credentials.Username), DateTimeOffset.Now);
+
+            Commands.Pull(repo, signature, options);
+        }
+
+    }
+    catch (Exception e)
+    {
+        _logger.LogError($"Failed to pull latest changes with message: {e.Message}");
+        throw;
+    }
+}
+```
+
+### Pull feature branches
+```csharp
+private void PullFeatureBranches(Repository repo, CredentialsDto credentials)
+{
+    var credentialsHandler =
+        CreateCredentialsHandler(credentials);
+    var options = new PullOptions
+    {
+        FetchOptions = new FetchOptions { CredentialsProvider = credentialsHandler, TagFetchMode = TagFetchMode.All }
+    };
+    var signature = new Signature(
+        new Identity(name: credentials.Username, email: credentials.Username), DateTimeOffset.Now);
+
+    Remote remote = repo.Network.Remotes["origin"];
+
+    List<string> existingBranches = new List<string>();
+    foreach (var branch in repo.Branches)
+    {
+        if (branch.CanonicalName.StartsWith("refs/heads/"))
+        {
+            existingBranches.Add(branch.CanonicalName.Replace("refs/heads/", ""));
+        }
+    }
+    foreach (var branch in repo.Branches)
+    {
+        string shortName = branch.CanonicalName.Replace("refs/remotes/origin/", "");
+        if (branch.CanonicalName.StartsWith("refs/remotes/origin/") && !existingBranches.Contains(shortName))
+        {
+            var localBranch = repo.Branches.Add(shortName, branch.Commits.Last());
+            repo.Branches.Update(localBranch,
+                b => b.Remote = remote.Name,
+                b => b.UpstreamBranch = localBranch.CanonicalName);
+
+            Commands.Checkout(repo, shortName);
+            Commands.Pull(repo, signature, options);
+            _logger.LogInformation("Pulled remote branch: " + branch.CanonicalName);
+        }
+    }
+    // Finally, checkout main branch
+    if(existingBranches.Count > 0)
+        Commands.Checkout(repo, existingBranches.Last());
+}
+```
