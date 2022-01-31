@@ -19,7 +19,7 @@
    * [Refused to apply style because its MIME type ('application/json') is not a supported](azure-extensions.md#refused-to-apply-style-because-its-mime-type-applicationjson-is-not-a-supported)
    * [Uncaught ReferenceError: VSS is not defined](azure-extensions.md#uncaught-referenceerror-vss-is-not-defined)
 
-<!-- Added by: runner, at: Sun Jan 30 09:40:10 UTC 2022 -->
+<!-- Added by: runner, at: Mon Jan 31 13:04:48 UTC 2022 -->
 
 <!--te-->
 

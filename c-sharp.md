@@ -10,8 +10,12 @@
       * [Replace a json token](c-sharp.md#replace-a-json-token)
    * [async](c-sharp.md#async)
       * [async WhenAll, await multiple async calls](c-sharp.md#async-whenall-await-multiple-async-calls)
+   * [LibGit2Sharp](c-sharp.md#libgit2sharp)
+      * [Create credentials](c-sharp.md#create-credentials)
+      * [Pull a repository](c-sharp.md#pull-a-repository)
+      * [Pull feature branches](c-sharp.md#pull-feature-branches)
 
-<!-- Added by: runner, at: Sun Jan 30 09:40:11 UTC 2022 -->
+<!-- Added by: runner, at: Mon Jan 31 13:04:49 UTC 2022 -->
 
 <!--te-->
 
