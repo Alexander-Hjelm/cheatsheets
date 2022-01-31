@@ -194,6 +194,24 @@ private CredentialsHandler CreateCredentialsHandler(CredentialsDto credentials)
         };
 ```
 
+### Clone a repository
+```csharp
+
+var path = "C:\path\to\repo"
+var url = "https:\\path.to.repo"
+
+var credentialsHandler =
+    CreateCredentialsHandler(credentials);
+
+var cloneOptions = new CloneOptions
+{
+    CredentialsProvider = credentialsHandler,
+    FetchOptions = new FetchOptions { TagFetchMode = TagFetchMode.All }
+};
+
+Repository.Clone(url, path, cloneOptions);
+```
+
 ### Pull a repository
 ```csharp
 public void PullRepository(string path, CredentialsDto credentials)
