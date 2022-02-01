@@ -29,6 +29,20 @@ When downloading a solution for the first time, it may be missing packages.
 - Update packages
 - Done!
 
+## Debugging
+
+### Debug with command arguments
+
+1. Go to **Debug** -> **Options**
+1. Enter the command line arguments in the **Application arguments** textbox
+1. Ctrl+S
+1. Debug the program as usual
+1. (Optionally) Set the Working directory and Exectuable to the path of your .exe, e.g. bin/Debug
+
+### Troubleshooting
+
+Try to run the program manually with the same arguments and see if the error persists.
+
 ## Troubleshooting
 
 ### DLL missing
