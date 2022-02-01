@@ -3,7 +3,10 @@
 * [Visual Studio](visual-studio.md#visual-studio)
    * [Nuget](visual-studio.md#nuget)
       * [Initial nuget restore from nuget.org](visual-studio.md#initial-nuget-restore-from-nugetorg)
-   * [Troubleshooting](visual-studio.md#troubleshooting)
+   * [Debugging](visual-studio.md#debugging)
+      * [Debug with command arguments](visual-studio.md#debug-with-command-arguments)
+      * [Troubleshooting](visual-studio.md#troubleshooting)
+   * [Troubleshooting](visual-studio.md#troubleshooting-1)
       * [DLL missing](visual-studio.md#dll-missing)
       * [Running an application as a service](visual-studio.md#running-an-application-as-a-service)
          * [Specify user](visual-studio.md#specify-user)
@@ -12,7 +15,7 @@
          * [Cannot start service from the command line or a debugger. A Windows Service must first be installed (using installutil.exe) and then started with the ServerExplorer, Windows Services Administrative tool or the NET START command.](visual-studio.md#cannot-start-service-from-the-command-line-or-a-debugger-a-windows-service-must-first-be-installed-using-installutilexe-and-then-started-with-the-serverexplorer-windows-services-administrative-tool-or-the-net-start-command)
       * [Files are not being delivered/copied](visual-studio.md#files-are-not-being-deliveredcopied)
 
-<!-- Added by: runner, at: Mon Jan 31 13:07:31 UTC 2022 -->
+<!-- Added by: runner, at: Tue Feb  1 12:47:13 UTC 2022 -->
 
 <!--te-->
 
