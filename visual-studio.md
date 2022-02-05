@@ -87,4 +87,8 @@ New-Service -Name "YourServiceName" -BinaryPathName <yourproject>.exe
 
 ### Files are not being delivered/copied
 
-Check your .cs-proj-file. Verify that the there is a Content-claues covering the file that you want to deliver.
+Check your .cs-proj-file. Verify that the there is a Content-clause covering the file that you want to deliver.
+
+### Subproject breakpoints are not being hit/code is not being copied to release
+
+Likely an issue with dynamically loaded assemblies. Check the debug settings. Resolved by cloning the repository again.
