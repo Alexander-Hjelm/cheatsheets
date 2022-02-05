@@ -394,6 +394,23 @@ for (let i = 0; i < workItems.length; i++) {
 return workItemsOut;
 ```
 
+## Scope
+
+### Use methods from the outer object when the scope of "this" changes
+
+```typescript
+let checkbox = document.createElement('input') as HTMLInputElement;
+const oc: OuterClass = this;
+
+checkbox.addEventListener(
+    "change",
+    function() {
+        oc.doStuff();
+    },
+    false
+);
+```
+
 ## HTML components
 
 ### React.Component
