@@ -14,8 +14,9 @@
          * [The source was not found, but some or all event logs could not be searched. Inaccessible logs: Security](visual-studio.md#the-source-was-not-found-but-some-or-all-event-logs-could-not-be-searched-inaccessible-logs-security)
          * [Cannot start service from the command line or a debugger. A Windows Service must first be installed (using installutil.exe) and then started with the ServerExplorer, Windows Services Administrative tool or the NET START command.](visual-studio.md#cannot-start-service-from-the-command-line-or-a-debugger-a-windows-service-must-first-be-installed-using-installutilexe-and-then-started-with-the-serverexplorer-windows-services-administrative-tool-or-the-net-start-command)
       * [Files are not being delivered/copied](visual-studio.md#files-are-not-being-deliveredcopied)
+      * [Subproject breakpoints are not being hit/code is not being copied to release](visual-studio.md#subproject-breakpoints-are-not-being-hitcode-is-not-being-copied-to-release)
 
-<!-- Added by: runner, at: Tue Feb  1 12:47:13 UTC 2022 -->
+<!-- Added by: runner, at: Sat Feb  5 08:28:33 UTC 2022 -->
 
 <!--te-->
 

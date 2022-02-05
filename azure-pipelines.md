@@ -53,7 +53,7 @@
    * ["ERR:unable to get local issuer certificate" for NuGet tools installer](azure-pipelines.md#errunable-to-get-local-issuer-certificate-for-nuget-tools-installer)
    * [Error MSB3249: Application Configuration file "App.config" is invalid. ".", hexadecimal value 0x00, is an invalid character. Line 2, position 1.](azure-pipelines.md#error-msb3249-application-configuration-file-appconfig-is-invalid--hexadecimal-value-0x00-is-an-invalid-character-line-2-position-1)
 
-<!-- Added by: runner, at: Tue Feb  1 12:47:04 UTC 2022 -->
+<!-- Added by: runner, at: Sat Feb  5 08:28:22 UTC 2022 -->
 
 <!--te-->
 
