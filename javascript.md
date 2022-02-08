@@ -316,6 +316,13 @@ let matches = my_string.match(regex)[0];
 // Returns an array of matches
 ```
 
+### Match groups
+```typescript
+const regexp = new RegExp("instance:([a-zA-Z0-9.]+)@[a-z0-9]+]", "g");
+const match = regexp.exec(signature);
+let instanceName = match[1];
+```
+
 ### ReplaceAll / Replace all occurrences
 
 Use this helper function:
