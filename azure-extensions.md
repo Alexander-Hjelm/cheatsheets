@@ -292,6 +292,17 @@ Now we need to do the following steps:
 - Now you will need to navigate to https://localhost:3000 in a web browser and click past the security warning, telling the browser to trust localhost:3000. Otherwise the injected html forms will not render.
 - Now navigate to your AzDO organization and install the extension. Then do any neccessary configuration on your dasboard/process templates/etc and you are done.
 
+## Read system variables in pipeline
+```
+npm install azure-pipelines-task-lib
+```
+
+```ts
+import tl = require('azure-pipelines-task-lib/task');
+const organizationUrl = tl.getVariable('System.TeamFoundationCollectionUri');
+const token = tl.getVariable('System.AccessToken');
+```
+
 # Troubleshooting
 
 ## The extension '' doesn't contain the requested asset type 'XXX.xxx'
