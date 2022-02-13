@@ -348,3 +348,7 @@ And that the types are defined in tsconfig:
     "vss-web-extension-sdk"
 ],
 ```
+
+## Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
+
+Upgrade `node-sass` and `sass-loader` to latest versions.
