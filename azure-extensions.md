@@ -17,13 +17,14 @@
 * [Local testing](azure-extensions.md#local-testing)
    * [Testing node pipeline tasks in Visual Studio](azure-extensions.md#testing-node-pipeline-tasks-in-visual-studio)
    * [Testing widgets and work item forms with webpack serve](azure-extensions.md#testing-widgets-and-work-item-forms-with-webpack-serve)
+   * [Read system variables in pipeline](azure-extensions.md#read-system-variables-in-pipeline)
 * [Troubleshooting](azure-extensions.md#troubleshooting)
    * [The extension '' doesn't contain the requested asset type 'XXX.xxx'](azure-extensions.md#the-extension--doesnt-contain-the-requested-asset-type-xxxxxx)
    * [Refused to apply style because its MIME type ('application/json') is not a supported](azure-extensions.md#refused-to-apply-style-because-its-mime-type-applicationjson-is-not-a-supported)
    * [Uncaught ReferenceError: VSS is not defined, Can't resolve 'TFS' or 'VSS'](azure-extensions.md#uncaught-referenceerror-vss-is-not-defined-cant-resolve-tfs-or-vss)
    * [Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)](azure-extensions.md#error-node-sass-does-not-yet-support-your-current-environment-linux-64-bit-with-unsupported-runtime-93)
 
-<!-- Added by: runner, at: Sun Feb 13 12:05:24 UTC 2022 -->
+<!-- Added by: runner, at: Sun Feb 13 15:55:06 UTC 2022 -->
 
 <!--te-->
 
