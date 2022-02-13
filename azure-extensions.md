@@ -20,9 +20,9 @@
 * [Troubleshooting](azure-extensions.md#troubleshooting)
    * [The extension '' doesn't contain the requested asset type 'XXX.xxx'](azure-extensions.md#the-extension--doesnt-contain-the-requested-asset-type-xxxxxx)
    * [Refused to apply style because its MIME type ('application/json') is not a supported](azure-extensions.md#refused-to-apply-style-because-its-mime-type-applicationjson-is-not-a-supported)
-   * [Uncaught ReferenceError: VSS is not defined](azure-extensions.md#uncaught-referenceerror-vss-is-not-defined)
+   * [Uncaught ReferenceError: VSS is not defined, Can't resolve 'TFS' or 'VSS'](azure-extensions.md#uncaught-referenceerror-vss-is-not-defined-cant-resolve-tfs-or-vss)
 
-<!-- Added by: runner, at: Tue Feb  8 09:28:39 UTC 2022 -->
+<!-- Added by: runner, at: Sun Feb 13 11:58:27 UTC 2022 -->
 
 <!--te-->
 
