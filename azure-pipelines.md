@@ -100,6 +100,21 @@ More: https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?vi
 
 Does not work for secret variables!
 
+## Use variables in powershell script
+
+variables:
+- template: variables.yml
+
+#...
+
+- task: PowerShell@2
+      displayName: 'Replace tokens in CommonConfig.ts'
+      inputs:
+        targetType: 'inline'
+        script: |
+          ls
+          Write-Host '$(variables.extensionId)-dev'
+
 # Triggers
 ```yaml
 # No trigger
