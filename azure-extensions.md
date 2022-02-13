@@ -319,7 +319,7 @@ Add the specified css in the "files" field of the extension manifest:
 ```
 
 
-## Uncaught ReferenceError: VSS is not defined
+## Uncaught ReferenceError: VSS is not defined, Can't resolve 'TFS' or 'VSS'
 Add the missing reference in the "files" field of the extension manifest:
 
 ```json
@@ -330,4 +330,21 @@ Add the missing reference in the "files" field of the extension manifest:
             "packagePath": "lib"
         }
     ]
+```
+
+When building with webpack, make sure that the externals are defined in webpack.config.js:  
+```js
+externals: [
+/^VSS\/.*/, /^TFS\/.*/, /^q\/.*/
+],
+```
+
+And that the types are defined in tsconfig:
+```js
+"types": [
+    "react",
+    "jest",
+    "node",
+    "vss-web-extension-sdk"
+],
 ```
