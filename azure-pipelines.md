@@ -7,6 +7,7 @@
    * [Using variable groups](azure-pipelines.md#using-variable-groups)
    * [Useful environment variables](azure-pipelines.md#useful-environment-variables)
    * [Check if a variable is set (not null)](azure-pipelines.md#check-if-a-variable-is-set-not-null)
+   * [Use variables in powershell script](azure-pipelines.md#use-variables-in-powershell-script)
 * [Triggers](azure-pipelines.md#triggers)
    * [Trigger on push to another repo](azure-pipelines.md#trigger-on-push-to-another-repo)
 * [Resources](azure-pipelines.md#resources)
@@ -53,7 +54,7 @@
    * ["ERR:unable to get local issuer certificate" for NuGet tools installer](azure-pipelines.md#errunable-to-get-local-issuer-certificate-for-nuget-tools-installer)
    * [Error MSB3249: Application Configuration file "App.config" is invalid. ".", hexadecimal value 0x00, is an invalid character. Line 2, position 1.](azure-pipelines.md#error-msb3249-application-configuration-file-appconfig-is-invalid--hexadecimal-value-0x00-is-an-invalid-character-line-2-position-1)
 
-<!-- Added by: runner, at: Sun Feb 13 15:55:07 UTC 2022 -->
+<!-- Added by: runner, at: Sun Feb 13 17:20:26 UTC 2022 -->
 
 <!--te-->
 
