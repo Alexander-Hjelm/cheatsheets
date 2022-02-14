@@ -365,3 +365,8 @@ And that the types are defined in tsconfig:
 ## Error: Node Sass does not yet support your current environment: Linux 64-bit with Unsupported runtime (93)
 
 Upgrade `node-sass` and `sass-loader` to latest versions.
+
+## Field 'browser' doesn't contain a valid alias configuration
+
+Issue with webpack module rules. The entry is either a folder or is not getting picked up by any of your rules.
+
