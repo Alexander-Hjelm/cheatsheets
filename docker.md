@@ -309,6 +309,14 @@ docker pull localhost:5000/myfirstimage
 docker container stop registry && docker container rm -v registry
 ```
 
+## Azure Container registry
+
+```
+az acr login -n containerdayteamacr.azurecr.io
+Username: containerdayteamacr
+Password: ZkOXwUd8PsgV/RAeG6SVgAwBcaV3C4hE
+```
+
 # Troubleshooting
 ## The reference assemblies for .NETFramework,Version=v3.1.411 were not found... (on docker build)
 Add the following to you .csproj:
@@ -328,3 +336,33 @@ Set the correct timezone and sync the clock in the settings of the host machine 
 ## Windows server image: The system cannot find the file specified
   
 Make sure to mount the C:\vol01 volume
+
+# Networking
+  
+Containers will need to be in the same network to communicate. Create a network:
+```
+docker network create skynet
+```
+
+Run your container in a docker network:
+```
+docker build -t alexander/backend .
+docker run -d -t --name backend --network skynet -p 3001:3001 alexander/backend:latest
+```
+
+# Specific images:
+  
+## SQL Server
+  
+```
+docker pull mcr.microsoft.com/mssql/server:2019-latest
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=MyStrong@Passw0rd" -p 1433:1433 --name sql1 --hostname sql1 --network skynet -d mcr.microsoft.com/mssql/server:2019-latest
+docker exec -i -t aa933c466ea9 /bin/bash
+```
+
+# .dockerignore
+
+You can add a .dockerignore file at the same path as the .dockerfile to slim the image+build. Use the same syntax as .gitignore.
+
+# Troubleshooting:
+You can use `docker logs` to inspect the logs of a container.
