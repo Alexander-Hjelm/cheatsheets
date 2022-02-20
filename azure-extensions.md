@@ -324,6 +324,15 @@ Under the "Work Item Extensions" comment, add a reference to your extension:
 </Extensions>
 ```
 
+And then add a new page. The id should match the pattern: [Publisher id].[Extension id].[contribution id]:
+```xml
+<Page Label="Time Tracking" LayoutMode="FirstColumnWide">
+  <Section>
+    <GroupContribution Label="Time Tracking" Id="Solidify.sormland-timetracker-wi-link.lean-budget-group" />
+  </Section>
+</Page>
+```
+
 Finally import the models again:
 ```pwsh
 .\witadmin.exe importwitd /collection:https://tfstest.dd.dll.se/DefaultCollection /f:C:\Users\Alehje\Desktop\Integration_bug.xml /p:Integration
