@@ -305,6 +305,32 @@ const organizationUrl = tl.getVariable('System.TeamFoundationCollectionUri');
 const token = tl.getVariable('System.AccessToken');
 ```
 
+# Installing a Work Item form extenion on AzDO on-prem
+
+After installing the extension in the Gallery, you will need to edit the process model for your project (Can be scripted across many projects).
+
+Download the models with witadmin:
+```pwsh
+cd 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer'
+.\witadmin.exe exportwitd /collection:https://tfstest.dd.dll.se/DefaultCollection /p:Integration /n:"User Story" /f:Integration_userstory.xml
+.\witadmin.exe exportwitd /collection:https://tfstest.dd.dll.se/DefaultCollection /p:Integration /n:"Bug" /f:Integration_bug.xml
+...
+```
+
+Under the "Work Item Extensions" comment, add a reference to your extension:
+```xml
+<Extensions>
+   <Extension Id="example.color-control-dev" />
+</Extensions>
+```
+
+Finally import the models again:
+```pwsh
+.\witadmin.exe importwitd /collection:https://tfstest.dd.dll.se/DefaultCollection /f:C:\Users\Alehje\Desktop\Integration_bug.xml /p:Integration
+```
+
+Reference: https://docs.microsoft.com/en-us/azure/devops/extend/develop/configure-workitemform-extensions?view=azure-devops
+
 # Troubleshooting
 
 ## The extension '' doesn't contain the requested asset type 'XXX.xxx'
