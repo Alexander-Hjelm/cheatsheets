@@ -269,6 +269,29 @@ services:
         - "8080:80"
 ```
 
+Multiple services, assuming you have both project folders **/frontend** and **/backend** with their respective dockerfiles in the project.
+```
+services:
+  backend:
+    build:
+      context: /backend/
+    container_name:  backend
+    image: containerdayteamacr.azurecr.io/mining-api:v1
+    environment:
+      ConnectionStrings__Database: "Server=tcp:cad-mining-sql.database.windows.net,1433;Initial Catalog=cad-mining-db;Persist Security Info=False;User ID=sky;Password=SqlDb12345;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    domainname: "cadmining-team1"
+
+  frontend:
+    build: 
+      context: /frontend/
+    container_name: frontend
+    image: containerdayteamacr.azurecr.io/mining-web:v1
+    environment:
+      API_URL: http://backend:3001
+    ports:
+        - 3000:3000
+```
+
 ## Docker Compose commands
 
 ### Run a docker compose file as a service
