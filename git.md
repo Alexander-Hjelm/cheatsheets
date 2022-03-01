@@ -283,6 +283,17 @@ git branch -d <local-branch>      # Normal
 git branch -D <local-branch>      # Force
 ```
 
+#### Pull all branches / Fetch all branches
+
+pull all branches with git:
+```bash
+git clone <url>
+git fetch --all
+git checkout feature1
+git checkout feature2
+git checkout feature3
+```
+
 #### Delete all branches except one
 In bash:
 ```bash
