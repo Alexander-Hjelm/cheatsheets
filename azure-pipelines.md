@@ -334,6 +334,33 @@ Write-Host "##vso[task.setvariable variable=varToBeWritten]$varToBeWritten"
 Write-Host $env:varToBeWritten
 ```
 
+# Start/Stop windows service
+
+Make sure the agent user has sufficent access
+```yml
+- task: PowerShell@2
+  displayName: "Stop service"
+  inputs:
+    targetType: 'inline'
+    script: |
+      Get-Service -DisplayName TopDeskIntegration | Stop-Service
+  continueOnError: true
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: 'azuredevops\integration.service\bin\Release'
+    Contents: '**'
+    TargetFolder: 'C:\TopDeskIntegration'
+    OverWrite: true
+
+- task: PowerShell@2
+  displayName: "Start service"
+  inputs:
+    targetType: 'inline'
+    script: |
+      Get-Service -DisplayName TopDeskIntegration | Start-Service
+```
+
 # Certificates, code signing
 
 ## How to use certificates with Azure Key Vault
