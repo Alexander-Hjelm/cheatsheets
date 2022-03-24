@@ -129,6 +129,20 @@ Import-Module $script_path\Modules\my-module.psm1
 (Get-Content -path /my/path/file.txt -Raw) -replace 'STR_TO_REPLACE', 'TARGET_STRING' | Set-Content -Path /my/path/file.txt
 ```
 
+## Encoding
+
+Change encoding on a file:
+
+```powershell
+(Get-Content -path $(MyFilePath)) | out-file -encoding utf8 $(MyFilePath)
+```
+
+Get-Content with another encodiing:
+
+```powershell
+Get-content -Encoding utf8 "$(System.DefaultWorkingDirectory)\$(artifactname)\drop\SSASMUL\log_multi.txt"
+```
+
 # Types, datatypes
 
 - [string]    Fixed-length string of Unicode characters
