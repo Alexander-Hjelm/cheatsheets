@@ -216,6 +216,25 @@ stages:
     - template: /.azure-pipelines/templates/deploy-test.yml
 ```
 
+# Deployments
+```yaml
+trigger: none
+
+jobs:
+  - deployment: 
+#    variables:
+#      - group: ${{parameters.extensionId}}-${{parameters.environment}}
+#    pool:
+#      vmImage: 'ubuntu-latest'
+    environment: synchub-demo
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - script: echo Hello, world!
+            displayName: 'Run a one-line script'
+```
+
 # Templates
 
 ## Invoke Template as Job with parameters
