@@ -160,6 +160,16 @@ resources:
       name: nkdAgility/azure-devops-migration-tools
 ```
 
+## Clone a repo from an AzDO project
+```yaml
+resources:
+  repositories:
+    - repository: sync-hub # The name used to reference this repository in the checkout step
+      type: git
+      name: Internal/sync-hub
+      ref: master
+```
+
 # Parameters
 ```yaml
 parameters:
