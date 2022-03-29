@@ -226,7 +226,9 @@ jobs:
 #      - group: ${{parameters.extensionId}}-${{parameters.environment}}
 #    pool:
 #      vmImage: 'ubuntu-latest'
-    environment: synchub-demo
+    environment:
+      name: synchub-demo
+      resourceName: synchub-demo
     strategy:
       runOnce:
         deploy:
