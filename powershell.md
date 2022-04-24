@@ -503,3 +503,13 @@ wsl --import Ubuntu C:\wslDistroStorage .\ubuntu.tar
 mkdir /mnt/t
 root@CO-VDB23964S:~# sudo mount -t drvfs T: /mnt/t
 ```
+
+# Troubleshooting
+ 
+## \<PowerShell Script file\> is not digitally signed. You cannot run this script on the current system.
+  
+If the execution policy is RemoteSigned, you may have to manually unblock the file, either in Explorer or in Powershell:
+
+![image](https://user-images.githubusercontent.com/10683896/164971102-b0076dfe-4ccb-45d7-ab96-190b3fdf0366.png)
+
+![image](https://user-images.githubusercontent.com/10683896/164971097-07f061a6-c123-47c4-9149-5a75669e5105.png)
