@@ -102,7 +102,7 @@ More: https://docs.microsoft.com/en-us/azure/devops/pipelines/build/variables?vi
 Does not work for secret variables!
 
 ## Use variables in powershell script
-
+```yaml
 variables:
 - template: variables.yml
 
@@ -115,6 +115,21 @@ variables:
         script: |
           ls
           Write-Host '$(variables.extensionId)-dev'
+```
+
+## Conditional variables
+```yaml
+variables:
+  - name: azureSubscription
+    ${{ if eq(parameters.subscription, 'lab') }}: 
+      value: "azure-it-icc-lab-azdo-spn"
+    ${{ if eq(parameters.subscription, 'dev') }}: 
+      value: "azure-it-icc-development-azdo-spn"
+    ${{ if eq(parameters.subscription, 'test') }}: 
+      value: "azure-it-icc-test-azdo-spn"
+    ${{ if eq(parameters.subscription, 'prod') }}: 
+      value: "azure-it-icc-production-azdo-spn"
+```
 
 # Triggers
 ```yaml
