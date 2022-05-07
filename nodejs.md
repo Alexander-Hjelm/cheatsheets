@@ -97,7 +97,7 @@ console.log(contents);
 ### Write file
 ```typescript
 const fs = require("fs")
-fs.writeFile('input.txt', 'Simply Easy Learning!', function(err) {
+await fs.writeFile('input.txt', 'Simply Easy Learning!', function(err) {
   if (err) {
     return console.error(err);
   }
