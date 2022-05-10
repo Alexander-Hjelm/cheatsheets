@@ -449,6 +449,13 @@ Start-Process PowerShell -ArgumentList "Get-Date; Read-Host 'Press Enter'"
 Start-Process PowerShell -ArgumentList "./my-script.ps1; Read-Host 'Press Enter'"
 ```
 
+## Kill a hung process
+  
+```bat
+Get-Process         # List available process, you can compare with the task manager
+Stop-Process -name [Process name]
+```
+  
 # Select-String
 Find, grep
 ```bat
