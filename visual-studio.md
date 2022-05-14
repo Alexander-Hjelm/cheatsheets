@@ -93,3 +93,13 @@ Check your .cs-proj-file. Verify that the there is a Content-clause covering the
 ### Subproject breakpoints are not being hit/code is not being copied to release
 
 Likely an issue with dynamically loaded assemblies. Check the debug settings. Resolved by cloning the repository again.
+
+### Could not load file or assembly
+
+Add a reference to the missing package in the .csproj, like this:
+
+```csproj
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.0.3.0" />
+  </ItemGroup>
+```
