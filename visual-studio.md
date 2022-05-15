@@ -103,3 +103,8 @@ Add a reference to the missing package in the .csproj, like this:
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.0.3.0" />
   </ItemGroup>
 ```
+
+### NuGet restore fails when trying to install a new package
+
+1. Go inside Tools -> Options... -> NuGet Package Manager -> Clear All NuGet Cache(s)
+1. Restart VS
