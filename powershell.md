@@ -143,6 +143,15 @@ Get-Content with another encodiing:
 Get-content -Encoding utf8 "$(System.DefaultWorkingDirectory)\$(artifactname)\drop\SSASMUL\log_multi.txt"
 ```
 
+## 7zip
+
+### Create .tar.gz archive
+
+```powershell
+7z a -ttar archive.tar /Downloads
+7z a archive.tar.gz archive.tar
+```
+
 # Types, datatypes
 
 - [string]    Fixed-length string of Unicode characters
