@@ -324,6 +324,29 @@ git commit -m "Committed on new branch"
 git grep search_string $(git rev-list --all)
 ```
 
+## git filter-repo (git-filter-repo)
+
+### Merge two repositories with unrelated histories, in subfolders
+
+```bash
+git clone https://mainrepo
+git clone https://subrepo1
+git clone https://subrepo2
+cd subrepo1/
+git filter-repo --to-subdirectory-filter subrepo1
+cd ..
+cd subrepo2/
+git filter-repo --to-subdirectory-filter AzureDevOps.Admin.Scripts
+cd ..
+cd DevOps.As.A.Service.Scripts/
+git remote add subrepo1remote ../subrepo1/
+git remote add subrepo2remote ../subrepo2/
+git fetch subrepo1remote --no-tags
+git fetch subrepo2remote  --no-tags
+git merge --allow-unrelated-histories subrepo1remote/master
+git merge --allow-unrelated-histories subrepo2remote/master 
+```
+
 ## Troubleshooting
 
 ### Filename too long, '$GIT_DIR' too big
