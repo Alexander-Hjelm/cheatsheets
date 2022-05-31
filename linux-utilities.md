@@ -100,7 +100,9 @@ $ tar xvf tarfile.tar
 - **f**: specify file
 - **z**: specific for .gz-files
 
-## nohup
+## Processes
+
+### nohup
 
 Run commands in the background, detached from the terminal
 
@@ -110,6 +112,10 @@ nohup command &>/dev/null &
 
 Notes: the pipe to /dev/null exists to prevent nohup from generating a nohup.out-file.
 
+### Address in use / addr in use
+
+- Use `sudo lsof -i :<port number>` to find out which process is using that port
+- kill -9 <pid>
 
 ## df
 
