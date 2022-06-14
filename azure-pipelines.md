@@ -231,6 +231,15 @@ stages:
     - template: /.azure-pipelines/templates/deploy-test.yml
 ```
 
+```yaml
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(Build.ArtifactStagingDirectory)/adapters'
+    Contents: '**'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/api/adapters'
+  condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
+```
+
 # Deployments
 ```yaml
 trigger: none
