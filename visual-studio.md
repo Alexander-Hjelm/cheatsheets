@@ -33,6 +33,12 @@ When downloading a solution for the first time, it may be missing packages.
 - Update packages
 - Done!
 
+### Nuget push to Azure Packages
+
+```bash
+nuget push test/mypackage.nupkg -src https://pkgs.dev.azure.com/<ORGANIZATION_NAME>/<PROJECT_NAME>/_packaging/<FEED_NAME>/nuget/v3/index.json -ApiKey az
+```
+
 ## Debugging
 
 ### Debug with command arguments
