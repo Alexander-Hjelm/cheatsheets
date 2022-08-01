@@ -640,6 +640,31 @@ steps:
       --parameters vnet_name=${{parameters.vnet}}
 ```
 
+### Deploy an azure web app
+
+```yaml
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+
+- script: dotnet build --configuration $(buildConfiguration)
+  displayName: 'dotnet build $(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'publish'
+    publishWebProjects: true
+
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'Visual Studio Enterprise Subscription – MPN(1)(90964ca6-bc75-4398-9fa2-75c890c373cf)'
+    appType: 'webApp'
+    appName: 'alexanderdemo'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    deploymentMethod: 'auto'
+```
+
 # Troubleshooting
 
 ## SYSTEM_ACCESSTOKEN env var not set

@@ -343,7 +343,7 @@ curl --header "Content-Type: application/json" --request POST --data "{\"name\":
 
 ## dotnet
 
-### new project
+### Bootstrap new project
 List available templates
 ```bash
 dotnet new
@@ -352,6 +352,14 @@ dotnet new
 Create new projects
 ```bash
 dotnet new webapi -n mywebapi
+```
+
+#### Create a new webapp (ASP.NET)
+```bash
+mkdir myapp
+cd myapp
+dotnet new webapp -f net5.0
+dotnet run
 ```
 
 ### build/run project
