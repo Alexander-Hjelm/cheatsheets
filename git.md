@@ -1,48 +1,49 @@
- # git
+# git
 <!--ts-->
 * [git](git.md#git)
-   * [Init a bare repository](git.md#init-a-bare-repository)
-   * [Remotes](git.md#remotes)
-      * [View remotes](git.md#view-remotes)
-      * [Add a remote](git.md#add-a-remote)
-      * [Remove a remote](git.md#remove-a-remote)
-   * [push / pull](git.md#push--pull)
-      * [Push to another branch in the remote](git.md#push-to-another-branch-in-the-remote)
-   * [git reset](git.md#git-reset)
-   * [git stash](git.md#git-stash)
-      * [Stash untracked files](git.md#stash-untracked-files)
-      * [Wkrk with specific stashes](git.md#wkrk-with-specific-stashes)
-   * [Files](git.md#files)
-      * [Check out an individual file from another branch](git.md#check-out-an-individual-file-from-another-branch)
-      * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
-   * [git filter-repo](git.md#git-filter-repo)
-      * [Split a git repo and preserve history](git.md#split-a-git-repo-and-preserve-history)
-   * [Submodules](git.md#submodules)
-      * [Initialize](git.md#initialize)
-      * [Update a submodule](git.md#update-a-submodule)
-      * [push to a submodule](git.md#push-to-a-submodule)
-   * [Solve a merge conflict](git.md#solve-a-merge-conflict)
-      * [Solve manually](git.md#solve-manually)
-      * [ours/theirs](git.md#ourstheirs)
-   * [git rebase](git.md#git-rebase)
-      * [Interactive](git.md#interactive)
-      * [Use rebase to rewrite a branch on top of another](git.md#use-rebase-to-rewrite-a-branch-on-top-of-another)
-   * [Branches](git.md#branches)
-      * [Delete a local branch](git.md#delete-a-local-branch)
-         * [Delete all branches except one](git.md#delete-all-branches-except-one)
-      * [Rename a branch](git.md#rename-a-branch)
-      * [I accidentally pushed to the wrong branch](git.md#i-accidentally-pushed-to-the-wrong-branch)
-   * [git grep](git.md#git-grep)
-      * [search for keyword in commit history](git.md#search-for-keyword-in-commit-history)
-   * [Troubleshooting](git.md#troubleshooting)
-      * [Filename too long, '$GIT_DIR' too big](git.md#filename-too-long-git_dir-too-big)
-      * [Error in submodule when checking out a branch.](git.md#error-in-submodule-when-checking-out-a-branch)
+  * [Init a bare repository](git.md#init-a-bare-repository)
+  * [Remotes](git.md#remotes)
+    * [View remotes](git.md#view-remotes)
+    * [Add a remote](git.md#add-a-remote)
+    * [Remove a remote](git.md#remove-a-remote)
+  * [push / pull](git.md#push--pull)
+    * [Push to another branch in the remote](git.md#push-to-another-branch-in-the-remote)
+  * [git reset](git.md#git-reset)
+  * [git stash](git.md#git-stash)
+    * [Stash untracked files](git.md#stash-untracked-files)
+    * [Wkrk with specific stashes](git.md#wkrk-with-specific-stashes)
+  * [Files](git.md#files)
+    * [Check out an individual file from another branch](git.md#check-out-an-individual-file-from-another-branch)
+    * [Remove a checked in file (.gitignore accepts a file even though it shouldn't)](git.md#remove-a-checked-in-file-gitignore-accepts-a-file-even-though-it-shouldnt)
+  * [git filter-repo](git.md#git-filter-repo)
+    * [Split a git repo and preserve history](git.md#split-a-git-repo-and-preserve-history)
+  * [Submodules](git.md#submodules)
+    * [Initialize](git.md#initialize)
+    * [Update a submodule](git.md#update-a-submodule)
+    * [push to a submodule](git.md#push-to-a-submodule)
+  * [Solve a merge conflict](git.md#solve-a-merge-conflict)
+    * [Solve manually](git.md#solve-manually)
+    * [ours/theirs](git.md#ourstheirs)
+  * [git rebase](git.md#git-rebase)
+    * [Interactive](git.md#interactive)
+    * [Use rebase to rewrite a branch on top of another](git.md#use-rebase-to-rewrite-a-branch-on-top-of-another)
+  * [Branches](git.md#branches)
+    * [Delete a local branch](git.md#delete-a-local-branch)
+      * [Delete all branches except one](git.md#delete-all-branches-except-one)
+    * [Rename a branch](git.md#rename-a-branch)
+    * [I accidentally pushed to the wrong branch](git.md#i-accidentally-pushed-to-the-wrong-branch)
+  * [git grep](git.md#git-grep)
+    * [search for keyword in commit history](git.md#search-for-keyword-in-commit-history)
+  * [Troubleshooting](git.md#troubleshooting)
+    * [Filename too long, '$GIT_DIR' too big](git.md#filename-too-long-git_dir-too-big)
+    * [Error in submodule when checking out a branch.](git.md#error-in-submodule-when-checking-out-a-branch)
 
 <!-- Added by: runner, at: Mon Feb 14 07:33:13 UTC 2022 -->
 
 <!--te-->
 
 ## Init a bare repository
+
 ```bash
 git init --bare
 ```
@@ -50,16 +51,19 @@ git init --bare
 ## Remotes
 
 ### View remotes
+
 ```bash
 git remote -v
 ```
 
 ### Add a remote
+
 ```bash
 git remote add origin https://github.com/gittower/example.git
 ```
 
 ### Remove a remote
+
 ```bash
 git remote rm <remote-name>
 ```
@@ -68,12 +72,14 @@ git remote rm <remote-name>
 
 ### Push to another branch in the remote
 
-To push the changes to a remote branch with a different name: 
+To push the changes to a remote branch with a different name:
+
 ```bash
 git push origin localBranchName:remoteBranchName
 ```
 
 ## git reset
+
 Reset to a previous commit, deleting the new commit.
 
 ```bash
@@ -81,6 +87,7 @@ git reset --mixed HEAD~1
 ```
 
 Can be used with the following strategies:
+
 ```bash
 --soft: uncommit changes, changes are left staged (index).
 --mixed (default): uncommit + unstage changes, changes are left in working tree.
@@ -96,6 +103,7 @@ git stash apply
 ```
 
 ### Stash untracked files
+
 ```bash
 git stash save -u
 ```
@@ -115,21 +123,24 @@ If no stash is speciifed, the latest stash will be pointed to.
 ## Files
 
 ### Check out an individual file from another branch
+
 ```bash
 git checkout <branch name> <file name>
 ```
 
-
 ### Remove a checked in file (.gitignore accepts a file even though it shouldn't)
+
 ```bash
 git rm --cached <file name>
 git commit
 ```
+
 Then save the file again for good measure.
 
 ## git filter-repo
 
 ### Split a git repo and preserve history
+
 ```bash
 pip install git-filter-repo
 cd git-repo-root
@@ -141,12 +152,15 @@ git filter-repo --subdirectory-filter subdir/ --force
 ### Initialize
 
 When pulling a repository with submodules, do the following to initalize and update the submodules (with the --recursive option)
+
 ```bash
 git submodule update --init --recursive
 ```
 
 ### Update a submodule
+
 Starting from the higher level repo, do:
+
 ```bash
 cd submodule
 git pull
@@ -177,6 +191,7 @@ totally different content to merge later
 ```
 
 Here you would remove either the **HEAD** block (content in the master branch):
+
 ```bash
 <<<<<<< HEAD
 this is some content to mess with
@@ -185,6 +200,7 @@ content to append
 ```
 
 Or the **new_branch_to_merge_later** the HEAD block (content in the branch that we are merging from):
+
 ```bash
 =======
 totally different content to merge later
@@ -192,19 +208,19 @@ totally different content to merge later
 ```
 
 Make sure to remove all the "fluff", including the lines:
-- <<<<<<< HEAD
-- =======
-- \>\>\>\>\>\>\> new_branch_to_merge_later
+* <<<<<<< HEAD
+* =======
+* \>\>\>\>\>\>\> new_branch_to_merge_later
 
 Finally save your file and run `git add <file name>`
 
-Reference: https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
+Reference: <https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts>
 
 ### ours/theirs
 
 For simpler merge conflicts where you know which version of the file to use, run:
-- `git checkout --ours <file name>` to use the master (HEAD) version
-- `git checkout --theirs <file name>` to use the new_branch_to_merge_later version
+* `git checkout --ours <file name>` to use the master (HEAD) version
+* `git checkout --theirs <file name>` to use the new_branch_to_merge_later version
 
 Finally run `git add <file name>`
 
@@ -242,26 +258,28 @@ pick 0b9d0bb fixup greeting.txt
 
 For each commit you can change the **pick** statement to do something else. Here is a list of the useful commands:
 
-- **p, pick**: use commit, leave the commit unchanged.
-- **r, reword**: edit the commit message
-- **e, edit**: use commit, but stop for amending
-- **s, squash**: Squash the commit into the previous commit
-- **f, fixup**: like squash but keep only the previous commit's message
-- **x, exec**: run command (the rest of the line) using shell
-- **b, break*: stop here (continue rebase later with 'git rebase --continue')
-- **d, drop**: remove commit
+* **p, pick**: use commit, leave the commit unchanged.
+* **r, reword**: edit the commit message
+* **e, edit**: use commit, but stop for amending
+* **s, squash**: Squash the commit into the previous commit
+* **f, fixup**: like squash but keep only the previous commit's message
+* **x, exec**: run command (the rest of the line) using shell
+* **b, break*: stop here (continue rebase later with 'git rebase --continue')
+* **d, drop**: remove commit
 
 **Fun fact**: You can also change the order of the commits by reordering the lines.
 
 Finally, save the file and exit to start the rebase. You may encounter merge conflicts, which can be solved manually or simply by the "ours" strategy to get the latest changes.
 
-To push the changes to a remote branch and overwrite the remote contents: 
+To push the changes to a remote branch and overwrite the remote contents:
+
 ```bash
 git push origin localBranchName:remoteBranchName --force
 ```
 
 ### Use rebase to rewrite a branch on top of another
-```
+
+```bash
 git checkout -b feature/test_new_components_backup           # Branch backup
 git checkout feature/test_new_components                     # Checkout the branch again
 git fetch origin                                             # Get latest changes
@@ -278,6 +296,7 @@ git push --force
 ## Branches
 
 ### Delete a local branch
+
 ```bash
 git branch -d <local-branch>      # Normal
 git branch -D <local-branch>      # Force
@@ -286,6 +305,7 @@ git branch -D <local-branch>      # Force
 #### Pull all branches / Fetch all branches
 
 pull all branches with git:
+
 ```bash
 git clone <url>
 git fetch --all
@@ -295,12 +315,15 @@ git checkout feature3
 ```
 
 #### Delete all branches except one
+
 In bash:
+
 ```bash
 git branch | grep -v "branch-to-keep" | xargs git branch -D 
 ```
 
 ### Rename a branch
+
 ```bash
 git branch -m old-name new-name
 ```
@@ -320,6 +343,7 @@ git commit -m "Committed on new branch"
 ## git grep
 
 ### search for keyword in commit history
+
 ```bash
 git grep search_string $(git rev-list --all)
 ```
@@ -347,17 +371,27 @@ git merge --allow-unrelated-histories subrepo1remote/master
 git merge --allow-unrelated-histories subrepo2remote/master 
 ```
 
+## Authentication
+
+### Authenticate with a GitHub token in the remote url
+
+```bash
+git remote add origin https://<TOKEN>@github.com/<USERNAME>/<REPO>.git
+git remote add origin https://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@github.com/Alexander-Hjelm/cheatsheets.git
+```
+
 ## Troubleshooting
 
 ### Filename too long, '$GIT_DIR' too big
 
-Enable longpaths via: 
+Enable longpaths via:
+
 ```bash
 git config --system core.longpaths true
 ```
 
 If that doesn't work, open regedit and set the registry key `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled` to 1.
 
-### Error in submodule when checking out a branch.
+### Error in submodule when checking out a branch
 
 When checking out another branch, and a submodule has conflicts. Sometimes it can help to set ’recursive = false’ in .gitconfig, and the do the checkout. Remember to set it back afterwards.
