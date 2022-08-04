@@ -720,3 +720,9 @@ jobs:
         template: ./deploy/main.bicep
         parameters: environmentType=${{ env.ENVIRONMENT }}
 ```
+
+## Troubleshooting
+
+1. Check the pipeline log
+
+2. For additional operation details, Go to the **resource group** -> **Settings** -> **Deployments** -> **Click deployment name** -> **Click faulty resource name** -> **Operation details**
