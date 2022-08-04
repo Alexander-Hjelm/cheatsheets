@@ -162,11 +162,13 @@ Regex.Matches("MyStr12", @"\d+").Count > 0
 ## Newtonsoft.json
 
 ### Get string value from a JToken
+
 ```csharp
 string name = jToken["name"];
 ```
 
 ### Replace a json token
+
 ```csharp
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -178,6 +180,7 @@ idToken.Replace(project.Id);
 ## async
 
 ### async WhenAll, await multiple async calls
+
 ```csharp
 await Task.WhenAll(items.Select(item => ProcessItem(wi)));
 ```
@@ -185,6 +188,7 @@ await Task.WhenAll(items.Select(item => ProcessItem(wi)));
 ## LibGit2Sharp
 
 ### Create credentials
+
 ```csharp
 private CredentialsHandler CreateCredentialsHandler(CredentialsDto credentials)
     => (url, usernameFromUrl, types) =>
@@ -196,6 +200,7 @@ private CredentialsHandler CreateCredentialsHandler(CredentialsDto credentials)
 ```
 
 ### Clone a repository
+
 ```csharp
 
 var path = "C:\path\to\repo"
@@ -214,6 +219,7 @@ Repository.Clone(url, path, cloneOptions);
 ```
 
 ### Pull a repository
+
 ```csharp
 public void PullRepository(string path, CredentialsDto credentials)
 {
@@ -285,4 +291,31 @@ private void PullFeatureBranches(Repository repo, CredentialsDto credentials)
     if(existingBranches.Count > 0)
         Commands.Checkout(repo, existingBranches.Last());
 }
+```
+
+## Entity Framework Core
+
+EFCore is an object-relational mapper.
+
+Necessary dependencies for working with **SQL Server**:
+
+* Microsoft.EntityFrameworkCore.Design
+* Microsoft.EntityFrameworkCore.SqlServer
+
+Necessary dependencies for working with **SQLite**:
+
+* Microsoft.EntityFrameworkCore.Design
+* Microsoft.EntityFrameworkCore.SqlServer
+
+### Scaffolding
+
+Build the relational objects from a database.
+
+```bash
+# Install EF tool
+dotnet install global
+dotnet tool install --global dotnet-ef
+
+# Scaffolding
+dotnet ef dbcontext scaffold "server=(localdb)\mssqgllocaldb;Database=Adventureworks2016;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -d -c AwDBContext --context-dir EfStructures -o Entities
 ```
