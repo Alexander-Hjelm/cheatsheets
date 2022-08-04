@@ -641,6 +641,40 @@ resource webApp 'Microsoft.Web/sites@2018-11-01' = {
 }
 ```
 
+### VNet integration for Web App + App Service Plan
+
+The following code snippet will set up VNet integration for both the App Service and its App Service Plan.
+
+```bicep
+
+// Deploy webApp
+resource webApp 'Microsoft.Web/sites@2018-11-01' = {
+  name: webAppName
+  location: location
+  ...
+}
+
+// Deploy subnet
+module subnetDeploy 'subnet.bicep' = {
+  name: 'subnet_deploy'
+  ...
+}
+
+// Deployment for VNET integration
+resource networkConfig 'Microsoft.Web/sites/networkConfig@2021-03-01' = {
+  name: 'virtualNetwork'
+  kind: 'string'
+  parent: webApp
+  properties: {
+    subnetResourceId: '/subscriptions/${subscriptionId}/resourceGroups/${vnet_rg_name}/providers/Microsoft.Network/virtualNetworks/${vnetName}/subnets/${subnetName}'    
+    swiftSupported: false
+  }
+  dependsOn: [
+    subnetDeploy
+  ]
+}
+```
+
 ## Deploy a bicep file in a CI/CD workflow
 
 ### Deploy a bicep file in an azure pipeline
