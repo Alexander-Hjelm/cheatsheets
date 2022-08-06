@@ -1,0 +1,23 @@
+name: testproject/example-azure-webapp
+on:
+  push:
+    branches:
+    - master
+env:
+  buildConfiguration: Release
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: dotnet build ${{ env.buildConfiguration }}
+      run: dotnet build --configuration ${{ env.buildConfiguration }}
+    - run: dotnet publish
+    - uses: Azure/login@v1
+      with:
+        creds: "${{ secrets.AZURE_CREDENTIALS }}"
+    - uses: Azure/webapps-deploy@v2
+      with:
+        app-name: alexanderdemo
+        package: "${{ github.workspace }}/**/*.zip"
