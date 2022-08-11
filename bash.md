@@ -160,5 +160,3 @@ if [ $var_name == value ]; then
     <set_of_commands_to_be_executed>
 fi
 ```
-
-
