@@ -222,6 +222,7 @@ stages:
 ```
 
 ## Conditional execution
+
 ```yaml
 - ${{ if eq(parameters.stageTest, true) }}: 
   - stage: DeployTest
@@ -239,6 +240,24 @@ stages:
     TargetFolder: '$(Build.ArtifactStagingDirectory)/api/adapters'
   condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
 ```
+
+### Use runtime variables and parameters in task conditions
+
+```yaml
+steps:
+  - task: PowerShell@2
+    inputs:
+      targetType: 'inline'
+      script: |
+        Write-Output("##vso[task.setvariable variable=myvar;]"blablabla") `
+        Write-Output("##vso[task.setvariable variable=myparam;]${{parameters.myparam}})
+
+  - task: PowerShell@2
+    condition: and( eq(variables.myvar,'blablabla'), eq(variables.myparam, 'lablablab') )
+    inputs:
+      targetType: 'inline'
+      script: |
+        Write-Host "$(newAddressSpace) rocks"
 
 # Deployments
 ```yaml
