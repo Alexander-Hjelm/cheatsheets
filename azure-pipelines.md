@@ -264,6 +264,8 @@ steps:
         Write-Output("##vso[task.setvariable variable=myvar;]"blablabla") `
         Write-Output("##vso[task.setvariable variable=myparam;]${{parameters.myparam}})
 
+  - script: echo '$(myparam)'
+
   - task: PowerShell@2
     condition: and( eq(variables.myvar,'blablabla'), eq(variables.myparam, 'lablablab') )
     inputs:
