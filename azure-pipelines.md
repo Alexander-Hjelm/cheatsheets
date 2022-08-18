@@ -409,6 +409,44 @@ parameters:
       ...
 ```
 
+## Loop over complex objects
+
+Pipeline:
+
+```yaml
+steps:
+- template: /build.yml
+  parameters:
+    CopyFileOperations:
+      - Op:
+        Source: 'Ärende\WebAPI\bin\Release'
+        Target: 'Ärende'
+      - Op:
+        Source: 'Rutt\WebAPI\bin\Release'
+        Target: 'Rutt'
+      - Op:
+        Source: 'Resurs\WebAPI\bin\Release'
+        Target: 'Resurs'
+      - Op:
+        Source: 'Test\WebAPI\bin\Release'
+        Target: 'Test'
+```
+
+Template:
+
+```yaml
+parameters:
+- name: CopyFileOperations
+  type: object
+  default: []
+
+- ${{ each op in parameters.CopyFileOperations}}:
+  - task: CopyFiles@2
+    inputs:
+      SourceFolder: '${{op.Source}}'
+      TargetFolder: '${{op.Target}}'
+```
+
 # Debug
 
 Can only be done by setting the system.debug variable in yaml:
