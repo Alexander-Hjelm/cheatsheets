@@ -39,6 +39,25 @@ When downloading a solution for the first time, it may be missing packages.
 nuget push test/mypackage.nupkg -src https://pkgs.dev.azure.com/<ORGANIZATION_NAME>/<PROJECT_NAME>/_packaging/<FEED_NAME>/nuget/v3/index.json -ApiKey az
 ```
 
+## Specify what files to copy to output directory
+
+Specify the following in your .csproj-file:
+
+```xml
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="NLog.Production.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+
+  </ItemGroup>
+```
+
 ## Debugging
 
 ### Debug with command arguments
