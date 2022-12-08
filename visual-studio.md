@@ -39,6 +39,24 @@ When downloading a solution for the first time, it may be missing packages.
 nuget push test/mypackage.nupkg -src https://pkgs.dev.azure.com/<ORGANIZATION_NAME>/<PROJECT_NAME>/_packaging/<FEED_NAME>/nuget/v3/index.json -ApiKey az
 ```
 
+### Nuget config for Azure Packages
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources>
+    <add key="AzureDevOpsFeed" value="<ThePackageSourceFeedUrl>/MyCustomFeed/nuget/v3/index.json" />
+  </packageSources>
+  <packageSourceCredentials>
+    <AzureDevOpsFeed>
+      <add key="Username" value="<YourUserName>" />
+      <add key="ClearTextPassword" value="<YourPassword>" />
+    </AzureDevOpsFeed>
+</configuration>
+```
+
+Or install: https://github.com/microsoft/artifacts-credprovider#azure-artifacts-credential-provider
+
 ## Specify what files to copy to output directory
 
 Specify the following in your .csproj-file:
