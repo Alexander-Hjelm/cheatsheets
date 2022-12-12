@@ -195,6 +195,39 @@ resources:
       ref: master
 ```
 
+## Use parameters/variables inside resource blocks
+
+```yaml
+parameters:
+- name: delfiBranch
+  displayName: (Backend) - branch att deploya
+  type: string
+  default: 'develop'
+- name: delfiFrontendBranch
+  displayName: (Frontend) - branch att deploya
+  type: string
+  default: 'develop'
+ 
+variables:
+- name: branchNameBackend
+  value: ${{ parameters.delfiBranch }}
+- name: branchNameFrontend
+  value: ${{ parameters.delfiFrontendBranch }}
+ 
+resources:
+  repositories:
+  - repository: delfi
+    type: githubenterprise
+    endpoint: "GitHub Enterprise Server - ZA_JenkinsKFM"
+    name: delfi/delfi
+    ref: $(branchNameBackend)
+  - repository: delfifrontend
+    type: githubenterprise
+    endpoint: "GitHub Enterprise Server - ZA_JenkinsKFM"
+    name: delfi/delfifrontend
+    ref: $(branchNameFrontend)
+```
+
 # Parameters
 
 ```yaml
