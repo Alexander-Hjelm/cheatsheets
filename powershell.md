@@ -79,14 +79,14 @@
 
 Prints the PowerShell help section.
 
-```bat
+```powershell
 help
 ```
 
 ## version
 
 Prints the PowerShell version.
-```bat
+```powershell
 $PSVersionTable
 ```
 
@@ -94,20 +94,20 @@ $PSVersionTable
 
 Searches for a specific command or a substring of a command.
 
-```bat
+```powershell
 gcm Copy-Item
 ```
 
 Or
 
-```bat
+```powershell
 gcm *Copy-*
 ```
 
 # IO, I/O
 
 ## Write to console and pipe to log file at the same time
-```bat
+```powershell
 "hello" 2>&1 | tee log.txt
 ```
 
@@ -115,7 +115,7 @@ gcm *Copy-*
 
 ## Import modules from another file
 
-```bat
+```powershell
 $script_path = dir "$($myInvocation.MyCommand.Definition)"
 $script_path = $script_path.DirectoryName
 
@@ -125,7 +125,7 @@ Import-Module $script_path\Modules\my-module.psm1
 # File
 
 ## Replace string in file
-```bat
+```powershell
 (Get-Content -path /my/path/file.txt -Raw) -replace 'STR_TO_REPLACE', 'TARGET_STRING' | Set-Content -Path /my/path/file.txt
 ```
 
@@ -175,13 +175,13 @@ Get-content -Encoding utf8 "$(System.DefaultWorkingDirectory)\$(artifactname)\dr
 
 ## curl
 
-```bat
+```powershell
 curl -v www.example.com
 ```
 
 ## Test-Connection
 
-```bat
+```powershell
 Test-Connection -TargetName www.example.com
  ```
  
@@ -194,7 +194,7 @@ Test-Connection -TargetName www.example.com
 
 ## net user
 
-```bat
+```powershell
 net user [USER ID] /domain
 ```
 
@@ -202,13 +202,13 @@ net user [USER ID] /domain
 
 View group information
 
-```bat
+```powershell
 net group [GROUP NAME] /dom
 ```
 
 # Find host platform
 
-```bat
+```powershell
 if ($IsLinux) {
     Write-Host "Linux"
 }
@@ -222,19 +222,19 @@ elseif ($IsWindows) {
 # Arrays
 
 ## Assignment
-```bat
+```powershell
 $array = @(1,2,3, "go!")
 ```
 
 ## Access
 
 ### By index
-```bat
+```powershell
 echo $array[1]
 ```
 
 ## Read lines into array
-```bat
+```powershell
 $array = [command]
 ```
 
@@ -242,18 +242,18 @@ $array = [command]
 
 ### Count
 
-```bat
+```powershell
 $array.count
 ```
 
 ### Contains
 
-```bat
+```powershell
 $array.Contains("value")
 ```
 
 ### Join Array/ArrayList with separator
-```bat
+```powershell
 $myArray -join ", "
 ```
 
@@ -261,13 +261,13 @@ $myArray -join ", "
 
 ## Assignment
 
-```bat
+```powershell
 [System.Collections.ArrayList]$arraylist = @()
 ```
 
 ## Add/remove
 
-```bat
+```powershell
 $arraylist.Add("value")
 $arraylist.Remove("value")
 ```
@@ -275,7 +275,7 @@ $arraylist.Remove("value")
 # PSCustomObject
 
 ## Access like a dictionary
-  ```bat
+  ```powershell
 $myPsCustomObject
 $props = $myPsCustomObject.fields.psobject.properties
 $val = $props["my key"].Value
@@ -284,7 +284,7 @@ $val = $props["my key"].Value
 # Hashtable
 
 Example:
-```bat
+```powershell
   name                                          value
 ----                                          -----
 System.CurrentProcessTemplateId               89c3b34e-8b01-47c0-825a-8693ea85dbb7
@@ -297,10 +297,10 @@ System.Microsoft.TeamFoundation.Team.Default  35eea91b-6561-4a88-8d13-acf205a6df
 System.SourceControlCapabilityFlags           2
 System.SourceControlGitEnabled                True
 System.SourceControlGitPermissionsInitialized True
-```bat
+```powershell
 
 ## Access
-  ```bat
+  ```powershell
 $myHashTable.name[0]
 $myHashTable.value[0]
 $myHashTable.name[1]
@@ -312,7 +312,7 @@ $myHashTable.value[2]
 # control statements
 
 ## if/else
-```bat
+```powershell
 if(Boolean_expression) {
    // Executes when the Boolean expression is true
 }else {
@@ -321,7 +321,7 @@ if(Boolean_expression) {
 ```
 
 ### logical operators
-```bat
+```powershell
 -And
 -Or
 
@@ -334,21 +334,21 @@ if(Boolean_expression) {
 ```
 
 ## for
-```bat
+```powershell
 for ($i = 0 ; $i -lt 10 ; $i++){
     echo $i
 }
 ```
 
 ## foreach
-```bat
+```powershell
 foreach ($line in $output) {
     // Do something
 }
 ```
 
 ### foreach line in file
-```bat
+```powershell
 foreach($line in Get-Content .\file.txt) {
         # Work here
     }
@@ -360,7 +360,7 @@ foreach($line in Get-Content .\file.txt) {
 The -match opperator takes a regular expression and returns $true if the pattern matches.
 
 An automatic variable called **$Matches** contains the results of the match.
-```bat
+```powershell
 PS> '123-45-6789' -match '\d\d\d-\d\d-\d\d\d\d'
 True
 
@@ -376,12 +376,12 @@ My SSN is 123-45-6789.
 # arguments
 
 ## simple argument get
-```bat
+```powershell
 $var_name = $args[0]
 ```
 
 ## parameters or default values
-```bat
+```powershell
 param (
     [string]$price = 100, 
     [string]$ComputerName = $env:computername,    
@@ -391,11 +391,11 @@ param (
 )
 ```
 
-## Navigation
+## File operations
 
 ### Subfiles, subfolders
 Find a subfile or subfolder with an unknown relative path
-```bat
+```powershell
 $aPath = Get-Child-Item -Recurse -Filter a.txt | Resolve-Path
 $bPath = Get-Child-Item -Recurse -Filter b.txt | Resolve-Path
 
@@ -403,12 +403,31 @@ Remove-Item $bPath
 Rename-Item $aPath b.txt
 ```
 
+### Delete folder contents (Recursive)
+
+```powershell
+Get-ChildItem $deployToPath | Remove-Item -Recurse -Force
+```
+
+### Copy a folder to a destination (Recursive)
+
+```powershell
+Copy-Item -Path $deployToPath -Destination $backupPath -Force -Recurse
+```
+
+### Delete files/folder from a folder, older than X days
+
+```powershell
+Get-ChildItem -directory 'c:\azagent\A1\_work' | where { (get-date) - $_.lastwritetime -gt 10. } | remove-item -recurse -Force
+```
+
 # Strings
 
 ## Trim
 
 Trim leading and trailling spaces
-```bat
+
+```powershell
 $a = " abc ".trim()
 ```
 
@@ -417,12 +436,13 @@ $a = " abc ".trim()
 ## Convert
 
 ### String to Int
-```bat
+
+```powershell
 $integerN = [int]$stringN
 ```
   
 ## Convert to HTML, example
-```bat
+```powershell
 $submodulesHtml = New-Object System.Collections.ArrayList
 $tags = [System.Collections.ArrayList]@(1,2,3)
 $submodulesHtml.Add([ordered]@{'Remote URL' = 'abc'; 'Commit SHA' = 123; 'Tags' = $tags -join ", "})
@@ -435,51 +455,51 @@ $submodulesHtmlConv2
 ```
 
 # Date
-```bat
+```powershell
 Get-Date -Format "dddd MM/dd/yyyy HH:mm K"
 ```
 
 # Windows services
 
 ## Start/stop
-```bat
+```powershell
 Start-Service [Service name] -PassThru
 Stop-Service [Service name] -PassThru
 ```
 
 ## Check status
-```bat
+```powershell
 services.msc
 ```
 
 ## Run Powershell command in new console (New window)
-```bat
+```powershell
 Start-Process PowerShell -ArgumentList "Get-Date; Read-Host 'Press Enter'"
 Start-Process PowerShell -ArgumentList "./my-script.ps1; Read-Host 'Press Enter'"
 ```
 
 ## Kill a hung process
   
-```bat
+```powershell
 Get-Process         # List available process, you can compare with the task manager
 Stop-Process -name [Process name]
 ```
   
 # Select-String
 Find, grep
-```bat
+```powershell
 [Command] | Select-String [search-string]
 ```
 
 # ssh-keygen
 
 ## Verify .md5 hash of a key file
-  ```bat
+  ```powershell
   C:\Users\alexander\.ssh>ssh-keygen -l -E md5 -f id_rsa
   ```
   
 # Alert, send notification
-```bat
+```powershell
 Add-Type -AssemblyName System.Windows.Forms 
 $global:balloon = New-Object System.Windows.Forms.NotifyIcon
 $path = (Get-Process -id $pid).Path
@@ -494,19 +514,19 @@ $balloon.ShowBalloonTip(5000)
 # Add to Path, environment path
   
 ## Temporarily
-```bat
+```powershell
 $env:Path += ";my_path"
 ```
 
 ## Permanently
-```bat
+```powershell
 $env:Path += ";my_path"
 [Environment]::SetEnvironmentVariable
      ("Path", $env:Path, [System.EnvironmentVariableTarget]::Machine)
 ```
 
 # WSL
-```bat
+```powershell
 wsl --list --all                    # List installed distros
 wsl --list --online                 # List available distros
 wsl --install -d Ubuntu             # Install a distro
@@ -515,7 +535,7 @@ wsl --import Ubuntu C:\wslDistroStorage .\ubuntu.tar
 ```
   
 ## Mount drive in WSL
-```bat
+```powershell
 mkdir /mnt/t
 root@CO-VDB23964S:~# sudo mount -t drvfs T: /mnt/t
 ```
