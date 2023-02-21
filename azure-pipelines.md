@@ -564,6 +564,62 @@ steps:
     artifactName: build
 ```
 
+# nuget/npm with upstream sources and root certificate
+
+## nuget
+
+```yml
+variables:
+  NODE_EXTRA_CA_CERTS: 'D:\certs\root.pem'
+
+...
+
+  - task: NuGetToolInstaller@1
+  
+  - task: NuGetCommand@2
+    inputs:
+      command: 'restore'
+      restoreSolution: 'aaa/$(solution)'
+      feedsToUse: 'config'
+      nugetConfigPath: 'aaa/nuget.config'
+```
+
+Example `nuget.config:`
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<packageSources>
+		<add key="Optimizely" value="https://nuget.optimizely.com/feed/packages.svc/" />
+		<add key="NuGet" value="https://api.nuget.org/v3/index.json" />
+		<add key="LocalPackages" value=".\LocalPackages" />
+	</packageSources>
+</configuration>
+```
+
+## npm
+
+In order to install packages from a public source like **npmjs**, you must use a `customFeed` that has `https://registry.npmjs.org/` as an upstream:
+
+```yml
+variables:
+  NODE_EXTRA_CA_CERTS: 'D:\certs\root.pem'
+
+...
+
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '12.16.3'
+
+  - task: Npm@1
+    inputs:
+      command: 'install'
+      workingDir: 'aaa/aaa'
+      verbose: true
+      customRegistry: 'useFeed'
+      customFeed: '44046838-d275-4c84-b3a6-aaaaaaaaaaaa'
+```
+
 # Run/Build numbers
 
 [Link](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/run-number?view=azure-devops&tabs=yaml)
