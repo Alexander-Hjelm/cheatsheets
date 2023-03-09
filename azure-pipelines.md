@@ -575,7 +575,7 @@ variables:
 ...
 
   - task: NuGetToolInstaller@1
-  
+
   - task: NuGetCommand@2
     inputs:
       command: 'restore'
@@ -595,6 +595,39 @@ Example `nuget.config:`
 		<add key="LocalPackages" value=".\LocalPackages" />
 	</packageSources>
 </configuration>
+```
+
+### Push nuget package
+
+```yml
+    # .NET Publish
+    - task: PowerShell@2
+      displayName: '.NET Publish: $(slnName)'
+      inputs:
+        targetType: 'inline'
+        script: |
+          dotnet publish $(solution) --configuration $(BuildConfiguration) /p:PublishProfile=FolderProfile$(PublishProfile)
+      env:
+        HTTP_PROXY: $(clientProxy)
+        NO_PROXY: $(noProxy)
+        NODE_TLS_REJECT_UNAUTHORIZED: 0
+
+    - task: NuGetCommand@2
+      displayName: 'NuGet pack'
+      condition: eq('${{ parameters.NugetRelease }}', 'true')
+      inputs:
+        command: 'pack'
+        packagesToPack: '$(DelgivningsresultatWorkingDir)\$(NuspecFile)'
+        versioningScheme: 'byBuildNumber'
+
+    - task: NuGetCommand@2
+      displayName: 'NuGet push'
+      condition: eq('${{ parameters.NugetRelease }}', 'true')
+      inputs:
+        command: 'push'
+        packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+        nuGetFeedType: 'external'
+        publishFeedCredentials: 'KFM Nexus (Nuget)'
 ```
 
 ## npm
