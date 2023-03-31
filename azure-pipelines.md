@@ -653,6 +653,30 @@ variables:
       customFeed: '44046838-d275-4c84-b3a6-aaaaaaaaaaaa'
 ```
 
+### nx affected
+
+**.azure-pipelines.yml**:
+
+```yaml
+- task: PowerShell@2
+  displayName: 'npm testAffected'
+  inputs:
+    targetType: 'inline'
+    script: |
+      $sourceBranch = "$(System.PullRequest.SourceBranch)"
+      $targetBranch = "$(System.PullRequest.TargetBranch)"
+      git checkout $targetBranch
+      git checkout $sourceBranch
+      npm run testAffected -- --base=$targetBranch --head=$sourceBranch
+  condition: and(succeeded(), eq(variables['Build.Reason'], 'PullRequest'))
+```
+
+**package.json**:
+
+```json
+"testAffected": "node ./node_modules/@nrwl/cli/bin/nx.js affected --target=test --parallel=5 --code-coverage --watch=false"
+```
+
 # Run/Build numbers
 
 [Link](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/run-number?view=azure-devops&tabs=yaml)
