@@ -195,6 +195,12 @@ resources:
       ref: master
 ```
 
+## checkout a repo with a given branch
+
+```yaml
+  - checkout: git://$(System.TeamProject)/${{parameters.otherRepoName}}@refs/heads/${{parameters.otherRepoBranch}}
+```
+
 ## Use parameters/variables inside resource blocks
 
 ```yaml
