@@ -18,6 +18,16 @@ AM12-PDP (.js, .js.map, .tiff, .svg, etc...)
 | AM12-PDP | .js, .js.map, .tiff, .svg, etc... |
 ```
 
+## Search for keywords and cut out lines
+
+Do a regex search with the following pattern:
+
+```
+^.*(word1|word2|word3).*\n?
+```
+
+With the search window still active, press **alt+enter** to select all matching lines, then either **delete** och **ctrl-c/x**
+
 ## Build configurations for a dotnet core console application
 
 You can scaffold the `launch.json` and `tasks.json` file by doing `Ctrl+Shift+P` and running the **.NET: Generate Assets for Build and Debug** task.
