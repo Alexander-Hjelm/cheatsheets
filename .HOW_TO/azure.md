@@ -52,3 +52,19 @@ VM290:1 Refused to connect to 'http://fulltextsearch.norwayeast.azurecontainer.i
 ```
 
 **Solution**: Add the origin to the *globalHeaders.content-security-policy* field in staticwebapp.config.json
+
+## Azure Blob Storage
+
+### Troubleshooting
+
+#### Access denied when uploading or downloading a blob
+
+This issue can occur:
+
+- In an azure pipeline
+- In a PowerAutomate flow
+- When connecting to the storage account in the terminal.
+
+Solution:
+
+In the Storage Account -> Access Control (IAM), Give the **service connection** or **AD Account** the role **Storage Blob Data Contributor**.
