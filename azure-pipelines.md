@@ -916,6 +916,42 @@ steps:
     deploymentMethod: 'auto'
 ```
 
+### Upload a file to an Azure Blob Storage
+
+Requirements:
+
+- Azure Storage Account
+- Configure access for the service account: storage account -> Access Control (IAM) -> add your service principal used in the service connection as a Storage Blob Data Contributor role
+
+```yaml
+steps:
+    - task: ArchiveFiles@2
+      displayName: 'Archive atlassian-migration-suite'
+      inputs:
+        rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
+        includeRootFolder: false
+        archiveType: 'zip'
+        archiveFile: '$(Build.ArtifactStagingDirectory)/atlassian-migration-suite-$(Build.BuildId).zip'
+        replaceExistingArchive: true
+      condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
+
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: '$(Build.ArtifactStagingDirectory)/atlassian-migration-suite-$(Build.BuildId).zip'
+        artifact: 'drop'
+        publishLocation: 'pipeline'
+
+    - task: AzureFileCopy@5
+      inputs:
+        SourcePath: '$(Build.ArtifactStagingDirectory)/atlassian-migration-suite-$(Build.BuildId).zip'
+        azureSubscription: 'Visual Studio Enterprise Subscription – MPN(1)(90964ca6-bc75-4398-9fa2-75c890c373cf)'
+        Destination: 'AzureBlob'
+        storage: 'jmpsa'
+        ContainerName: 'atlassian-migration-suite'
+        CleanTargetBeforeCopy: true
+      continueOnError: true
+```
+
 # Troubleshooting
 
 ## SYSTEM_ACCESSTOKEN env var not set
