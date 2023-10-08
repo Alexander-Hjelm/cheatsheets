@@ -101,3 +101,20 @@ Here are some samples:
     ]
 }
 ```
+
+## VS Code Hotkeys
+
+- **ctrl+p**            Open Command Palette
+- **ctrl+p: >**	        Run Command
+- **ctrl+p: @**	        Symbol search
+- **ctrl+p: #**	        Global Symbol search
+- **alt+up/down**	    Move current line up/down
+- **home**		        Move cursor to beginning of line
+- **end**		        Move cursor to end of line
+- **ctrl+c**	    	Copy Line
+- **ctrl+v**		    Paste Line
+- **ctrl+x**		    Cut Line
+- **ctrl+'**		    Line Comment
+- **shift+alt+A**	    Multiline Comment
+- **ctrl+k, ctrl+s**	Edit Keyboard Shortcuts
+- **ctrl+shift+ö**	    Open a new terminal

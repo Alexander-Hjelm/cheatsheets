@@ -319,3 +319,48 @@ dotnet tool install --global dotnet-ef
 # Scaffolding
 dotnet ef dbcontext scaffold "server=(localdb)\mssqgllocaldb;Database=Adventureworks2016;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -d -c AwDBContext --context-dir EfStructures -o Entities
 ```
+
+## LINQ
+
+LINQ Operators
+
+https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/classification-of-standard-query-operators-by-manner-of-execution
+
+| Method              | Description                                                                                            |
+|---------------------|--------------------------------------------------------------------------------------------------------|
+| Join                | Join two table structures by a common id element, and return the result as a data structure with some transformations applied |
+| OrderBy             | Sort a collection based on an element lambda expression                                                 |
+| OrderByDescending   | Sort a collection based on an element lambda expression, reverse order                                  |
+| ThenBy              | Sort a collection based on a secondary condition, chained together with OrderBy, OrderByDescending, ThenBy, or ThenByDescending |
+| ThenByDescending    | Sort a collection based on a secondary condition, chained together with OrderBy, OrderByDescending, ThenBy, or ThenByDescending, reverse order |
+| GroupBy             | Group a collection based on a condition. Returns an IEnumerable<IGrouping> that you can iterate through. Executed immediately, use for iteration purposes. |
+| ToLookup            | Group a collection based on a condition. Returns an ILookup<> that you can access in a key-value fashion. Deferred execution, use for lookup purposes. |
+| OfType              | Filter out all elements of a certain type.                                                              |
+| ElementAt           | Query for an element at a given index. If no element exists at that index, throw an exception        |
+| ElementAtOrDefault  | Query for an element at a given index. If no element exists at that index, return the default value of the element type (null for nullable types) |
+| First               | Query for the first element, optionally with a condition. If no element satisfies the given condition, throw an exception |
+| FirstOrDefault      | Query for the first element, optionally with a condition. If no element satisfies the given condition, return the default value of the element type (null for nullable types) |
+| Last                | Query for the last element, optionally with a condition. If no element satisfies the given condition, throw an exception |
+| LastOrDefault       | Query for the last element, optionally with a condition. If no element satisfies the given condition, return the default value of the element type (null for nullable types) |
+| Single              | Query for a single element, optionally with a condition. If no element or more than one element satisfies the given condition, throw an exception |
+| SingleOrDefault     | Query for a single element, optionally with a condition. If no element satisfies the given condition, return the default value of the element type (null for nullable types). If more than one element satisfies the given condition, throw an exception |
+| SequenceEqual       | Return true/false depending on if each element matches and are in the same order for two IEnumerables, based on a comparer |
+| Concat              | Concatenate two IEnumerables                                                                         |
+| Aggregate           | Aggregate elements based on a lambda expression                                                        |
+| Average             | Return the average of a collection based on a lambda expression                                        |
+| Count               | Return the count of a collection, optionally based on a condition                                      |
+| Sum                 | Return the sum of a collection based on a condition                                                     |
+| Max                 | Return the max of a collection based on a condition                                                     |
+| DefaultIfEmpty      | If the specified collection is empty, any subsequent calls to ElementAt() will return the default value for the element type, alternatively you may specify a default value. |
+| Empty               | Returns an empty generic list                                                                         |
+| Range               | Generate a collection of integer values in ascending order, based on a start and range parameter     |
+| Repeat              | Generate a collection where a given element is repeated a certain number of times                      |
+| Distinct            | Query for distinct items                                                                              |
+| Except              | Query for items that appear in one collection but not the other                                         |
+| Intersect           | Query for items that appear in both collections                                                         |
+| Union               | Query for items that appear in any of the given collections                                              |
+| Skip                | Skip a given number of elements in a sequence, and return the remaining elements                       |
+| SkipWhile           | Skip a given number of elements in a sequence as long as a specified condition is true                   |
+| Take                | Take a given number of elements in a sequence                                                            |
+| TakeWhile           | Take a given number of elements in a sequence as long as a specified condition is true                   |
+| ToDictionary        | Convert a collection to a dictionary, specify a lambda function for the key                              |
