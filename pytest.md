@@ -3,10 +3,21 @@
 <!--ts-->
 <!--te-->
 
+## Video
+
+<https://www.youtube.com/watch?v=cHYq1MRoyI0>>
+
 ## Installation
 
 ```sh
 pip install pytest
+```
+
+## Test file name convention, auto-discovery
+
+```sh
+test_<file name>.py
+test_<method name>.py
 ```
 
 ## Running Tests
