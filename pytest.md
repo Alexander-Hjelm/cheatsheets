@@ -3,9 +3,9 @@
 <!--ts-->
 <!--te-->
 
-## Video
+## Video (with minimal application example)
 
-<https://www.youtube.com/watch?v=cHYq1MRoyI0>>
+<https://www.youtube.com/watch?v=cHYq1MRoyI0>
 
 ## Installation
 
@@ -13,7 +13,7 @@
 pip install pytest
 ```
 
-## Test file name convention, auto-discovery
+## Test file/method name convention, auto-discovery
 
 ```sh
 test_<file name>.py
@@ -50,6 +50,23 @@ class TestMath:
 
     def test_subtract(self):
         assert subtract(2, 1) == 1
+```
+
+## Function-Level Setup and Teardown
+Use `setup_function` and `teardown_function` for function-level setup and teardown.
+
+```python
+def setup_function(function):
+    print(f"Setup for {function.__name__}")
+
+def teardown_function(function):
+    print(f"Teardown for {function.__name__}")
+
+def test_func1():
+    assert True
+
+def test_func2():
+    assert True
 ```
 
 ## Fixtures
@@ -117,6 +134,40 @@ def test_with_pytest_mock(mocker):
     result = module.Class().method(1, 2)
     assert result == 3
     mock.assert_called_once_with(1, 2)
+```
+
+### Mocking web requests
+
+```python
+@patch('requests.get')
+def test_fetch_data(mock_get):
+    # Configure the mock to return a response with a status code of 200
+    mock_get.return_value.status_code = 200
+    mock_get.return_value.json.return_value = {'key': 'value'}
+    
+    # Call the function to be tested
+    result = fetch_data('https://api.example.com/data')
+    
+    # Assert that the function returns the expected result
+    assert result == {'key': 'value'}
+    
+    # Assert that requests.get was called with the expected URL
+    mock_get.assert_called_once_with('https://api.example.com/data')
+
+@patch('requests.get')
+def test_fetch_data_failure(mock_get):
+    # Configure the mock to return a response with a status code other than 200
+    mock_get.return_value.status_code = 404
+    
+    # Call the function to be tested
+    result = fetch_data('https://api.example.com/data')
+    
+    # Assert that the function returns None for a non-200 status code
+    assert result is None
+    
+    # Assert that requests.get was called with the expected URL
+    mock_get.assert_called_once_with('https://api.example.com/data')
+
 ```
 
 ## Custom Marks
@@ -239,3 +290,7 @@ pip install pytest-plugin-name
 - **Mocking:** `unittest.mock` or `pytest-mock`
 - **Running Tests with Options:** Use `pytest -v`, `pytest -k "keyword"`, `pytest -m "mark"`
 - **Coverage:** `pytest --cov=yourmodule`
+
+## Run pytest in Azure DevOps build pipeline
+
+<https://www.codewrecks.com/post/old/2018/11/run-python-test-with-azure-devops-pipeline/>
