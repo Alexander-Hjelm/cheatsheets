@@ -1,3 +1,13 @@
+# Godot C#
+
+## Install 3rd party NuGet packages
+
+In the same folder as the project .sln file, do:
+
+```ps1
+dotnet add package Newtonsoft.Json
+```
+
 ## RPCMode
 
 - **Remote**: Calls and property changes are accepted from all remote peers, no matter if they are node's master or puppets.
