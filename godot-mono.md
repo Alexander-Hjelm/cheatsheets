@@ -16,4 +16,4 @@ dotnet add package Newtonsoft.Json
 
 ## user://
 
-By default, `user://` points to `// C:\Users\AlexanderHjelm\AppData\Roaming\Godot\app_userdata\<Project Name>`
+By default, `user://` points to `C:\Users\AlexanderHjelm\AppData\Roaming\Godot\app_userdata\<Project Name>`
