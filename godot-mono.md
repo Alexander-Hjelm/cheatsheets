@@ -17,3 +17,27 @@ dotnet add package Newtonsoft.Json
 ## user://
 
 By default, `user://` points to `C:\Users\AlexanderHjelm\AppData\Roaming\Godot\app_userdata\<Project Name>`
+
+## Shape keys workflow
+
+### Bleander
+
+Edit shape keys in the default viewport:
+
+- Right hand menu
+- Data tab
+- Shape Keys menu
+
+### Godot
+
+```csharp
+MeshInstance3D mesh;
+string shapeKeyName = "";
+float value = 1f;
+int blendShapeIndex = mesh.FindBlendShapeByName(shapeKeyName);
+if (blendShapeIndex > -1)
+{
+    mesh.SetBlendShapeValue(blendShapeIndex, value);
+    shapeKeySetOnAnyMesh = true;
+}
+```
