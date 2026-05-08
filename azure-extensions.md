@@ -29,6 +29,19 @@
 
 <!--te-->
 
+# Upgrade dependencies
+
+- Firstly, upgrade all dependencies relevant to the error message to the latest version.
+- Continue until there are no more complaints
+- Reference PR: <https://github.com/microsoft/banner-settings-ado-extension/pull/73/changes#diff-7ae45ad102eab3b6d7e7896acd08c427a9b25b346470d7bc6507b6481575d519>
+- Finish with `npm audit fix`
+- Additional vulnerabilities can be found with `npm audit`
+
+## Specifics for node-sass, compatability with Node
+
+<https://stackoverflow.com/questions/69936116/yarn-install-failing-import-sys-print-s-s-s-sys-version-info3-invalid>
+<https://www.npmjs.com/package/node-sass?activeTab=readme>
+
 # tfx
 
 ## Build an extension
